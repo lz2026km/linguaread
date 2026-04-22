@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-800;
+  }
+
+  /* 英文衬线体 */
+  .font-serif {
+    font-family: 'Merriweather', 'Georgia', serif;
+  }
+
+  /* 中文衬线体 */
+  .font-serif-zh {
+    font-family: 'Noto Serif SC', 'Songti SC', serif;
+  }
+}
+
+@layer components {
+  /* 安全区域 - 适配刘海屏 */
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  /* 动画 - 淡入 */
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  /* 动画 - 底部滑入 */
+  .animate-slideUp {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  /* 动画 - 心跳 */
+  .animate-heartBeat {
+    animation: heartBeat 0.3s ease-in-out;
+  }
+}
+
+@layer utilities {
+  /* 禁止文字选择 */
+  .no-select {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* 允许文字选择 */
+  .can-select {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+  /* 隐藏滚动条 */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* 选中文本颜色 */
+::selection {
+  background: #c7d2fe;
+  color: #3730a3;
+}
