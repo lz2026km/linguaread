@@ -7,6 +7,16 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '5.5',
+    date: '2026-04-25',
+    changes: [
+      '新增学习统计面板(StatsPage)：累计阅读天数、连续打卡、本周热力图、今日学习时长、打卡按钮',
+      '新增成就系统(AchievementPage)：20个成就徽章，实时计算解锁状态，阅读/测试/打卡/探索/特殊五大类',
+      'BottomNav新增统计(BarChart3)和成就(Trophy)入口',
+      'storage.ts新增成就相关存取函数',
+    ],
+  },
+  {
     version: '5.35',
     date: '2026-04-26',
     changes: [
@@ -320,7 +330,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.35</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.5</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>

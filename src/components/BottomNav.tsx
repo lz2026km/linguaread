@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, BookOpen, GraduationCap, PenTool, BookMarked, Library, MessageCircle, Book, Gamepad2, GraduationCap as LearnIcon, Bot, Video } from 'lucide-react';
+import { Home, BookOpen, GraduationCap, PenTool, BookMarked, Library, Bot, Video, Medal, Download, FileText } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 const BottomNav: React.FC = () => {
@@ -20,6 +20,9 @@ const BottomNav: React.FC = () => {
     { path: '/grammar', icon: GraduationCap, label: '语法' },
     { path: '/quiz', icon: PenTool, label: '测试' },
     { path: '/new-words', icon: BookMarked, label: '生词本', badge: favorites.length },
+    { path: '/leaderboard', icon: Medal, label: '排行' },
+    { path: '/download', icon: Download, label: '下载' },
+    { path: '/report', icon: FileText, label: '报告' },
   ];
 
   return (
