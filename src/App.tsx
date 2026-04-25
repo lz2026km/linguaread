@@ -17,6 +17,7 @@ import WordGamePage from './pages/WordGamePage';
 import LearningMethodsPage from './pages/LearningMethodsPage';
 import AIAssistantPage from './pages/AIAssistantPage';
 import VideoLearningPage from './pages/VideoLearningPage';
+import ExamPapersPage from './pages/ExamPapersPage';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/learning-methods" element={<LearningMethodsPage />} />
           <Route path="/ai-assistant" element={<AIAssistantPage />} />
           <Route path="/video-learning" element={<VideoLearningPage />} />
+          <Route path="/exam-papers" element={<ExamPapersPage />} />
         </Routes>
       </AppProvider>
     </Router>

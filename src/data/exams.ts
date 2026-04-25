@@ -4,7 +4,7 @@ export interface ExamQuestion {
   question: string;
   questionZh: string;
   options: string[];
-  correctAnswer: number; // 选项索引 0-3
+  correctAnswer: number; // 选项索引 0-3，填空题答案在 options 中
   explanation: string;
 }
 
@@ -18,7 +18,7 @@ export interface ExamPaper {
 }
 
 export const exams: ExamPaper[] = [
-  // 小学试卷
+  // ========== 小学试卷 ==========
   {
     id: 'elementary-1',
     title: 'Elementary English Test 1',
@@ -35,7 +35,7 @@ export const exams: ExamPaper[] = [
       { id: 'e1-7', question: 'How many days are in a week?', questionZh: '一周有几天？', options: ['Five', 'Six', 'Seven', 'Eight'], correctAnswer: 2, explanation: 'There are seven days in a week' },
       { id: 'e1-8', question: 'What is the opposite of "hot"?', questionZh: '热的反义词是什么？', options: ['Cold', 'Big', 'Small', 'Tall'], correctAnswer: 0, explanation: 'Cold is the opposite of hot' },
       { id: 'e1-9', question: 'Which animal says "meow"?', questionZh: '哪个动物发出"喵喵"的声音？', options: ['Dog', 'Cat', 'Bird', 'Fish'], correctAnswer: 1, explanation: 'Cats say meow' },
-      { id: 'e1-10', question: 'What time is it? (3:00)', questionZh: '现在几点？（3点）', options: ['Three oclock', 'Four oclock', 'Five oclock', 'Two oclock'], correctAnswer: 0, explanation: '3:00 is three oclock' },
+      { id: 'e1-10', question: 'What time is it? (3:00)', questionZh: '现在几点？（3点）', options: ['Three o\'clock', 'Four o\'clock', 'Five o\'clock', 'Two o\'clock'], correctAnswer: 0, explanation: '3:00 is three o\'clock' },
       { id: 'e1-11', question: 'What is "红色" in English?', questionZh: '红色用英语怎么说？', options: ['Red', 'Blue', 'Green', 'Yellow'], correctAnswer: 0, explanation: 'Red means 红色' },
       { id: 'e1-12', question: 'Which is a pet?', questionZh: '哪个是宠物？', options: ['Dog', 'Cow', 'Pig', 'Horse'], correctAnswer: 0, explanation: 'Dogs are common pets' },
       { id: 'e1-13', question: 'What is "再见" in English?', questionZh: '再见用英语怎么说？', options: ['Hello', 'Goodbye', 'Please', 'Thanks'], correctAnswer: 1, explanation: 'Goodbye means 再见' },
@@ -65,39 +65,71 @@ export const exams: ExamPaper[] = [
     level: 'elementary',
     levelName: '小学',
     questions: [
-      { id: 'e2-1', question: 'What is "书包" in English?', questionZh: '书包用英语怎么说？', options: ['Bookbag', 'Pencil', 'Ruler', 'Eraser'], correctAnswer: 0, explanation: 'Bookbag means书包' },
+      { id: 'e2-1', question: 'What is "书包" in English?', questionZh: '书包用英语怎么说？', options: ['Bookbag', 'Pencil', 'Ruler', 'Eraser'], correctAnswer: 0, explanation: 'Bookbag means 书包' },
       { id: 'e2-2', question: 'Which is a school subject?', questionZh: '哪个是学校科目？', options: ['Math', 'Apple', 'Chair', 'Table'], correctAnswer: 0, explanation: 'Math is a school subject' },
-      { id: 'e2-3', question: 'What is "下午好" in English?', questionZh: '下午好用英语怎么说？', options: ['Good morning', 'Good afternoon', 'Good evening', 'Good night'], correctAnswer: 1, explanation: 'Good afternoon means下午好' },
+      { id: 'e2-3', question: 'What is "下午好" in English?', questionZh: '下午好用英语怎么说？', options: ['Good morning', 'Good afternoon', 'Good evening', 'Good night'], correctAnswer: 1, explanation: 'Good afternoon means 下午好' },
       { id: 'e2-4', question: 'What color is grass?', questionZh: '草是什么颜色？', options: ['Red', 'Blue', 'Green', 'Yellow'], correctAnswer: 2, explanation: 'Grass is green' },
       { id: 'e2-5', question: 'Which is a family member?', questionZh: '哪个是家庭成员？', options: ['Teacher', 'Friend', 'Mother', 'Doctor'], correctAnswer: 2, explanation: 'Mother is a family member' },
-      { id: 'e2-6', question: 'What is "眼睛" in English?', questionZh: '眼睛用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 0, explanation: 'Eye means眼睛' },
+      { id: 'e2-6', question: 'What is "眼睛" in English?', questionZh: '眼睛用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 0, explanation: 'Eye means 眼睛' },
       { id: 'e2-7', question: 'How many months are in a year?', questionZh: '一年有几个月？', options: ['Ten', 'Eleven', 'Twelve', 'Thirteen'], correctAnswer: 2, explanation: 'There are twelve months in a year' },
       { id: 'e2-8', question: 'What is the opposite of "up"?', questionZh: '上的反义词是什么？', options: ['Down', 'In', 'On', 'At'], correctAnswer: 0, explanation: 'Down is the opposite of up' },
       { id: 'e2-9', question: 'Which is a toy?', questionZh: '哪个是玩具？', options: ['Ball', 'Chair', 'Table', 'Door'], correctAnswer: 0, explanation: 'Ball is a toy' },
-      { id: 'e2-10', question: 'What is "月亮" in English?', questionZh: '月亮用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 1, explanation: 'Moon means月亮' },
+      { id: 'e2-10', question: 'What is "月亮" in English?', questionZh: '月亮用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 1, explanation: 'Moon means 月亮' },
       { id: 'e2-11', question: 'What day comes after Monday?', questionZh: '星期一的第二天是星期几？', options: ['Sunday', 'Tuesday', 'Wednesday', 'Thursday'], correctAnswer: 1, explanation: 'Tuesday comes after Monday' },
-      { id: 'e2-12', question: 'What is "牛奶" in English?', questionZh: '牛奶用英语怎么说？', options: ['Water', 'Milk', 'Juice', 'Coffee'], correctAnswer: 1, explanation: 'Milk means牛奶' },
+      { id: 'e2-12', question: 'What is "牛奶" in English?', questionZh: '牛奶用英语怎么说？', options: ['Water', 'Milk', 'Juice', 'Coffee'], correctAnswer: 1, explanation: 'Milk means 牛奶' },
       { id: 'e2-13', question: 'Which is a weather word?', questionZh: '哪个是天气词汇？', options: ['Rainy', 'Apple', 'Chair', 'Table'], correctAnswer: 0, explanation: 'Rainy is a weather word' },
-      { id: 'e2-14', question: 'What is "耳朵" in English?', questionZh: '耳朵用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 1, explanation: 'Ear means耳朵' },
+      { id: 'e2-14', question: 'What is "耳朵" in English?', questionZh: '耳朵用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 1, explanation: 'Ear means 耳朵' },
       { id: 'e2-15', question: 'How many corners does a square have?', questionZh: '正方形有几个角？', options: ['Three', 'Four', 'Five', 'Six'], correctAnswer: 1, explanation: 'A square has four corners' },
-      { id: 'e2-16', question: 'What is "自行车" in English?', questionZh: '自行车用英语怎么说？', options: ['Car', 'Bus', 'Bike', 'Train'], correctAnswer: 2, explanation: 'Bike means自行车' },
+      { id: 'e2-16', question: 'What is "自行车" in English?', questionZh: '自行车用英语怎么说？', options: ['Car', 'Bus', 'Bike', 'Train'], correctAnswer: 2, explanation: 'Bike means 自行车' },
       { id: 'e2-17', question: 'Which is a clothing item?', questionZh: '哪个是衣服？', options: ['Shirt', 'Chair', 'Table', 'Desk'], correctAnswer: 0, explanation: 'Shirt is a clothing item' },
-      { id: 'e2-18', question: 'What is "鼻子" in English?', questionZh: '鼻子用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 2, explanation: 'Nose means鼻子' },
+      { id: 'e2-18', question: 'What is "鼻子" in English?', questionZh: '鼻子用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 2, explanation: 'Nose means 鼻子' },
       { id: 'e2-19', question: 'What is the largest animal?', questionZh: '最大的动物是什么？', options: ['Elephant', 'Cat', 'Dog', 'Mouse'], correctAnswer: 0, explanation: 'Elephant is the largest land animal' },
-      { id: 'e2-20', question: 'What is "面包" in English?', questionZh: '面包用英语怎么说？', options: ['Bread', 'Rice', 'Noodle', 'Soup'], correctAnswer: 0, explanation: 'Bread means面包' },
-      { id: 'e2-21', question: 'Which word means "医院"?', questionZh: '哪个单词意思是医院？', options: ['School', 'Hospital', 'Park', 'Store'], correctAnswer: 1, explanation: 'Hospital means医院' },
-      { id: 'e2-22', question: 'What is "嘴巴" in English?', questionZh: '嘴巴用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 3, explanation: 'Mouth means嘴巴' },
+      { id: 'e2-20', question: 'What is "面包" in English?', questionZh: '面包用英语怎么说？', options: ['Bread', 'Rice', 'Noodle', 'Soup'], correctAnswer: 0, explanation: 'Bread means 面包' },
+      { id: 'e2-21', question: 'Which word means "医院"?', questionZh: '哪个单词意思是医院？', options: ['School', 'Hospital', 'Park', 'Store'], correctAnswer: 1, explanation: 'Hospital means 医院' },
+      { id: 'e2-22', question: 'What is "嘴巴" in English?', questionZh: '嘴巴用英语怎么说？', options: ['Eye', 'Ear', 'Nose', 'Mouth'], correctAnswer: 3, explanation: 'Mouth means 嘴巴' },
       { id: 'e2-23', question: 'How many seasons are in a year?', questionZh: '一年有几个季节？', options: ['Two', 'Three', 'Four', 'Five'], correctAnswer: 2, explanation: 'There are four seasons in a year' },
-      { id: 'e2-24', question: 'What is "星星" in English?', questionZh: '星星用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 0, explanation: 'Star means星星' },
+      { id: 'e2-24', question: 'What is "星星" in English?', questionZh: '星星用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 0, explanation: 'Star means 星星' },
       { id: 'e2-25', question: 'Which is a transport?', questionZh: '哪个是交通工具？', options: ['Car', 'Apple', 'Chair', 'Table'], correctAnswer: 0, explanation: 'Car is a transport' },
-      { id: 'e2-26', question: 'What is "太阳" in English?', questionZh: '太阳用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 2, explanation: 'Sun means太阳' },
+      { id: 'e2-26', question: 'What is "太阳" in English?', questionZh: '太阳用英语怎么说？', options: ['Star', 'Moon', 'Sun', 'Sky'], correctAnswer: 2, explanation: 'Sun means 太阳' },
       { id: 'e2-27', question: 'What is the shortest month?', questionZh: '哪个月最短？', options: ['January', 'February', 'March', 'April'], correctAnswer: 1, explanation: 'February is the shortest month' },
-      { id: 'e2-28', question: 'What is "电脑" in English?', questionZh: '电脑用英语怎么说？', options: ['Computer', 'Television', 'Radio', 'Phone'], correctAnswer: 0, explanation: 'Computer means电脑' },
+      { id: 'e2-28', question: 'What is "电脑" in English?', questionZh: '电脑用英语怎么说？', options: ['Computer', 'Television', 'Radio', 'Phone'], correctAnswer: 0, explanation: 'Computer means 电脑' },
       { id: 'e2-29', question: 'Which is a shape?', questionZh: '哪个是形状？', options: ['Circle', 'Apple', 'Chair', 'Table'], correctAnswer: 0, explanation: 'Circle is a shape' },
-      { id: 'e2-30', question: 'What is "电视" in English?', questionZh: '电视用英语怎么说？', options: ['Computer', 'Television', 'Radio', 'Phone'], correctAnswer: 1, explanation: 'Television means电视' },
+      { id: 'e2-30', question: 'What is "电视" in English?', questionZh: '电视用英语怎么说？', options: ['Computer', 'Television', 'Radio', 'Phone'], correctAnswer: 1, explanation: 'Television means 电视' },
     ],
   },
-  // 初中试卷
+  {
+    id: 'elementary-3',
+    title: 'Elementary English Test 3',
+    titleZh: '小学英语测试卷3（含阅读理解）',
+    level: 'elementary',
+    levelName: '小学',
+    questions: [
+      // 阅读理解
+      { id: 'e3-passage-1-p', question: 'My name is Tom. I am ten years old. I am a student. I go to school every day. My school is not far from my home. I usually walk to school. I have many friends at school. We often play together at recess. My favorite subject is English. I like my teacher very much.', questionZh: '阅读短文，回答问题', options: [], correctAnswer: 0, explanation: '' },
+      { id: 'e3-passage-1-q1', question: 'How old is Tom?', questionZh: 'Tom几岁了？', options: ['Nine', 'Ten', 'Eleven', 'Twelve'], correctAnswer: 1, explanation: '短文第一句：I am ten years old.' },
+      { id: 'e3-passage-1-q2', question: 'How does Tom go to school?', questionZh: 'Tom怎么去学校？', options: ['By bus', 'By bike', 'On foot', 'By car'], correctAnswer: 2, explanation: '短文说：I usually walk to school. On foot = walk' },
+      { id: 'e3-passage-1-q3', question: 'What is Tom\'s favorite subject?', questionZh: 'Tom最喜欢的科目是什么？', options: ['Math', 'Science', 'English', 'Art'], correctAnswer: 2, explanation: '短文说：My favorite subject is English.' },
+      { id: 'e3-passage-1-q4', question: 'Is Tom\'s school far from his home?', questionZh: 'Tom的学校离家里远吗？', options: ['Yes, it is', 'No, it isn\'t', 'It\'s very far', 'I don\'t know'], correctAnswer: 1, explanation: '短文说：My school is not far from my home.' },
+      // 常规选择题
+      { id: 'e3-1', question: 'What is "医生" in English?', questionZh: '医生用英语怎么说？', options: ['Teacher', 'Doctor', 'Nurse', 'Farmer'], correctAnswer: 1, explanation: 'Doctor means 医生' },
+      { id: 'e3-2', question: 'Which is a number?', questionZh: '哪个是数字？', options: ['One', 'Red', 'Happy', 'Big'], correctAnswer: 0, explanation: 'One is a number (一)' },
+      { id: 'e3-3', question: 'What is "女孩" in English?', questionZh: '女孩用英语怎么说？', options: ['Boy', 'Girl', 'Man', 'Woman'], correctAnswer: 1, explanation: 'Girl means 女孩' },
+      { id: 'e3-4', question: 'Which word means "美丽"?', questionZh: '哪个单词意思是美丽？', options: ['Ugly', 'Beautiful', 'Small', 'Big'], correctAnswer: 1, explanation: 'Beautiful means 美丽' },
+      { id: 'e3-5', question: 'What is "中国" in English?', questionZh: '中国用英语怎么说？', options: ['China', 'Japan', 'Korea', 'India'], correctAnswer: 0, explanation: 'China means 中国' },
+      { id: 'e3-6', question: 'How many months are in a year?', questionZh: '一年有多少个月？', options: ['Ten', 'Eleven', 'Twelve', 'Thirteen'], correctAnswer: 2, explanation: 'There are twelve months in a year' },
+      { id: 'e3-7', question: 'What is the opposite of "开心"?', questionZh: '开心的反义词是什么？', options: ['Happy', 'Sad', 'Excited', 'Angry'], correctAnswer: 1, explanation: 'Sad means 伤心，是开心的反义词' },
+      { id: 'e3-8', question: 'Which is a fruit?', questionZh: '哪个是水果？', options: ['Carrot', 'Potato', 'Grape', 'Onion'], correctAnswer: 2, explanation: 'Grape is a fruit (葡萄)' },
+      { id: 'e3-9', question: 'What is "音乐" in English?', questionZh: '音乐用英语怎么说？', options: ['Music', 'Sport', 'Art', 'Math'], correctAnswer: 0, explanation: 'Music means 音乐' },
+      { id: 'e3-10', question: 'What time is it? (7:00)', questionZh: '现在几点？（7点）', options: ['Six o\'clock', 'Seven o\'clock', 'Eight o\'clock', 'Nine o\'clock'], correctAnswer: 1, explanation: '7:00 is seven o\'clock' },
+      { id: 'e3-11', question: 'Which is a kitchen item?', questionZh: '哪个是厨房用品？', options: ['Plate', 'Chair', 'Book', 'Pencil'], correctAnswer: 0, explanation: 'Plate is a kitchen item (盘子)' },
+      { id: 'e3-12', question: 'What is "跳舞" in English?', questionZh: '跳舞用英语怎么说？', options: ['Sing', 'Dance', 'Run', 'Swim'], correctAnswer: 1, explanation: 'Dance means 跳舞' },
+      { id: 'e3-13', question: 'How many legs does a dog have?', questionZh: '狗有几条腿？', options: ['Two', 'Three', 'Four', 'Five'], correctAnswer: 2, explanation: 'A dog has four legs' },
+      { id: 'e3-14', question: 'What is "春天" in English?', questionZh: '春天用英语怎么说？', options: ['Summer', 'Autumn', 'Spring', 'Winter'], correctAnswer: 2, explanation: 'Spring means 春天' },
+      { id: 'e3-15', question: 'Which is a wild animal?', questionZh: '哪个是野生动物？', options: ['Dog', 'Cat', 'Lion', 'Cow'], correctAnswer: 2, explanation: 'Lion is a wild animal (狮子)' },
+    ],
+  },
+
+  // ========== 初中试卷 ==========
   {
     id: 'junior-1',
     title: 'Junior High English Test 1',
@@ -146,7 +178,7 @@ export const exams: ExamPaper[] = [
     questions: [
       { id: 'j2-1', question: 'What is the plural of "child"?', questionZh: '"child"的复数形式是什么？', options: ['Childs', 'Children', 'Childrens', 'Childes'], correctAnswer: 1, explanation: 'Children is the plural of child' },
       { id: 'j2-2', question: 'I have ____ idea.', questionZh: '我有一个____主意。', options: ['a', 'an', 'the', 'some'], correctAnswer: 1, explanation: 'Idea starts with vowel sound' },
-      { id: 'j2-3', question: 'She is ____ girl.', questionZh: '她是一个____女孩。', options: ['a', 'an', 'the', 'some'], correctAnswer: 1, explanation: 'Girl starts with consonant sound' },
+      { id: 'j2-3', question: 'She is ____ girl.', questionZh: '她是一个____女孩。', options: ['a', 'an', 'the', 'some'], correctAnswer: 1, explanation: 'An + vowel sound' },
       { id: 'j2-4', question: 'There ____ some water in the glass.', questionZh: '杯子里____一些水。', options: ['is', 'are', 'was', 'were'], correctAnswer: 0, explanation: 'Water is uncountable, use is' },
       { id: 'j2-5', question: 'He ____ English very well.', questionZh: '他英语说得____。', options: ['speaks', 'speak', 'speaking', 'spoken'], correctAnswer: 0, explanation: 'Speaks is third person singular' },
       { id: 'j2-6', question: 'The book ____ on the table.', questionZh: '书在桌子上。', options: ['is', 'are', 'am', 'be'], correctAnswer: 0, explanation: 'Book is singular, use is' },
@@ -176,7 +208,40 @@ export const exams: ExamPaper[] = [
       { id: 'j2-30', question: 'It is important ____ English well.', questionZh: '学好英语很____。', options: ['learn', 'to learn', 'learning', 'learns'], correctAnswer: 1, explanation: 'It is important + to-infinitive' },
     ],
   },
-  // 高中试卷
+  {
+    id: 'junior-3',
+    title: 'Junior High English Test 3',
+    titleZh: '初中英语测试卷3（含阅读理解+填空）',
+    level: 'junior',
+    levelName: '初中',
+    questions: [
+      // 阅读理解
+      { id: 'j3-passage-1-p', question: 'Last Sunday, my family went to the park. The weather was sunny and warm. We took some food and drinks with us. My father played football with my brother. My mother and I flew a kite. We had a picnic lunch at noon. In the afternoon, we walked around the lake. We saw many ducks on the water. It was a wonderful day. We all felt very happy.', questionZh: '阅读短文，回答问题', options: [], correctAnswer: 0, explanation: '' },
+      { id: 'j3-passage-1-q1', question: 'What did the writer\'s father do?', questionZh: '作者的爸爸做了什么？', options: ['Played football', 'Flew a kite', 'Had a picnic', 'Walked around the lake'], correctAnswer: 0, explanation: '短文说：My father played football with my brother.' },
+      { id: 'j3-passage-1-q2', question: 'How was the weather?', questionZh: '天气怎么样？', options: ['Rainy and cold', 'Sunny and warm', 'Windy', 'Cloudy'], correctAnswer: 1, explanation: '短文说：The weather was sunny and warm.' },
+      { id: 'j3-passage-1-q3', question: 'What did the writer and their mother do?', questionZh: '作者和妈妈做了什么？', options: ['Played football', 'Flew a kite', 'Had a picnic', 'Saw ducks'], correctAnswer: 1, explanation: '短文说：My mother and I flew a kite.' },
+      { id: 'j3-passage-1-q4', question: 'Where did they have lunch?', questionZh: '他们在哪儿吃的午饭？', options: ['At home', 'In the park', 'At a restaurant', 'By the lake'], correctAnswer: 1, explanation: '短文说：We had a picnic lunch at noon.' },
+      // 填空题
+      { id: 'j3-fill-1', question: 'My sister is good ____ English.', questionZh: '我妹妹擅长英语。', options: ['in', 'at', 'on', 'with'], correctAnswer: 1, explanation: 'Good at is the correct collocation' },
+      { id: 'j3-fill-2', question: 'I look forward ____ hearing from you.', questionZh: '我期待收到你的来信。', options: ['to', 'in', 'at', 'on'], correctAnswer: 0, explanation: 'Look forward to + gerund' },
+      { id: 'j3-fill-3', question: 'It takes me half an hour ____ to school every day.', questionZh: '我每天上学需要半小时。', options: ['go', 'to go', 'going', 'went'], correctAnswer: 1, explanation: 'It takes + time + to-infinitive' },
+      { id: 'j3-fill-4', question: 'She is interested ____ learning French.', questionZh: '她对学习法语感兴趣。', options: ['in', 'on', 'at', 'to'], correctAnswer: 0, explanation: 'Interested in is correct' },
+      { id: 'j3-fill-5', question: 'The book is worth ____ again.', questionZh: '这本书值得再看一遍。', options: ['reading', 'to read', 'read', 'reads'], correctAnswer: 0, explanation: 'Worth + gerund' },
+      // 常规题
+      { id: 'j3-1', question: 'What is the past tense of "write"?', questionZh: '"write"的过去式是什么？', options: ['Write', 'Writes', 'Wrote', 'Written'], correctAnswer: 2, explanation: 'Wrote is the past tense of write' },
+      { id: 'j3-2', question: 'She has ____ finished her homework.', questionZh: '她已经____作业了。', options: ['yet', 'already', 'still', 'ever'], correctAnswer: 1, explanation: 'Already is used in present perfect' },
+      { id: 'j3-3', question: 'If I ____ you, I would accept the offer.', questionZh: '如果我是你，我会接受这个提议。', options: ['am', 'was', 'were', 'are'], correctAnswer: 2, explanation: 'Subjunctive mood uses were' },
+      { id: 'j3-4', question: 'The house ____ last year.', questionZh: '这房子是去年____。', options: ['built', 'was built', 'is built', 'builds'], correctAnswer: 1, explanation: 'Passive voice is required' },
+      { id: 'j3-5', question: 'I would appreciate ____ if you could help me.', questionZh: '如果您能帮助我，我将非常____。', options: ['that', 'this', 'it', 'them'], correctAnswer: 2, explanation: 'Appreciate + it' },
+      { id: 'j3-6', question: 'Neither Tom nor his friends ____ there.', questionZh: 'Tom和他的朋友们都不在那儿。', options: ['is', 'are', 'was', 'were'], correctAnswer: 1, explanation: 'Nor agrees with friends (are)' },
+      { id: 'j3-7', question: 'He behaved as if he ____ the owner.', questionZh: '他表现得好像他是主人似的。', options: ['is', 'was', 'were', 'be'], correctAnswer: 2, explanation: 'Subjunctive with as if uses were' },
+      { id: 'j3-8', question: 'The baby kept ____ all night.', questionZh: '婴儿一直哭闹了一整夜。', options: ['cry', 'to cry', 'crying', 'cried'], correctAnswer: 2, explanation: 'Keep + gerund' },
+      { id: 'j3-9', question: 'I suggest we ____ the meeting tomorrow.', questionZh: '我建议我们____明天的会议。', options: ['postpone', 'to postpone', 'postponing', 'postponed'], correctAnswer: 0, explanation: 'Suggest + base form' },
+      { id: 'j3-10', question: '____ the rain, we went out.', questionZh: '尽管下雨，我们还是出去了。', options: ['Despite', 'Although', 'Because', 'Since'], correctAnswer: 1, explanation: 'Although + clause' },
+    ],
+  },
+
+  // ========== 高中试卷 ==========
   {
     id: 'senior-1',
     title: 'Senior High English Test 1',
@@ -255,7 +320,40 @@ export const exams: ExamPaper[] = [
       { id: 's2-30', question: 'It is desired that we ____ everything ready.', questionZh: '希望我们把一切____准备好。', options: ['get', 'gets', 'getting', 'got'], correctAnswer: 0, explanation: 'Subjunctive with desired' },
     ],
   },
-  // 大学试卷
+  {
+    id: 'senior-3',
+    title: 'Senior High English Test 3',
+    titleZh: '高中英语测试卷3（含阅读理解）',
+    level: 'senior',
+    levelName: '高中',
+    questions: [
+      // 阅读理解
+      { id: 's3-passage-1-p', question: 'Climate change is one of the most serious challenges facing our planet today. Global temperatures have been rising steadily over the past century. This warming trend has led to many problems, including melting ice caps, rising sea levels, and extreme weather events. Scientists agree that human activities are the main cause of this problem. The burning of fossil fuels releases carbon dioxide into the atmosphere, which traps heat and causes the greenhouse effect. To address this issue, many countries are working together to reduce carbon emissions. Some are investing in renewable energy sources such as solar and wind power. Others are developing new technologies to capture and store carbon. However, much more needs to be done if we want to protect our environment for future generations.', questionZh: '阅读短文，回答问题', options: [], correctAnswer: 0, explanation: '' },
+      { id: 's3-passage-1-q1', question: 'What is the main cause of climate change according to scientists?', questionZh: '根据科学家所说，气候变化的主要原因是什么？', options: ['Natural disasters', 'Human activities', 'Solar activity', 'Ocean currents'], correctAnswer: 1, explanation: '短文明确说：human activities are the main cause' },
+      { id: 's3-passage-1-q2', question: 'What does burning fossil fuels release?', questionZh: '燃烧化石燃料释放什么？', options: ['Oxygen', 'Nitrogen', 'Carbon dioxide', 'Helium'], correctAnswer: 2, explanation: '短文说：The burning of fossil fuels releases carbon dioxide' },
+      { id: 's3-passage-1-q3', question: 'Which is NOT mentioned as a result of global warming?', questionZh: '以下哪项没有在文中提及？', options: ['Melting ice caps', 'Rising sea levels', 'Earthquakes', 'Extreme weather'], correctAnswer: 2, explanation: '短文提到冰帽融化、海平面上升和极端天气，没有提到地震' },
+      { id: 's3-passage-1-q4', question: 'What is one solution mentioned in the passage?', questionZh: '文中提到的一个解决方案是什么？', options: ['Building more factories', 'Investing in renewable energy', 'Using more coal', 'Cutting down forests'], correctAnswer: 1, explanation: '短文提到：Some are investing in renewable energy sources such as solar and wind power' },
+      // 填空题
+      { id: 's3-fill-1', question: 'The increase in demand has resulted ____ a rise in price.', questionZh: '需求的增加导致价格上涨____。', options: ['from', 'in', 'with', 'on'], correctAnswer: 1, explanation: 'Result in means cause' },
+      { id: 's3-fill-2', question: 'I am looking forward ____ hearing from you.', questionZh: '我期待收到你的来信。', options: ['to', 'in', 'at', 'on'], correctAnswer: 0, explanation: 'Look forward to + gerund' },
+      { id: 's3-fill-3', question: 'She lost herself ____ the beauty of the sunset.', questionZh: '她沉浸____日落的美丽中。', options: ['in', 'to', 'with', 'at'], correctAnswer: 0, explanation: 'Lost in means immersed in' },
+      { id: 's3-fill-4', question: 'The new policy will have a significant impact ____ the economy.', questionZh: '新政策将对经济产生重大____。', options: ['on', 'to', 'with', 'for'], correctAnswer: 0, explanation: 'Impact on is correct' },
+      { id: 's3-fill-5', question: 'He was determined to succeed ____ all odds.', questionZh: '他决心____一切困难取得成功。', options: ['against', 'despite', 'though', 'although'], correctAnswer: 0, explanation: 'Against all odds means despite difficulties' },
+      // 常规题
+      { id: 's3-1', question: 'Had I known about the traffic, I ____ earlier.', questionZh: '如果我知道交通情况，我就____得早一点。', options: ['would leave', 'would have left', 'had left', 'left'], correctAnswer: 1, explanation: 'Past unreal conditional with would have done' },
+      { id: 's3-2', question: 'It is essential that everyone ____ part in the competition.', questionZh: '每个人都____参加比赛是必要的。', options: ['take', 'takes', 'taking', 'took'], correctAnswer: 0, explanation: 'Subjunctive with essential uses base form' },
+      { id: 's3-3', question: '____ what he says, I do not believe him.', questionZh: '无论他说什么，我都不相信他。', options: ['Whatever', 'However', 'Whenever', 'Wherever'], correctAnswer: 0, explanation: 'Whatever + clause' },
+      { id: 's3-4', question: 'Only then ____ the importance of education.', questionZh: '只有那时她才____教育的重要性。', options: ['did she realize', 'she realized', 'she realizes', 'does she realize'], correctAnswer: 0, explanation: 'Inversion with only' },
+      { id: 's3-5', question: 'I would rather you ____ the meeting tomorrow.', questionZh: '我宁愿你____明天的会议。', options: ['postpone', 'postponed', 'postponing', 'to postpone'], correctAnswer: 1, explanation: 'Would rather + past subjunctive' },
+      { id: 's3-6', question: 'The book is said ____ into many languages.', questionZh: '据说这本书____翻译成多种语言。', options: ['to translate', 'to be translated', 'translating', 'to translate'], correctAnswer: 1, explanation: 'Passive infinitive: said to be translated' },
+      { id: 's3-7', question: 'He behaved as if he ____ the whole thing.', questionZh: '他的行为就好像他____整件事。', options: ['knows', 'knew', 'knowing', 'known'], correctAnswer: 1, explanation: 'As if + past subjunctive' },
+      { id: 's3-8', question: 'It is high time we ____ action.', questionZh: '是我们该采取____行动的时候了。', options: ['take', 'took', 'taking', 'to take'], correctAnswer: 0, explanation: 'It is high time + base form' },
+      { id: 's3-9', question: 'Not until I graduated ____ how important it was.', questionZh: '直到我毕业我才____它有多重要。', options: ['I realized', 'did I realize', 'I realize', 'do I realize'], correctAnswer: 1, explanation: 'Inversion with not until' },
+      { id: 's3-10', question: 'She insists that he ____ the appointment.', questionZh: '她坚持要他____预约。', options: ['keep', 'keeps', 'keeping', 'kept'], correctAnswer: 0, explanation: 'Insist takes subjunctive (base form)' },
+    ],
+  },
+
+  // ========== 大学试卷 ==========
   {
     id: 'university-1',
     title: 'College English Test 1',
@@ -332,6 +430,38 @@ export const exams: ExamPaper[] = [
       { id: 'u2-28', question: 'He went back ____ his words.', questionZh: '他____他的话。', options: ['on', 'upon', 'over', 'down'], correctAnswer: 0, explanation: 'Go back on means break promise' },
       { id: 'u2-29', question: 'She caught ____ a cold last week.', questionZh: '她上周____了感冒。', options: ['down with', 'up with', 'off with', 'out with'], correctAnswer: 0, explanation: 'Catch down with means become ill' },
       { id: 'u2-30', question: 'The party was put ____ due to the weather.', questionZh: '由于天气原因，聚会被____了。', options: ['off', 'up', 'down', 'away'], correctAnswer: 0, explanation: 'Put off means postpone' },
+    ],
+  },
+  {
+    id: 'university-3',
+    title: 'College English Test 3',
+    titleZh: '大学英语测试卷3（含阅读理解+完形填空）',
+    level: 'university',
+    levelName: '大学',
+    questions: [
+      // 阅读理解
+      { id: 'u3-passage-1-p', question: 'Artificial Intelligence (AI) has become one of the most transformative technologies of the 21st century. Its applications range from healthcare to finance, education to transportation. In healthcare, AI algorithms can analyze medical images with remarkable accuracy, helping doctors detect diseases earlier than ever before. In finance, machine learning models predict market trends and detect fraudulent activities. However, the rapid advancement of AI also raises important ethical questions. Concerns about job displacement, privacy, and algorithmic bias have prompted calls for responsible AI development. Governments and organizations worldwide are working to establish regulatory frameworks to ensure that AI benefits humanity while minimizing its potential harms. The future of AI will depend not only on technological innovation but also on our collective ability to govern it wisely.', questionZh: '阅读短文，回答问题', options: [], correctAnswer: 0, explanation: '' },
+      { id: 'u3-passage-1-q1', question: 'What is one application of AI in healthcare mentioned in the passage?', questionZh: '文中提到AI在医疗领域的一个应用是什么？', options: ['Diagnosing patients remotely', 'Analyzing medical images', 'Managing hospital staff', 'Conducting surgeries'], correctAnswer: 1, explanation: '短文说：AI algorithms can analyze medical images with remarkable accuracy' },
+      { id: 'u3-passage-1-q2', question: 'What does the passage say about AI in finance?', questionZh: '关于AI在金融领域，文章说了什么？', options: ['It has replaced all human workers', 'It predicts market trends and detects fraud', 'It controls interest rates', 'It manages government budgets'], correctAnswer: 1, explanation: '短文说：machine learning models predict market trends and detect fraudulent activities' },
+      { id: 'u3-passage-1-q3', question: 'Which is NOT mentioned as a concern about AI?', questionZh: '以下哪项没有在文中提及为AI的担忧？', options: ['Job displacement', 'Privacy', 'Climate change', 'Algorithmic bias'], correctAnswer: 2, explanation: '短文提到工作取代、隐私和算法偏见，没有提到气候变化' },
+      { id: 'u3-passage-1-q4', question: 'What does the future of AI depend on according to the passage?', questionZh: '根据文章，AI的未来取决于什么？', options: ['Only on technological innovation', 'Only on government regulations', 'Both technological innovation and wise governance', 'Neither technology nor governance'], correctAnswer: 2, explanation: '短文说：The future of AI will depend not only on technological innovation but also on our collective ability to govern it wisely.' },
+      // 完形填空（用选项代替空格）
+      { id: 'u3-cloze-1', question: 'The success of any organization depends ____ effective leadership.', questionZh: '任何组织的成功都取决于有效的领导。', options: ['on', 'in', 'at', 'for'], correctAnswer: 0, explanation: 'Depend on is the correct collocation' },
+      { id: 'u3-cloze-2', question: 'She is accustomed ____ early mornings.', questionZh: '她习惯早起。', options: ['to getting up', 'getting up', 'to get up', 'get up'], correctAnswer: 0, explanation: 'Accustomed to + gerund' },
+      { id: 'u3-cloze-3', question: 'The findings are indicative ____ a growing trend.', questionZh: '这些发现____一种增长趋势。', options: ['of', 'to', 'for', 'with'], correctAnswer: 0, explanation: 'Indicative of is correct' },
+      { id: 'u3-cloze-4', question: 'We must come up ____ creative solutions.', questionZh: '我们必须____有创意的解决方案。', options: ['with', 'to', 'on', 'at'], correctAnswer: 0, explanation: 'Come up with means think of' },
+      { id: 'u3-cloze-5', question: 'The research is far ____ completion.', questionZh: '研究离完成还____。', options: ['from', 'to', 'at', 'in'], correctAnswer: 0, explanation: 'Far from means not at all' },
+      // 常规题
+      { id: 'u3-1', question: 'The minister was accused ____ taking bribes.', questionZh: '部长被____受贿。', options: ['of', 'for', 'with', 'to'], correctAnswer: 0, explanation: 'Accused of' },
+      { id: 'u3-2', question: 'I would appreciate ____ if you could keep this confidential.', questionZh: '如果您能保密，我将非常____。', options: ['that', 'this', 'it', 'them'], correctAnswer: 2, explanation: 'Appreciate + it + if clause' },
+      { id: 'u3-3', question: 'The chairman insisted that the meeting ____ postponed.', questionZh: '主席坚持会议应该____。', options: ['be', 'is', 'was', 'to be'], correctAnswer: 0, explanation: 'Insist takes subjunctive (be)' },
+      { id: 'u3-4', question: 'Had I been informed earlier, I would have taken ____.', questionZh: '如果我早点得到通知，我就____采取了行动。', options: ['action', 'an action', 'actions', 'the action'], correctAnswer: 1, explanation: 'Take action / take an action' },
+      { id: 'u3-5', question: 'It is imperative that all staff ____ the new policy immediately.', questionZh: '所有员工____立即遵守新政策。', options: ['follow', 'follows', 'following', 'to follow'], correctAnswer: 0, explanation: 'Subjunctive with imperative uses base form' },
+      { id: 'u3-6', question: 'The professor\'s lecture fell far ____ my expectations.', questionZh: '教授的讲座与我的期望____。', options: ['below', 'under', 'beneath', 'down'], correctAnswer: 0, explanation: 'Below expectations is the standard collocation' },
+      { id: 'u3-7', question: 'Only after the investigation concluded ____ the truth.', questionZh: '只有在调查结束后，____真相。', options: ['did they learn', 'they learned', 'they learn', 'do they learn'], correctAnswer: 0, explanation: 'Inversion with only after' },
+      { id: 'u3-8', question: 'The company is committed to ____ sustainable practices.', questionZh: '公司致力于____可持续实践。', options: ['implementing', 'implement', 'implemented', 'implements'], correctAnswer: 0, explanation: 'Committed to + gerund' },
+      { id: 'u3-9', question: 'Not only ____ the project, but also overspent the budget.', questionZh: '不仅____了项目，还超支了预算。', options: ['did he abandon', 'he abandoned', 'he does abandon', 'does he abandon'], correctAnswer: 0, explanation: 'Not only at the beginning triggers inversion' },
+      { id: 'u3-10', question: 'Whatever ____, we must stay united.', questionZh: '无论发生____，我们必须保持团结。', options: ['happens', 'happened', 'to happen', 'happening'], correctAnswer: 0, explanation: 'Whatever + verb (no tense change)' },
     ],
   },
 ];

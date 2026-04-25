@@ -7,6 +7,67 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '5.35',
+    date: '2026-04-26',
+    changes: [
+      '语法教程全面扩充：小学50→80个专题，初中111个，高中58个，大学42→100个，总计349个语法专题',
+      '大学语法大幅新增58个专题，覆盖从句高级、虚拟语气深化、倒装强调省略、修辞分析、长难句、学术写作、翻译技巧等专业内容',
+    ],
+  },
+  {
+    version: '5.3',
+    date: '2026-04-25',
+    changes: [
+      '新增考试试卷集页面，整张试卷连答案一起展示，方便学习',
+      '扩充试卷数量，每个级别从2套增加到3套',
+      '新增阅读理解题型，初中/高中/大学各有一套含阅读理解的试卷',
+      '新增完形填空题型，高中/大学级别增加填空题训练',
+    ],
+  },
+  {
+    version: '5.25',
+    date: '2026-04-24',
+    changes: [
+      '修复文章列表页点击大学分类文章时崩溃的严重bug（articles数组concat错误导致undefined）',
+      '修复getArticleById函数缺少空值防护导致运行时崩溃',
+      '优化构建配置：articles chunk从1.56MB降至921KB（移除长文重复数据）',
+      '构建版本标识更新为v5.25',
+    ],
+  },
+  {
+    version: '5.2',
+    date: '2026-04-23',
+    changes: [
+      '课程体系重磅升级：初中单元 50→70 个，高中单元 4→50 个，大学英语 3 门课 28 单元，合计 283 个教学单元',
+      '单词游戏彻底重构：6 种游戏模式（拼写/听力/卡片/反应/翻译/思维）各有独立题库，每种 30 题，共 180 题',
+      '修复单词游戏点击错位 bug：选项 key 改为文本值而非 index，避免 React 渲染错乱',
+      '语法专题大幅扩充：小学/初中/高中/大学四级语法体系，专题数量翻倍',
+      '版本历史补全：v5.2/v5.1 完整记录本次所有更新内容',
+    ],
+  },
+  {
+    version: '5.1',
+    date: '2026-04-23',
+    changes: [
+      '数据大幅扩充：短篇文章 500→800 篇，长篇文章 120→200 篇',
+      '搜索功能重构：支持全文检索（中英文内容），搜索词高亮，热门搜索标签，字数范围筛选',
+      '阅读体验优化：顶部进度条实时显示，剩余字数/阅读时间估算，段落快速导航',
+      '模块架构重构：修复循环导入问题，使用 concat 合并数组，优化构建性能',
+      '手机兼容性修复：语音合成 API 空值防护，解决部分手机浏览器崩溃问题',
+    ],
+  },
+  {
+    version: '5.0',
+    date: '2026-04-20',
+    changes: [
+      '全面扩充数据内容：文章500篇、长文120篇、课程137单元、语法104专题、Quiz 1030题、测验996题',
+      '修复循环导入导致的构建错误，articles 与 longArticles 模块解耦',
+      '修复手机浏览器语音合成（speechSynthesis）兼容性崩溃问题',
+      '重构文章数据架构，解决模块展开顺序导致的 undefined 错误',
+      '优化构建打包策略，提升生产环境加载性能',
+    ],
+  },
+  {
     version: '4.5',
     date: '2026-02-27',
     changes: [
@@ -259,7 +320,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>4.5</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.35</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>

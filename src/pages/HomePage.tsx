@@ -211,7 +211,7 @@ const HomePage: React.FC = () => {
               return (
                 <Link
                   key={level.id}
-                  to="/quiz"
+                  to="/exam-papers"
                   className={`${level.color} rounded-xl p-3 text-white hover:opacity-90 transition-opacity`}
                 >
                   <div className="flex items-center justify-between mb-1">
