@@ -232,3 +232,52 @@ export interface CourseStudyRecord {
   lastUnitId: string;
   lastReadAt: string;
 }
+
+// ========== 错题本相关类型 ==========
+
+// 错题类型
+export type WrongType = 'spelling' | 'meaning' | 'pronunciation' | 'grammar';
+
+// 错题记录
+export interface WrongWord {
+  id: string;
+  word: string;
+  wrongType: WrongType;
+  wrongAnswer: string;
+  correctAnswer: string;
+  createdAt: string;
+  mastered: boolean;
+  masteredAt?: string;
+  reviewCount: number;
+  lastReviewedAt?: string;
+}
+
+// ========== 艾宾浩斯复习相关类型 ==========
+
+// 复习记录
+export interface ReviewRecord {
+  id: string;
+  word: string;
+  phonetic?: string;
+  definition: string;
+  partOfSpeech: string;
+  exampleSentence: string;
+  articleTitle: string;
+  nextReviewDate: string;
+  interval: number; // 复习间隔天数
+  easeFactor: number; // 难易度因子
+  reviewStage: number; // 当前复习阶段 (1-5对应1,2,4,7,15天)
+  createdAt: string;
+  lastReviewedAt?: string;
+}
+
+// 艾宾浩斯复习间隔表 (天数)
+export const EBBINGHAUS_INTERVALS = [1, 2, 4, 7, 15];
+
+// 错题类型标签
+export const WRONG_TYPE_LABELS: Record<WrongType, { name: string; nameZh: string; icon: string }> = {
+  spelling: { name: 'Spelling', nameZh: '拼写错误', icon: '✏️' },
+  meaning: { name: 'Meaning', nameZh: '词义错误', icon: '📖' },
+  pronunciation: { name: 'Pronunciation', nameZh: '发音错误', icon: '🔊' },
+  grammar: { name: 'Grammar', nameZh: '语法错误', icon: '📝' },
+};

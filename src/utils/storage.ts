@@ -1,4 +1,4 @@
-import { FavoriteWord, FavoriteArticle, Bookmark, QuizHistory, VoiceSettings } from '../types';
+import { FavoriteWord, FavoriteArticle, Bookmark, QuizHistory, VoiceSettings, WrongWord, WrongType, ReviewRecord, EBBINGHAUS_INTERVALS } from '../types';
 
 // Storage Keys
 const FAVORITE_WORDS_KEY = 'linguaread_favorites';
@@ -914,4 +914,448 @@ export const getAvailableBooks = (): BookDownload[] => {
       category: '经典文学',
     },
   ];
+};
+
+// ========== 成就系统相关 ==========
+
+const ACHIEVEMENTS_KEY = 'linguaread_achievements';
+const STREAK_DATA_KEY = 'linguaread_streak_data';
+
+// 已解锁的成就
+export interface UnlockedAchievement {
+  achievementId: string;
+  unlockedAt: string;
+}
+
+export interface StreakData {
+  currentStreak: number;
+  lastCheckInDate: string;
+  longestStreak: number;
+}
+
+// 获取已解锁成就列表
+export const getUnlockedAchievements = (): UnlockedAchievement[] => {
+  try {
+    const data = localStorage.getItem(ACHIEVEMENTS_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    console.error('Error getting unlocked achievements:', error);
+    return [];
+  }
+};
+
+// 解锁成就
+export const unlockAchievement = (achievementId: string): UnlockedAchievement | null => {
+  try {
+    const unlocked = getUnlockedAchievements();
+    const exists = unlocked.some(a => a.achievementId === achievementId);
+    if (exists) return null;
+
+    const newAchievement: UnlockedAchievement = {
+      achievementId,
+      unlockedAt: new Date().toISOString(),
+    };
+    unlocked.push(newAchievement);
+    localStorage.setItem(ACHIEVEMENTS_KEY, JSON.stringify(unlocked));
+    return newAchievement;
+  } catch (error) {
+    console.error('Error unlocking achievement:', error);
+    return null;
+  }
+};
+
+// 检查成就是否已解锁
+export const isAchievementUnlocked = (achievementId: string): boolean => {
+  try {
+    const unlocked = getUnlockedAchievements();
+    return unlocked.some(a => a.achievementId === achievementId);
+  } catch (error) {
+    console.error('Error checking achievement status:', error);
+    return false;
+  }
+};
+
+// 获取已解锁成就数量
+export const getUnlockedCount = (): number => {
+  return getUnlockedAchievements().length;
+};
+
+// 获取连击数据
+export const getStreakData = (): StreakData => {
+  try {
+    const data = localStorage.getItem(STREAK_DATA_KEY);
+    if (data) {
+      return JSON.parse(data);
+    }
+    return { currentStreak: 0, lastCheckInDate: '', longestStreak: 0 };
+  } catch (error) {
+    console.error('Error getting streak data:', error);
+    return { currentStreak: 0, lastCheckInDate: '', longestStreak: 0 };
+  }
+};
+
+// 更新连击数据（基于打卡）
+export const updateStreakOnCheckIn = (): StreakData => {
+  try {
+    const today = new Date().toISOString().split('T')[0];
+    const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+    const streakData = getStreakData();
+
+    if (streakData.lastCheckInDate === today) {
+      // 今天已经打卡，不更新
+      return streakData;
+    } else if (streakData.lastCheckInDate === yesterday) {
+      // 昨天打卡了，连续天数+1
+      streakData.currentStreak += 1;
+    } else {
+      // 断开，重新开始
+      streakData.currentStreak = 1;
+    }
+
+    streakData.lastCheckInDate = today;
+    if (streakData.currentStreak > streakData.longestStreak) {
+      streakData.longestStreak = streakData.currentStreak;
+    }
+
+    localStorage.setItem(STREAK_DATA_KEY, JSON.stringify(streakData));
+    return streakData;
+  } catch (error) {
+    console.error('Error updating streak:', error);
+    return { currentStreak: 0, lastCheckInDate: '', longestStreak: 0 };
+  }
+};
+
+// 获取阅读文章计数（去重）
+const READ_ARTICLES_KEY = 'linguaread_read_articles_count';
+const READ_ARTICLES_LEVELS_KEY = 'linguaread_read_levels';
+
+export const getReadArticlesCount = (): number => {
+  try {
+    const data = localStorage.getItem(READ_ARTICLES_KEY);
+    return data ? parseInt(data, 10) : 0;
+  } catch (error) {
+    return 0;
+  }
+};
+
+export const incrementReadArticlesCount = (): number => {
+  try {
+    const count = getReadArticlesCount();
+    const newCount = count + 1;
+    localStorage.setItem(READ_ARTICLES_KEY, newCount.toString());
+    return newCount;
+  } catch (error) {
+    console.error('Error incrementing read count:', error);
+    return 0;
+  }
+};
+
+export const getReadLevelsSet = (): Set<string> => {
+  try {
+    const data = localStorage.getItem(READ_ARTICLES_LEVELS_KEY);
+    return data ? new Set(JSON.parse(data)) : new Set();
+  } catch (error) {
+    return new Set();
+  }
+};
+
+export const addReadLevel = (level: string): void => {
+  try {
+    const levels = getReadLevelsSet();
+    levels.add(level);
+    localStorage.setItem(READ_ARTICLES_LEVELS_KEY, JSON.stringify([...levels]));
+  } catch (error) {
+    console.error('Error adding read level:', error);
+  }
+};
+
+// 获取完成的课程ID列表
+const COMPLETED_COURSES_KEY = 'linguaread_completed_courses';
+
+export const getCompletedCourses = (): string[] => {
+  try {
+    const data = localStorage.getItem(COMPLETED_COURSES_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    return [];
+  }
+};
+
+export const addCompletedCourse = (courseId: string): void => {
+  try {
+    const courses = getCompletedCourses();
+    if (!courses.includes(courseId)) {
+      courses.push(courseId);
+      localStorage.setItem(COMPLETED_COURSES_KEY, JSON.stringify(courses));
+    }
+  } catch (error) {
+    console.error('Error adding completed course:', error);
+  }
+};
+
+// 获取访问过的路径记录
+const VISITED_PATHS_KEY = 'linguaread_visited_paths';
+
+export const getVisitedPaths = (): string[] => {
+  try {
+    const data = localStorage.getItem(VISITED_PATHS_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    return [];
+  }
+};
+
+export const addVisitedPath = (path: string): void => {
+  try {
+    const paths = getVisitedPaths();
+    if (!paths.includes(path)) {
+      paths.push(path);
+      localStorage.setItem(VISITED_PATHS_KEY, JSON.stringify(paths));
+    }
+  } catch (error) {
+    console.error('Error adding visited path:', error);
+  }
+};
+
+// ========== 错题本相关 ==========
+
+const WRONG_WORDS_KEY = 'linguaread_wrong_words';
+
+// 获取错题列表
+export const getWrongWords = (): import('../types').WrongWord[] => {
+  try {
+    const data = localStorage.getItem(WRONG_WORDS_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    console.error('Error getting wrong words:', error);
+    return [];
+  }
+};
+
+// 添加错题
+export const addWrongWord = (wrongWord: Omit<import('../types').WrongWord, 'id' | 'createdAt' | 'reviewCount'>): import('../types').WrongWord => {
+  try {
+    const wrongWords = getWrongWords();
+    // 检查是否已存在相同的错题
+    const exists = wrongWords.some(w => w.word === wrongWord.word && w.wrongType === wrongWord.wrongType);
+    if (exists) {
+      // 更新已存在的错题
+      const existing = wrongWords.find(w => w.word === wrongWord.word && w.wrongType === wrongWord.wrongType);
+      if (existing) {
+        existing.wrongAnswer = wrongWord.wrongAnswer;
+        existing.correctAnswer = wrongWord.correctAnswer;
+        existing.reviewCount += 1;
+        existing.lastReviewedAt = new Date().toISOString();
+        localStorage.setItem(WRONG_WORDS_KEY, JSON.stringify(wrongWords));
+        return existing;
+      }
+    }
+    const newWrongWord: import('../types').WrongWord = {
+      ...wrongWord,
+      id: `wrong_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+      reviewCount: 0,
+    };
+    wrongWords.unshift(newWrongWord);
+    localStorage.setItem(WRONG_WORDS_KEY, JSON.stringify(wrongWords));
+    return newWrongWord;
+  } catch (error) {
+    console.error('Error adding wrong word:', error);
+    throw error;
+  }
+};
+
+// 标记错题为已掌握
+export const markWrongWordMastered = (wrongWordId: string): boolean => {
+  try {
+    const wrongWords = getWrongWords();
+    const wrongWord = wrongWords.find(w => w.id === wrongWordId);
+    if (wrongWord) {
+      wrongWord.mastered = true;
+      wrongWord.masteredAt = new Date().toISOString();
+      localStorage.setItem(WRONG_WORDS_KEY, JSON.stringify(wrongWords));
+      return true;
+    }
+    return false;
+  } catch (error) {
+    console.error('Error marking wrong word as mastered:', error);
+    return false;
+  }
+};
+
+// 标记错题为未掌握
+export const markWrongWordNotMastered = (wrongWordId: string): boolean => {
+  try {
+    const wrongWords = getWrongWords();
+    const wrongWord = wrongWords.find(w => w.id === wrongWordId);
+    if (wrongWord) {
+      wrongWord.mastered = false;
+      wrongWord.masteredAt = undefined;
+      localStorage.setItem(WRONG_WORDS_KEY, JSON.stringify(wrongWords));
+      return true;
+    }
+    return false;
+  } catch (error) {
+    console.error('Error marking wrong word as not mastered:', error);
+    return false;
+  }
+};
+
+// 删除错题
+export const deleteWrongWord = (wrongWordId: string): boolean => {
+  try {
+    const wrongWords = getWrongWords();
+    const filtered = wrongWords.filter(w => w.id !== wrongWordId);
+    localStorage.setItem(WRONG_WORDS_KEY, JSON.stringify(filtered));
+    return true;
+  } catch (error) {
+    console.error('Error deleting wrong word:', error);
+    return false;
+  }
+};
+
+// 清空所有错题
+export const clearAllWrongWords = (): void => {
+  try {
+    localStorage.removeItem(WRONG_WORDS_KEY);
+  } catch (error) {
+    console.error('Error clearing all wrong words:', error);
+  }
+};
+
+// 获取未掌握的错题数量
+export const getUnmasteredWrongWordCount = (): number => {
+  return getWrongWords().filter(w => !w.mastered).length;
+};
+
+// 按类型获取错题
+export const getWrongWordsByType = (wrongType: import('../types').WrongType): import('../types').WrongWord[] => {
+  try {
+    const wrongWords = getWrongWords();
+    return wrongWords.filter(w => w.wrongType === wrongType);
+  } catch (error) {
+    console.error('Error getting wrong words by type:', error);
+    return [];
+  }
+};
+
+// ========== 艾宾浩斯复习相关 ==========
+
+const REVIEW_RECORDS_KEY = 'linguaread_review_records';
+
+// 获取复习记录列表
+export const getReviewRecords = (): import('../types').ReviewRecord[] => {
+  try {
+    const data = localStorage.getItem(REVIEW_RECORDS_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (error) {
+    console.error('Error getting review records:', error);
+    return [];
+  }
+};
+
+// 添加复习记录
+export const addReviewRecord = (record: Omit<import('../types').ReviewRecord, 'id' | 'createdAt'>): import('../types').ReviewRecord => {
+  try {
+    const records = getReviewRecords();
+    // 检查是否已存在
+    const exists = records.some(r => r.word === record.word);
+    if (exists) {
+      // 更新已存在的记录
+      const existing = records.find(r => r.word === record.word);
+      if (existing) {
+        Object.assign(existing, record);
+        existing.lastReviewedAt = new Date().toISOString();
+        localStorage.setItem(REVIEW_RECORDS_KEY, JSON.stringify(records));
+        return existing;
+      }
+    }
+    const newRecord: import('../types').ReviewRecord = {
+      ...record,
+      id: `review_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      createdAt: new Date().toISOString(),
+    };
+    records.unshift(newRecord);
+    localStorage.setItem(REVIEW_RECORDS_KEY, JSON.stringify(records));
+    return newRecord;
+  } catch (error) {
+    console.error('Error adding review record:', error);
+    throw error;
+  }
+};
+
+// 获取当天需要复习的单词
+export const getTodayReviewWords = (): import('../types').ReviewRecord[] => {
+  try {
+    const records = getReviewRecords();
+    const today = new Date().toISOString().split('T')[0];
+    return records.filter(r => r.nextReviewDate <= today);
+  } catch (error) {
+    console.error('Error getting today review words:', error);
+    return [];
+  }
+};
+
+// 更新复习记录（复习完成后）
+export const updateReviewRecord = (recordId: string, remembered: boolean): boolean => {
+  try {
+    const records = getReviewRecords();
+    const record = records.find(r => r.id === recordId);
+    if (record) {
+      // 根据是否记住更新间隔
+      if (remembered) {
+        // 前进到下一个复习阶段
+        if (record.reviewStage < 5) {
+          record.reviewStage += 1;
+        }
+        record.interval = EBBINGHAUS_INTERVALS[record.reviewStage - 1] || 15;
+        record.easeFactor = Math.min(record.easeFactor + 0.1, 2.5);
+      } else {
+        // 退回到上一个复习阶段
+        record.reviewStage = Math.max(1, record.reviewStage - 1);
+        record.interval = EBBINGHAUS_INTERVALS[record.reviewStage - 1] || 1;
+        record.easeFactor = Math.max(record.easeFactor - 0.2, 1.3);
+      }
+      // 计算下次复习日期
+      const nextDate = new Date();
+      nextDate.setDate(nextDate.getDate() + record.interval);
+      record.nextReviewDate = nextDate.toISOString().split('T')[0];
+      record.lastReviewedAt = new Date().toISOString();
+      localStorage.setItem(REVIEW_RECORDS_KEY, JSON.stringify(records));
+      return true;
+    }
+    return false;
+  } catch (error) {
+    console.error('Error updating review record:', error);
+    return false;
+  }
+};
+
+// 删除复习记录
+export const deleteReviewRecord = (recordId: string): boolean => {
+  try {
+    const records = getReviewRecords();
+    const filtered = records.filter(r => r.id !== recordId);
+    localStorage.setItem(REVIEW_RECORDS_KEY, JSON.stringify(filtered));
+    return true;
+  } catch (error) {
+    console.error('Error deleting review record:', error);
+    return false;
+  }
+};
+
+// 获取复习记录数量
+export const getReviewRecordCount = (): number => {
+  return getReviewRecords().length;
+};
+
+// 检查单词是否在复习计划中
+export const isWordInReview = (word: string): boolean => {
+  try {
+    const records = getReviewRecords();
+    return records.some(r => r.word.toLowerCase() === word.toLowerCase());
+  } catch (error) {
+    console.error('Error checking if word is in review:', error);
+    return false;
+  }
 };

@@ -44,6 +44,11 @@ interface AppContextType {
   quizHistory: QuizHistory[];
   addToQuizHistory: (history: QuizHistory) => void;
   refreshQuizHistory: () => void;
+
+  // 网络状态
+  isOnline: boolean;
+  offlineMode: boolean;
+  setOfflineMode: (offline: boolean) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -54,6 +59,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [favoriteArticles, setFavoriteArticles] = useState<FavoriteArticle[]>([]);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [quizHistory, setQuizHistory] = useState<QuizHistory[]>([]);
+  const [isOnline, setIsOnline] = useState(navigator.onLine);
+  const [offlineMode, setOfflineMode] = useState(false);
 
   // 初始化加载所有数据
   useEffect(() => {
@@ -61,6 +68,26 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     refreshFavoriteArticles();
     refreshBookmarks();
     refreshQuizHistory();
+  }, []);
+
+  // 监听网络状态变化
+  useEffect(() => {
+    const handleOnline = () => {
+      setIsOnline(true);
+      setOfflineMode(false);
+    };
+    const handleOffline = () => {
+      setIsOnline(false);
+      setOfflineMode(true);
+    };
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
   }, []);
 
   // 单词收藏相关
@@ -160,6 +187,11 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         quizHistory,
         addToQuizHistory,
         refreshQuizHistory,
+
+        // 网络状态
+        isOnline,
+        offlineMode,
+        setOfflineMode,
       }}
     >
       {children}
