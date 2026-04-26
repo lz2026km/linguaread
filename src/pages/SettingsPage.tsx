@@ -7,6 +7,17 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '5.7',
+    date: '2026-04-26',
+    changes: [
+      '全面重编教材内容，填充PEP人教版小学/初中/高中/大学英语真实课本结构',
+      '小学英语扩充至24个单元（3-6年级，每年级2册x6单元）',
+      '初中英语扩充至12个单元（七年级上下册各6单元）',
+      '高中英语扩充至12个单元（必修1-3，各4单元）',
+      '大学英语扩充至12个单元（综合教程上下册各6单元）',
+    ],
+  },
+  {
     version: '5.5.5',
     date: '2026-04-26',
     changes: [
@@ -341,7 +352,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.5.5</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.7</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>
