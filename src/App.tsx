@@ -19,6 +19,10 @@ import AIAssistantPage from './pages/AIAssistantPage';
 import VideoLearningPage from './pages/VideoLearningPage';
 import ExamPapersPage from './pages/ExamPapersPage';
 import LeaderboardPage from './pages/LeaderboardPage';
+import StatsPage from './pages/StatsPage';
+import AchievementPage from './pages/AchievementPage';
+import WrongBookPage from './pages/WrongBookPage';
+import ReviewPage from './pages/ReviewPage';
 import DownloadPage from './pages/DownloadPage';
 import ReportPage from './pages/ReportPage';
 
@@ -46,6 +50,10 @@ function App() {
           <Route path="/video-learning" element={<VideoLearningPage />} />
           <Route path="/exam-papers" element={<ExamPapersPage />} />
           <Route path="/leaderboard" element={<LeaderboardPage />} />
+          <Route path="/stats" element={<StatsPage />} />
+          <Route path="/achievements" element={<AchievementPage />} />
+          <Route path="/wrong-answers" element={<WrongBookPage />} />
+          <Route path="/review" element={<ReviewPage />} />
           <Route path="/download" element={<DownloadPage />} />
           <Route path="/report" element={<ReportPage />} />
         </Routes>
