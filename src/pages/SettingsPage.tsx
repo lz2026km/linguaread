@@ -28,7 +28,7 @@ const versionHistory = [
     ],
   },
   {
-    version: '5.35',
+    version: '5.3.5',
     date: '2026-04-26',
     changes: [
       '语法教程全面扩充：小学50→80个专题，初中111个，高中58个，大学42→100个，总计349个语法专题',
@@ -46,13 +46,13 @@ const versionHistory = [
     ],
   },
   {
-    version: '5.25',
+    version: '5.2.5',
     date: '2026-04-24',
     changes: [
       '修复文章列表页点击大学分类文章时崩溃的严重bug（articles数组concat错误导致undefined）',
       '修复getArticleById函数缺少空值防护导致运行时崩溃',
       '优化构建配置：articles chunk从1.56MB降至921KB（移除长文重复数据）',
-      '构建版本标识更新为v5.25',
+      '构建版本标识更新为v5.2.5',
     ],
   },
   {
@@ -341,7 +341,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.5</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.5.5</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>
