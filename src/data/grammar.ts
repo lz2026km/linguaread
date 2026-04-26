@@ -3489,6 +3489,806 @@ export const grammarData: GrammarItem[] = [
     ],
     createdAt: '2024-09-16',
   },
+
+  {
+    id: 'g-sen-59',
+    title: '虚拟语气 - if非真实条件句(过去)',
+    titleZh: 'if非真实条件句(与过去事实相反)',
+    level: 'senior',
+    category: 'voice',
+    content: `if从句使用过去完成时，主句使用would/could/might have done。
+
+与过去事实相反：
+If + 主语 + had + 过去分词..., 主语 + would/could/might have + 过去分词`,
+    examples: [
+      'If I had known about the traffic, I would have left earlier.',
+      'If she had arrived earlier, she could have caught the train.',
+      'If we had booked the hotel in advance, we would have saved money.',
+    ],
+    createdAt: '2024-09-17',
+  },
+
+  {
+    id: 'g-sen-60',
+    title: '虚拟语气 - if非真实条件句(将来)',
+    titleZh: 'if非真实条件句(与将来事实相反)',
+    level: 'senior',
+    category: 'voice',
+    content: `与将来事实相反，可能性较低的情况：
+
+If + 主语 + were to + 动词原形..., 主语 + would/could/might + 动词原形
+If + 主语 + 过去式(were)..., 主语 + would/could/might + 动词原形`,
+    examples: [
+      'If it were to rain tomorrow, the outdoor concert would be cancelled.',
+      'If I won the lottery, I would travel around the world.',
+      'If the project failed, we would lose everything.',
+    ],
+    createdAt: '2024-09-18',
+  },
+
+  {
+    id: 'g-sen-61',
+    title: '虚拟语气 - wish从句',
+    titleZh: 'wish后虚拟语气用法',
+    level: 'senior',
+    category: 'voice',
+    content: `wish后面的从句使用虚拟语气：
+
+wish + 主语 + 过去式（现在）
+wish + 主语 + had + 过去分词（过去）
+wish + 主语 + would/could + 动词原形（将来）`,
+    examples: [
+      'She wishes she had more time with her family.',
+      'He wishes he could speak three languages fluently.',
+      'I wish the weather would improve for our wedding.',
+    ],
+    createdAt: '2024-09-19',
+  },
+
+  {
+    id: 'g-sen-62',
+    title: '虚拟语气 - would rather/sooner',
+    titleZh: 'would rather/sooner后的虚拟语气',
+    level: 'senior',
+    category: 'voice',
+    content: `would rather/sooner表示宁愿，后面的从句使用虚拟语气：
+
+would rather + 主语 + 过去式（现在/将来）
+wish + 主语 + had + 过去分词（过去）`,
+    examples: [
+      'I would rather you came tomorrow than today.',
+      'He would sooner she had never met him.',
+      'They would rather we left early.',
+    ],
+    createdAt: '2024-09-20',
+  },
+
+  {
+    id: 'g-sen-63',
+    title: '虚拟语气 - suggest/demand等',
+    titleZh: 'suggest/demand等动词后的虚拟语气',
+    level: 'senior',
+    category: 'voice',
+    content: `表示建议、命令、要求的动词后的从句使用虚拟语气（should + 动词原形，should可省略）：
+
+suggest, demand, insist, recommend, require, request, propose, advise, order`,
+    examples: [
+      'The doctor suggested that he (should) quit smoking.',
+      'I demand that the company (should) apologize publicly.',
+      'She recommended that we (should) read the book before the movie.',
+    ],
+    createdAt: '2024-09-21',
+  },
+
+  {
+    id: 'g-sen-64',
+    title: '虚拟语气 - It is vital/important/necessary',
+    titleZh: 'It is vital/important/necessary后的虚拟语气',
+    level: 'senior',
+    category: 'voice',
+    content: `某些形容词后的that从句使用虚拟语气：
+
+It is vital/essential/important/necessary/urgent + that + 主语 + (should) + 动词原形`,
+    examples: [
+      'It is essential that everyone be on time.',
+      'It is vital that the project be completed by Friday.',
+      'It is necessary that all applicants submit forms on time.',
+    ],
+    createdAt: '2024-09-22',
+  },
+
+  {
+    id: 'g-sen-65',
+    title: '虚拟语气 - as if/though',
+    titleZh: 'as if/though 引导的虚拟语气',
+    level: 'senior',
+    category: 'voice',
+    content: `as if/though 引导的方式状语从句，使用虚拟语气：
+
+与现在事实相反：过去式
+与过去事实相反：had + 过去分词`,
+    examples: [
+      'He talks as if he knew everything.',
+      'She behaved as though she had never seen me before.',
+      'It looks as if it were going to rain.',
+    ],
+    createdAt: '2024-09-23',
+  },
+
+  {
+    id: 'g-sen-66',
+    title: '倒装句 - 否定词位于句首',
+    titleZh: '否定词位于句首时使用倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `否定词位于句首时，主谓必须部分倒装（助动词/情态动词位于主语前）：
+
+Never, Rarely, Seldom, Little, Not until, No sooner...than, Hardly...when, By no means, Under no circumstances`,
+    examples: [
+      'Never have I seen such a beautiful sunset.',
+      'Seldom does she complain about her work.',
+      'Not until I finished college did I realize the value of education.',
+    ],
+    createdAt: '2024-09-24',
+  },
+
+  {
+    id: 'g-sen-67',
+    title: '倒装句 - Only位于句首',
+    titleZh: 'Only+状语位于句首时倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `Only + 副词/介词短语/从句 位于句首时，主句使用部分倒装：
+
+Only then did I understand the problem.
+Only in this way can we succeed.`,
+    examples: [
+      'Only after the rain stopped were we able to leave.',
+      'Only in Beijing have I experienced such heavy traffic.',
+      'Only with your help can I finish this task.',
+    ],
+    createdAt: '2024-09-25',
+  },
+
+  {
+    id: 'g-sen-68',
+    title: '倒装句 - So/Such...that',
+    titleZh: 'So/Such...that 句型中倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `So/Such...that 句型中，将so或such置于句首时，使用倒装：
+
+So + adj./adv. + 助动词 + 主语 + 动词...
+Such + a/an + adj. + 可数名词单数 + 助动词 + 主语 + 动词...`,
+    examples: [
+      'So excited was she that she could not sleep.',
+      'Such an impressive performance did the team give that everyone applauded.',
+      'So deeply did the movie affect me that I cried.',
+    ],
+    createdAt: '2024-09-26',
+  },
+
+  {
+    id: 'g-sen-69',
+    title: '倒装句 - Here/There/Now简短句',
+    titleZh: 'Here/There/Now/Then引导简短句的倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `Here, There, Now, Then + 动词 + 主语（主语为名词时动词放前，主语为代词时正常语序）：
+
+Here comes the bus!
+Here it is. (代词主语不倒装)`,
+    examples: [
+      'Here comes the bus!',
+      'There goes the bell.',
+      'Now comes the important announcement.',
+    ],
+    createdAt: '2024-09-27',
+  },
+
+  {
+    id: 'g-sen-70',
+    title: '倒装句 - 地点状语位于句首',
+    titleZh: '地点状语位于句首时的倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `方位词/地点状语位于句首时，使用完全倒装（谓语动词全部提前）：
+
+Under the tree sat an old man.
+On the wall hangs a famous painting.
+
+注意：主语是代词时不倒装。`,
+    examples: [
+      'Around the corner waited a small cafe.',
+      'In the middle of the square stands a monument.',
+      'Next to the church is an old school building.',
+    ],
+    createdAt: '2024-09-28',
+  },
+
+  {
+    id: 'g-sen-71',
+    title: '倒装句 - Were/Had/Could替代if',
+    titleZh: 'Were/Had/Could虚拟语气倒装(省略if)',
+    level: 'senior',
+    category: 'sentence',
+    content: `在虚拟语气中，省略if，将were/had/could/should提至句首：
+
+Were I you, I would accept the offer. (= If I were you...)
+Had I known, I would have helped. (= If I had known...)
+Should it rain, we will stay indoors.`,
+    examples: [
+      'Had I realized the consequences, I would have acted differently.',
+      'Were the sun to disappear, life on Earth would end.',
+      'Should you need any assistance, please contact me.',
+    ],
+    createdAt: '2024-09-29',
+  },
+
+  {
+    id: 'g-sen-72',
+    title: '倒装句 - 助动词提前加强语气',
+    titleZh: '为加强语气而倒装',
+    level: 'senior',
+    category: 'sentence',
+    content: `为加强语气，将助动词提至句首（用于强调）：
+
+Does she really think she can win?
+Will I ever see her again? Never will I see her again.`,
+    examples: [
+      'Do I care? No, I do not!',
+      'Can he really be so stupid?',
+      'Will they succeed? They certainly will!',
+    ],
+    createdAt: '2024-09-30',
+  },
+
+  {
+    id: 'g-sen-73',
+    title: '强调句 - It is/was...that/who',
+    titleZh: '基本强调句结构',
+    level: 'senior',
+    category: 'sentence',
+    content: `强调句用于突出句子的某个成分：
+
+It is/was + 被强调部分 + that/who/whom + 其余句子
+
+强调状语时只用that，不用when/where/why。`,
+    examples: [
+      'It was Alice who helped me.',
+      'It was yesterday that I met him.',
+      'It was not the destination but the journey that matters.',
+    ],
+    createdAt: '2024-10-01',
+  },
+
+  {
+    id: 'g-sen-74',
+    title: '强调句 - 否定强调 not...until',
+    titleZh: 'It is/was not until...that强调',
+    level: 'senior',
+    category: 'sentence',
+    content: `强调直到...才时，使用It is/was not until...that结构：
+
+普通句：I did not leave until midnight.
+强调句：It was not until midnight that I left.`,
+    examples: [
+      'It was not until I graduated that I understood the value of patience.',
+      'It was not until I met you that my life changed.',
+      'Not until the sun set did we decide to leave.',
+    ],
+    createdAt: '2024-10-02',
+  },
+
+  {
+    id: 'g-sen-75',
+    title: '强调句 - What从句强调结构',
+    titleZh: 'What...is/was that强调',
+    level: 'senior',
+    category: 'sentence',
+    content: `What引导的强调结构：
+
+What I like about her is her kindness.
+What made him famous was his dedication.
+What we need most is time and patience.`,
+    examples: [
+      'What hurts me most is your indifference.',
+      'What inspired the movement was the desire for freedom.',
+      'What changed everything was a single moment of courage.',
+    ],
+    createdAt: '2024-10-03',
+  },
+
+  {
+    id: 'g-sen-76',
+    title: '强调句 - do/does/did强调谓语动词',
+    titleZh: 'do/does/did强调谓语动词',
+    level: 'senior',
+    category: 'sentence',
+    content: `do/does/did可置于动词前，表示强调（只用于肯定句）：
+
+do强调现在或一般现在时
+does强调第三人称单数现在时
+did强调过去时（动词用原形）`,
+    examples: [
+      'I do hope you can come.',
+      'She does work hard.',
+      'He did come yesterday.',
+    ],
+    createdAt: '2024-10-04',
+  },
+
+  {
+    id: 'g-sen-77',
+    title: '省略句 - 并列句中的省略',
+    titleZh: '并列句中相同成分的省略',
+    level: 'senior',
+    category: 'sentence',
+    content: `并列句中，第二个分句与第一个分句相同的部分可省略：
+
+I study English and she (studies) French.
+He can speak English but I cannot (speak English).`,
+    examples: [
+      'He is a teacher and she (is) a doctor.',
+      'You may go now or (you may) stay here.',
+      'Read the book and then (you should) answer the questions.',
+    ],
+    createdAt: '2024-10-05',
+  },
+
+  {
+    id: 'g-sen-78',
+    title: '省略句 - 条件句中的省略',
+    titleZh: '条件句中的省略(if省略)',
+    level: 'senior',
+    category: 'sentence',
+    content: `在if虚拟语气条件句中，if可省略，were/had/should提至句首：
+
+Were I you, I would take this opportunity.
+Had I known about it, I would have told you.
+Should you need help, call me anytime.`,
+    examples: [
+      'Were it to rain, we would cancel the picnic.',
+      'Had she seen him, she would have spoken.',
+      'Should anyone call, please take a message.',
+    ],
+    createdAt: '2024-10-06',
+  },
+
+  {
+    id: 'g-sen-79',
+    title: '省略句 - 问答中的省略',
+    titleZh: '问答中的省略',
+    level: 'senior',
+    category: 'sentence',
+    content: `在问答语境中，答句常省略与上文句意相同的部分：
+
+-Will you come? -Yes, I will. / No, I will not.
+-Who is there? -Only John (is there).`,
+    examples: [
+      '-Did you finish the work? -Almost (I have finished it).',
+      '-Where is the station? -Just around the corner (it is).',
+      '-Are you tired? -Very much (I am tired).',
+    ],
+    createdAt: '2024-10-07',
+  },
+
+  {
+    id: 'g-sen-80',
+    title: '省略句 - 关系从句中的省略',
+    titleZh: '关系从句中的省略',
+    level: 'senior',
+    category: 'sentence',
+    content: `关系代词在从句中作宾语时常省略：
+
+The book (which) I bought yesterday is interesting.
+This is the house (that/which) we live in.`,
+    examples: [
+      'The movie (that) I watched was fantastic.',
+      'The people (whom/who) I trust are my family.',
+      'The place (that/which) I dream about is Paris.',
+    ],
+    createdAt: '2024-10-08',
+  },
+
+  {
+    id: 'g-sen-81',
+    title: '省略句 - 口语中的常见省略',
+    titleZh: '口语中的常见省略',
+    level: 'senior',
+    category: 'sentence',
+    content: `口语中常省略主语、谓语或助词：
+
+Sounds good. (= It sounds good.)
+See you! (= I will see you.)
+What a nice day! (= What a nice day it is!)`,
+    examples: [
+      'Glad to meet you. (= I am glad to meet you.)',
+      'Need any help? (= Do you need any help?)',
+      'Too bad! (= That is too bad!)',
+    ],
+    createdAt: '2024-10-09',
+  },
+
+  {
+    id: 'g-sen-82',
+    title: '非谓语动词 - 不定式作主语',
+    titleZh: '不定式作主语',
+    level: 'senior',
+    category: 'voice',
+    content: `不定式（短语）可作主语：
+
+To learn a language takes time and effort.
+To err is human; to forgive is divine.
+
+常用it作形式主语，将真实主语（不定式）置于句末：
+It takes time to learn a language well.`,
+    examples: [
+      'To ignore the problem would be foolish.',
+      'It is important to arrive on time.',
+      'It is a privilege to work with such talented people.',
+    ],
+    createdAt: '2024-10-10',
+  },
+
+  {
+    id: 'g-sen-83',
+    title: '非谓语动词 - 不定式作宾语',
+    titleZh: '动词+不定式作宾语',
+    level: 'senior',
+    category: 'voice',
+    content: `某些动词后只能接不定式（短语）作宾语：
+
+agree, decide, demand, desire, expect, fail, hope, learn, manage, offer, plan, pretend, promise, refuse, wish
+
+I decided to study abroad.
+She hopes to become a doctor.`,
+    examples: [
+      'He promised to help us with the project.',
+      'I learned to play piano when I was young.',
+      'She refused to accept the offer.',
+    ],
+    createdAt: '2024-10-11',
+  },
+
+  {
+    id: 'g-sen-84',
+    title: '非谓语动词 - 动名词作宾语',
+    titleZh: '动词+动名词作宾语',
+    level: 'senior',
+    category: 'voice',
+    content: `某些动词后只能接动名词（短语）作宾语：
+
+admit, avoid, consider, delay, enjoy, escape, finish, imagine, include, keep, mind, miss, practice, quit, risk, suggest`,
+    examples: [
+      'I enjoy reading novels.',
+      'She suggested going to the cinema.',
+      'He quit smoking last year.',
+    ],
+    createdAt: '2024-10-12',
+  },
+
+  {
+    id: 'g-sen-85',
+    title: '非谓语动词 - 既可不定式也可动名词',
+    titleZh: '动词+不定式/动名词均可',
+    level: 'senior',
+    category: 'voice',
+    content: `有些动词后既可接不定式也可接动名词，意义不同：
+
+remember/forget + doing（已做） vs + to do（要做）
+try + doing（尝试做） vs + to do（努力做）
+stop + doing（停止做） vs + to do（停下来去做）`,
+    examples: [
+      'I remember meeting her at the party.',
+      'He tried learning Japanese.',
+      'I stopped smoking.',
+    ],
+    createdAt: '2024-10-13',
+  },
+
+  {
+    id: 'g-sen-86',
+    title: '非谓语动词 - 分词作定语',
+    titleZh: '现在分词/过去分词作定语',
+    level: 'senior',
+    category: 'voice',
+    content: `分词（短语）可作定语：
+
+现在分词：表示主动、进行
+The rising sun = The sun that is rising
+
+过去分词：表示被动、完成
+The broken window = The window that has been broken`,
+    examples: [
+      'The sleeping baby is very cute.',
+      'The people invited to the party are celebrities.',
+      'There are many unsolved problems in the world.',
+    ],
+    createdAt: '2024-10-14',
+  },
+
+  {
+    id: 'g-sen-87',
+    title: '非谓语动词 - 分词作状语',
+    titleZh: '现在分词/过去分词作状语',
+    level: 'senior',
+    category: 'voice',
+    content: `分词（短语）作状语，表示时间、原因、条件、结果、让步等：
+
+Seeing the teacher, the students stood up. (时间)
+Born in Beijing, he knows the city well. (原因)
+Given more time, we could finish it. (条件)
+
+分词作状语时，其逻辑主语须与主句主语一致。`,
+    examples: [
+      'Having finished the work, she went home.',
+      'Being tired, he fell asleep quickly.',
+      'If caught cheating, you will be expelled.',
+    ],
+    createdAt: '2024-10-15',
+  },
+
+  {
+    id: 'g-sen-88',
+    title: '非谓语动词 - 独立主格',
+    titleZh: '独立主格结构',
+    level: 'senior',
+    category: 'voice',
+    content: `独立主格结构：分词逻辑主语与主句主语不一致时使用
+
+结构：名词/代词 + 分词（短语）
+
+Weather permitting, we will go hiking.
+The experiment finished, we drew our conclusions.`,
+    examples: [
+      'The guide leading the way, we felt safe.',
+      'The sun having set, it became dark.',
+      'All things considered, the plan seems feasible.',
+    ],
+    createdAt: '2024-10-16',
+  },
+
+  {
+    id: 'g-sen-89',
+    title: '非谓语动词 - 感官动词后用法',
+    titleZh: '感官动词+宾语+分词/不定式',
+    level: 'senior',
+    category: 'voice',
+    content: `感官动词see/watch/hear/feel/smell/notice后：
+
++ 动词原形（强调动作全过程）
++ 现在分词（强调动作进行中）
++ 过去分词（强调被动）`,
+    examples: [
+      'I saw him enter the room.',
+      'I saw him entering the room.',
+      'I heard the song sung beautifully.',
+    ],
+    createdAt: '2024-10-17',
+  },
+
+  {
+    id: 'g-sen-90',
+    title: '非谓语动词 - 不定式的进行式和完成式',
+    titleZh: '不定式的进行式和完成式',
+    level: 'senior',
+    category: 'voice',
+    content: `不定式的进行式 to be + doing，表示与谓语同时进行：
+He seems to be working hard.
+
+不定式的完成式 to have + done，表示发生在谓语之前：
+He seems to have worked hard. (看起来曾经很努力)`,
+    examples: [
+      'She appears to be waiting for someone.',
+      'He claims to have visited Paris twice.',
+      'I am happy to have finally finished this project.',
+    ],
+    createdAt: '2024-10-18',
+  },
+
+  {
+    id: 'g-sen-91',
+    title: '高级从句 - what引导名词性从句',
+    titleZh: 'what引导主语/宾语/表语从句',
+    level: 'senior',
+    category: 'clause',
+    content: `what = the thing(s) that，引导名词性从句：
+
+主语：What you said is true.
+宾语：I do not believe what he told me.
+表语：The problem is what we should do next.
+
+what在从句中可充当主语/宾语/表语，而that不行。`,
+    examples: [
+      'What does not kill you makes you stronger.',
+      'I will give you what you need.',
+      'This is what I have been looking for.',
+    ],
+    createdAt: '2024-10-19',
+  },
+
+  {
+    id: 'g-sen-92',
+    title: '高级从句 - whatever/whoever/whichever',
+    titleZh: 'whatever/whoever/whichever让步名词性从句',
+    level: 'senior',
+    category: 'clause',
+    content: `whatever = anything that，whoever = anyone that，whichever = the one that：
+
+Whatever you say, I will not believe it.
+Whoever calls, tell them I am busy.
+Whichever plan you choose, I will support it.`,
+    examples: [
+      'Whoever is responsible will be punished.',
+      'Whichever direction you go, you will find a market.',
+      'I will buy whatever you recommend.',
+    ],
+    createdAt: '2024-10-20',
+  },
+
+  {
+    id: 'g-sen-93',
+    title: '高级从句 - 方式状语从句',
+    titleZh: 'as if/as though/however/no matter how引导',
+    level: 'senior',
+    category: 'clause',
+    content: `as if/though引导方式状语从句（谓语用虚拟语气）：
+
+He speaks as if he were an expert.
+However hard I tried, I could not convince him.
+No matter what you say, I will not change my mind.`,
+    examples: [
+      'She treats me as though I were a child.',
+      'However rich you may be, you cannot buy time.',
+      'No matter how hard he worked, he could not pass.',
+    ],
+    createdAt: '2024-10-21',
+  },
+
+  {
+    id: 'g-sen-94',
+    title: '高级从句 - 让步状语从句',
+    titleZh: 'though/although/even if/while让步',
+    level: 'senior',
+    category: 'clause',
+    content: `though, although, even if, while, whereas均可引导让步状语从句：
+
+Though/Although he is rich, he is not happy.
+Even if it rains, we will go. (即使，表假设性让步)
+While I understand your point, I disagree. (虽然，表对比)`,
+    examples: [
+      'Even if I fail, I will never give up.',
+      'Although tired, she continued walking.',
+      'While he is talented, he lacks experience.',
+    ],
+    createdAt: '2024-10-22',
+  },
+
+  {
+    id: 'g-sen-95',
+    title: '高级从句 - 结果状语从句',
+    titleZh: 'so...that/such...that/so that引导',
+    level: 'senior',
+    category: 'clause',
+    content: `结果状语从句：
+
+so + adj./adv. + that
+such + (a/an + adj. + n.) + that
+so that（结果，通常用逗号与主句分隔）`,
+    examples: [
+      'The movie was so popular that all tickets were sold out.',
+      'She is such a talented singer that everyone admires her.',
+      'He studied diligently, so he earned a promotion.',
+    ],
+    createdAt: '2024-10-23',
+  },
+
+  {
+    id: 'g-sen-96',
+    title: '高级从句 - 目的状语从句',
+    titleZh: 'so that/in order that/lest引导目的从句',
+    level: 'senior',
+    category: 'clause',
+    content: `目的状语从句：
+
+so that + can/could/will/would
+in order that（正式）
+in case + should/would（以防万一）
+
+I spoke slowly so that everyone could understand.
+Take an umbrella in case it rains.`,
+    examples: [
+      'He arrived early in order that he could get a good seat.',
+      'I will keep the document in case you need it.',
+      'She saved money so that she could travel after graduation.',
+    ],
+    createdAt: '2024-10-24',
+  },
+
+  {
+    id: 'g-sen-97',
+    title: '高级从句 - 定语从句(whose/whom)',
+    titleZh: 'whose/whom引导定语从句',
+    level: 'senior',
+    category: 'clause',
+    content: `whose（所有格关系代词）指人/物：
+The student whose homework is missing will be punished.
+
+whom（宾格关系代词）：
+The professor whom we met yesterday is very famous.
+（口语中whom常被who替代）`,
+    examples: [
+      'The man whom I rescued thanked me warmly.',
+      'Is there anyone whose phone number has changed?',
+      'The company whose CEO resigned recently is in crisis.',
+    ],
+    createdAt: '2024-10-25',
+  },
+
+  {
+    id: 'g-sen-98',
+    title: '高级从句 - 非限制性定语从句',
+    titleZh: '非限制性定语从句用法',
+    level: 'senior',
+    category: 'clause',
+    content: `非限制性定语从句：
+1. 用逗号与主句隔开
+2. 不可用that
+3. 对主句进行补充说明，省略后主句仍完整
+4. 可指代整个主句
+
+My brother, who lives in Shanghai, is a doctor.
+Beijing, which has hosted two Olympics, is a beautiful city.`,
+    examples: [
+      'My parents, who retired last year, are traveling around Asia.',
+      'The lecture, which lasted three hours, was extremely boring.',
+      'He failed the exam, which surprised everyone.',
+    ],
+    createdAt: '2024-10-26',
+  },
+
+  {
+    id: 'g-sen-99',
+    title: '高级从句 - The more...the more',
+    titleZh: 'The more...the more 结构',
+    level: 'senior',
+    category: 'clause',
+    content: `The more...the more（越...越...）结构：
+
+The more you learn, the more you realize you do not know.
+The harder you work, the greater the reward.
+
+主句用陈述语序，从句也用陈述语序。`,
+    examples: [
+      'The more you practice, the better you become.',
+      'The higher you climb, the colder it gets.',
+      'The longer you wait, the more impatient you become.',
+    ],
+    createdAt: '2024-10-27',
+  },
+
+  {
+    id: 'g-sen-100',
+    title: '高级从句 - 同位语从句',
+    titleZh: 'that引导同位语从句',
+    level: 'senior',
+    category: 'clause',
+    content: `同位语从句：that引导的名词性从句，解释说明抽象名词：
+
+fact, idea, belief, news, hope, decision, evidence, theory, promise, rumor
+
+The fact that he was late surprised everyone.
+
+that在同位语从句中不作任何成分，只起连接作用，不能省略。`,
+    examples: [
+      'The news that the company would close was shocking.',
+      'There is no evidence that he committed the crime.',
+      'He made a promise that he would never lie again.',
+    ],
+    createdAt: '2024-10-28',
+  },
+
   {
     id: 'g-uni-1',
     title: '高级定语从句 - 嵌套结构',
@@ -4879,6 +5679,1352 @@ export const grammarData: GrammarItem[] = [
     ],
     createdAt: '2024-12-29',
   },
+
+  {
+    id: 'g-uni-101',
+    title: '高级时态 - 将来进行时',
+    titleZh: '将来进行时 will be doing',
+    level: 'university',
+    category: 'tense',
+    content: `将来进行时：will be + 动词-ing，表示将来某时刻正在发生的动作：
+
+This time tomorrow, I will be flying to London.
+Will you be working late tonight?
+
+也用于表示自然发生或预料中即将发生的动作（比will do更委婉）。`,
+    examples: [
+      'By this time next year, I will be studying at university.',
+      'Will you be using the car later?',
+      'The team will be meeting at 3 PM to discuss the plan.',
+    ],
+    createdAt: '2024-10-29',
+  },
+
+  {
+    id: 'g-uni-102',
+    title: '高级时态 - 将来完成时',
+    titleZh: '将来完成时 will have done',
+    level: 'university',
+    category: 'tense',
+    content: `将来完成时：will have + 过去分词，表示将来某时刻之前已完成的动作：
+
+By 2030, I will have graduated from university.
+By the time you arrive, I will have finished cooking.
+
+常与by + 将来时间点连用。`,
+    examples: [
+      'By next month, she will have lived here for five years.',
+      'I will have read the entire book by Friday.',
+      'The project will have been completed by the end of the year.',
+    ],
+    createdAt: '2024-10-30',
+  },
+
+  {
+    id: 'g-uni-103',
+    title: '高级时态 - 将来完成进行时',
+    titleZh: '将来完成进行时 will have been doing',
+    level: 'university',
+    category: 'tense',
+    content: `将来完成进行时：will have been + 动词-ing，表示将来某时刻之前一直在进行的动作：
+
+By next July, I will have been working here for three years.
+
+强调动作的持续性，若不强调则用将来完成时。`,
+    examples: [
+      'He will have been learning English for ten years by then.',
+      'By the time the exam starts, she will have been revising for weeks.',
+      'They will have been waiting for over two hours when the bus finally arrives.',
+    ],
+    createdAt: '2024-10-31',
+  },
+
+  {
+    id: 'g-uni-104',
+    title: '高级时态 - 过去完成进行时',
+    titleZh: '过去完成进行时 had been doing',
+    level: 'university',
+    category: 'tense',
+    content: `过去完成进行时：had been + 动词-ing，表示过去某时刻之前一直在进行的动作：
+
+He was tired because he had been working all day.
+She realized she had been overthinking the problem.
+
+过去完成进行时强调动作在另一过去动作之前持续进行。`,
+    examples: [
+      'The man who had been sleeping soundly was awakened by the thunder.',
+      'I had been studying for hours when my friend called.',
+      'They had been discussing the issue for weeks before reaching a decision.',
+    ],
+    createdAt: '2024-11-01',
+  },
+
+  {
+    id: 'g-uni-105',
+    title: '高级语态 - 双重被动',
+    titleZh: '双重被动结构 be + past participle + to be done',
+    level: 'university',
+    category: 'voice',
+    content: `双重被动：主语既是第一个被动结构的宾语，又是第二个不定式的逻辑主语：
+
+The book is said to be translated into 50 languages. (据说被译成...)
+The problem is known to have been solved. (据悉已被解决)
+
+be said/reported/believed/expected + to have done（表示已完成）`,
+    examples: [
+      'The mayor is expected to be elected next month.',
+      'The ancient temple is believed to have been built in the 15th century.',
+      'The new policy is reported to be causing widespread concern.',
+    ],
+    createdAt: '2024-11-02',
+  },
+
+  {
+    id: 'g-uni-106',
+    title: '高级语态 - 假拟被动',
+    titleZh: '假拟被动（主动形式表示被动含义）',
+    level: 'university',
+    category: 'voice',
+    content: `某些动词的主动形式可表示被动含义（常见于need/want/require/deserve + doing）：
+
+The car needs washing. (= needs to be washed)
+The book is worth reading.
+The food smells tempting.
+
+这种情况多见于与物连用的动词，不强调动作执行者。`,
+    examples: [
+      'This problem requires careful thought. (= to be thought about)',
+      'The poem reads smoothly. (= can be read smoothly)',
+      'The fabric feels soft.',
+    ],
+    createdAt: '2024-11-03',
+  },
+
+  {
+    id: 'g-uni-107',
+    title: '高级语气 - 高级虚拟语气',
+    titleZh: '高级虚拟语气综合运用',
+    level: 'university',
+    category: 'voice',
+    content: `高级虚拟语气综合运用：
+
+1. if only + 过去式/had done（要是...就好了）
+2. lest + 主语 + should + 动词原形（以防万一）
+3. were it not for + 名词，... would have done（要不是因为）
+4. but for + 名词，... would have done（若非）
+
+If only I had studied harder in my youth!
+Were it not for your help, I would have failed.`,
+    examples: [
+      'If only I had taken her advice.',
+      'Lest anyone should doubt my words, I have evidence.',
+      'But for the scholarship, I would not have been able to attend university.',
+    ],
+    createdAt: '2024-11-04',
+  },
+
+  {
+    id: 'g-uni-108',
+    title: '高级句型 - 独立主格高级',
+    titleZh: '独立主格结构高级用法',
+    level: 'university',
+    category: 'sentence',
+    content: `独立主格结构高级用法：
+
+1. with + 宾语 + 分词/不定式/形容词
+With everything taken care of, we left.
+
+2. 介词with的独立结构
+With the rain having stopped, we continued our journey.
+
+3. 无动词独立主格（名词直接作主语）
+Hands clasped, eyes closed, she began to pray.`,
+    examples: [
+      'With the light on, he could not sleep.',
+      'The lecture over, the students rushed out.',
+      'Weather permitting, we will proceed as planned.',
+    ],
+    createdAt: '2024-11-05',
+  },
+
+  {
+    id: 'g-uni-109',
+    title: '高级句型 - 嵌入式定语从句',
+    titleZh: '嵌入式定语从句（先行词+定语+名词）',
+    level: 'university',
+    category: 'sentence',
+    content: `嵌入式定语从句：定语从句直接嵌套在名词短语中：
+
+I have lost the book which I bought yesterday.
+She is the only person that I have ever trusted completely.
+
+注意：先行词在主句和从句中同时承担角色。`,
+    examples: [
+      "The girl who won the competition is my sister's friend.",
+      'He mentioned a book which everyone should read at least once.',
+      'The place where we spent our vacation was absolutely stunning.',
+    ],
+    createdAt: '2024-11-06',
+  },
+
+  {
+    id: 'g-uni-110',
+    title: '高级句型 - 先行词+介词+关系代词',
+    titleZh: '介词+关系代词引导定语从句',
+    level: 'university',
+    category: 'sentence',
+    content: `介词+关系代词（whom/which）引导定语从句，介词位置决定关系代词不可省略：
+
+The person to whom you spoke is my professor.
+The city in which I was born is Beijing.
+
+which可与of/before/after等介词搭配，语气正式。`,
+    examples: [
+      'The doctor for whom we waited finally arrived.',
+      'The reason about which they argued was trivial.',
+      'The building in which we studied was demolished.',
+    ],
+    createdAt: '2024-11-07',
+  },
+
+  {
+    id: 'g-uni-111',
+    title: '高级句型 - 分裂句',
+    titleZh: '分裂句（Cleft Sentence）强调结构',
+    level: 'university',
+    category: 'sentence',
+    content: `分裂句：用it引导的强调句，将信息焦点放在句子某部分：
+
+It is the quality of the teaching that makes this school special.
+It was not until I graduated that I understood my teachers.
+
+也可用于where/who/why/what等引导的特殊疑问分裂句：
+What I need most is a good night's sleep.`,
+    examples: [
+      'It is not the destination but the journey that matters.',
+      'It was on the roof that we finally found the cat.',
+      'It is who you know, not what you know, that matters in business.',
+    ],
+    createdAt: '2024-11-08',
+  },
+
+  {
+    id: 'g-uni-112',
+    title: '高级句型 - 转移否定',
+    titleZh: '否定转移（not位置移动）',
+    level: 'university',
+    category: 'sentence',
+    content: `否定转移：not从真实否定位置（前移到从句）转移到句子的另一位置：
+
+I do not think (that) he is right. (= 我认为他不对)
+(not否定的不是I think，而是he is right)
+
+这类动词包括：think, believe, suppose, expect, imagine, seem, appear
+
+在正式书面语中，不转移的否定更客观：I think that he is not right.`,
+    examples: [
+      'I do not believe she will come.',
+      'I do not suppose he cares.',
+      'He does not seem to mind the noise.',
+    ],
+    createdAt: '2024-11-09',
+  },
+
+  {
+    id: 'g-uni-113',
+    title: '高级句型 - 介词短语作状语',
+    titleZh: '复杂介词短语作状语',
+    level: 'university',
+    category: 'sentence',
+    content: `复杂介词短语可作状语、定语、表语：
+
+because of, due to, owing to, thanks to, apart from, in spite of, with regard to, in addition to, as a result of, on behalf of
+
+Due to the heavy rain, the match was cancelled.
+Thanks to your help, we succeeded.`,
+    examples: [
+      'In spite of being exhausted, she continued working.',
+      'Because of the traffic, we were late for the meeting.',
+      'Thanks to modern technology, we can communicate instantly.',
+    ],
+    createdAt: '2024-11-10',
+  },
+
+  {
+    id: 'g-uni-114',
+    title: '高级从句 - 名词性从句综合',
+    titleZh: '名词性从句（主语/宾语/表语/同位语）综合',
+    level: 'university',
+    category: 'clause',
+    content: `名词性从句四种类型综合：
+
+主语：That he passed the exam surprised everyone.
+宾语：I believe that honesty is the best policy.
+表语：The truth is that I have never understood mathematics.
+同位语：The fact that he was absent surprised us.
+
+whether/if的区别：if只用于宾语从句，whether可用于所有名词性从句，且可与or not连用。`,
+    examples: [
+      'Whether we attend the conference remains undecided.',
+      'That she survived the accident is a miracle.',
+      'I wonder whether or not we should accept the offer.',
+    ],
+    createdAt: '2024-11-11',
+  },
+
+  {
+    id: 'g-uni-115',
+    title: '高级从句 - 状语从句缩合',
+    titleZh: '状语从句缩合为介词短语',
+    level: 'university',
+    category: 'clause',
+    content: `状语从句可缩合为介词短语（高级写作技巧）：
+
+when → on + 动名词/upon + 动名词
+If → in case of / in the event of
+because → due to / owing to
+although → despite / in spite of
+before → prior to
+after → following
+unless → without`,
+    examples: [
+      'On arriving at the station, I called a taxi. (= When I arrived...)',
+      'In case of emergency, call 110. (= If there is an emergency...)',
+      'Despite having failed twice, he attempted again. (= Although he had failed twice...)',
+    ],
+    createdAt: '2024-11-12',
+  },
+
+  {
+    id: 'g-uni-116',
+    title: '高级从句 - which/as引导非限制性定语从句',
+    titleZh: 'which/as引导非限制性定语从句指代主句',
+    level: 'university',
+    category: 'clause',
+    content: `which和as引导的非限制性定语从句可指代整个主句：
+
+which只能位于主句之后；as可位于主句之前、中间或之后：
+
+He made a great speech, which everyone appreciated.
+As is well known, practice makes perfect.
+The experiment, as we expected, was a great success.`,
+    examples: [
+      'She married him, which surprised many people.',
+      'As the saying goes, every cloud has a silver lining.',
+      'The result, as could be expected, was inconclusive.',
+    ],
+    createdAt: '2024-11-13',
+  },
+
+  {
+    id: 'g-uni-117',
+    title: '高级从句 - 介词+关系代词+ever',
+    titleZh: 'whatever/whoever + 介词结构',
+    level: 'university',
+    category: 'clause',
+    content: `介词与-ever词搭配，表示让步和名词性从句的双重功能：
+
+Whoever you marry, you must love her. (让步)
+You can invite whoever you want to the party. (名词性从句，宾语)
+Whichever of these books you choose, I will pay for it. (名词性从句，主语/宾语)`,
+    examples: [
+      'Whoever you ask, the answer will be the same.',
+      'Take whichever seat you like.',
+      'I will give the reward to whoever finds my cat.',
+    ],
+    createdAt: '2024-11-14',
+  },
+
+  {
+    id: 'g-uni-118',
+    title: '高级从句 - 先行词/主句/从句复杂关系',
+    titleZh: '分隔式定语从句和连环定语从句',
+    level: 'university',
+    category: 'clause',
+    content: `分隔式定语从句：先行词与定语从句被其他成分隔开：
+
+The time is coming when we will have to make a decision. (when提前)
+
+连环定语从句：用and/but连接两个定语从句修饰同一先行词：
+
+There was a man who called on her yesterday and who invited her to dinner.`,
+    examples: [
+      'The day will surely come when our dream becomes reality.',
+      'A student was caught who had been cheating on the exam.',
+      'There is a friend who is always there for me and who never judges me.',
+    ],
+    createdAt: '2024-11-15',
+  },
+
+  {
+    id: 'g-uni-119',
+    title: '高级词汇 - 易混淆动词辨析',
+    titleZh: '高级词汇：易混淆动词辨析',
+    level: 'university',
+    category: 'word',
+    content: `高级词汇：常见易混淆动词：
+
+-rise/raise/arise: 升起（不及物）/举起（及物）/产生
+-lie/lay: 躺（不及物）/放置（及物）
+-sit/set: 坐（不及物）/放置（及物）
+-hang/hung/hanged: 挂（规则/规则）/绞死（不规则）`,
+    examples: [
+      'The sun rises in the east and sets in the west.',
+      'Please lay the book on the table.',
+      'Difficulties arose during the construction process.',
+    ],
+    createdAt: '2024-11-16',
+  },
+
+  {
+    id: 'g-uni-120',
+    title: '高级词汇 - 名词可数性',
+    titleZh: '名词可数性：常见不可数名词',
+    level: 'university',
+    category: 'word',
+    content: `英语名词可数性是学习难点：
+
+常见不可数名词：
+advice, information, news, furniture, luggage, equipment, progress, research, scenery, jewelry, baggage, bread, damage, machinery
+
+常被误用为可数的词：
+people（民族/种族时可数：a people）, fish（条数时可数）, fruit（种类时可数）`,
+    examples: [
+      'I have some exciting news to share with you.',
+      'Two pieces of furniture were delivered today.',
+      'Each culture has its own customs and traditions.',
+    ],
+    createdAt: '2024-11-17',
+  },
+
+  {
+    id: 'g-uni-121',
+    title: '高级词汇 - 介词惯用搭配',
+    titleZh: '高级词汇：介词惯用搭配',
+    level: 'university',
+    category: 'word',
+    content: `高级词汇：固定介词搭配（高级英语写作必备）：
+
+形容词+介词：
+afraid of, aware of, capable of, fond of, proud of
+dependent on, independent of, based on, rich in
+
+动词+介词：
+consist of, differ from, belong to, rely on, insist on
+approve of, result in, result from, adapt to, adjust to`,
+    examples: [
+      'The group consists of ten members from different countries.',
+      'Success depends on hard work and opportunity.',
+      'She is proud of her achievements despite many challenges.',
+    ],
+    createdAt: '2024-11-18',
+  },
+
+  {
+    id: 'g-uni-122',
+    title: '高级词汇 - 形容词位置',
+    titleZh: '形容词顺序（多个形容词修饰名词）',
+    level: 'university',
+    category: 'word',
+    content: `多个形容词修饰名词时的顺序（口诀：县官行令宴国才）：
+
+县(限)-官(观)-行(形)-令(龄)-宴(色)-国(材)-才(途)
+
+限定词(冠词/物主代词) → 观点 → 大小/形状 → 新旧/温度 → 颜色 → 国籍/材料 → 用途/类别
+
+a beautiful small round old brown French writing desk
+a lovely big green antique Chinese carpet`,
+    examples: [
+      'The tall young American woman doctor saved the patient.',
+      'Three clever little white kittens played with a ball of wool.',
+      'She wore a beautiful long blue silk evening dress.',
+    ],
+    createdAt: '2024-11-19',
+  },
+
+  {
+    id: 'g-uni-123',
+    title: '高级词汇 - 副词位置',
+    titleZh: '副词在句中的位置',
+    level: 'university',
+    category: 'word',
+    content: `副词位置灵活，但位置不同强调点不同：
+
+只放句中（助动词后）：
+I have never seen such a movie. (= I have not ever...)
+
+放句首（最强调）：
+Never have I seen such a movie.
+
+频率副词在be动词/助动词/情态动词后，实义动词前：
+He is always late. / He always arrives late. / He will always be late.`,
+    examples: [
+      'I have already finished my homework.',
+      'She never doubts her abilities.',
+      'Clearly, he was not telling the truth.',
+    ],
+    createdAt: '2024-11-20',
+  },
+
+  {
+    id: 'g-uni-124',
+    title: '高级词汇 - 词根词缀构词法',
+    titleZh: '高级构词法：词根词缀扩展',
+    level: 'university',
+    category: 'word',
+    content: `高级构词法：常用拉丁词根：
+
+-ced/-ceed/-cess = 走（precede, exceed, success）
+-duct = 引导（conduct, deduce, introduce, produce）
+-spect = 看（inspect, respect, prospect, expect）
+-rupt = 断裂（interrupt, corrupt, erupt, bankrupt）
+-vert/vers = 转（convert, reverse, diverse, anniversary）`,
+    examples: [
+      'The ceremony will precede the main event.',
+      'His speech was interrupted by loud applause.',
+      'The diverse opinions enriched the discussion.',
+    ],
+    createdAt: '2024-11-21',
+  },
+
+  {
+    id: 'g-uni-125',
+    title: '高级词汇 - 同义词替换',
+    titleZh: '高级写作：同义词替换（避免重复）',
+    level: 'university',
+    category: 'word',
+    content: `高级写作中避免重复，使用同义词替换：
+
+important → significant, crucial, essential, vital, paramount
+many → numerous, a multitude of, a host of, countless
+because → due to the fact that, owing to, on account of, for the reason that
+think → argue, believe, contend, maintain, hold the view that`,
+    examples: [
+      'Crucial to the success of the project is effective communication.',
+      'A multitude of factors contributed to the outcome.',
+      'I maintain that education is the foundation of progress.',
+    ],
+    createdAt: '2024-11-22',
+  },
+
+  {
+    id: 'g-uni-126',
+    title: '高级表达 - 学术写作过渡词',
+    titleZh: '学术写作：段落过渡词',
+    level: 'university',
+    category: 'communication',
+    content: `学术写作常用过渡词（Topic/Control/Device信号词）：
+
+递进：furthermore, moreover, in addition, besides
+对比：however, nevertheless, on the contrary, in contrast
+因果：therefore, consequently, as a result, thus
+举例：for instance, specifically, namely, in particular
+结论：in conclusion, to sum up, overall, in summary`,
+    examples: [
+      'The experiment yielded significant results. Furthermore, these findings align with prior research.',
+      'The population is increasing rapidly. As a result, housing demand has surged.',
+      'In conclusion, the study confirms the initial hypothesis.',
+    ],
+    createdAt: '2024-11-23',
+  },
+
+  {
+    id: 'g-uni-127',
+    title: '高级表达 - 正式与非正式语体',
+    titleZh: '语体转换：正式与非正式表达',
+    level: 'university',
+    category: 'communication',
+    content: `英语语体分正式（书面/演讲）和非正式（口语）：
+
+非正式 → 正式：
+gonna → going to
+lots of → many/a great deal of
+many people → a considerable number of people
+I think → it is widely believed / in my view
+about → regarding / concerning
+so → therefore / consequently`,
+    examples: [
+      'In regard to your inquiry, I am pleased to provide the following information.',
+      'A considerable number of respondents expressed dissatisfaction with the service.',
+      'It is widely believed that climate change poses a significant threat to global biodiversity.',
+    ],
+    createdAt: '2024-11-24',
+  },
+
+  {
+    id: 'g-uni-128',
+    title: '高级表达 - 修辞问句',
+    titleZh: '修辞问句（反问句/设问句）',
+    level: 'university',
+    category: 'communication',
+    content: `修辞问句（Rhetorical Question）：形式为疑问句，实际为强烈陈述：
+
+Who knows? (= Nobody knows.)
+Isnt it wonderful? (= It is wonderful!)
+Who can blame him? (= Nobody can blame him.)
+
+设问句（Epistemic Question）：自问自答，引导思考：
+What is the meaning of life? It is a question that has puzzled philosophers for centuries.`,
+    examples: [
+      'Isnt it time we took action? (= We should take action now.)',
+      'Can anyone deny that the earth is round? (= No one can deny...)',
+      'Does anybody really care about the environment? (= Most people do not really care.)',
+    ],
+    createdAt: '2024-11-25',
+  },
+
+  {
+    id: 'g-uni-129',
+    title: '高级表达 - 平行结构',
+    titleZh: '平行结构（Parallelism）',
+    level: 'university',
+    category: 'communication',
+    content: `平行结构：用并列连词连接形式相同的成分：
+
+Not only...but also...：
+Not only did he finish the work, but he also enjoyed it.
+
+Both...and...：
+The course is both challenging and rewarding.
+
+Whether...or...：
+Whether you like it or not, you must follow the rules.
+
+平行结构要求动词形式一致，名词形式一致。`,
+    examples: [
+      'The book is both informative and entertaining.',
+      'She is talented as a singer and as a dancer.',
+      'You can choose to study hard or to fail the exam.',
+    ],
+    createdAt: '2024-11-26',
+  },
+
+  {
+    id: 'g-uni-130',
+    title: '高级表达 - 委婉语与夸张',
+    titleZh: '委婉语（Euphemism）与夸张（Hyperbole）',
+    level: 'university',
+    category: 'communication',
+    content: `委婉语（Euphemism）：用温和词语替代直接但可能冒犯的表达：
+
+die → pass away / breathe one's last
+poor → economically disadvantaged
+toilet → bathroom / rest room
+
+夸张（Hyperbole）：过度夸张以达到强调效果：
+I have told you a million times!
+I could sleep for a thousand years.`,
+    examples: [
+      'The company announced it would be downsizing. (euphemism for firing workers)',
+      'She is so hungry she could eat a horse. (hyperbole)',
+      'He is the tallest person in the world. (hyperbole for very tall)',
+    ],
+    createdAt: '2024-11-27',
+  },
+
+  {
+    id: 'g-uni-131',
+    title: '高级表达 - 隐喻与明喻',
+    titleZh: '隐喻(Metaphor)与明喻(Simile)',
+    level: 'university',
+    category: 'communication',
+    content: `明喻（Simile）：用like/as as连接两者：
+Life is like a journey.
+He works like a dog.
+
+隐喻（Metaphor）：直接说A是B：
+Life is a journey.
+Time is money.
+
+典故隐喻（Allusion）：引用神话、历史、文学典故：
+He is a real Romeo with women. (罗密欧)
+It is a Pandora's box. (潘多拉盒子)`,
+    examples: [
+      'Her eyes are like stars. (simile)',
+      'He has a heart of stone. (metaphor)',
+      "Opening that email was like opening a Pandora's box. (allusion)",
+    ],
+    createdAt: '2024-11-28',
+  },
+
+  {
+    id: 'g-uni-132',
+    title: '高级语法 - 情态动词综合',
+    titleZh: '情态动词综合：might/could/would/sHOULD',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `高级情态动词用法辨析：
+
+must not ≠ do not have to（禁止 vs 不必）
+can not ≠ cannot（能力否定 vs 禁止）
+might not ≠ may not（可能不 vs 可能不）
+should not ≠ ought not（不应该 vs 不应该）
+would not ≠ will not（意愿否定 vs 将来否定）
+
+could have done（过去可能性），should have done（本应该），would have done（本会）`,
+    examples: [
+      'You must not smoke here. (= it is forbidden)',
+      'You do not have to come if you are busy. (= it is not necessary)',
+      'I should have studied harder for the exam.',
+    ],
+    createdAt: '2024-11-29',
+  },
+
+  {
+    id: 'g-uni-133',
+    title: '高级语法 - must/cannot推断',
+    titleZh: 'must/cannot表推断（高级）',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `must表示对现在/过去事情的肯定推断：
+
+He must be at home. (= I am sure he is at home)
+He must have left. (= I am sure he left)
+
+cannot/could not表示否定推断：
+That cannot be true. (= I am sure it is not true)
+He cannot have done such a thing. (= I am sure he did not do it)`,
+    examples: [
+      'The lights are on. Someone must be home.',
+      'All the evidence points to him. He must have committed the crime.',
+      'The soup has been untouched. You cannot have tasted it.',
+    ],
+    createdAt: '2024-11-30',
+  },
+
+  {
+    id: 'g-uni-134',
+    title: '高级语法 - 倍数比较',
+    titleZh: '倍数表达法（高级比较）',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `倍数比较的多种表达方式：
+
+A is twice as big as B.
+A is twice the size of B.
+A is bigger than B by a factor of two.
+A is double the size of B.
+
+A is three times as tall as B. (= A is three times the height of B.)`,
+    examples: [
+      'This room is twice as large as that one.',
+      'The population of India is more than three times that of the United States.',
+      'The new model is 50% more efficient than the previous version.',
+    ],
+    createdAt: '2024-12-01',
+  },
+
+  {
+    id: 'g-uni-135',
+    title: '高级语法 - 比较级特殊结构',
+    titleZh: '比较级特殊结构：the more...the more/No more...than',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `比较级特殊结构：
+
+the more..., the more...（越...越...）
+The more you learn, the more you realize you do not know.
+
+no more...than = not any more...than（两者都不）
+He is no more a genius than I am. (= neither he nor I am a genius)
+
+not more...than = less clever...（前者不如后者）
+He is not more clever than his brother. (= his brother is cleverer)`,
+    examples: [
+      'The more you practice, the better you become.',
+      'Whales are no more fish than dogs are. (= neither whales nor dogs are fish)',
+      'This book is no more interesting than that one. (= both are uninteresting)',
+    ],
+    createdAt: '2024-12-02',
+  },
+
+  {
+    id: 'g-uni-136',
+    title: '高级语法 - 否定形式综合',
+    titleZh: '否定形式综合：全部否定/部分否定/双重否定',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `否定形式综合辨析：
+
+全部否定：none, neither, never, nobody, nothing, nowhere
+部分否定：not all, not every, not both, not always
+双重否定（表肯定）：not without, never without, cannot without
+
+Not all that glitters is gold. (= some glittering things are not gold)
+I cannot succeed without your help. (= with your help I can succeed)`,
+    examples: [
+      'Neither solution is satisfactory.',
+      'Not everyone agrees with this theory.',
+      'You cannot master a language without constant practice.',
+    ],
+    createdAt: '2024-12-03',
+  },
+
+  {
+    id: 'g-uni-137',
+    title: '高级语法 - 限定词综合',
+    titleZh: '限定词综合：冠词/物主/指示/不定/分配限定词',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `限定词搭配规则：
+
+前位限定词（each, both, half）+ 中位限定词（the, a/an, this, my, some）+ 后位限定词（many, several, few, last, next）
+
+both the teachers / half my time / all these books
+
+注意：同一类限定词不能重叠：
+the my book (X) / a some books (X) / this my book (X)`,
+    examples: [
+      'Both the students passed the exam.',
+      'Half my friends live abroad.',
+      'All those beautiful flowers have wilted.',
+    ],
+    createdAt: '2024-12-04',
+  },
+
+  {
+    id: 'g-uni-138',
+    title: '高级语法 - 替代与省略',
+    titleZh: '替代（Substitution）与省略（Ellipsis）的高级用法',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `高级替代与省略：
+
+替代：
+do so (= do that action, 与主语/时间一致)
+so do I (= 同样适用于我)
+
+倒述附和结构（Tag附和）：
+So it is with... / Nor can I...
+
+I enjoy reading. So do they. (= They enjoy reading too.)
+I do not smoke. Nor does he. (= He does not smoke either.)`,
+    examples: [
+      'She studies medicine, and so do I.',
+      'He never complains. Neither does she.',
+      'You should try harder. So should everyone else in the class.',
+    ],
+    createdAt: '2024-12-05',
+  },
+
+  {
+    id: 'g-uni-139',
+    title: '高级语法 - 反义疑问句高级',
+    titleZh: '反义疑问句（Tag Question）高级用法',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `反义疑问句高级用法：
+
+陈述部分有nobody/none/rarely/seldom时，疑问尾句用肯定：
+Nobody was hurt, were they?
+Seldom does he complain, does he?
+
+陈述部分有Im...时，疑问尾句为arent I?
+Im right, arent I?
+
+陈述部分有I think/believe...时，疑问尾句与that从句一致：
+I think he is coming, isnt he?`,
+    examples: [
+      'Nothing is impossible, is it?',
+      'I am taller than you, arent I?',
+      'She seldom goes out, does she?',
+    ],
+    createdAt: '2024-12-06',
+  },
+
+  {
+    id: 'g-uni-140',
+    title: '高级语法 - there be句型高级',
+    titleZh: 'there be句型高级用法',
+    level: 'university',
+    category: 'partOfSpeech',
+    content: `there be句型高级用法：
+
+there is likely/sure/bound to be = 很可能有
+There is likely to be a strong turnout at the meeting.
+
+there being + 名词/从句（独立主格）
+There being no further business, the meeting closed.
+
+there to be（不定式结构，常用于介词for后）
+For there to be another snowstorm seems unlikely.`,
+    examples: [
+      'There is certain to be a solution to this problem.',
+      'There being no guide, we got lost in the forest.',
+      'For there to be complete agreement seems impossible.',
+    ],
+    createdAt: '2024-12-07',
+  },
+
+  {
+    id: 'g-uni-141',
+    title: '高级表达 - 长难句分析',
+    titleZh: '长难句分析方法',
+    level: 'university',
+    category: 'reading',
+    content: `长难句分析步骤：
+
+1. 找谓语动词 → 确定主句核心
+2. 找从句引导词（that/which/who/when/if等）→ 识别从句
+3. 找介词短语 → 确定修饰关系
+4. 找非谓语（分词/不定式）→ 确定补充信息
+5. 确定句子主干 = 主语 + 谓语 + 宾语/表语
+
+The book which I bought yesterday, which was recommended by my teacher, is the most interesting one I have ever read.`,
+    examples: [
+      'Understanding what the author means requires careful analysis of the context.',
+      'The scientist who discovered the theory, whose work has influenced generations, was awarded the Nobel Prize.',
+      'What he said, whether true or false, must be carefully evaluated.',
+    ],
+    createdAt: '2024-12-08',
+  },
+
+  {
+    id: 'g-uni-142',
+    title: '高级表达 - 直接引语变间接引语',
+    titleZh: '直接引语转为间接引语（高级规则）',
+    level: 'university',
+    category: 'reading',
+    content: `间接引语高级规则（主句过去时时态倒拨）：
+
+say → tell sb / ask sb / advise sb / warn sb / order sb
+
+时态倒拨（除非主句为现在时）：
+will → would, can → could, shall → should, may → might
+this → that, these → those, here → there, now → then
+
+She said: I will come tomorrow.
+→ She said that she would come the next day.`,
+    examples: [
+      "He said: I have finished my work.\n→ He said that he had finished my work.",
+      "She asked: Will you come to the party?\n→ She asked if I would come to the party.",
+      "The teacher ordered: Stop talking!\n→ The teacher ordered us to stop talking.",
+    ],
+    createdAt: '2024-12-09',
+  },
+
+  {
+    id: 'g-uni-143',
+    title: '高级表达 - 一词多义与语境',
+    titleZh: '一词多义与语境依赖性',
+    level: 'university',
+    category: 'reading',
+    content: `一词多义是高级阅读理解的核心难点：
+
+bank: 河岸 / 银行 / 倾斜
+current: 当前 / 水流 / 气流
+novel: 小说 / 新颖的
+figure: 数字 / 人物 / 身材 / 认为
+address: 地址 / 演讲 / 处理
+
+语境决定词义：
+I need to address the issue. (= 处理)
+What is your home address? (= 住址)`,
+    examples: [
+      'The scientist made a novel contribution to the field.',
+      'The current of the river was too strong to swim against.',
+      'She figured that the solution was incorrect.',
+    ],
+    createdAt: '2024-12-10',
+  },
+
+  {
+    id: 'g-uni-144',
+    title: '高级表达 - 语篇衔接',
+    titleZh: '语篇衔接：衔接词与语义连贯',
+    level: 'university',
+    category: 'reading',
+    content: `语篇衔接手段：
+
+1. 词汇衔接：同义词、上下义词、重复
+2. 照应（Reference）：人称/指示/比较照应
+3. 连接（Conjunction）：递进/转折/因果/时间
+4. 词汇衔接（Collocation）：词语搭配形成的语义网
+
+Coherence（语义连贯）需要衔接手段支持：
+In addition to..., moreover,..., however,..., consequently,..., therefore...`,
+    examples: [
+      'First, the experiment was conducted. Then, the results were analyzed. Finally, conclusions were drawn.',
+      'Many species face extinction. This is a matter of great concern for biologists worldwide.',
+      'The population is increasing. Consequently, housing demand is rising.',
+    ],
+    createdAt: '2024-12-11',
+  },
+
+  {
+    id: 'g-uni-145',
+    title: '高级表达 - 信息焦点与尾重原则',
+    titleZh: '信息焦点与末端重量原则（End Weight）',
+    level: 'university',
+    category: 'reading',
+    content: `末端重量原则（End Weight）：信息量大的成分倾向于放在句尾，使句子更自然：
+
+I was shocked by [the unexpected and tragic death of his only son]. (长宾语)
+
+为实现末端重量，可使用：
+- there be句型：There is a book on the table that I bought yesterday.
+- 形式主语it：It is important to learn foreign languages.
+- 从句：The question is whether we can finish on time.`,
+    examples: [
+      'What I want to know is when the project will be completed.',
+      'There are many students in the classroom who study very late every night.',
+      'It is necessary to arrive at the airport three hours before the flight.',
+    ],
+    createdAt: '2024-12-12',
+  },
+
+  {
+    id: 'g-uni-146',
+    title: '高级表达 - 主述位结构',
+    titleZh: '主位-述位结构（Theme-Rheme）与信息流',
+    level: 'university',
+    category: 'reading',
+    content: `主位（Theme）= 话语出发点，述位（Rhyme）= 新信息：
+
+书面英语倾向：主位在前，新信息（述位）在后，形成从已知到新知的自然信息流。
+
+主题主位（Topical Theme）→ 语篇主位（Textual Theme）→ 人际主位（Interpersonal Theme）
+
+As for the results, they exceeded all expectations. (As for... = 语篇主位)`,
+    examples: [
+      'Regarding the budget, we need to discuss it further.',
+      'However difficult the problem may be, we should not give up.',
+      'In conclusion, the evidence clearly supports the hypothesis.',
+    ],
+    createdAt: '2024-12-13',
+  },
+
+  {
+    id: 'g-uni-147',
+    title: '高级表达 - 名词化',
+    titleZh: '名词化（Nominalization）与语法隐喻',
+    level: 'university',
+    category: 'reading',
+    content: `名词化：把动词/形容词转化为名词，是正式书面语的重要特征：
+
+If you decide = your decision
+To grow the economy = economic growth
+That he failed = his failure
+
+名词化使句子更客观、信息密度更高，是学术写作的核心技巧：
+The increase of temperature caused the ice to melt.
+(= Increasing the temperature caused the ice to melt.)`,
+    examples: [
+      'The transformation of the city has been remarkable. (= The city has been transformed...)',
+      'His refusal to cooperate led to serious consequences.',
+      'The development of artificial intelligence will reshape society.',
+    ],
+    createdAt: '2024-12-14',
+  },
+
+  {
+    id: 'g-uni-148',
+    title: '高级表达 - 模糊限制语',
+    titleZh: '学术写作中的模糊限制语（Hedging）',
+    level: 'university',
+    category: 'reading',
+    content: `模糊限制语（Hedging）：在学术写作中，用以表达不确定、谨慎或间接的语气：
+
+情态动词：may, might, could, would
+形容词/副词：perhaps, possibly, likely, unlikely, relatively
+动词：seem, appear, suggest, indicate, hypothesize
+
+This finding may suggest that the theory requires revision.
+The results appear to support the initial hypothesis.`,
+    examples: [
+      'It is possible that the treatment will prove effective.',
+      'The data seem to indicate a correlation between the two variables.',
+      'This interpretation might be contested by scholars with different perspectives.',
+    ],
+    createdAt: '2024-12-15',
+  },
+
+  {
+    id: 'g-uni-149',
+    title: '高级表达 - 学术摘要写作',
+    titleZh: '学术摘要的结构与常用表达',
+    level: 'university',
+    category: 'reading',
+    content: `学术摘要（Abstract）结构：背景(Background) → 目的(Objective) → 方法(Method) → 结果(Results) → 结论(Conclusion)
+
+常用表达：
+This study/paper investigates/examines...
+The objective/purpose of this research is to...
+The methodology involved... / Data were collected through...
+The results demonstrate/reveal/indicate that...
+In conclusion / The findings suggest / It is concluded that...`,
+    examples: [
+      'This paper examines the relationship between social media use and academic performance among university students.',
+      'The results indicate that excessive screen time is negatively correlated with learning outcomes.',
+      'In conclusion, the findings underscore the importance of digital literacy education.',
+    ],
+    createdAt: '2024-12-16',
+  },
+
+  {
+    id: 'g-uni-150',
+    title: '高级表达 - 图表描述',
+    titleZh: '雅思/托福图表描述常用表达',
+    level: 'university',
+    category: 'reading',
+    content: `图表描述写作常用表达：
+
+趋势词：increase/rise/grow, decrease/decline/drop, fluctuate, reach a peak/a plateau, remain stable/steady
+
+数据表达：
+The figure rose significantly from X to Y.
+There was a dramatic fall in Z between 2010 and 2020.
+The percentage peaked at X% in the year...
+Accounted for / represented / constituted / comprised
+
+对比：compared with / in contrast to / whereas / while`,
+    examples: [
+      'The sales increased dramatically from 50 million to 120 million units over the five-year period.',
+      'The population of rural areas accounted for 35% of the total, compared with 55% in urban areas.',
+      'The graph peaked at 80% in 2015, after which it fluctuated between 70% and 75%.',
+    ],
+    createdAt: '2024-12-17',
+  },
+
+  {
+    id: 'g-uni-151',
+    title: '高级表达 - 议论文写作',
+    titleZh: '议论文论点论据展开技巧',
+    level: 'university',
+    category: 'reading',
+    content: `议论文写作结构与论证方法：
+
+结构：引言(Thesis) → 正文(Body) → 结论(Conclusion)
+
+论证方法：
+举例论证（Exemplification）：For instance, ..., A case in point is...
+对比论证（Comparison/Contrast）：On the one hand..., on the other hand...
+因果论证（Cause and Effect）：Due to..., consequently..., as a result...
+引用论证（权威/数据）：According to..., Research shows that...`,
+    examples: [
+      'A striking example of technological impact on education is the widespread adoption of online learning platforms.',
+      'While some argue that..., others maintain that... The evidence, however, points to a more nuanced reality.',
+      'It can be argued that... This view is supported by the fact that...',
+    ],
+    createdAt: '2024-12-18',
+  },
+
+  {
+    id: 'g-uni-152',
+    title: '高级表达 - 正式信函与邮件',
+    titleZh: '正式信函与邮件写作格式',
+    level: 'university',
+    category: 'communication',
+    content: `正式信函与邮件写作要点：
+
+开头：I am writing to inquire about... / I am delighted to inform you that...
+
+请求：I would be grateful if you could... / Would it be possible for you to...?
+
+结束：I look forward to hearing from you. / Thank you for your time and consideration.
+
+附件：Please find attached... / I have attached...
+
+语气：避免口语化（gonna, wanna），使用would/could替代will/can`,
+    examples: [
+      'I am writing to apply for the position of Research Assistant advertised on your website.',
+      'Would it be possible to arrange a meeting at your earliest convenience?',
+      'Thank you for your prompt response to my inquiry.',
+    ],
+    createdAt: '2024-12-19',
+  },
+
+  {
+    id: 'g-uni-153',
+    title: '高级表达 - 演讲开场与结尾',
+    titleZh: '演讲开场（Opening）与结尾（Closing）技巧',
+    level: 'university',
+    category: 'communication',
+    content: `演讲开场白常用技巧：
+
+1. 引用名言：As the saying goes, ...
+2. 设问开场：Have you ever wondered...?
+3. 惊人数据：A recent study shows that...
+4. 个人故事：I would like to begin with a story...
+
+演讲结束语：
+In conclusion / To sum up / To conclude / In summary
+I leave you with this thought: ...
+Thank you for your attention. / I am happy to take questions.`,
+    examples: [
+      "As Mahatma Gandhi once said, 'Be the change you wish to see in the world.'",
+      "Three billion people worldwide still lack access to clean drinking water.",
+      "I would like to conclude with a quote from Nelson Mandela: 'It always seems impossible until it is done.'",
+    ],
+    createdAt: '2024-12-20',
+  },
+
+  {
+    id: 'g-uni-154',
+    title: '高级词汇 - 经济金融词汇',
+    titleZh: '经济学/金融学常用英语词汇',
+    level: 'university',
+    category: 'word',
+    content: `经济学/金融学核心词汇：
+
+GDP (Gross Domestic Product), GNP (Gross National Product)
+Inflation, deflation, recession, depression
+Fiscal policy, monetary policy
+Supply and demand, market equilibrium
+Import, export, trade deficit/surplus
+Stock, bond, share, dividend
+Unemployment rate, literacy rate
+Balance of payments, exchange rate`,
+    examples: [
+      'The GDP growth rate exceeded expectations, reaching 5.5% in the last quarter.',
+      'The central bank adjusted its monetary policy in response to rising inflation.',
+      'The country reported a trade surplus of $50 billion for the fiscal year.',
+    ],
+    createdAt: '2024-12-21',
+  },
+
+  {
+    id: 'g-uni-155',
+    title: '高级词汇 - 法律政治词汇',
+    titleZh: '法律/政治学常用英语词汇',
+    level: 'university',
+    category: 'word',
+    content: `法律/政治学核心词汇：
+
+Legislature, executive, judiciary / 三权分立
+Bill, act, law, regulation, clause, provision
+Democracy, autocracy, monarchy, theocracy
+Diplomacy, treaty, alliance, summit
+Amendment, constitution, charter, human rights
+Verdict, testimony, evidence, plaintiff, defendant
+Plurality, majority, coalition, opposition`,
+    examples: [
+      'The bill was passed by the legislature after months of debate.',
+      'The defendant was acquitted due to insufficient evidence.',
+      'The coalition government collapsed following disagreements on fiscal policy.',
+    ],
+    createdAt: '2024-12-22',
+  },
+
+  {
+    id: 'g-uni-156',
+    title: '高级词汇 - 科技与环境词汇',
+    titleZh: '科技/环境科学常用英语词汇',
+    level: 'university',
+    category: 'word',
+    content: `科技/环境科学核心词汇：
+
+Climate change, global warming, greenhouse effect
+Renewable energy, fossil fuels, carbon footprint
+Biodiversity, ecosystem, deforestation
+Artificial intelligence, machine learning, algorithm
+Sustainable development, carbon neutrality
+Species extinction, conservation, habitat
+Nuclear energy, renewable, solar, wind power`,
+    examples: [
+      'The increase in carbon emissions has accelerated global warming.',
+      'Artificial intelligence has revolutionized healthcare diagnostics.',
+      'Sustainable development requires balancing economic growth with environmental protection.',
+    ],
+    createdAt: '2024-12-23',
+  },
+
+  {
+    id: 'g-uni-157',
+    title: '高级词汇 - 心理学与社会学词汇',
+    titleZh: '心理学/社会学常用英语词汇',
+    level: 'university',
+    category: 'word',
+    content: `心理学/社会学核心词汇：
+
+Cognition, perception, consciousness, unconscious
+Behaviorism, Freudian, cognitive psychology
+Socialization, stratification, inequality
+Prejudice, discrimination, stereotype
+Identity, ethnicity, gender, multiculturalism
+样本sample, 变量variable, 假设hypothesis, 相关correlation
+实证研究empirical research, 田野调查fieldwork, 问卷survey`,
+    examples: [
+      'The study examined the correlation between social media use and symptoms of depression among adolescents.',
+      'Socialization agents such as family, school, and peers play a critical role in shaping individual identity.',
+      'The hypothesis was tested through a combination of qualitative fieldwork and quantitative surveys.',
+    ],
+    createdAt: '2024-12-24',
+  },
+
+  {
+    id: 'g-uni-158',
+    title: '高级表达 - 批判性思维',
+    titleZh: '批判性思维（Critical Thinking）表达',
+    level: 'university',
+    category: 'reading',
+    content: `批判性思维：质疑、分析、评估论点的能力：
+
+质疑：Is the evidence sufficient? Are there alternative explanations?
+
+表达不同意：
+I take issue with the claim that... / I beg to differ...
+This argument is flawed because... / This view overlooks...
+
+承认复杂性：
+While it is true that..., it is also important to consider...
+Admittedly, ... However, ... / On the one hand..., on the other hand...`,
+    examples: [
+      'Although the author presents compelling data, the argument fails to account for confounding variables.',
+      'I take issue with the assumption that economic growth necessarily improves quality of life.',
+      'The evidence, while suggestive, does not conclusively establish a causal relationship.',
+    ],
+    createdAt: '2024-12-25',
+  },
+
+  {
+    id: 'g-uni-159',
+    title: '高级表达 - 语言学基础',
+    titleZh: '语言学基础概念（语音/词汇/句法）',
+    level: 'university',
+    category: 'reading',
+    content: `语言学基础概念：
+
+语音学（Phonetics）：音标(IPA), 元音(vowel), 辅音(consonant), 重音(stress), 语调(intonation)
+
+形态学（Morphology）：词根(root), 词缀(affix: prefix/suffix), 屈折变化(inflection), 派生(derivation)
+
+句法学（Syntax）：主语(subject), 谓语(predicate), 宾语(object), 定语(attributive), 状语(adverbial)`,
+    examples: [
+      "The word 'unhappiness' consists of the prefix 'un-', the root 'happy', and the suffix '-ness'.",
+      "The phonological system of English includes 20 vowel sounds and 24 consonant sounds.",
+      "Syntactic analysis reveals that in 'The quick brown fox', 'quick' functions as an attributive modifying 'fox'.",
+    ],
+    createdAt: '2024-12-26',
+  },
+
+  {
+    id: 'g-uni-160',
+    title: '高级表达 - 跨文化交际',
+    titleZh: '跨文化交际中的语言差异',
+    level: 'university',
+    category: 'reading',
+    content: `跨文化交际中的语言差异：
+
+高低语境文化（High/Low Context）：
+高语境（中日韩）：委婉、含蓄、依赖共同文化背景
+低语境（欧美）：直接、明确、依赖语言本身
+
+称呼差异：
+中文：尊称（您）、职称+姓（王老师）
+英文：Mr./Ms. + 姓，或直呼名字
+
+礼貌原则：
+积极礼貌（Positive Politeness）vs 消极礼貌（Negative Politeness）
+间接请求比直接命令更礼貌`,
+    examples: [
+      "Directly saying 'No' to a superior is considered impolite in many Asian cultures.",
+      "English speakers often use indirect requests such as 'I was wondering if you could...' rather than 'Do this.'",
+      "The concept of 'face' (面子) in Chinese culture has no direct equivalent in Western linguistic frameworks.",
+    ],
+    createdAt: '2024-12-27',
+  },
+
 ];
 
 // 获取语法数据（按等级和分类筛选）

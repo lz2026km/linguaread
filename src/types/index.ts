@@ -82,7 +82,7 @@ export interface QuizQuestion {
   phonetic: string;
   correctAnswer: string;
   options: string[];
-  level: 'elementary' | 'junior' | 'senior';
+  level: 'elementary' | 'junior' | 'senior' | 'university';
 }
 
 // 测试历史记录模型

@@ -849,6 +849,568 @@ Good things happen to good people.`,
     difficulty: 1,
     createdAt: '2024-01-30',
   },
+  {
+    id: 'e31',
+    title: 'The Little Engine That Could',
+    titleZh: '小火车头做到了',
+    contentEn: `A little engine tried to pull a train up a steep hill.
+The big engines said they could not do it.
+The little engine said I think I can.
+She tried and tried with all her might.
+She pulled the train over the tall hill.
+It was a happy ending for everyone.
+Believing in yourself is very important.
+You can do anything if you try.`,
+
+    contentZh: `一个小火车头试图把火车拉上陡峭的山。
+大火车头说他们做不到。
+小火车头说我认为我可以。
+她用尽全力一次又一次地尝试。
+她把火车拉过了高山。
+每个人都有了幸福的结局。
+相信自己非常重要。
+只要你尝试，什么事都能做到。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 58,
+    difficulty: 1,
+    createdAt: '2024-02-01',
+  },
+  {
+    id: 'e32',
+    title: 'My Garden',
+    titleZh: '我的花园',
+    contentEn: `I have a small garden in my backyard.
+I planted some flowers and vegetables.
+The sunflowers grow very tall.
+The tomatoes turn red when they are ripe.
+I water my garden every morning.
+The bees come to visit the flowers.
+My garden is a peaceful place.
+I love spending time there.`,
+
+    contentZh: `我的后院有一个小花园。
+我种了一些花和蔬菜。
+向日葵长得非常高。
+西红柿成熟时会变成红色。
+我每天早上给花园浇水。
+蜜蜂来拜访花朵。
+我的花园是一个宁静的地方。
+我喜欢在那里度过时光。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Garden',
+    wordCount: 52,
+    difficulty: 1,
+    createdAt: '2024-02-02',
+  },
+  {
+    id: 'e33',
+    title: 'Why Do We Have Seasons?',
+    titleZh: '为什么我们有四季？',
+    contentEn: `The earth goes around the sun.
+It also tilts as it travels.
+When our part of the earth tilts toward the sun, it is summer.
+When we tilt away, it is winter.
+In between, we have spring and autumn.
+The seasons change all year round.
+This is why we have different weather.
+Science makes things easy to understand.`,
+
+    contentZh: `地球绕着太阳转。
+它在转动时也会倾斜。
+当地球朝向太阳倾斜时，是夏天。
+当我们倾斜远离时，是冬天。
+在两者之间，是春天和秋天。
+季节全年都在变化。
+这就是我们有不同天气的原因。
+科学让事情变得容易理解。`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Science Kids',
+    wordCount: 56,
+    difficulty: 1,
+    createdAt: '2024-02-03',
+  },
+  {
+    id: 'e34',
+    title: 'Jack and the Beanstalk',
+    titleZh: '杰克与魔豆',
+    contentEn: `Jack sells his cow for some magic beans.
+His mother is very angry.
+The beans grow into a huge beanstalk.
+Jack climbs up to the sky.
+He finds a giant's castle up there.
+Jack takes some gold and runs.
+He chops down the beanstalk.
+Never make deals with strangers.`,
+
+    contentZh: `杰克把他的牛换成了一些神奇的豆子。
+他妈妈非常生气。
+豆子长成了巨大的藤蔓。
+杰克爬上了天空。
+他在那里发现了一座巨人的城堡。
+杰克拿走了一些金子然后跑了。
+他砍倒了藤蔓。
+永远不要和陌生人做交易。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 54,
+    difficulty: 1,
+    createdAt: '2024-02-04',
+  },
+  {
+    id: 'e35',
+    title: 'My Mom',
+    titleZh: '我的妈妈',
+    contentEn: `My mom is the best in the world.
+She makes breakfast every morning.
+She helps me with my homework.
+She reads me stories at bedtime.
+Her smile makes me feel warm.
+She works hard every single day.
+I give her hugs and kisses.
+I love my mom forever.`,
+
+    contentZh: `我的妈妈是世界上最好的。
+她每天早上做早餐。
+她帮助我做作业。
+她在睡前给我讲故事。
+她的微笑让我感到温暖。
+她每天都很努力地工作。
+我给她拥抱和亲吻。
+我会永远爱我的妈妈。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Kids',
+    wordCount: 50,
+    difficulty: 1,
+    createdAt: '2024-02-05',
+  },
+  {
+    id: 'e36',
+    title: 'Fire Safety',
+    titleZh: '消防安全',
+    contentEn: `Fire can be very dangerous.
+We should never play with matches.
+If we see fire, we must tell an adult.
+We should have a fire escape plan.
+Stay low if there is smoke.
+Test the door before opening it.
+Know the emergency number 119.
+Safety first always!`,
+
+    contentZh: `火可能非常危险。
+我们永远不应该玩火柴。
+如果我们看到火，必须告诉大人。
+我们应该有一个火灾逃生计划。
+如果有烟，要保持低姿态。
+开门前要先测试一下。
+记住紧急电话号码119。
+安全第一！`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Safety',
+    wordCount: 48,
+    difficulty: 1,
+    createdAt: '2024-02-06',
+  },
+  {
+    id: 'e37',
+    title: 'The Enormous Turnip',
+    titleZh: '巨大的萝卜',
+    contentEn: `An old man plants a turnip.
+The turnip grows enormous.
+He tries to pull it out but cannot.
+He calls his wife to help.
+Still, they cannot pull it out.
+They call the granddaughter.
+Then the dog and the cat.
+Together, they finally pull it out.
+Teamwork makes the dream work.`,
+
+    contentZh: `一个老爷爷种了一个萝卜。
+萝卜长得非常巨大。
+他试图把它拔出来但拔不动。
+他叫老奶奶来帮忙。
+还是拔不出来。
+他们叫来了孙女。
+然后是狗和猫。
+大家一起，终于把它拔了出来。
+团队合作让梦想成真。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 62,
+    difficulty: 1,
+    createdAt: '2024-02-07',
+  },
+  {
+    id: 'e38',
+    title: 'Going to the Dentist',
+    titleZh: '看牙医',
+    contentEn: `I go to the dentist twice a year.
+The dentist checks my teeth.
+She counts my teeth one by one.
+Then she cleans them with a spinning brush.
+It tickles a little bit.
+I must brush my teeth every day.
+Too many sweets are not good.
+The dentist says my teeth are healthy.`,
+
+    contentZh: `我每年去看两次牙医。
+牙医检查我的牙齿。
+她一个一个地数我的牙齿。
+然后用旋转的刷子清洁它们。
+有点痒痒的。
+我必须每天刷牙。
+吃太多甜食不好。
+牙医说我的牙齿很健康。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Health',
+    wordCount: 54,
+    difficulty: 1,
+    createdAt: '2024-02-08',
+  },
+  {
+    id: 'e39',
+    title: 'The Food Chain',
+    titleZh: '食物链',
+    contentEn: `All living things need food.
+Plants make their own food.
+Rabbits eat plants.
+Foxes eat rabbits.
+When foxes die, they become food for plants.
+This is how the food chain works.
+Energy passes from one to another.
+We are all connected in nature.`,
+
+    contentZh: `所有生物都需要食物。
+植物自己制造食物。
+兔子吃植物。
+狐狸吃兔子。
+当狐狸死后，它们成为植物的食物。
+这就是食物链的工作方式。
+能量从一个传递到另一个。
+我们在自然界中都是相连的。`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Nature',
+    wordCount: 52,
+    difficulty: 1,
+    createdAt: '2024-02-09',
+  },
+  {
+    id: 'e40',
+    title: 'Snow White',
+    titleZh: '白雪公主',
+    contentEn: `Snow White has a wicked stepmother.
+The queen is jealous of her beauty.
+Snow White runs away to the forest.
+She meets seven kind dwarfs.
+The wicked queen gives her a poison apple.
+A prince saves her with true love.
+The evil queen gets her punishment.
+Goodness always wins over evil.`,
+
+    contentZh: `白雪公主有一个邪恶的继母。
+皇后嫉妒她的美貌。
+白雪公主逃到了森林里。
+她遇到了七个善良的小矮人。
+邪恶的皇后给了她一个毒苹果。
+王子用真爱救了她。
+邪恶的皇后得到了惩罚。
+善良总是战胜邪恶。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 58,
+    difficulty: 1,
+    createdAt: '2024-02-10',
+  },
+  {
+    id: 'e41',
+    title: 'My Dad',
+    titleZh: '我的爸爸',
+    contentEn: `My dad is tall and strong.
+He teaches me to ride a bike.
+He plays soccer with me on weekends.
+He makes funny jokes at dinner.
+I sit on his shoulders at the park.
+He tucks me in at night.
+My dad is my hero.
+I want to be like him someday.`,
+
+    contentZh: `我的爸爸又高又壮。
+他教我骑自行车。
+周末他和我一起踢足球。
+他在晚餐时讲有趣的笑话。
+我在公园里坐在他的肩膀上。
+他晚上给我掖被子。
+我的爸爸是我的英雄。
+我希望有一天能像他一样。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Kids',
+    wordCount: 52,
+    difficulty: 1,
+    createdAt: '2024-02-11',
+  },
+  {
+    id: 'e42',
+    title: 'Magnets',
+    titleZh: '磁铁',
+    contentEn: `Magnets can push and pull things.
+Not all metals are magnetic.
+Iron and steel are magnetic.
+North pole attracts south pole.
+North pole repels north pole.
+Magnets are used in many things.
+Speakers and motors use magnets.
+Magnets are really cool!`,
+
+    contentZh: `磁铁可以推拉东西。
+不是所有的金属都有磁性。
+铁和钢是有磁性的。
+北极吸引南极。
+北极排斥北极。
+磁铁被用在很多东西上。
+扬声器和电机使用磁铁。
+磁铁真的很酷！`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Science Kids',
+    wordCount: 48,
+    difficulty: 1,
+    createdAt: '2024-02-12',
+  },
+  {
+    id: 'e43',
+    title: 'Puss in Boots',
+    titleZh: '穿靴子的猫',
+    contentEn: `A clever cat helps his master.
+He dresses in boots like a noble.
+The cat catches rabbits for the king.
+He makes his master seem very rich.
+The king likes the master very much.
+The master marries the princess.
+The cat becomes a great lord.
+Cleverness beats strength every time.`,
+
+    contentZh: `一只聪明的猫帮助它的主人。
+它穿得像贵族一样戴着靴子。
+猫为国王抓兔子。
+它让主人看起来非常富有。
+国王非常喜欢这个主人。
+主人娶了公主。
+猫成了伟大的领主。
+聪明总是战胜力量。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 58,
+    difficulty: 1,
+    createdAt: '2024-02-13',
+  },
+  {
+    id: 'e44',
+    title: 'At the Beach',
+    titleZh: '在海滩上',
+    contentEn: `The beach is full of fun things.
+I build sandcastles with my bucket.
+The waves splash on my feet.
+I collect pretty shells in a bag.
+Seagulls fly overhead in the sky.
+I swim in the cool blue water.
+The sun sets and the sky turns orange.
+What a perfect day at the beach!`,
+
+    contentZh: `海滩上满是好玩的东西。
+我用桶堆沙堡。
+海浪溅在我的脚上。
+我在袋子里收集漂亮的贝壳。
+海鸥在头顶的天空中飞翔。
+我在凉爽的蓝色海水里游泳。
+太阳落山，天空变成橙色。
+在海滩完美的一天！`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Vacation',
+    wordCount: 54,
+    difficulty: 1,
+    createdAt: '2024-02-14',
+  },
+  {
+    id: 'e45',
+    title: 'The Butterfly Life Cycle',
+    titleZh: '蝴蝶的生命周期',
+    contentEn: `A butterfly starts as a tiny egg.
+The egg becomes a caterpillar.
+The caterpillar eats and grows bigger.
+It makes a cocoon around itself.
+Inside, it changes completely.
+Then a beautiful butterfly comes out.
+It flies around looking for flowers.
+The cycle starts all over again.`,
+
+    contentZh: `蝴蝶从一个小小的卵开始。
+卵变成毛毛虫。
+毛毛虫吃东西，越长越大。
+它在身体周围结了一个茧。
+在里面，它完全改变了。
+然后一只美丽的蝴蝶出来了。
+它飞来飞去寻找花朵。
+这个循环又开始重复了。`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Nature',
+    wordCount: 52,
+    difficulty: 1,
+    createdAt: '2024-02-15',
+  },
+  {
+    id: 'e46',
+    title: "The Emperor's New Clothes",
+    titleZh: '皇帝的新装',
+    contentEn: `A king loves nice new clothes.
+Two tricksters say they can make magic clothes.
+Only wise people can see them.
+Everyone pretends they see the clothes.
+A little boy says the king has no clothes.
+Everyone laughs at the king.
+The boy is the only one telling the truth.
+Always be honest like the boy.`,
+
+    contentZh: `国王喜欢漂亮的新衣服。
+两个骗子说他们能做神奇的衣服。
+只有聪明的人才能看见。
+每个人都假装看见了衣服。
+一个小男孩说国王没穿衣服。
+每个人都嘲笑国王。
+这个男孩是唯一说真话的人。
+要像这个男孩一样永远诚实。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Andersen',
+    wordCount: 58,
+    difficulty: 1,
+    createdAt: '2024-02-16',
+  },
+  {
+    id: 'e47',
+    title: 'My Classroom',
+    titleZh: '我的教室',
+    contentEn: `My classroom is bright and clean.
+There are many desks and chairs.
+A big blackboard hangs on the wall.
+My teacher's desk is in front.
+We have colorful posters everywhere.
+My backpack hangs on my hook.
+The clock tells us when it is time.
+I love learning in my classroom.`,
+
+    contentZh: `我的教室明亮干净。
+有很多桌子和椅子。
+一块大黑板挂在墙上。
+老师的桌子在前面。
+我们到处都有彩色的海报。
+我的书包挂在我的挂钩上。
+时钟告诉我们什么时候该做什么。
+我喜欢在我的教室里学习。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'School',
+    wordCount: 54,
+    difficulty: 1,
+    createdAt: '2024-02-17',
+  },
+  {
+    id: 'e48',
+    title: 'Electricity',
+    titleZh: '电',
+    contentEn: `Electricity is very powerful.
+It lights our homes and schools.
+We must be careful with electricity.
+Water and electricity do not mix.
+Lightning is electricity in nature.
+Batteries store electricity too.
+We should turn off lights when leaving.
+Electricity makes life easier.`,
+
+    contentZh: `电是非常强大的。
+它点亮我们的家和学校。
+我们必须小心使用电。
+水和电不能混合。
+闪电是自然界中的电。
+电池也能储存电。
+离开时应该关灯。
+电让生活更轻松。`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Science Kids',
+    wordCount: 46,
+    difficulty: 1,
+    createdAt: '2024-02-18',
+  },
+  {
+    id: 'e49',
+    title: 'Beauty and the Beast',
+    titleZh: '美女与野兽',
+    contentEn: `A kind girl named Belle lives in a village.
+Her father picks a rose for her.
+A beast captures her father.
+Belle goes to the castle to save him.
+The Beast is actually a prince inside.
+They become friends over time.
+True love breaks the spell.
+Beauty is more than how you look.`,
+
+    contentZh: `一个叫贝儿的善良女孩住在村子里。
+她父亲为她摘了一朵玫瑰。
+一个野兽抓住了她父亲。
+贝儿去城堡救他。
+野兽内心其实是一个王子。
+随着时间的推移，他们成为了朋友。
+真爱打破了魔法。
+美不仅仅是外表。`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Fairy Tale',
+    wordCount: 60,
+    difficulty: 1,
+    createdAt: '2024-02-19',
+  },
+  {
+    id: 'e50',
+    title: 'My Grandparents',
+    titleZh: '我的祖父母',
+    contentEn: `My grandparents are very kind.
+They live in a cozy house.
+Grandma bakes delicious cookies.
+Grandpa tells me old stories.
+They have a big garden with flowers.
+I visit them every summer.
+They give the best hugs ever.
+I am lucky to have them.`,
+
+    contentZh: `我的祖父母非常善良。
+他们住在一个舒适的房子里。
+奶奶烤美味的饼干。
+爷爷给我讲古老的故事。
+他们有一个种满鲜花的大花园。
+我每年夏天都去看他们。
+他们给了我最温暖的拥抱。
+我很幸运有他们。`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Family',
+    wordCount: 50,
+    difficulty: 1,
+    createdAt: '2024-02-20',
+  },
 
   // ==========================================
   // 初中 (Junior High Level) - 30篇
@@ -1242,6 +1804,266 @@ Good things happen to good people.`,
     wordCount: 78,
     difficulty: 2,
     createdAt: '2024-03-01',
+  },
+  {
+    id: 'j31',
+    title: 'The Importance of Time Management',
+    titleZh: '时间管理的重要性',
+    contentEn: `Time management is a crucial skill for students. Good time management helps us balance study and leisure. We should make a schedule to organize our daily activities. Prioritizing important tasks leads to better results. Procrastination wastes valuable time and causes stress. By managing time wisely, we can achieve our goals and still have time for hobbies. Remember, time lost cannot be recovered. Let's use every minute productively.`,
+    contentZh: `时间管理是学生的一项关键技能。良好的时间管理帮助我们平衡学习和休闲。我们应该制定计划来组织日常活动。优先处理重要任务会带来更好的结果。拖延会浪费宝贵的时间并造成压力。通过明智地管理时间，我们可以实现目标，同时还有时间培养爱好。请记住，失去的时间无法挽回。让我们有效地利用每一分钟。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Student Life',
+    wordCount: 88,
+    difficulty: 2,
+    createdAt: '2024-03-02',
+  },
+  {
+    id: 'j32',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `Every child has a dream career. Some want to be doctors, others want to be teachers. I dream of becoming a software engineer. I am fascinated by technology and how computers work. I enjoy creating programs that solve problems. Technology is the future, and I want to be part of it. To achieve my dream, I must study hard and learn programming languages. Dreams give us direction and motivation.`,
+    contentZh: `每个孩子都有梦想的职业。有些人想成为医生，有些人想成为老师。我的梦想是成为一名软件工程师。我对科技和计算机的工作原理很着迷。我喜欢创建解决问题的程序。科技是未来，我想成为其中的一部分。为了实现我的梦想，我必须努力学习编程语言。梦想给我们方向和动力。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Young Coder',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-03',
+  },
+  {
+    id: 'j33',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康的饮食习惯',
+    contentEn: `Healthy eating is essential for our body and mind. We should eat more vegetables and fruits every day. They provide vitamins and minerals that keep us strong. We should avoid too much junk food and sugary drinks. Drinking enough water is also important for good health. Breakfast is the most important meal of the day. A balanced diet gives us energy to study and play. Let's develop healthy eating habits from now on.`,
+    contentZh: `健康饮食对我们的身心至关重要。我们每天应该多吃蔬菜和水果。它们提供保持我们健康的维生素和矿物质。我们应该避免太多的垃圾食品和含糖饮料。多喝水对健康也很重要。早餐是一天中最重要的一餐。均衡的饮食给我们学习和玩耍的能量。让我们从现在开始养成健康的饮食习惯。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Health Coach',
+    wordCount: 90,
+    difficulty: 2,
+    createdAt: '2024-03-04',
+  },
+  {
+    id: 'j34',
+    title: 'The Wonders of Space Exploration',
+    titleZh: '太空探索的奇妙',
+    contentEn: `Space exploration has always fascinated humans. Since the first moon landing, we have made incredible progress. Satellites help us communicate and navigate. Space telescopes let us see distant galaxies. Mars rovers are searching for signs of life. Some scientists believe humans will live on other planets one day. Space research has also improved our daily lives with new technologies. The universe is vast and full of mysteries waiting to be solved.`,
+    contentZh: `太空探索一直让人类着迷。自从第一次登月以来，我们取得了令人难以置信的进步。卫星帮助我们通信和导航。太空望远镜让我们看到遥远的星系。火星探测器正在寻找生命的迹象。一些科学家认为人类有一天会生活在其他星球上。太空研究也通过新技术改善了我们的日常生活。宇宙浩瀚无垠，充满了等待解决的谜团。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Space Fan',
+    wordCount: 96,
+    difficulty: 2,
+    createdAt: '2024-03-05',
+  },
+  {
+    id: 'j35',
+    title: 'My Favorite Festival',
+    titleZh: '我最喜欢的节日',
+    contentEn: `Chinese New Year is my favorite festival. It is celebrated in January or February. Before the new year, families clean their homes and decorate them with red decorations. On New Year's Eve, we have a big dinner with fish, dumplings, and many delicious dishes. We also give red envelopes with lucky money to children. During the festival, we watch dragon dances and set off firecrackers. It is a time for family reunion and celebration.`,
+    contentZh: `春节是我最喜欢的节日。它在一月或二月庆祝。在新年前，家庭打扫房屋，用红色装饰品装饰。除夕夜，我们吃鱼、饺子和许多美味的菜肴作为大餐。我们也给孩子们的红包里装压岁钱。节日期间，我们观看舞龙和放鞭炮。这是家庭团聚和庆祝的时刻。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Tradition',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-06',
+  },
+  {
+    id: 'j36',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is important for maintaining good health. Physical activity strengthens our muscles and bones. It also improves our cardiovascular system. Exercise helps us maintain a healthy weight and reduces the risk of diseases. Beyond the body, exercise is also good for the mind. It reduces stress and improves our mood. We should exercise at least three times a week. Sports like swimming, running, and cycling are excellent choices.`,
+    contentZh: `经常锻炼对保持健康很重要。体育活动增强我们的肌肉和骨骼。它也改善我们的心血管系统。锻炼帮助我们保持健康的体重，降低患病风险。除了身体，锻炼对心灵也有好处。它减轻压力，改善我们的情绪。我们应该每周至少锻炼三次。游泳、跑步和骑自行车等运动是很好的选择。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Sports Doctor',
+    wordCount: 90,
+    difficulty: 2,
+    createdAt: '2024-03-07',
+  },
+  {
+    id: 'j37',
+    title: 'My Hometown',
+    titleZh: '我的家乡',
+    contentEn: `My hometown is a small coastal city. It is not very big, but it has beautiful scenery. The sea breeze is cool and refreshing. In the morning, fishermen go out to sea to catch fish. The local food is fresh and delicious, especially seafood. Every summer, many tourists visit my hometown to enjoy the beaches. The people here are friendly and warm-hearted. I feel proud of my hometown and miss it when I am away.`,
+    contentZh: `我的家乡是一个小的海滨城市。它不大，但有美丽的风景。海风凉爽清新。早晨，渔民出海捕鱼。当地食物新鲜美味，尤其是海鲜。每年夏天，许多游客来我的家乡享受海滩。这里的人们友好热情。我为我的家乡感到骄傲，离开时会想念它。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Local',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-08',
+  },
+  {
+    id: 'j38',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `The environment is our home and we must protect it. Pollution is harming our planet in many ways. We should reduce, reuse, and recycle whenever possible. Planting more trees helps clean the air. Using public transportation reduces carbon emissions. We should not waste water or electricity. Small actions can make a big difference. If everyone does their part, we can create a cleaner and greener world for future generations.`,
+    contentZh: `环境是我们的家园，我们必须保护它。污染正在以多种方式损害我们的星球。我们应该尽可能地减少、再利用和回收利用。多植树有助于清洁空气。使用公共交通减少碳排放。我们不应该浪费水或电。小行动可以带来大改变。如果每个人都尽自己的一份力量，我们可以为后代创造一个更清洁、更绿色的世界。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Eco Warrior',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-09',
+  },
+  {
+    id: 'j39',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn. Interactive whiteboards make lessons more engaging. Students can access educational resources online anytime. E-books are convenient and save paper. Learning apps make studying fun and personalized. Online classes allow us to learn from the best teachers worldwide. However, we must balance screen time with traditional learning. Technology should enhance, not replace, good teaching. Used wisely, technology empowers both students and teachers.`,
+    contentZh: `科技改变了我们学习的方式。交互式白板使课程更有吸引力。学生可以随时在线访问教育资源。电子书方便且节约纸张。学习应用程序使学习有趣且个性化。在线课程让我们能够向世界各地最好的老师学习。然而，我们必须平衡屏幕时间和传统学习。科技应该增强而不是取代好的教学。明智地使用，科技赋权学生和教师。`,
+    level: 'junior',
+    category: 'science',
+    author: 'EdTech',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-10',
+  },
+  {
+    id: 'j40',
+    title: 'A Memorable Trip',
+    titleZh: '一次难忘的旅行',
+    contentEn: `Last summer, my family visited Beijing. It was one of the most memorable trips of my life. We visited the Great Wall, which was truly magnificent. The Forbidden City showed us thousands of years of Chinese history. We also tried Beijing duck, which was delicious. Walking on Tiananmen Square was an emotional experience. The trip taught me a lot about Chinese culture and history. I took many photos to remember this special journey.`,
+    contentZh: `去年夏天，我的家人去了北京。这是我一生中最难忘的旅行之一。我们参观了长城，它真的很宏伟。故宫向我们展示了数千年的中国历史。我们还尝了北京烤鸭，非常美味。在天安门广场散步是一次感人的经历。这次旅行让我学到了很多关于中国传统文化的知识。我拍了很多照片来记住这次特殊的旅程。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Traveler',
+    wordCount: 96,
+    difficulty: 2,
+    createdAt: '2024-03-11',
+  },
+  {
+    id: 'j41',
+    title: 'The Value of Hard Work',
+    titleZh: '勤奋的价值',
+    contentEn: `Hard work is the key to success in life. There is no shortcut to achieving our goals. Successful people often work harder than others. Thomas Edison failed many times before inventing the light bulb. J.K. Rowling was rejected by many publishers before Harry Potter became famous. These stories teach us that persistence pays off. Talent alone is not enough without effort. Every step we take towards our goals matters. Let's work hard and never give up.`,
+    contentZh: `勤奋是人生成功的关键。实现我们的目标没有捷径。成功的人往往比其他人更努力。托马斯·爱迪生在发明电灯泡之前失败了很多次。J.K.罗琳在《哈利·波特》成名之前被许多出版商拒绝。这些故事告诉我们坚持会有回报。没有努力，才华是不够的。我们朝着目标迈出的每一步都很重要。让我们努力工作，永不放弃。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Motivation',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-12',
+  },
+  {
+    id: 'j42',
+    title: 'My Favorite Animal',
+    titleZh: '我最喜欢的动物',
+    contentEn: `My favorite animal is the panda. Pandas are native to China and are considered national treasures. They have a unique appearance with their black and white fur. Pandas are gentle and peaceful animals. They spend most of their time eating bamboo. Watching pandas play is always entertaining. Unfortunately, pandas are endangered due to habitat loss. China has established reserves to protect them. I hope future generations can also see these adorable animals.`,
+    contentZh: `我最喜欢的动物是熊猫。熊猫原产于中国，被视为国宝。它们有着独特的黑白毛皮外观。熊猫是温和和平的动物。它们大部分时间都在吃竹子。看熊猫玩耍总是很有趣。不幸的是，由于栖息地丧失，熊猫濒临灭绝。中国已经建立了保护区来保护它们。我希望后代也能看到这些可爱的动物。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Animal Lover',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-13',
+  },
+  {
+    id: 'j43',
+    title: 'The Power of Positive Thinking',
+    titleZh: '积极思考的力量',
+    contentEn: `Positive thinking can change our lives for the better. When we think positively, we feel happier and more confident. Positive people attract opportunities and good relationships. Challenges become easier to overcome with the right mindset. Instead of saying I cannot, we should say I will try. Gratitude helps us see the good in our lives. Reading inspiring stories boosts our motivation. A positive attitude is a choice that leads to a more fulfilling life.`,
+    contentZh: `积极思考可以让我们的生活变得更好。当我们积极思考时，我们感到更快乐和更自信。积极的人吸引机会和良好的人际关系。有了正确的心态，挑战变得更容易克服。我们不应该说"我不能"，而应该说"我会尝试"。感恩帮助我们看到生活中的美好。阅读激励故事增强我们的动力。积极的态度是一种选择，会带来更充实的生活。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Psychology',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-14',
+  },
+  {
+    id: 'j44',
+    title: 'How to Stay Safe Online',
+    titleZh: '如何安全上网',
+    contentEn: `The internet is useful but can also be dangerous. We must learn to stay safe online. Never share your password with anyone. Be careful about the personal information you post on social media. Do not meet strangers from the internet in person. Use strong and different passwords for different accounts. Install antivirus software to protect your computer. If something online makes you uncomfortable, tell a trusted adult. Online safety is everyone's responsibility.`,
+    contentZh: `互联网很有用，但也可能有危险。我们必须学会安全上网。永远不要和任何人分享你的密码。在社交媒体上发布个人信息时要小心。不要亲自见来自互联网的陌生人。为不同的账户使用强密码和不同的密码。安装防病毒软件来保护您的电脑。如果网上的东西让你不舒服，告诉一个值得信任的成年人。在线安全是每个人的责任。`,
+    level: 'junior',
+    category: 'science',
+    author: 'Cyber Safety',
+    wordCount: 90,
+    difficulty: 2,
+    createdAt: '2024-03-15',
+  },
+  {
+    id: 'j45',
+    title: 'My Favorite Book',
+    titleZh: '我最喜欢的一本书',
+    contentEn: `My favorite book is The Little Prince. It was written by Antoine de Saint-Exupery. The story is about a young prince who travels to different planets. Through his journey, he learns about love, friendship, and what truly matters in life. The book has beautiful illustrations and deep messages. It can be enjoyed by both children and adults. Every time I read it, I discover something new. This book has truly touched my heart.`,
+    contentZh: `我最喜欢的书是《小王子》。它由安托万·德·圣-埃克苏佩里撰写。这个故事关于一位小王子访问不同的星球。在他的旅程中，他了解了爱、友谊和生活中真正重要的东西。这本书有美丽的插图和深刻的信息。儿童和成人都可以欣赏它。每次我读它，我都会发现新的东西。这本书真的触动了我的心。`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Bookworm',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-16',
+  },
+  {
+    id: 'j46',
+    title: 'The Importance of Teamwork',
+    titleZh: '团队合作的重要性',
+    contentEn: `Teamwork is essential in school and in life. Working together achieves better results than working alone. Each person brings different skills and ideas to a team. Teamwork teaches us communication and cooperation. Sports teams demonstrate how collaboration leads to victory. Group projects in school prepare us for future careers. Being a good team player means listening to others and contributing your best. Together, we can achieve great things.`,
+    contentZh: `团队合作在学校和生活中都是必不可少的。一起工作比单独工作能取得更好的结果。每个人为团队带来不同的技能和想法。团队合作教会我们沟通和合作。体育团队展示了合作如何带来胜利。学校的 group 项目为我们未来的职业生涯做准备。成为一个好的团队成员意味着倾听他人并贡献你最好的。团结起来，我们可以取得伟大的成就。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Coach',
+    wordCount: 92,
+    difficulty: 2,
+    createdAt: '2024-03-17',
+  },
+  {
+    id: 'j47',
+    title: 'Music in My Life',
+    titleZh: '我生活中的音乐',
+    contentEn: `Music plays an important role in my daily life. I listen to music when I study, exercise, and relax. Different types of music create different moods. Classical music can calm our minds. Energetic pop songs make me feel happy and motivated. Learning to play a musical instrument develops discipline and patience. Music connects people across cultures and languages. I cannot imagine my life without music. It is truly a universal language.`,
+    contentZh: `音乐在我的日常生活中扮演着重要的角色。我学习、运动和放松时听音乐。不同类型的音乐创造不同的情绪。古典音乐可以平静我们的心灵。充满活力的流行歌曲让我感到快乐和动力。学习演奏乐器培养纪律和耐心。音乐跨越文化和语言连接人们。没有音乐，我无法想象我的生活。它真的是一种通用语言。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Music Fan',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-18',
+  },
+  {
+    id: 'j48',
+    title: 'The Beauty of Reading',
+    titleZh: '阅读之美',
+    contentEn: `Reading opens doors to infinite knowledge and imagination. Through books, we can travel to distant lands without leaving home. We can experience adventures our daily lives cannot offer. Reading improves our vocabulary and writing skills. It broadens our perspectives and deepens our understanding of the world. Whether fiction or non-fiction, every book teaches us something valuable. Developing a reading habit enriches our lives in countless ways.`,
+    contentZh: `阅读打开了通往无限知识和想象力的大门。通过书籍，我们可以不出门就能去远方旅行。我们可以体验日常生活无法提供的冒险。阅读提高了我们的词汇量和写作能力。它拓宽了我们的视野，加深了我们对世界的理解。无论是小说还是非小说，每本书都教会我们有价值的东西。养成阅读习惯以无数方式丰富我们的生活。`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Library',
+    wordCount: 90,
+    difficulty: 2,
+    createdAt: '2024-03-19',
+  },
+  {
+    id: 'j49',
+    title: 'My Plan for the Future',
+    titleZh: '我对未来的计划',
+    contentEn: `I have big plans for my future. First, I want to graduate from university with good grades. Then, I hope to find a job in my chosen field. I also want to travel to different countries and experience new cultures. In the long term, I dream of starting my own business. Of course, I will never stop learning and improving myself. My plans may change over time, but having goals gives me purpose. I am excited to see what the future holds.`,
+    contentZh: `我对未来有很大的计划。首先，我想以优异的成绩从大学毕业。然后，我希望在我的选择领域找到一份工作。我也想去不同的国家旅行，体验新的文化。从长远来看，我梦想创办自己的企业。当然，我永远不会停止学习和提升自己。我的计划可能会随着时间改变，但有目标给了我方向。我很兴奋地想看看未来会发生什么。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Dreamer',
+    wordCount: 94,
+    difficulty: 2,
+    createdAt: '2024-03-20',
+  },
+  {
+    id: 'j50',
+    title: 'Being Thankful',
+    titleZh: '学会感恩',
+    contentEn: `Gratitude makes us appreciate what we have instead of what we lack. We should be thankful for our families who love and support us. We should appreciate our teachers who guide us through learning. Friends bring joy to our lives, and we should value them. Even on difficult days, there is always something to be grateful for. Keeping a gratitude journal helps us notice the good things. Thankfulness brings happiness and strengthens relationships. Let us practice gratitude every day.`,
+    contentZh: `感恩让我们欣赏我们所拥有的，而不是我们缺乏的。我们应该感谢爱和支持我们的家人。我们应该感谢引导我们学习的老师。朋友给我们的生活带来快乐，我们应该珍惜他们。即使在困难的日子里，也总有值得感激的事情。写感恩日记帮助我们注意到美好的事物。感恩带来幸福，加强人际关系。让我们每天练习感恩。`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Mindfulness',
+    wordCount: 90,
+    difficulty: 2,
+    createdAt: '2024-03-21',
   },
 
   // ==========================================
@@ -1637,6 +2459,266 @@ Good things happen to good people.`,
     difficulty: 3,
     createdAt: '2024-03-30',
   },
+  {
+    id: 's31',
+    title: 'The Renaissance of Manufacturing',
+    titleZh: '制造业的复兴',
+    contentEn: `Manufacturing is experiencing a renaissance driven by advanced technologies. Automation and robotics have transformed production lines, increasing efficiency and precision. Additive manufacturing, or 3D printing, is revolutionizing how products are designed and made. The integration of artificial intelligence enables predictive maintenance and quality control. However, this transformation raises questions about workforce displacement and the future of labor in industrial sectors.`,
+    contentZh: `制造业正在经历由先进技术推动的复兴。自动化和机器人技术改变了生产线，提高了效率和精度。增材制造（即3D打印）正在革新产品的设计和制造方式。人工智能的集成使预测性维护和质量控制成为可能。然而，这种转型引发了关于劳动力替代和工业部门劳动未来的问题。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Industry',
+    wordCount: 92,
+    difficulty: 3,
+    createdAt: '2024-03-31',
+  },
+  {
+    id: 's32',
+    title: 'The Art of Time Management',
+    titleZh: '时间管理的艺术',
+    contentEn: `Effective time management is a critical skill for personal and professional success. Prioritizing tasks based on importance and urgency helps allocate limited time wisely. The Pomodoro technique, involving focused work sessions with short breaks, has proven effective for many. Setting clear boundaries and learning to say no protects valuable time. Technology can both help and hinder time management, requiring mindful usage.`,
+    contentZh: `有效的时间管理是个人和职业成功的关键技能。根据重要性和紧急性对任务进行优先级排序有助于明智地分配有限的时间。番茄工作法，即专注于工作时段和短暂休息的结合，对许多人证明是有效的。设定明确的界限并学会拒绝保护宝贵的时间。技术既可以帮助也会阻碍时间管理，需要有意识地使用。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Productivity',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-01',
+  },
+  {
+    id: 's33',
+    title: 'Space Exploration: The Next Frontier',
+    titleZh: '太空探索：下一个前沿',
+    contentEn: `Space exploration represents humanity's grandest adventure, pushing the boundaries of what we know and can achieve. Private companies like SpaceX and Blue Origin have revolutionized access to space. Plans for permanent lunar bases and Mars colonization are no longer science fiction. Satellite networks provide crucial services from communication to Earth observation. However, space debris and the militarization of space pose significant challenges.`,
+    contentZh: `太空探索代表了人类最宏大的冒险，突破了我们的知识和成就的边界。SpaceX和Blue Origin等私营公司彻底改变了进入太空的方式。建立永久月球基地和火星殖民的计划不再是科幻小说。卫星网络提供从通信到地球观测的关键服务。然而，太空碎片和太空军事化带来重大挑战。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Space',
+    wordCount: 92,
+    difficulty: 3,
+    createdAt: '2024-04-02',
+  },
+  {
+    id: 's34',
+    title: 'The Rise of Remote Work',
+    titleZh: '远程工作的兴起',
+    contentEn: `The COVID-19 pandemic accelerated the adoption of remote work, permanently altering the workplace landscape. Video conferencing and collaboration tools have made distributed teams viable. Remote work offers flexibility and eliminates commuting time, improving work-life balance for many. However, challenges include isolation, communication difficulties, and the blurring of work and personal boundaries. The future likely involves hybrid models combining remote and in-office work.`,
+    contentZh: `新冠疫情加速了远程工作的采用，永久改变了工作场所的面貌。视频会议和协作工具使分布式团队变得可行。远程工作提供了灵活性，消除了通勤时间，改善了许多人的工作与生活平衡。然而，挑战包括孤独感、沟通困难以及工作和个人界限的模糊。未来可能涉及结合远程和办公室工作的混合模式。`,
+    level: 'senior',
+    category: 'news',
+    author: 'Workplace',
+    wordCount: 94,
+    difficulty: 3,
+    createdAt: '2024-04-03',
+  },
+  {
+    id: 's35',
+    title: 'The Science of Nutrition',
+    titleZh: '营养科学',
+    contentEn: `Our understanding of nutrition has evolved significantly over the past decades. Whole foods provide nutrients in forms that supplements cannot replicate. The gut microbiome plays a crucial role in digestion and overall health. Personalized nutrition based on genetic profiles is an emerging field. Dietary patterns like the Mediterranean diet have been consistently linked to longevity. Understanding nutrition empowers individuals to make healthier choices.`,
+    contentZh: `过去几十年，我们对营养的理解有了显著发展。全食物以补充剂无法复制的形式提供营养。肠道微生物组在消化和整体健康中起着至关重要的作用。基于基因图谱的个性化营养是一个新兴领域。地中海饮食等饮食模式一直与长寿相关。了解营养使个人能够做出更健康的选择。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Health',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-04',
+  },
+  {
+    id: 's36',
+    title: 'The Evolution of Journalism',
+    titleZh: '新闻业的演变',
+    contentEn: `Journalism is undergoing a profound transformation in the digital age. Traditional print media has declined as news consumption shifts online. Social media platforms have become primary news sources for many, raising concerns about accuracy. Citizen journalism and independent creators challenge established news organizations. Fake news and misinformation pose threats to informed democratic discourse. The future of journalism depends on sustainable business models and commitment to verification.`,
+    contentZh: `在数字时代，新闻业正在经历深刻变革。随着新闻消费转向在线，传统平面媒体已经衰落。社交媒体平台已成为许多人的主要新闻来源，引发了关于准确性的担忧。公民新闻和独立创作者挑战着老牌新闻机构。假新闻和虚假信息对明智的民主讨论构成威胁。新闻业的未来取决于可持续的商业模式和对核实的承诺。`,
+    level: 'senior',
+    category: 'news',
+    author: 'Media',
+    wordCount: 94,
+    difficulty: 3,
+    createdAt: '2024-04-05',
+  },
+  {
+    id: 's37',
+    title: 'The Mathematics of Everyday Life',
+    titleZh: '日常生活的数学',
+    contentEn: `Mathematics underlies much of the modern world, often in invisible ways. Algorithms determine what we see on social media and e-commerce platforms. Statistics guide decision-making in business, medicine, and government. Cryptography protects our online communications and financial transactions. Understanding basic mathematical concepts helps citizens evaluate quantitative claims critically. Mathematical literacy is essential in an increasingly data-driven society.`,
+    contentZh: `数学以看不见的方式支撑着现代世界的很多东西。算法决定我们在社交媒体和电子商务平台上看到的内容。统计学指导商业、医学和政府中的决策。密码学保护我们的在线通信和金融交易。了解基本的数学概念帮助公民批判性地评估定量声明。数学素养在日益数据驱动的社会中至关重要。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Mathematics',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-06',
+  },
+  {
+    id: 's38',
+    title: 'The Importance of Financial Literacy',
+    titleZh: '金融素养的重要性',
+    contentEn: `Financial literacy is an essential life skill that many schools fail to teach adequately. Understanding budgeting, saving, and investing enables individuals to build wealth over time. Compound interest can work for or against you depending on whether you are saving or borrowing. Credit scores affect access to loans, housing, and even employment. Making informed financial decisions early in life can have lasting impacts on retirement security.`,
+    contentZh: `金融素养是一项重要的生活技能，许多学校未能充分教授。了解预算、储蓄和投资使个人能够随着时间的推移积累财富。复利可以根据你是储蓄还是借贷而对你有利或不利。信用评分影响贷款、住房甚至就业的获取。早年做出明智的财务决策可以对退休保障产生持久影响。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Finance',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-07',
+  },
+  {
+    id: 's39',
+    title: 'The Psychology of Relationships',
+    titleZh: '人际关系的心理学',
+    contentEn: `Healthy relationships are fundamental to human well-being and longevity. Communication skills form the foundation of successful relationships. Trust, once broken, is difficult to rebuild and requires consistent effort. Attachment styles developed in childhood influence adult relationships. Conflict, when handled constructively, can strengthen relationships. Investing in meaningful connections contributes significantly to happiness and life satisfaction.`,
+    contentZh: `健康的人际关系是人类幸福和长寿的基础。沟通技能是成功人际关系的基础。信任一旦破裂，很难重建，需要持续的努力。童年时期形成的依恋风格影响成年后的人际关系。冲突，如果处理得当，可以加强人际关系。在有意义的联系上的投入对幸福和生活满意度有重要贡献。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Psychology',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-08',
+  },
+  {
+    id: 's40',
+    title: 'The Future of Currency',
+    titleZh: '货币的未来',
+    contentEn: `The concept of money is evolving rapidly in the digital age. Cryptocurrencies like Bitcoin challenge traditional government-backed currencies. Central banks are exploring digital currencies that could transform monetary policy. Blockchain technology offers new possibilities for secure, transparent transactions. However, volatility and environmental concerns surround some cryptocurrencies. The future likely involves a hybrid system of traditional and digital currencies.`,
+    contentZh: `货币概念在数字时代正在快速演变。比特币等加密货币挑战着传统的政府支持货币。央行正在探索可以改变货币政策的数字货币。区块链技术为安全、透明交易提供了新的可能性。然而，一些加密货币伴随着波动性和环境担忧。未来可能涉及传统货币和数字货币的混合系统。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Economics',
+    wordCount: 86,
+    difficulty: 4,
+    createdAt: '2024-04-09',
+  },
+  {
+    id: 's41',
+    title: 'The Renaissance of Craftsmanship',
+    titleZh: '工匠精神的复兴',
+    contentEn: `In an age of mass production, craftsmanship is experiencing a revival. Artisans who create handmade goods offer unique products with character and history. The slow food movement celebrates traditional cooking methods and local ingredients. Craft brewing and distilling have grown into global industries. Supporting local artisans preserves cultural traditions and sustainable practices. Quality often surpasses quantity in the realm of craftsmanship.`,
+    contentZh: `在大规模生产的时代，工匠精神正在复兴。创造手工制品的工匠提供具有特色和历史的独特产品。慢食运动颂扬传统烹饪方法和当地食材。精酿啤酒和蒸馏酒已发展成为全球产业。支持当地工匠保护文化传统和可持续做法。在工匠领域，质量往往超过数量。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Culture',
+    wordCount: 84,
+    difficulty: 3,
+    createdAt: '2024-04-10',
+  },
+  {
+    id: 's42',
+    title: 'The Ethics of Technology',
+    titleZh: '技术的伦理',
+    contentEn: `Technology raises profound ethical questions that society must grapple with. Privacy concerns intensify as surveillance capabilities expand. Algorithmic decision-making can perpetuate biases and discrimination. Automation threatens livelihoods while creating new forms of dependency. Questions about digital ownership and intellectual property remain unresolved. Ethical frameworks must evolve alongside technological capabilities.`,
+    contentZh: `技术提出了社会必须认真对待的深刻伦理问题。随着监控能力的扩大，隐私问题加剧。算法决策可能延续偏见和歧视。自动化威胁着生计，同时创造新的依赖形式。关于数字所有权和知识产权的问题仍未解决。伦理框架必须随着技术能力的发展而发展。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Ethics',
+    wordCount: 80,
+    difficulty: 4,
+    createdAt: '2024-04-11',
+  },
+  {
+    id: 's43',
+    title: 'The Joy of Lifelong Learning',
+    titleZh: '终身学习的乐趣',
+    contentEn: `Learning should not end with formal education but continue throughout life. The internet has democratized access to knowledge on an unprecedented scale. Online courses and tutorials make learning new skills more accessible than ever. Learning a new language or instrument provides cognitive benefits that extend beyond the skill itself. Curiosity and continuous growth keep the mind sharp and engaged. Embracing lifelong learning enriches both personal and professional life.`,
+    contentZh: `学习不应随着正规教育而结束，而应贯穿一生。互联网以前所未有的规模民主化了知识的获取。在线课程和教程使学习新技能比以往任何时候都更容易。学习一门新语言或乐器提供了超越技能本身的认知益处。好奇心和持续成长保持头脑敏锐和投入。拥抱终身学习丰富个人和职业生活。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Education',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-12',
+  },
+  {
+    id: 's44',
+    title: 'The Architecture of Cities',
+    titleZh: '城市建筑',
+    contentEn: `Architecture shapes our built environment and influences how we live, work, and interact. Great cities balance historical preservation with modern development. Sustainable architecture minimizes environmental impact while maximizing human comfort. Public spaces like parks and plazas foster community connection. The design of buildings affects mental health and productivity. Thoughtful urban planning creates cities that are livable, equitable, and beautiful.`,
+    contentZh: `建筑塑造我们的建成环境，影响我们的生活、工作和互动方式。伟大的城市在历史保护和现代发展之间取得平衡。可持续建筑在最大化人类舒适度的同时最小化环境影响。公园和广场等公共空间促进社区联系。建筑的设计影响心理健康和生产力。周到的城市规划创造宜居、公平和美丽的城市。`,
+    level: 'senior',
+    category: 'news',
+    author: 'Architecture',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-13',
+  },
+  {
+    id: 's45',
+    title: 'The Power of Empathy',
+    titleZh: '同理心的力量',
+    contentEn: `Empathy, the ability to understand and share the feelings of others, is fundamental to human connection. It enables us to build meaningful relationships and resolve conflicts peacefully. Empathy allows us to appreciate different perspectives and cultural backgrounds. Practicing empathy reduces prejudice and promotes social cohesion. In professional settings, empathy enhances leadership and teamwork. Cultivating empathy is essential for creating a more compassionate world.`,
+    contentZh: `同理心，即理解和分享他人感受的能力，是人类联系的基础。它使我们能够建立有意义的关係并和平解决冲突。同理心让我们欣赏不同的观点和文化背景。练习同理心减少偏见，促进社会凝聚力。在职业环境中，同理心增强领导力和团队合作。培养同理心对于创造一个更有同情心的世界至关重要。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Society',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-14',
+  },
+  {
+    id: 's46',
+    title: 'The World of Gastronomy',
+    titleZh: '美食世界',
+    contentEn: `Gastronomy has evolved into a sophisticated art form that celebrates culture and creativity. Molecular gastronomy combines scientific principles with culinary innovation. Farm-to-table movements emphasize freshness, sustainability, and seasonal ingredients. Food tourism allows travelers to experience cultures through their cuisines. Understanding gastronomy enriches our appreciation of food beyond mere sustenance. The best meals tell stories of tradition, innovation, and human creativity.`,
+    contentZh: `美食已成为庆祝文化和创造力的复杂艺术形式。分子美食学将科学原理与烹饪创新相结合。从农场到餐桌的运动强调新鲜、可持续和时令食材。美食旅游让旅行者通过美食体验文化。了解美食让我们超越仅仅维持生计来欣赏食物。最好的饭菜讲述着传统、创新和人类创造力的故事。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Food',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-15',
+  },
+  {
+    id: 's47',
+    title: 'The Challenge of Cybersecurity',
+    titleZh: '网络安全的挑战',
+    contentEn: `Cybersecurity threats are growing in sophistication and scale, targeting individuals, businesses, and governments. Data breaches expose sensitive personal and financial information. Ransomware attacks can cripple critical infrastructure and organizations. Phishing scams trick users into revealing confidential information. Strong passwords and two-factor authentication provide basic protection. Security awareness training helps individuals and organizations defend against cyber threats.`,
+    contentZh: `网络安全威胁正在变得日益复杂和规模化，针对个人、企业和政府。数据泄露暴露敏感的个人和财务信息。勒索软件攻击可能使关键基础设施和组织瘫痪。网络钓鱼诈骗欺骗用户泄露机密信息。强密码和双因素认证提供基本保护。安全意识培训帮助个人和组织防御网络威胁。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Security',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-16',
+  },
+  {
+    id: 's48',
+    title: 'The Art of Public Speaking',
+    titleZh: '公共演讲的艺术',
+    contentEn: `Public speaking is a powerful skill that can influence opinions and inspire action. Effective speakers engage their audience through stories, data, and emotional appeal. Preparation and practice reduce anxiety and improve delivery. Understanding the audience helps tailor messages for maximum impact. Visual aids can enhance comprehension when used appropriately. Overcoming the fear of public speaking opens doors to countless opportunities.`,
+    contentZh: `公共演讲是一种强大的技能，可以影响意见并激励行动。有效的演讲者通过故事、数据和情感吸引力吸引听众。准备和练习减少焦虑并改善表达。了解听众有助于调整信息以获得最大影响。视觉辅助在适当使用时可以增强理解。克服对公共演讲的恐惧为无数机会打开了大门。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Communication',
+    wordCount: 84,
+    difficulty: 3,
+    createdAt: '2024-04-17',
+  },
+  {
+    id: 's49',
+    title: 'The Mysteries of the Deep Ocean',
+    titleZh: '深海的神秘',
+    contentEn: `The deep ocean remains one of Earth's least explored frontiers, harboring mysteries yet to be discovered. Extreme pressure and darkness create unique environments for bizarre life forms. Hydrothermal vents support ecosystems entirely independent of sunlight. Deep-sea mining poses environmental risks while offering valuable resources. Understanding the ocean is crucial for climate regulation and biodiversity conservation.`,
+    contentZh: `深海仍然是地球上探索最少的边界之一，蕴藏着尚未发现的奥秘。极端压力和黑暗为奇异生命形式创造了独特的环境。热液喷口支持完全独立于阳光的生态系统。深海采矿在提供宝贵资源的同时带来环境风险。了解海洋对气候调节和生物多样性保护至关重要。`,
+    level: 'senior',
+    category: 'science',
+    author: 'Ocean',
+    wordCount: 86,
+    difficulty: 3,
+    createdAt: '2024-04-18',
+  },
+  {
+    id: 's50',
+    title: 'The Pursuit of Balance',
+    titleZh: '追求平衡',
+    contentEn: `Balance in life involves managing multiple priorities including work, family, health, and personal growth. Burnout results from prolonged imbalance and can have serious health consequences. Setting boundaries protects time for rest, relationships, and activities we enjoy. Regular self-reflection helps identify when we are veering out of balance. Balance is not a static state but an ongoing process of adjustment. Living a balanced life leads to greater fulfillment and sustainability.`,
+    contentZh: `生活中的平衡涉及管理多个优先事项，包括工作、家庭、健康和个人成长。倦怠源于长期失衡，可能导致严重的健康后果。设定界限保护休息、关系和我们喜欢的活动的时间。定期自我反思帮助我们识别何时偏离平衡。平衡不是静态状态，而是持续调整的过程。过平衡的生活带来更大的满足感和可持续性。`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Wellness',
+    wordCount: 88,
+    difficulty: 3,
+    createdAt: '2024-04-19',
+  },
 
   // ==========================================
   // 大学 (University Level) - 30篇
@@ -2030,6 +3112,136 @@ Good things happen to good people.`,
     wordCount: 82,
     difficulty: 5,
     createdAt: '2024-04-30',
+  },
+  {
+    id: 'u31',
+    title: 'The Constitutional Framework of Democratic Governance',
+    titleZh: '民主治理的宪法框架',
+    contentEn: `Constitutional governance forms the bedrock of modern democratic systems, establishing the fundamental principles and structures that regulate political power. The separation of powers between executive, legislative, and judicial branches prevents the concentration of authority in any single institution. Constitutional courts serve as guardians of the supreme law, interpreting and applying constitutional provisions to resolve disputes. The concept of judicial review, pioneered in the United States, has become a cornerstone of constitutional democracy worldwide. However, constitutional interpretation remains contested terrain, with different schools of thought advocating for originalism or living constitutionalism. The challenge of constitutional design lies in creating institutions that are both stable enough to provide certainty and flexible enough to adapt to changing circumstances. Furthermore, constitutional endurance depends on a culture of constitutionalism and citizens willing to defend constitutional norms against encroachment.`,
+    contentZh: `宪政治理构成了现代民主体系的基石，建立了规范政治权力的基本原理和结构。行政、立法和司法部门之间的权力分立防止了权威集中在任何单一机构中。宪法法院作为最高法律的守护者，解释和应用宪法条款来解决争端。司法审查的概念始于美国，已成为全球宪政民主的基石。然而，宪法解释仍然是有争议的领域，不同的思想流派支持原旨主义或活的宪法主义。宪法设计中的挑战在于创造既足够稳定以提供确定性，又足够灵活以适应变化的环境的制度。此外，宪法的持久性取决于宪政文化和愿意捍卫宪法规范免受侵犯的公民。`,
+    level: 'university',
+    category: 'science',
+    author: 'Constitutional Law',
+    wordCount: 168,
+    difficulty: 5,
+    createdAt: '2024-05-01',
+  },
+  {
+    id: 'u32',
+    title: 'Paradise Lost (Excerpt)',
+    titleZh: '失乐园（节选）',
+    contentEn: `The mind is its own place, and in itself can make a Heaven of Hell, a Hell of Heaven. What matters it where I fly if I can still call my own? Better to reign in Hell than serve in Heaven. At here, I will breathe possible sighs, though that my breath, this UUID, and this discourse, and the darkness of the battlements that keep this place, will be much too wide. Here I am king; for who but I will defy the apparently undefeated? Yet not alone while I preserve this form within me. The greatest virulence is least as nothing. In my defence let my impartial, secret, universal, and secret stand among my troops, and be my humor thus.`,
+    contentZh: `心灵是它自己的所在，它本身能把我地狱变成天堂，把天堂变成地狱。只要我还能称其为己有，我飞向何方又有何妨？宁统治地狱，不为天堂仆从。在此，我将呼吸可能的叹息，尽管我的气息、这永恒、这话语、以及保持此地的黑暗堡垒，都太过宽阔。我在此为王；除了我，谁还敢挑战这无敌的存在？然而只要我在内心保持这形式，就不会孤独。最致命的恶意几乎微不足道。让我的公正、秘密、普遍而隐秘的立场站在我的军队中，成为我的心情。`,
+    level: 'university',
+    category: 'literature',
+    author: 'John Milton',
+    wordCount: 132,
+    difficulty: 5,
+    createdAt: '2024-05-02',
+  },
+  {
+    id: 'u33',
+    title: 'The Macroeconomics of Monetary Policy',
+    titleZh: '货币政策的宏观经济学',
+    contentEn: `Monetary policy constitutes one of the primary tools through which central banks influence aggregate economic activity. By manipulating the money supply and interest rates, central banks attempt to achieve objectives including price stability, full employment, and sustainable economic growth. The transmission mechanism of monetary policy operates through multiple channels, including the interest rate channel, credit channel, and exchange rate channel. However, the effectiveness of monetary policy has been questioned in an environment of persistently low interest rates and the zero lower bound. Quantitative easing, as employed by major central banks following the 2008 financial crisis, represents an unconventional monetary policy tool that expands the central bank's balance sheet significantly. The debate over the appropriate monetary policy framework continues, with some advocating for inflation targeting while others propose nominal GDP targeting or price level targeting. Understanding monetary economics is essential for evaluating macroeconomic conditions and policy options.`,
+    contentZh: `货币政策是中央银行影响总体经济活动的主要工具之一。通过操纵货币供应量和利率，中央银行试图实现包括价格稳定、充分就业和可持续经济增长在内的目标。货币政策的传导机制通过多种渠道运作，包括利率渠道、信贷渠道和汇率渠道。然而，在持续低利率和零下限的环境中，货币政策的有效性受到质疑。量化宽松政策，作为2008年金融危机后主要中央银行采用的非常规货币政策工具，大大扩展了中央银行的资产负债表。关于适当货币政策框架的辩论仍在继续，一些人主张通胀目标制，而另一些人则提出名义GDP目标制或价格水平目标制。理解货币经济学对于评估宏观经济状况和政策选择至关重要。`,
+    level: 'university',
+    category: 'science',
+    author: 'Economics',
+    wordCount: 168,
+    difficulty: 5,
+    createdAt: '2024-05-03',
+  },
+  {
+    id: 'u34',
+    title: "Gulliver's Travels (Excerpt)",
+    titleZh: '格列佛游记（节选）',
+    contentEn: `My father had a small estate in Nottinghamshire: I was the third of five sons. He sent me to Emanuel College in Cambridge at fourteen years old, where I resided three years, and applied myself close to my studies. But the charge of educating my brothers and sisters exceeding his ability, he was obliged to employ me as a servant to Mr. Bates, a famous surgeon in London. I remained with him three years and some months, where I applied myself close to my studies, and made great improvements in the medical sciences. Having an eager desire to see foreign countries, I resolved to leave Mr. Bates and work my passage. After many delays, I was admitted as surgeon's mate on the ship Adventure. We set sail from Portsmouth, and after a prosperous voyage, our ship was wrecked near the island of Lilliput.`,
+    contentZh: `我父亲在诺丁汉郡有一小笔地产：我是五个儿子中的第三个。他在我十四岁时把我送到剑桥大学伊曼纽尔学院，我在那里住了三年，专心学习。但抚养我兄弟姐妹的费用超过了他的能力，他被迫让我给伦敦著名的外科医生贝茨先生做仆人。我和他一起住了三年零几个月，在那里我专心学习，在医学科学方面取得了很大进步。由于渴望看到外国，我决定离开贝茨先生去谋生。经过多次耽搁，我被接纳为\"冒险号\"船上的外科医生助手。我们从朴茨茅斯启航，经过一段顺利的航行，我们的船在利立浦特岛附近失事了。`,
+    level: 'university',
+    category: 'literature',
+    author: 'Jonathan Swift',
+    wordCount: 162,
+    difficulty: 5,
+    createdAt: '2024-05-04',
+  },
+  {
+    id: 'u35',
+    title: 'Climate Science and Global Warming',
+    titleZh: '气候科学与全球变暖',
+    contentEn: `Climate science has established with high confidence that human activities are the dominant cause of observed global warming since the mid-20th century. The burning of fossil fuels releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere, leading to changes in Earth's energy balance. Climate models project continued warming and associated impacts including rising sea levels, altered precipitation patterns, and increased frequency of extreme weather events. The Paris Agreement represents a global effort to limit warming to well below 2 degrees Celsius above pre-industrial levels. However, current national commitments under the agreement are insufficient to achieve this target. Climate mitigation requires rapid decarbonization of energy systems, transformation of land use practices, and development of carbon capture technologies. Meanwhile, adaptation strategies must address the unavoidable impacts that are already locked in due to past emissions. The interplay between science, policy, and technology will determine humanity's ability to address this existential challenge.`,
+    contentZh: `气候科学已经高度确信，自20世纪中叶以来，人类活动是观测到的全球变暖的主要原因。燃烧化石燃料释放出二氧化碳和其他温室气体，将热量困在大气中，导致地球能量平衡的变化。气候模型预测持续变暖及相关影响，包括海平面上升、降水模式改变和极端天气事件频率增加。巴黎协定代表了全球努力将升温限制在前工业化水平以上2摄氏度以下。然而，协定下的当前国家承诺不足以实现这一目标。气候减缓需要快速实现能源系统脱碳、转变土地利用实践以及开发碳捕获技术。同时，适应策略必须解决因过去排放已经不可避免的影响。科学、政策和技术之间的相互作用将决定人类应对这一生存挑战的能力。`,
+    level: 'university',
+    category: 'science',
+    author: 'Climate Science',
+    wordCount: 178,
+    difficulty: 5,
+    createdAt: '2024-05-05',
+  },
+  {
+    id: 'u36',
+    title: 'Pride and Prejudice (Excerpt)',
+    titleZh: '傲慢与偏见（节选）',
+    contentEn: `My dear Mr. Bennet, said his lady to him one day, have you heard that Netherfield Park is let at last? Mr. Bennet replied that he had not. But it is, returned she; for Mrs. Long has just been here, and she told me all about it. Mr. Bennet made no answer. Do you not want to know who has taken it? cried his wife impatiently. You want to tell me, and I have no objection to hearing it. This was invitation enough. Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris immediately.`,
+    contentZh: `我亲爱的班纳特先生，一天他的妻子对他说，你听说了吗？内瑟菲尔德公园终于租出去了。班纳特先生回答说没有。但她回答说，是的，因为朗格夫人刚才来过这里，她把一切都告诉我了。班纳特先生没有回答。你不想知道是谁租的吗？他妻子不耐烦地叫道。你想告诉我，我并不反对听。于是她说道，我亲爱的，你要知道，朗格夫人说内瑟菲尔德租给了一位英格兰北部的富有的年轻人。他星期一坐着四轮马车来看这个地方，非常喜欢它，当即就同意了莫里斯先生的安排。`,
+    level: 'university',
+    category: 'literature',
+    author: 'Jane Austen',
+    wordCount: 148,
+    difficulty: 5,
+    createdAt: '2024-05-06',
+  },
+  {
+    id: 'u37',
+    title: 'International Trade Theory',
+    titleZh: '国际贸易理论',
+    contentEn: `International trade theory explains the patterns of commerce between nations and the gains from specialization and exchange. The theory of comparative advantage, developed by David Ricardo, demonstrates that countries benefit from trading even when one country is more efficient at producing all goods. This counterintuitive result arises because countries should specialize in producing goods in which they have a relative efficiency advantage, rather than an absolute advantage. The Heckscher-Ohlin model extends this analysis by linking trade patterns to factor endowments, predicting that countries export goods that use their abundant factors intensively. However, modern trade theory recognizes that intra-industry trade, where countries simultaneously export and import similar products, cannot be explained by these classical models. New trade theory, incorporating economies of scale and imperfect competition, provides insights into trade in differentiated products. The implications of trade for wage inequality and environmental sustainability remain active areas of research and policy debate.`,
+    contentZh: `国际贸易理论解释了国家间商业模式以及专业化和交换的收益。大卫·李嘉图开发的比较优势理论表明，即使一个国家在生产所有商品方面都更有效率，国家也能从贸易中受益。这个违反直觉的结果产生是因为各国应该专门生产具有相对效率优势的商品，而不是绝对优势。赫克歇尔-俄林模型通过将贸易模式与要素禀赋联系起来扩展了这一分析，预测各国出口密集使用其丰富要素的商品。然而，现代贸易理论认识到产业内贸易，即各国同时出口和进口类似产品，无法用这些古典模型解释。结合规模经济和不完全竞争的新贸易理论为了解差异化产品贸易提供了见解。贸易对工资不平等和环境可持续性的影响仍然是研究和政策辩论的活跃领域。`,
+    level: 'university',
+    category: 'science',
+    author: 'International Economics',
+    wordCount: 168,
+    difficulty: 5,
+    createdAt: '2024-05-07',
+  },
+  {
+    id: 'u38',
+    title: 'The Brothers Karamazov (Excerpt)',
+    titleZh: '卡拉马佐夫兄弟（节选）',
+    contentEn: `Above all, do not lie to yourself. A man who lies to himself and listens to his own lie comes to such a pass that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love, and in order to occupy and distract himself without love he gives himself up to passions and coarse pleasures, and sinks to bestiality in his vices, all from continual lying to himself and others. He who does not love his neighbor cannot know the truth about God, for God is love itself. The truth is that there is no virtue without the transformation of man's nature, and this transformation cannot be achieved without suffering.`,
+    contentZh: `首先，不要对自己撒谎。一个对自己撒谎并倾听自己谎言的人会走到这样的地步：他无法区分自己身上或周围的真相，因此失去了对自己和他人的所有尊重。没有尊重，他就不再爱，为了占据和分散自己的注意力，他沉溺于激情和粗俗的快乐，在恶习中沦为兽性，所有这些都是由于不断对自己和他人撒谎。不爱邻人的人不可能知道上帝的真理，因为上帝就是爱。真相是，没有人的本性的转变就没有美德，而这种转变没有苦难就无法实现。`,
+    level: 'university',
+    category: 'literature',
+    author: 'Fyodor Dostoevsky',
+    wordCount: 138,
+    difficulty: 5,
+    createdAt: '2024-05-08',
+  },
+  {
+    id: 'u39',
+    title: 'The Industrial Revolution and Economic Growth',
+    titleZh: '工业革命与经济增长',
+    contentEn: `The Industrial Revolution represents one of the most profound transformations in human economic history, fundamentally altering the organization of production and the structure of societies. Beginning in Britain in the late 18th century, industrialization spread throughout Europe and North America, creating unprecedented levels of material wealth. The technological innovations of this period, including the steam engine, mechanized textile production, and iron smelting, dramatically increased labor productivity. However, the benefits of industrialization were unevenly distributed, with early industrializers gaining substantial advantages and developing countries facing challenges in competing with established manufacturing powers. The concept of catch-up growth examines why some economies have converged with leading economies while others have fallen behind. Institutions, geography, and human capital accumulation all play crucial roles in determining long-run economic trajectories. Understanding the historical determinants of economic growth remains essential for formulating policies that promote shared prosperity.`,
+    contentZh: `工业革命代表了人类经济史上最深刻的变革之一，从根本上改变了生产组织和社会结构。工业化始于18世纪末的英国，随后传播到整个欧洲和北美，创造了前所未有的物质财富。这一时期的技术创新，包括蒸汽机、机械化纺织生产和高炉炼铁，大大提高了劳动生产率。然而，工业化的收益分配不均，早期工业化国家获得了实质性优势，发展中国家在与发展成熟的制造业大国竞争时面临挑战。追赶型增长的概念审视了为什么一些经济体已经与领先经济体趋同，而另一些则落后。制度、地理和人力资本积累都在决定长期经济轨迹方面发挥着关键作用。理解经济增长的历史决定因素对于制定促进共同繁荣的政策仍然至关重要。`,
+    level: 'university',
+    category: 'science',
+    author: 'Economic History',
+    wordCount: 178,
+    difficulty: 5,
+    createdAt: '2024-05-09',
+  },
+  {
+    id: 'u40',
+    title: 'Crime and Punishment (Excerpt)',
+    titleZh: '罪与罚（节选）',
+    contentEn: `Pain and suffering are always inevitable for a reasonable man who consciously attempts to live his life according to the dictates of reason. I think it is not true for me. I came to the conclusion that I was临界a nonentity, a nulility, an insect among insects. I came to understand that it was not right, my dear boy, to think of yourself as cleverer than others. Conscience is not proof of anything. It is simply a feeling, and you cannot destroy a feeling. You can only mock at it. A man who is not himself, who does not think his own thoughts, is not a man at all. You must not be frightened by the thought of your own insignificance. What matters is what you think of yourself, not what others think of you.`,
+    contentZh: `痛苦和苦难对于一个理性的人来说是不可避免的，他自觉地试图按照理性的命令生活。我认为这对我不适用。我得出结论，我是一个无关紧要的人，一个虚无，一个昆虫中的昆虫。我开始明白，不把自己看作比其他人聪明是错误的。良心不能证明任何东西。它只是一种感觉，而你无法摧毁一种感觉。你只能嘲笑它。一个不是他自己、不思考自己思想的人，根本不是人。你不必被自己微不足道的想法吓到。重要的是你对自己的看法，而不是别人对你的看法。`,
+    level: 'university',
+    category: 'literature',
+    author: 'Fyodor Dostoevsky',
+    wordCount: 158,
+    difficulty: 5,
+    createdAt: '2024-05-10',
   },
 ];
 

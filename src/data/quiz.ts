@@ -102,11 +102,46 @@ const seniorQuestions: QuizQuestion[] = [
   { id: 's30', word: 'emphasize', phonetic: '/ˈem.fə.saɪz/', correctAnswer: '强调', options: ['忽视', '强调', '否认', '怀疑'], level: 'senior' },
 ];
 
+// 大学词汇测试题库
+const universityQuestions: QuizQuestion[] = [
+  { id: 'u1', word: 'algorithm', phonetic: '/ˈæl.ɡə.rɪ.ðəm/', correctAnswer: '算法', options: ['算法', '公式', '方程', '函数'], level: 'university' },
+  { id: 'u2', word: 'hypothesis', phonetic: '/haɪˈpɒθ.ə.sɪs/', correctAnswer: '假设', options: ['假设', '结论', '事实', '理论'], level: 'university' },
+  { id: 'u3', word: 'paradox', phonetic: '/ˈpær.ə.dɒks/', correctAnswer: '悖论', options: ['悖论', '矛盾', '逻辑', '推理'], level: 'university' },
+  { id: 'u4', word: 'philosophy', phonetic: '/fɪˈlɒs.ə.fi/', correctAnswer: '哲学', options: ['哲学', '科学', '宗教', '艺术'], level: 'university' },
+  { id: 'u5', word: 'cognitive', phonetic: '/ˈkɒɡ.nɪ.tɪv/', correctAnswer: '认知的', options: ['感知的', '认知的', '行为的', '情感的'], level: 'university' },
+  { id: 'u6', word: 'sustainable', phonetic: '/səˈsteɪ.nə.bəl/', correctAnswer: '可持续的', options: ['可持续的', '短暂的', '有限的', '传统的'], level: 'university' },
+  { id: 'u7', word: 'paradigm', phonetic: '/ˈpær.ə.daɪm/', correctAnswer: '范式', options: ['范式', '模型', '类型', '标准'], level: 'university' },
+  { id: 'u8', word: 'empirical', phonetic: '/ɪmˈpɪr.ɪ.kəl/', correctAnswer: '经验的', options: ['理论的', '经验的', '直觉的', '假设的'], level: 'university' },
+  { id: 'u9', word: 'qualitative', phonetic: '/ˈkwɒl.ɪ.tə.tɪv/', correctAnswer: '定性的', options: ['定量的', '定性的', '相对的', '绝对的'], level: 'university' },
+  { id: 'u10', word: 'quantitative', phonetic: '/ˈkwɒn.tɪ.tə.tɪv/', correctAnswer: '定量的', options: ['定性的', '定量的', '质量的', '数量的'], level: 'university' },
+  { id: 'u11', word: 'phenomenon', phonetic: '/fɪˈnɒm.ɪ.nən/', correctAnswer: '现象', options: ['本质', '现象', '原因', '结果'], level: 'university' },
+  { id: 'u12', word: 'methodology', phonetic: '/ˌmeθ.əˈdɒl.ə.dʒi/', correctAnswer: '方法论', options: ['方法', '方法论', '技术', '策略'], level: 'university' },
+  { id: 'u13', word: 'coefficient', phonetic: '/ˌkəʊ.ɪˈfɪʃ.ənt/', correctAnswer: '系数', options: ['指数', '系数', '变量', '常数'], level: 'university' },
+  { id: 'u14', word: 'equilibrium', phonetic: '/ˌek.wɪˈlɪb.ri.əm/', correctAnswer: '平衡', options: ['不平衡', '平衡', '稳定', '动荡'], level: 'university' },
+  { id: 'u15', word: 'heterogeneous', phonetic: '/ˌhet.ər.əˈdʒiː.ni.əs/', correctAnswer: '异质的', options: ['同质的', '异质的', '均匀的', '混合的'], level: 'university' },
+  { id: 'u16', word: 'correlation', phonetic: '/ˌkɒr.əˈleɪ.ʃən/', correctAnswer: '相关性', options: ['因果性', '相关性', '独立性', '依赖性'], level: 'university' },
+  { id: 'u17', word: 'inference', phonetic: '/ˈɪn.fər.əns/', correctAnswer: '推理', options: ['观察', '推理', '描述', '解释'], level: 'university' },
+  { id: 'u18', word: 'symmetry', phonetic: '/ˈsɪm.ɪ.tri/', correctAnswer: '对称', options: ['对称', '不对称', '平衡', '协调'], level: 'university' },
+  { id: 'u19', word: 'asymmetry', phonetic: '/eɪˈsɪm.ɪ.tri/', correctAnswer: '不对称', options: ['对称', '不对称', '平衡', '协调'], level: 'university' },
+  { id: 'u20', word: 'taxonomy', phonetic: '/tækˈsɒn.ə.mi/', correctAnswer: '分类学', options: ['分类学', '统计学', '语言学', '生物学'], level: 'university' },
+  { id: 'u21', word: 'semantics', phonetic: '/sɪˈmæn.tɪks/', correctAnswer: '语义学', options: ['语法', '语义学', '语音学', '语用学'], level: 'university' },
+  { id: 'u22', word: 'proposition', phonetic: '/ˌprɒp.əˈzɪʃ.ən/', correctAnswer: '命题', options: ['问题', '命题', '假设', '结论'], level: 'university' },
+  { id: 'u23', word: 'derivation', phonetic: '/ˌder.ɪˈveɪ.ʃən/', correctAnswer: '推导', options: ['推导', '归纳', '类比', '演绎'], level: 'university' },
+  { id: 'u24', word: 'theorem', phonetic: '/ˈθɪə.rəm/', correctAnswer: '定理', options: ['定律', '定理', '公式', '公理'], level: 'university' },
+  { id: 'u25', word: 'reciprocity', phonetic: '/ˌres.ɪˈprɒs.ɪ.ti/', correctAnswer: '互惠', options: ['互惠', '竞争', '独占', '交换'], level: 'university' },
+  { id: 'u26', word: 'elasticity', phonetic: '/ˌiː.læˈstɪs.ɪ.ti/', correctAnswer: '弹性', options: ['刚性', '弹性', '塑性', '脆性'], level: 'university' },
+  { id: 'u27', word: 'amplitude', phonetic: '/ˈæm.plɪ.tjuːd/', correctAnswer: '振幅', options: ['频率', '振幅', '波长', '周期'], level: 'university' },
+  { id: 'u28', word: 'momentum', phonetic: '/məˈmen.təm/', correctAnswer: '动量', options: ['能量', '动量', '力量', '速度'], level: 'university' },
+  { id: 'u29', word: 'thermodynamics', phonetic: '/ˌθɜː.məʊ.daɪˈnæm.ɪks/', correctAnswer: '热力学', options: ['动力学', '热力学', '电磁学', '量子力学'], level: 'university' },
+  { id: 'u30', word: 'metabolism', phonetic: '/mɪˈtæb.əl.ɪ.zəm/', correctAnswer: '新陈代谢', options: ['合成作用', '新陈代谢', '分解作用', '催化作用'], level: 'university' },
+];
+
 // 合并所有题库
 export const quizQuestions: QuizQuestion[] = [
   ...elementaryQuestions,
   ...juniorQuestions,
   ...seniorQuestions,
+  ...universityQuestions,
 ];
 
 // 根据等级获取题目

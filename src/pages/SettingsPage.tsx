@@ -7,6 +7,17 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '5.5.5',
+    date: '2026-04-26',
+    changes: [
+      '语法扩充：高中42条(58→100)、大学60条(100→160)，总计451个语法专题',
+      '大学语法新增：虚拟语气高级、倒装强调省略、同位语分裂句、非谓语动词深化、独立主格结构、名词化、模糊限制语、学术摘要写作等60个专业专题',
+      '高中语法新增：wish/would rather/as if虚拟语气、否定词倒装、Only倒装、Here/There倒装、were/had/could替代if、强调句do强调、并列句/条件句省略等42个专题',
+      '文章扩充：elementary 30→50篇、junior 30→50篇、senior 30→50篇、university 20→40篇，共计190篇文章',
+      '新增大学词汇quiz题库30题(algorithm/hypothesis/paradox/philosophy/cognitive/sustainable等学术词汇)',
+    ],
+  },
+  {
     version: '5.5',
     date: '2026-04-25',
     changes: [
