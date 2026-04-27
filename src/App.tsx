@@ -26,6 +26,7 @@ import WrongBookPage from './pages/WrongBookPage';
 import ReviewPage from './pages/ReviewPage';
 import DownloadPage from './pages/DownloadPage';
 import ReportPage from './pages/ReportPage';
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/articles" element={<ArticlesListPage />} />
             <Route path="/articles/:id" element={<ArticleReaderPage />} />
             <Route path="/grammar" element={<GrammarPage />} />
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/new-words" element={<NewWordsPage />} />
             <Route path="/vocabulary" element={<VocabularyPage />} />

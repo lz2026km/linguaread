@@ -6,7 +6,7 @@ export interface Article {
   contentEn: string;
   contentZh: string;
   level: 'elementary' | 'junior' | 'senior' | 'university';
-  category: 'literature' | 'news' | 'science' | 'essay';
+  category: 'literature' | 'news' | 'science' | 'essay' | 'technology' | 'environment' | 'culture' | 'education' | 'economy' | 'society';
   author: string;
   wordCount: number;
   difficulty: number;

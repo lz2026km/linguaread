@@ -7024,6 +7024,1304 @@ Admittedly, ... However, ... / On the one hand..., on the other hand...`,
     ],
     createdAt: '2024-12-27',
   },
+  // === 虚拟语气 g-uni-161~170 ===
+  {
+    id: 'g-uni-161',
+    title: 'Subjunctive Mood - If Only',
+    titleZh: 'If Only 虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `If Only 表示与现在或过去事实相反的愿望：
+
+结构：
+- 与现在事实相反：If only + 主语 + were/did（be动词用were）
+- 与过去事实相反：If only + 主语 + had done
+- 与将来事实相反：If only + 主语 + would/could do
+
+特点：
+- 比 I wish 语气更强烈
+- 常用于表达遗憾或不可能实现的愿望`,
+    examples: [
+      "If only I were taller.（与现在事实相反——我要是再高点就好了）",
+      "If only she had listened to me.（与过去事实相反——她要是听了我的话就好了）",
+      "If only it would stop raining!（与将来事实相反——雨要是能停就好了）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-162',
+    title: 'Subjunctive Mood - Wish',
+    titleZh: 'Wish 宾语从句虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `Wish 后的宾语从句使用虚拟语气：
+
+与现在事实相反：主语 + wished + 主语 + were/did
+与过去事实相反：主语 + wished + 主语 + had done
+与将来事实相反：主语 + wished + 主语 + would/could do
+
+注意：were 可以用在所有主语后（正式语体），did 用于一般过去时动作。`,
+    examples: [
+      "I wish I knew how to cook.（与现在相反——真希望我会做饭）",
+      "She wishes she had studied harder.（与过去相反——她希望当初更努力）",
+      "They wish it would snow in winter.（与将来可能相反——他们希望冬天能下雪）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-163',
+    title: 'Subjunctive Mood - Would Rather',
+    titleZh: 'Would Rather 虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `Would Rather 表示"宁愿..."，后接虚拟语气：
+
+结构：
+- would rather + 主语 + 动词过去式（与现在/将来事实相反）
+- would rather + 主语 + had + 过去分词（与过去事实相反）
+
+否定：would rather + 主语 + had not + 过去分词`,
+    examples: [
+      "I would rather you came tomorrow.（与将来相反——我宁愿你明天来）",
+      "She would rather he were here now.（与现在相反——她宁愿他现在在这儿）",
+      "I would rather not have gone there.（与过去相反——我宁愿当初没去那儿）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-164',
+    title: 'Subjunctive Mood - Mixed Conditionals',
+    titleZh: '混合虚拟语气（Mixed Conditionals）',
+    level: 'university',
+    category: 'structure',
+    content: `混合虚拟语气：将不同时间的条件与结果混合使用。
+
+常见组合：
+1. 过去条件 → 现在结果：If + had done, would/could + do
+   If I had studied medicine, I would be a doctor now.
+
+2. 现在条件 → 过去结果：If + were/did, would/could have done
+   If I were you, I would have accepted the offer.
+
+这种混合表达更真实地反映现实中的复杂逻辑关系。`,
+    examples: [
+      "If I had taken your advice, I would not be in trouble now.",
+      "If I were more patient, I would have learned piano years ago.",
+      "If he knew the truth, he would have helped us.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-165',
+    title: 'Subjunctive Mood - If It Were Not For',
+    titleZh: 'If It Were Not For / If It Had Not Been For',
+    level: 'university',
+    category: 'structure',
+    content: `If it were not for / If it had not been for 表示"要不是... "
+
+用法：
+- If it were not for + 名词/代词（与现在事实相反）
+- If it had not been for + 名词/代词（与过去事实相反）
+
+可替换为 But for + 名词/代词（语气更正式）`,
+    examples: [
+      "If it were not for your help, I would fail.（要不是你的帮助，我会失败）",
+      "If it had not been for the rain, we would have arrived earlier.",
+      "But for his guidance, we would never have succeeded.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-166',
+    title: 'Subjunctive Mood - As If / As Though',
+    titleZh: 'As If / As Though 方式状语从句虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `As If 和 As Though 引导方式状语从句，表示"好像... "
+
+虚拟语气用法：
+- 与现在事实相反：主语 + 动词过去式/be动词用were
+- 与过去事实相反：主语 + had + 过去分词
+- 真实情况：可用陈述语气（说明可能是事实）
+
+在 it looks/seems 等结构后常使用。`,
+    examples: [
+      "He talks as if he knew everything.（与现在相反——他说话好像什么都知道）",
+      "She looked as though she had seen a ghost.（与过去相反——她看起来像见了鬼）",
+      "It seems as if it is going to rain.（真实可能性——好像要下雨了）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-167',
+    title: 'Subjunctive Mood - It Is Time That',
+    titleZh: 'It Is Time That 虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `It Is Time That 表示"该是...的时候了"，后接虚拟语气。
+
+结构：It is time + that + 主语 + 动词过去式
+
+注意：不能用 be 动词的现在式，所有主语都用 were/动词过去式。
+
+相近表达：It is about time（语气更强调紧迫感）`,
+    examples: [
+      "It is time that we left.（我们该离开了）",
+      "It is time that she apologized.（她该道歉了）",
+      "It is about time we made a decision.（我们该做决定了）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-168',
+    title: 'Subjunctive Mood - Lest / For Fear That',
+    titleZh: 'Lest / For Fear That 目的状语从句虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `Lest 和 For Fear That 引导目的状语从句，表示"以免.../生怕... "
+
+虚拟语气结构：
+- Lest + 主语 + (should) + 动词原形（should 可省略）
+- For Fear That + 主语 + (should) + 动词原形
+
+Lest 为正式/文学语体，口语中较少使用。`,
+    examples: [
+      "He hid his notes lest (should) anyone see them.",
+      "She spoke quietly for fear that (should) she disturb others.",
+      "They left early for fear that they might be late.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-169',
+    title: 'Subjunctive Mood - Would That',
+    titleZh: 'Would That 古体虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `Would That 是古体/文学用法，表示"但愿.../渴望... "
+
+结构：Would that + 主语 + 动词过去式/had + 过去分词
+
+比现代英语的 I wish/If only 更正式、文学化。
+现代口语中几乎不使用，但在阅读理解中可能出现。`,
+    examples: [
+      "Would that I were young again.（但愿我能再年轻一次）",
+      "Would that he had listened to reason.（他要是听从理智就好了）",
+      "Would that such tragedy never happen again.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-170',
+    title: 'Subjunctive Mood - Command/Request/Requirement',
+    titleZh: '命令/请求/要求从句虚拟语气',
+    level: 'university',
+    category: 'structure',
+    content: `在表示命令、请求、建议、要求、重要性等意义的动词/形容词/名词后的 that 从句中，谓语使用 (should) + 动词原形（Should 可省略）。
+
+常见动词：suggest, demand, recommend, request, require, insist, propose, ask, advise
+常见形容词：important, necessary, essential, vital, crucial, imperative
+常见名词：suggestion, demand, request, requirement, recommendation, proposal`,
+    examples: [
+      "I suggest that he (should) go there immediately.",
+      "It is essential that everyone (should) be present.",
+      "His requirement is that the work (should) be finished today.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 倒装句 g-uni-171~175 ===
+  {
+    id: 'g-uni-171',
+    title: 'Inversion - Partial Inversion with Adverbs',
+    titleZh: '部分倒装 - 副词前置倒装',
+    level: 'university',
+    category: 'structure',
+    content: `部分倒装：将助动词/情态动词提至主语前，主语位置不变。
+
+常见情况：
+1. 否定副词/短语位于句首：never, seldom, rarely, little, not until, hardly, barely, no sooner
+2. only + 副词/介词短语/从句位于句首
+3. so/such...that 句型中 so/such 位于句首
+
+结构：助动词/情态动词 + 主语 + 动词原形/其他时态`,
+    examples: [
+      "Never have I seen such a beautiful sunset.",
+      "Only then did I realize the truth.",
+      "No sooner had I arrived than it started to rain.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-172',
+    title: 'Inversion - Full Inversion',
+    titleZh: '完全倒装',
+    level: 'university',
+    category: 'structure',
+    content: `完全倒装：将整个谓语动词部分提至主语前，主语位于动词/助动词之后。
+
+适用情况：
+1. 方位副词/介词短语位于句首：here, there, up, down, out, in, now, then, on the wall, under the tree
+2. 虚拟语气 were/had/should 提至句首（省略 if）
+3. 某些固定表达：Long live...（...万岁）, Come the revolution
+
+注意：主语为代词时，不使用完全倒装。`,
+    examples: [
+      "Here comes the bus.（正）Here it comes.（代词主语，不倒装）",
+      "Were I you, I would accept the offer.",
+      "Had he studied harder, he would have passed.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-173',
+    title: 'Inversion - Negative Word Fronting',
+    titleZh: '否定词前置倒装',
+    level: 'university',
+    category: 'structure',
+    content: `否定词/否定短语位于句首时，使用部分倒装。
+
+常见否定词/短语：
+- never, seldom, rarely, little, hardly, barely
+- nowhere, not a single, not once, not until
+- no sooner...than, hardly...when, scarcely...when
+- not only...but also（not only 位于句首时）
+
+not until 倒装：Not until + 时间 + did + 主语 + 动词原形`,
+    examples: [
+      "Not once did he apologize for his behavior.",
+      "Not only did she win the race, but she also set a new record.",
+      "Not until midnight did he finish his work.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-174',
+    title: 'Inversion - As/Though Comparison',
+    titleZh: 'As/Though 倒装（让步状语从句）',
+    level: 'university',
+    category: 'structure',
+    content: `As/Though 引导让步状语从句，可使用倒装结构。
+
+结构：Adj/Adv/Noun/Verb (+助动词) + as/though + 主语 + 动词
+
+注意：
+- 名词置于句首时不加冠词（Child as he is）
+- 形容词/副词置于句首
+- 动词可带宾语或状语`,
+    examples: [
+      "Young as he is, he is very responsible.（Child as he is...名词）",
+      "Try as he might, he could not open the door.",
+      "Much as I admire his work, I cannot agree.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-175',
+    title: 'Inversion - Only Fronting',
+    titleZh: 'Only 前置倒装',
+    level: 'university',
+    category: 'structure',
+    content: `Only + 副词/介词短语/从句 位于句首时，使用部分倒装。
+
+结构：Only + 副词/短语/从句 + 助动词/情态动词 + 主语 + 动词原形
+
+注意：
+- Only 修饰主语时，不倒装：Only students can enter.
+- 从句中使用正常语序，从句后主谓倒装`,
+    examples: [
+      "Only then did I understand what she meant.",
+      "Only by working hard can we succeed.",
+      "Only when I graduated did I realize the importance of time.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 强调句型 g-uni-176~180 ===
+  {
+    id: 'g-uni-176',
+    title: 'Emphasis - It Is/Was... That/Who/Which',
+    titleZh: 'It Is/Was... That/Who/Which 强调句',
+    level: 'university',
+    category: 'structure',
+    content: `It is/was + 被强调部分 + that/who/which + 剩余部分
+
+特点：
+1. 去掉 It is/was...that/who/which 后，句子结构仍然完整
+2. 可强调除谓语外的任何成分：主语、宾语、状语
+3. 强调人用 who/whom，其他用 that
+4. 谓语动词时态由原句时间决定
+
+疑问式：Is it...that/who...?
+否定式：It is not...that/who...`,
+    examples: [
+      "It was **John who/that** helped me yesterday.",
+      "It is **only by practice** that we can master a language.",
+      "It was in Paris **where/that** I first met her.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-177',
+    title: 'Emphasis - Not Until Emphasis',
+    titleZh: 'Not Until 强调句',
+    level: 'university',
+    category: 'structure',
+    content: `Not Until 的强调结构：
+
+普通句：I didn't realize my mistake until I got home.
+强调句：It was not until I got home that I realized my mistake.
+
+结构：It is/was not until + 时间点 + that + 主语 + 肯定谓语
+
+注意：不能用 It is not until...that... 开头，必须先有 is/was。`,
+    examples: [
+      "It was not until midnight that he finished his work.",
+      "It is not until now that I understand his meaning.",
+      "It was not until I read the book that I realized the truth.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-178',
+    title: 'Emphasis - Do/Does/Did Emphasis',
+    titleZh: 'Do/Does/Did 助动词强调',
+    level: 'university',
+    category: 'structure',
+    content: `在肯定句中，用 do/does/did + 动词原形强调"确实/真的..."
+
+用法：
+- does/did 后的动词用原形
+- 只用于强调现在时/过去时的肯定句
+- 不能用于进行时、完成时或被动语态
+- 语调通常重读 do/does/did`,
+    examples: [
+      "I **do** believe you.（我真的相信你）",
+      "She **does** look beautiful today.（她今天确实很漂亮）",
+      "They **did** work hard to pass the exam.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-179',
+    title: 'Emphasis - What...Is/Was...',
+    titleZh: 'What...Is/Was... 强调结构',
+    level: 'university',
+    category: 'structure',
+    content: `What...Is/Was... 表示"...的是..."
+
+结构：What + 主语 + is/was + 表语/状语/补语
+
+特点：
+- What 引导主语从句（疑问what转化为名词性what从句）
+- is/was 是主语的系动词
+- 比 It is...that... 更简洁自然`,
+    examples: [
+      "What I need most is your support.（我最需要的是你的支持）",
+      "What made him angry was her words.（让他生气的是她的话）",
+      "What we should do now is to wait.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-180',
+    title: 'Emphasis - On Earth / In the World',
+    titleZh: 'On Earth / In the World 强调词组',
+    level: 'university',
+    category: 'structure',
+    content: `On earth, in the world, at all, the hell, the devil 等短语用于特殊疑问句中加强语气，意为"到底/究竟".
+
+用法：
+- 用于 what, where, when, why, how 等疑问词后
+- 语气强度：the hell/the devil > on earth/in the world > at all
+- 注意：只能用逗号与疑问词隔开，或紧跟疑问词`,
+    examples: [
+      "What **on earth** are you doing here?",
+      "Where **in the world** could she have gone?",
+      "Why **the hell** did you say that?",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 非谓语（高中）g-uni-181~190 ===
+  {
+    id: 'g-uni-181',
+    title: 'Non-Finite Verbs - Participle as Adverbial',
+    titleZh: '分词作状语',
+    level: 'senior',
+    category: 'structure',
+    content: `分词（现在分词/过去分词）可以在句中作状语，表示时间、原因、条件、让步、方式、伴随等。
+
+用法：
+1. 现在分词：与主语是主动关系，表示动作正在进行
+2. 过去分词：与主语是被动关系，表示动作已完成
+3. 独立主格结构：分词逻辑主语与主句主语不一致时
+
+否定：Not + 分词（Not being ready, he left.）`,
+    examples: [
+      "Seeing the teacher, the students stopped talking.（时间）",
+      "Born in Beijing, he knows much about Chinese history.（原因）",
+      "Not knowing her address, I couldn't visit her.（原因/否定）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-182',
+    title: 'Non-Finite Verbs - Nominative Absolute',
+    titleZh: '独立主格结构',
+    level: 'senior',
+    category: 'structure',
+    content: `独立主格结构：分词或分词短语有自己的逻辑主语，与主句主语不一致。
+
+结构：名词/代词 + 分词/形容词/介词短语/副词
+
+类型：
+1. 名词/代词 + 现在分词（主动/进行）
+2. 名词/代词 + 过去分词（被动/完成）
+3. 名词/代词 + 形容词/副词/介词短语
+4. with/without + 宾语 + 分词/形容词`,
+    examples: [
+      "Weather permitting, we will go outing tomorrow.",
+      "The work finished, we went home.",
+      "He sat there, his hands trembling.",
+      "With the problem solved, we felt relieved.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-183',
+    title: 'Non-Finite Verbs - Perfect Infinitive',
+    titleZh: '不定式完成式',
+    level: 'senior',
+    category: 'structure',
+    content: `不定式完成式：to have + 过去分词，表示动作在谓语动作之前发生。
+
+用法：
+1. 过去发生的动作（用在特定动词后）
+2. 表示"本该做却未做"（用在某些形容词/动词后）
+3. seem/appear/happen + to have done
+
+常见动词：appear, seem, happen, pretend, claim, expect, hope, mean, promise, refuse, want, wish`,
+    examples: [
+      "I am glad to have met you.（见过你很高兴——已见过）",
+      "He seems to have read this book before.（似乎以前读过）",
+      "I regret to have said that.（后悔说了——已说）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-184',
+    title: 'Non-Finite Verbs - Gerund Compound Structure',
+    titleZh: '动名词复合结构',
+    level: 'senior',
+    category: 'structure',
+    content: `动名词复合结构：物主代词/名词所有格 + 动名词
+
+结构：形容词性物主代词/名词's + 动名词
+
+用法：
+1. 动名词的逻辑主语不同时使用
+2. 书面语中用所有格，口语中可用宾格
+3. 在某些动词后必须用复合结构：remember, forget, stop, mind, dislike, enjoy, appreciate`,
+    examples: [
+      "I appreciate your helping me.（感谢你帮助我）",
+      "His coming late made the teacher angry.",
+      "Do you mind my opening the window?（口语可用 me/my）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-185',
+    title: 'Non-Finite Verbs - Infinitive as Subject',
+    titleZh: '不定式作主语',
+    level: 'senior',
+    category: 'structure',
+    content: `不定式作主语：
+
+结构：To + 动词原形 + is + ...（动词不定式作主语）
+
+特点：
+1. 常用 it 作形式主语：It is + adj + to do something
+2. 真正主语是 to do something
+3. 否定：Not to do... | To not do...（后者少见）
+4. 疑问词 + to do 可作主语：How to solve it is the question.`,
+    examples: [
+      "To learn English well is important.",
+      "It is necessary to finish the task today.",
+      "When to start remains uncertain.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-186',
+    title: 'Non-Finite Verbs - Infinitive as Object',
+    titleZh: '不定式作宾语',
+    level: 'senior',
+    category: 'structure',
+    content: `不定式作宾语：
+
+及物动词 + to do：
+常见动词：want, hope, wish, expect, promise, refuse, decide, pretend, learn, agree, offer, ask, dare, seem, appear, happen, prove
+
+动词 + 宾语 + to do：
+常见动词：want, wish, expect, would like, ask, tell, invite, allow, permit, encourage, advise, force, get, beg`,
+    examples: [
+      "I hope to see you again.",
+      "She wants me to go with her.",
+      "He decided not to go there.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-187',
+    title: 'Non-Finite Verbs - Participle as Object Complement',
+    titleZh: '分词作宾语补足语',
+    level: 'senior',
+    category: 'structure',
+    content: `分词作宾语补足语：
+
+动词 + 宾语 + 现在分词（强调动作进行/主动）：
+see, watch, hear, observe, notice, feel, find, keep, leave, catch, get
+
+动词 + 宾语 + 过去分词（强调被动/已完成）：
+have, get, see, watch, hear, find, want, like, wish, expect`,
+    examples: [
+      "I saw him leaving the room.（看见他正在离开）",
+      "I heard my name called.（听见名字被叫）",
+      "I found him sleeping in class.",
+      "I had my bike stolen yesterday.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-188',
+    title: 'Non-Finite Verbs - Bare Infinitive',
+    titleZh: '不带to的不定式',
+    level: 'senior',
+    category: 'structure',
+    content: `不带 to 的不定式（bare infinitive）用法：
+
+1. 感官动词后：see, hear, watch, feel, notice, observe
+2. 使役动词后：make, let, have（have sb do sth）
+3. 情态动词：can, could, may, might, will, would, shall, should, must
+4. Why not / Had better / Would rather
+5. 感官动词用于被动语态时需加 to：He was seen to enter.`,
+    examples: [
+      "I heard her sing in the next room.",
+      "Let me help you.",
+      "You had better leave now.",
+      "He was made to repeat the story.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-189',
+    title: 'Non-Finite Verbs - Progressive Infinitive',
+    titleZh: '不定式进行式',
+    level: 'senior',
+    category: 'structure',
+    content: `不定式进行式：to be + doing，表示与谓语同时进行的动作。
+
+用法：
+1. 用在特定动词后：seem, appear, pretend, happen, expect 等
+2. 表示说话时正在进行的动作
+3. 表示即将发生且正在进行的动作`,
+    examples: [
+      "He seems to be sleeping now.",
+      "I am glad to be working with you.",
+      "She pretended to be reading when I came in.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-190',
+    title: 'Non-Finite Verbs - Passive Infinitive',
+    titleZh: '不定式被动式',
+    level: 'senior',
+    category: 'structure',
+    content: `不定式被动式：to be + 过去分词 / to have been + 过去分词
+
+用法：
+1. to be done：与逻辑主语是被动关系
+2. to have been done：强调被动动作在谓语之前发生
+
+常见句型：
+- It is an honor to be invited here.
+- He is said to have been praised by the teacher.`,
+    examples: [
+      "I am glad to be given this opportunity.",
+      "The book is said to have been translated into many languages.",
+      "There is no more work to be done today.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 从句（高中）g-uni-191~200 ===
+  {
+    id: 'g-uni-191',
+    title: 'Subordinate Clauses - Noun Clauses',
+    titleZh: '名词性从句',
+    level: 'senior',
+    category: 'reading',
+    content: `名词性从句包括主语从句、宾语从句、表语从句、同位语从句。
+
+引导词：
+1. 从属连词：that, whether, if
+2. 连接代词：who, whom, whose, which, what, whoever, whatever, whichever
+3. 连接副词：when, where, why, how
+
+注意：that 在宾语从句中可省略，但其他情况一般不省略。`,
+    examples: [
+      "That he won the prize is surprising.（主语从句）",
+      "I wonder if he will come.（宾语从句）",
+      "The problem is whether we can finish it in time.（表语从句）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-192',
+    title: 'Subordinate Clauses - Relative Clause Distinction',
+    titleZh: '定语从句与同位语从句的区别',
+    level: 'senior',
+    category: 'reading',
+    content: `定语从句与同位语从句的区别：
+
+1. 作用不同：
+   - 定语从句：修饰/限定名词
+   - 同位语从句：解释说明名词内容
+
+2. that 功能不同：
+   - 定语从句：that 作主语/宾语，可省略
+   - 同位语从句：that 只起连接作用，不作成分，不能省略
+
+3. 位置：同位语从句常跟在抽象名词后（fact, idea, news, hope, belief 等）`,
+    examples: [
+      "The news that he told us is true.（定语从句，that=宾语）",
+      "The news that he has won the prize is true.（同位语从句，that 只连接）",
+      "The plan that we should leave early was adopted.（同位语）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-193',
+    title: 'Subordinate Clauses - Restrictive vs Non-Restrictive',
+    titleZh: '限制性定语从句与非限制性定语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `限制性定语从句 vs 非限制性定语从句：
+
+限制性定语从句：
+- 无逗号，与主句关系密切
+- 省略后句意不完整
+- 可用 that/who/whom/whose
+
+非限制性定语从句：
+- 有逗号，与主句关系松散
+- 省略后句意仍完整
+- 不用 that，可用 who/whom/whose/which
+- 可修饰整个句子`,
+    examples: [
+      "The man who is standing there is my brother.（限制性）",
+      "My brother, who is standing there, is a teacher.（非限制性）",
+      "He failed the exam, which surprised us all.（非限制性，修饰整句）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-194',
+    title: 'Subordinate Clauses - Which vs That',
+    titleZh: 'Which 与 That 的区别',
+    level: 'senior',
+    category: 'reading',
+    content: `Which vs That 用法区别：
+
+只能用 that 的情况：
+1. 先行词被序数词/最高级/only/same/very 修饰
+2. 先行词是 all, everything, something, anything, nothing, little, much
+3. 先行词既指人又指物
+4. 主句以 there be 开头
+
+只能用 which 的情况：
+1. 非限制性定语从句
+2. 介词后
+3. 修饰整个句子`,
+    examples: [
+      "The only thing that matters is this.（只能用 that）",
+      "This is the house which/that I bought last year.",
+      "The sun, which rises in the east, gives us light.（只能用 which）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-195',
+    title: 'Subordinate Clauses - Adverbial Clauses Classification',
+    titleZh: '状语从句分类',
+    level: 'senior',
+    category: 'reading',
+    content: `状语从句分类（9种）：
+
+1. 时间状语：when, while, as, before, after, since, until, once
+2. 地点状语：where, wherever, everywhere
+3. 原因状语：because, since, as, for, now that
+4. 目的状语：so that, in order that, lest, for fear that
+5. 结果状语：so that, so...that, such...that
+6. 条件状语：if, unless, as long as, on condition that
+7. 让步状语：although, though, even though, however, whatever
+8. 方式状语：as, as if, as though, the way
+9. 比较状语：as...as, than, the more...the more`,
+    examples: [
+      "I was reading when the phone rang.（时间）",
+      "Where there is a will, there is a way.（地点）",
+      "He is so tall that he can reach the ceiling.（结果）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-196',
+    title: 'Subordinate Clauses - Time Subjunctive',
+    titleZh: '时间状语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `时间状语从句常用引导词：
+
+when/while/as：
+- when：可指时间点或时段，从句可在主句前或后
+- while：只指时段，从句动词必须是延续性的
+- as：强调"一边...一边..."或"随着"
+
+其他：
+- before（之前）, after（之后）, until/till（直到）
+- once（一旦）, as soon as（一...就）, the moment（一...就）`,
+    examples: [
+      "When I arrived home, it began to rain.",
+      "While you were sleeping, I was working.",
+      "I will call you as soon as I get there.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-197',
+    title: 'Subordinate Clauses - Condition Subjunctive',
+    titleZh: '条件状语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `条件状语从句：
+
+真实条件句：if + 现在时态, 主语 + 将来时态
+虚拟条件句：
+- 现在：if + were/did, would/could/might + do
+- 过去：if + had done, would/could/might have done
+- 将来：if + were to do/should do, would/could/might + do
+
+其他引导词：unless（除非）, provided that（假如）, as long as（只要）, on condition that`,
+    examples: [
+      "If it rains tomorrow, we will stay home.",
+      "If I were you, I would accept the offer.",
+      "Unless you work hard, you will fail.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-198',
+    title: 'Subordinate Clauses - Reason & Purpose',
+    titleZh: '原因/目的状语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `原因状语从句：
+because > since > as > for
+- because：回答 why，语气最强
+- since：既然，已知原因
+- as：由于（原因较轻）
+- for：并列句，对原因补充说明
+
+目的状语从句：
+so that / in order that / lest / for fear that / in case
+- so that：从句常用 can/could/will/would
+- lest/in order that：从句用 should + 动词原形`,
+    examples: [
+      "I didn't go because I was busy.",
+      "Since you are here, let's start.",
+      "He studied hard so that he could pass the exam.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-199',
+    title: 'Subordinate Clauses - Result Clauses',
+    titleZh: '结果状语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `结果状语从句：
+
+so + adj/adv + that
+such + (adj +) 可数名词复数/不可数名词 + that
+
+注意：
+- such 修饰名词，so 修饰形容词/副词
+- so many/few + 可数名词复数
+- so much/little + 不可数名词（little 表示"少"时）`,
+    examples: [
+      "He is so tall that he can reach the ceiling.",
+      "It is such a beautiful day that we want to go out.",
+      "There were so many people that we got lost.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-200',
+    title: 'Subordinate Clauses - Concession Clauses',
+    titleZh: '让步状语从句',
+    level: 'senior',
+    category: 'reading',
+    content: `让步状语从句：
+
+though/although/as：
+- though/although：虽然（though 更口语）
+- as：倒装结构（Adj/Adv/Noun + as + 主语 + 动词）
+
+even if/even though：即使（强调假设）
+however/whatever/no matter what：无论...
+while（置于句首）：虽然`,
+    examples: [
+      "Although/Though he is young, he is very responsible.",
+      "Young as he is, he is very responsible.（倒装）",
+      "However hard I tried, I couldn't open the door.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 语法综合（初中）g-uni-201~210 ===
+  {
+    id: 'g-uni-201',
+    title: 'Comprehensive Grammar - Tense Review',
+    titleZh: '时态综合复习',
+    level: 'junior',
+    category: 'structure',
+    content: `初中八大基本时态：
+
+1. 一般现在时：主语 + 动词原形/三单
+2. 一般过去时：主语 + 动词过去式
+3. 一般将来时：主语 + will + 动词原形 / am/is/are going to
+4. 现在进行时：am/is/are + doing
+5. 过去进行时：was/were + doing
+6. 现在完成时：have/has + 过去分词
+7. 过去完成时：had + 过去分词
+8. 过去将来时：would + 动词原形`,
+    examples: [
+      "I play football every day.",
+      "She visited Beijing last year.",
+      "They have finished their homework.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-202',
+    title: 'Comprehensive Grammar - Passive Voice',
+    titleZh: '被动语态',
+    level: 'junior',
+    category: 'structure',
+    content: `被动语态：主语 + be + 过去分词
+
+各时态被动语态：
+1. 一般现在时：am/is/are + done
+2. 一般过去时：was/were + done
+3. 一般将来时：will be done / is going to be done
+4. 现在进行时：am/is/are being done
+5. 现在完成时：have/has been done
+6. 过去完成时：had been done
+
+注意：及物动词才能构成被动语态。`,
+    examples: [
+      "The book is read by students.",
+      "The work was done yesterday.",
+      "The bridge is being built now.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-203',
+    title: 'Comprehensive Grammar - Modal Verbs',
+    titleZh: '情态动词',
+    level: 'junior',
+    category: 'structure',
+    content: `常见情态动词：
+
+can/could：能够/可能（can 更具体，could 更委婉）
+may/might：可以/可能（may 更正式）
+must/have to：必须（must 主观，have to 客观）
+should：应该（义务/建议）
+will/would：将会/愿意（will 现在，would 过去/虚拟）
+shall：将要/应该（用于第一人称疑问句）`,
+    examples: [
+      "You can do it if you try.",
+      "You should finish your homework first.",
+      "Would you like some tea?",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-204',
+    title: 'Comprehensive Grammar - If Clause',
+    titleZh: 'If 条件句',
+    level: 'junior',
+    category: 'structure',
+    content: `If 条件句：
+
+真实条件句：
+- 现在时 + will + 原形（可能性大）
+- 现在时 + would/could/might + 原形（可能性小）
+
+真实条件句时态对应：
+- 主句将来时 → if 从句现在时
+- 主句祈使句 → if 从句现在时
+- 主句情态动词 → if 从句现在时`,
+    examples: [
+      "If it rains tomorrow, I will stay home.",
+      "If I were rich, I would buy a big house.",
+      "If you need help, call me.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-205',
+    title: 'Comprehensive Grammar - Must vs Have to',
+    titleZh: 'Must 与 Have to 的区别',
+    level: 'junior',
+    category: 'structure',
+    content: `Must vs Have to：
+
+must：
+- 主观认为"必须"
+- 否定：must not / mustn't
+- 一般不用于过去时
+
+have to：
+- 客观要求"不得不"
+- 多种时态：have/has to, had to, will have to
+- 否定：don't/doesn't/didn't have to
+
+注意：must not = 禁止；do not have to = 不必`,
+    examples: [
+      "You must finish your homework now.（主观）",
+      "I have to go to the doctor because I'm sick.（客观）",
+      "You mustn't smoke here.（禁止）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-206',
+    title: 'Comprehensive Grammar - Present Perfect',
+    titleZh: '现在完成时',
+    level: 'junior',
+    category: 'structure',
+    content: `现在完成时：have/has + 过去分词
+
+用法：
+1. 过去发生并持续至今的动作（常与 for/since 连用）
+2. 过去发生的事情对现在有影响
+3. 过去 experiences（用 ever, never, before）
+
+标志词：already, yet, just, ever, never, before, recently, lately, for, since`,
+    examples: [
+      "I have lived here for five years.",
+      "She has already finished her work.",
+      "Have you ever been to Shanghai?",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-207',
+    title: 'Comprehensive Grammar - Present Perfect Continuous',
+    titleZh: '现在完成进行时',
+    level: 'junior',
+    category: 'structure',
+    content: `现在完成进行时：have/has been + doing
+
+用法：
+1. 动作从过去开始并持续到现在，可能继续
+2. 强调动作的持续性和持续时间
+3. 口语中可与现在完成时互换
+
+与现在完成时的区别：
+- 完成时：强调结果
+- 进行时：强调过程`,
+    examples: [
+      "I have been studying English for two hours.",
+      "She has been working here since 2020.",
+      "They have been waiting for you all day.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-208',
+    title: 'Comprehensive Grammar - Comparison',
+    titleZh: '形容词/副词比较级',
+    level: 'junior',
+    category: 'structure',
+    content: `比较级/最高级规则：
+
+规则变化：
+- 单音节词：+er/+est（tall→taller→tallest）
+- 以 e 结尾：+r/+st（nice→nicer→nicest）
+- 辅音+y：y→i+er/+est（happy→happier→happiest）
+- 单元音+辅音：辅音双写+er/+est（big→bigger→biggest）
+
+不规则变化：good/well→better→best; bad/ill→worse→worst; many/much→more→most; little→less→least`,
+    examples: [
+      "He is taller than his brother.",
+      "This is the most beautiful city I have seen.",
+      "She runs faster than anyone else in her class.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-209',
+    title: 'Comprehensive Grammar - Simple Reading',
+    titleZh: '阅读理解 - 细节理解',
+    level: 'junior',
+    category: 'reading',
+    content: `阅读理解细节题解题技巧：
+
+1. 关键词定位：找出题干关键词，在原文中定位
+2. 同义转换：注意题干与原文的同义词替换
+3. 排除法：排除明显错误的选项
+4. 事实核查：确认选项是否符合原文事实
+5. 注意否定词：not, never, hardly 等`,
+    examples: [
+      "What: 提问具体信息（who, what, when, where）",
+      "How many/much: 提问数量/程度",
+      "Why: 提问原因/目的",
+      "How: 提问方式/方法",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-210',
+    title: 'Comprehensive Grammar - Inference Reading',
+    titleZh: '阅读理解 - 推理判断',
+    level: 'junior',
+    category: 'reading',
+    content: `阅读理解推理判断题技巧：
+
+1. 表面信息：不要只选直接陈述的选项
+2. 逻辑推理：根据原文进行合理推断
+3. 作者态度：从用词推断作者态度（positive/negative/neutral）
+4. 中心思想：从整体把握文章主旨
+5. 排除法：排除与原文明确不符的选项`,
+    examples: [
+      "推断题：The text suggests that... / It can be inferred that...",
+      "态度题：The author's attitude towards... is...（critical/positive/objective）",
+      "标题题：The best title for the passage is...",
+    ],
+    createdAt: '2024-12-28',
+  },
+  // === 词汇与搭配（初中）g-uni-211~220 ===
+  {
+    id: 'g-uni-211',
+    title: 'Vocabulary - Word Collocations',
+    titleZh: '词语搭配 - 常见动宾搭配',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见动词宾语搭配：
+
+take: take a photo, take a break, take medicine, take notes
+make: make a decision, make a mistake, make progress, make money
+do: do homework, do research, do business, do exercise
+have: have a meeting, have a meal, have a rest, have a look
+get: get a grade, get information, get permission, get an idea`,
+    examples: [
+      "You should take notes in class.",
+      "We need to make a decision today.",
+      "He always does his homework carefully.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-212',
+    title: 'Vocabulary - Phrasal Verbs',
+    titleZh: '短语动词',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见短语动词：
+
+look: look after, look forward to, look up, look out
+put: put off, put on, put up, put down, put away
+turn: turn on, turn off, turn up, turn down, turn around
+give: give up, give in, give out, give away
+break: break down, break up, break out, break into`,
+    examples: [
+      "I look forward to hearing from you.",
+      "Please put off the meeting until next week.",
+      "The car broke down on the way.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-213',
+    title: 'Vocabulary - Preposition Collocations',
+    titleZh: '介词搭配',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见介词搭配：
+
+at: at night, at first, at last, at school, at work
+in: in the morning, in time, in fact, in danger
+on: on time, on purpose, on sale, on the way
+for: for example, for instance, for a while
+by: by accident, by chance, by the way, by bus`,
+    examples: [
+      "We will arrive at the station in time.",
+      "He is good at playing basketball.",
+      "Let's meet at the school gate.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-214',
+    title: 'Vocabulary - Synonyms',
+    titleZh: '同义词辨析',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见同义词辨析：
+
+1. problem vs question：problem 待解决，question 需回答
+2. journey vs trip vs travel：journey 长途，trip 短途，travel 抽象
+3. job vs work：job 可数，work 不可数
+4. also vs too vs either：also/too 肯定，either 否定
+5. among vs between：among 三者及以上，between 两者`,
+    examples: [
+      "Can you solve this math problem?",
+      "I have a good job in the city.",
+      "She is the tallest among her sisters.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-215',
+    title: 'Vocabulary - Word Formation',
+    titleZh: '构词法 - 词缀',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见词缀：
+
+前缀：
+- un-（不）：unhappy, unable, unusual
+- re-（再）：rewrite, rebuild, review
+- dis-（否定）：dislike, disagree, discover
+- mis-（错误）：misspell, misuse, misunderstand
+
+后缀：
+- -ful（充满）：careful, beautiful, helpful
+- -less（没有）：careless, useless, homeless
+- -tion（名词）：education, information, attention
+- -ly（副词）：carefully, happily, quickly`,
+    examples: [
+      "Happy → unhappy（反义）",
+      "Build → rebuild（重复）",
+      "Care → careful → carefully（词性变化）",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-216',
+    title: 'Vocabulary - Common Expressions',
+    titleZh: '常用表达',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `日常常用表达：
+
+同意与不同意：
+- I agree/disagree. / I think so. / I don't think so.
+- That's a good idea. / I'm afraid not.
+
+表达观点：
+- In my opinion,... / As far as I know,... / To be honest,...
+
+表示感谢：
+- Thank you very much. / I really appreciate it. / Thanks a lot.`,
+    examples: [
+      "In my opinion, we should start early.",
+      "To be honest, I don't like this plan.",
+      "As far as I know, he is a good student.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-217',
+    title: 'Vocabulary - Idioms',
+    titleZh: '习语',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `常见习语：
+
+rain cats and dogs（倾盆大雨）
+a piece of cake（小菜一碟）
+break the ice（打破僵局）
+hit the books（用功读书）
+call it a day（收工）
+kill two birds with one stone（一石二鸟）`,
+    examples: [
+      "It's raining cats and dogs outside.",
+      "This test is a piece of cake for him.",
+      "Let's call it a day and go home.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-218',
+    title: 'Vocabulary - Academic Words',
+    titleZh: '学术词汇',
+    level: 'junior',
+    category: 'vocabulary',
+    content: `学术写作常用词汇：
+
+表示观点：argue, claim, suggest, indicate, demonstrate, prove
+表示原因：due to, because of, owing to, result from
+表示结果：lead to, result in, contribute to, affect
+表示对比：however, nevertheless, on the other hand, in contrast
+表示总结：in conclusion, to sum up, on the whole, in short`,
+    examples: [
+      "The research indicates that climate is changing.",
+      "Due to the rain, the game was cancelled.",
+      "In conclusion, we need to take action now.",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-219',
+    title: 'Vocabulary - Reading Comprehension Strategy',
+    titleZh: '阅读理解策略',
+    level: 'junior',
+    category: 'reading',
+    content: `阅读理解解题策略：
+
+1. 略读（Skimming）：快速浏览获取大意
+2. 扫读（Scanning）：寻找特定信息
+3. 猜词义：从上下文推断生词含义
+4. 把握主旨：注意首段和末段
+5. 分析结构：注意承上启下的连词`,
+    examples: [
+      "What is the main idea of the passage?",
+      "The word '...' in paragraph 2 probably means...",
+      "Which of the following is TRUE according to the passage?",
+    ],
+    createdAt: '2024-12-28',
+  },
+  {
+    id: 'g-uni-220',
+    title: 'Vocabulary - Context Clues',
+    titleZh: '语境猜词',
+    level: 'junior',
+    category: 'reading',
+    content: `利用语境猜词技巧：
+
+1. 定义线索：生词后有解释说明（is/are, means, that is, in other words）
+2. 对比线索：but, however, unlike, whereas, instead
+3. 因果线索：because, so, therefore, as a result
+4. 例证线索：for example, such as, including
+5. 常识线索：根据日常生活经验推断`,
+    examples: [
+      "He is very **meticulous** — that is, he pays great attention to detail.",
+      "Unlike his brother who is lazy, Tom is very hard-working.",
+      "The drought was severe; consequently, the harvest was poor.",
+    ],
+    createdAt: '2024-12-28',
+  },
 
 ];
 
