@@ -7,6 +7,31 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '6.0.3',
+    date: '2026-04-27',
+    changes: [
+      '修复语音设置男声选择后仍播放女声的问题',
+    ],
+  },
+  {
+    version: '6.0.2',
+    date: '2026-04-27',
+    changes: [
+      '修复考试试卷集区域显示异常问题',
+      '新增快速浏览和学习小贴士模块',
+      '优化首页布局填充',
+    ],
+  },
+  {
+    version: '6.0.1',
+    date: '2026-04-26',
+    changes: [
+      '首页布局优化：中间列增加内容填充，消除大块留白',
+      '修复考试试卷集下方空白问题',
+      '版本号更新为v6.0.1',
+    ],
+  },
+  {
     version: '6.0',
     date: '2026-04-27',
     changes: [
@@ -365,7 +390,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.0</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.0.3</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>

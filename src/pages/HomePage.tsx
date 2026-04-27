@@ -286,6 +286,62 @@ const HomePage: React.FC = () => {
               </div>
             </div>
 
+            {/* 快速浏览入口 - 填充实色 */}
+            <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border`}>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center space-x-2">
+                  <Globe className="w-4 h-4 text-indigo-500" />
+                  <h2 className={`text-sm font-semibold ${textPrimaryClass}`}>快速浏览</h2>
+                </div>
+                <Link
+                  to="/articles"
+                  className={`text-xs ${darkMode ? 'text-indigo-400 hover:text-indigo-300' : 'text-indigo-600 hover:text-indigo-700'} flex items-center gap-1`}
+                >
+                  查看全部 <ArrowRight className="w-3 h-3" />
+                </Link>
+              </div>
+              {/* 文章难度入口网格 */}
+              <div className="grid grid-cols-4 gap-2">
+                {[
+                  { label: '小学', level: 'elementary', icon: '🏫', color: darkMode ? 'bg-green-900/60 hover:bg-green-900 text-green-300' : 'bg-green-50 hover:bg-green-100 text-green-700', count: articles.filter(a => a.level === 'elementary').length },
+                  { label: '初中', level: 'junior', icon: '🏢', color: darkMode ? 'bg-blue-900/60 hover:bg-blue-900 text-blue-300' : 'bg-blue-50 hover:bg-blue-100 text-blue-700', count: articles.filter(a => a.level === 'junior').length },
+                  { label: '高中', level: 'senior', icon: '🏛️', color: darkMode ? 'bg-purple-900/60 hover:bg-purple-900 text-purple-300' : 'bg-purple-50 hover:bg-purple-100 text-purple-700', count: articles.filter(a => a.level === 'senior').length },
+                  { label: '大学', level: 'university', icon: '🎓', color: darkMode ? 'bg-amber-900/60 hover:bg-amber-900 text-amber-300' : 'bg-amber-50 hover:bg-amber-100 text-amber-700', count: articles.filter(a => a.level === 'university').length },
+                ].map((item) => (
+                  <Link
+                    key={item.level}
+                    to={`/articles?level=${item.level}`}
+                    className={`rounded-xl p-2.5 text-center transition-colors ${item.color}`}
+                  >
+                    <div className="text-xl mb-0.5">{item.icon}</div>
+                    <div className="text-xs font-medium">{item.label}</div>
+                    <div className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{item.count}篇</div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 学习小贴士 */}
+            <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border`}>
+              <div className="flex items-center space-x-2 mb-2">
+                <Lightbulb className="w-4 h-4 text-amber-500" />
+                <h2 className={`text-sm font-semibold ${textPrimaryClass}`}>学习小贴士</h2>
+              </div>
+              <div className="space-y-2">
+                {[
+                  '每天坚持阅读10分钟，效果远超周末突击',
+                  '遇到不懂的单词，先联系上下文猜意思，再查词典',
+                  '大声朗读有助于记忆，发音也更标准',
+                  '用英语写日记，哪怕只有几句话',
+                ].map((tip, i) => (
+                  <div key={i} className={`flex items-start gap-2 text-xs ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+                    <span className="text-amber-500 mt-0.5">💡</span>
+                    <span>{tip}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* 每日推荐 - 可折叠显示 */}
             <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border`}>
               <button

@@ -19,18 +19,18 @@ export const useSpeechSynthesis = () => {
         const englishVoices: VoiceOption[] = voiceList
           .filter(v => v.lang.startsWith('en'))
           .map(v => {
-            // 根据语音名称判断性别
-            const name = v.name.toLowerCase();
-            let gender: 'male' | 'female' = 'female';
-
-            // 常见男声关键词
+            // 根据语音名称判断性别（精确匹配避免子串误匹配）
+            const nameLower = v.name.toLowerCase();
+            const nameWords = nameLower.split(/\s+/);
+            // 常见男声关键词（独立词）
             const maleKeywords = ['male', 'man', 'david', 'james', 'john', 'mark', 'steve', 'daniel', 'richard', 'george', 'michael'];
-            // 常见女声关键词
+            // 常见女声关键词（独立词）
             const femaleKeywords = ['female', 'woman', 'susan', 'jenny', 'emily', 'samantha', 'victoria', 'zira', 'hazel', 'aria', 'sara'];
 
-            if (maleKeywords.some(kw => name.includes(kw))) {
+            let gender: 'male' | 'female' = 'female';
+            if (nameWords.some(w => maleKeywords.includes(w)) || nameLower.includes(' male') || nameLower.includes('_male')) {
               gender = 'male';
-            } else if (femaleKeywords.some(kw => name.includes(kw))) {
+            } else if (nameWords.some(w => femaleKeywords.includes(w)) || nameLower.includes(' female') || nameLower.includes('_female')) {
               gender = 'female';
             }
 
@@ -74,36 +74,45 @@ export const useSpeechSynthesis = () => {
     // 应用设置
     utterance.rate = voiceSettings.speechRate;
 
-    // 选择语音
+    // 每次播放时都实时获取语音列表（避免 voices 状态滞后问题）
+    const allVoices = window.speechSynthesis.getVoices();
+
+    // 根据名称判断性别的辅助函数（使用精确匹配避免子串误匹配，如 "female" 包含 "male"）
+    const detectGender = (name: string): 'male' | 'female' => {
+      const lower = name.toLowerCase();
+      // 用空格分隔单词后精确匹配，避免 "female" 被 "male" 误匹配
+      const words = lower.split(/\s+/);
+      const maleKeywords = ['male', 'man', 'david', 'james', 'john', 'mark', 'steve', 'daniel', 'richard', 'george', 'michael'];
+      const femaleKeywords = ['female', 'woman', 'susan', 'jenny', 'emily', 'samantha', 'victoria', 'zira', 'hazel', 'aria', 'sara'];
+      // 精确匹配：单词等于关键词，或名称包含 "male"/"female" 作为独立词
+      if (words.some(w => maleKeywords.includes(w)) || lower.includes(' male') || lower.includes('_male')) {
+        return 'male';
+      }
+      if (words.some(w => femaleKeywords.includes(w)) || lower.includes(' female') || lower.includes('_female')) {
+        return 'female';
+      }
+      return 'female'; // 无法判断时默认女声
+    };
+
+    // 过滤英文语音
+    const englishVoices = allVoices.filter(v => v.lang.startsWith('en'));
+
     if (voiceSettings.voiceURI) {
-      const selectedVoice = voices.find(v => v.voiceURI === voiceSettings.voiceURI);
-      if (selectedVoice) {
-        utterance.voice = selectedVoice;
-      }
+      // 优先使用用户明确选择的语音（URI 精确匹配）
+      const selected = englishVoices.find(v => v.voiceURI === voiceSettings.voiceURI);
+      if (selected) utterance.voice = selected;
     } else {
-      // 根据性别选择默认语音
-      const genderVoices = voices.filter(v => v.lang.startsWith('en'));
-
-      let filteredVoices: SpeechSynthesisVoice[] = [];
-
-      if (voiceSettings.voiceGender === 'male') {
-        // 男声：匹配男性关键词
-        filteredVoices = genderVoices.filter(v => {
-          const name = v.name.toLowerCase();
-          return name.includes('male') || name.includes('man') || name.includes('david') || name.includes('james') || name.includes('john') || name.includes('mark') || name.includes('daniel') || name.includes('steve') || name.includes('richard') || name.includes('george') || name.includes('michael');
-        });
+      // 按性别选择
+      const targetGender = voiceSettings.voiceGender;
+      // 先尝试找名称含 gender 标签的语音（如 Google UK English Male/Female）
+      const genderByName = englishVoices.filter(v => detectGender(v.name) === targetGender);
+      if (genderByName.length > 0) {
+        utterance.voice = genderByName[0];
       } else {
-        // 女声：匹配女性关键词
-        filteredVoices = genderVoices.filter(v => {
-          const name = v.name.toLowerCase();
-          return name.includes('female') || name.includes('woman') || name.includes('susan') || name.includes('jenny') || name.includes('emily') || name.includes('samantha') || name.includes('victoria') || name.includes('zira') || name.includes('hazel') || name.includes('aria') || name.includes('sara');
-        });
-      }
-
-      if (filteredVoices.length > 0) {
-        utterance.voice = filteredVoices[0];
-      } else if (genderVoices.length > 0) {
-        utterance.voice = genderVoices[0];
+        // 降级：同语言任意语音
+        if (englishVoices.length > 0) {
+          utterance.voice = englishVoices[0];
+        }
       }
     }
 
@@ -118,7 +127,7 @@ export const useSpeechSynthesis = () => {
     };
 
     window.speechSynthesis.speak(utterance);
-  }, [voices, voiceSettings]);
+  }, [voiceSettings]);
 
   // 停止播放
   const stop = useCallback(() => {
