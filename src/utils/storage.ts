@@ -1,4 +1,5 @@
 import { FavoriteWord, FavoriteArticle, Bookmark, QuizHistory, VoiceSettings, WrongWord, WrongType, ReviewRecord, EBBINGHAUS_INTERVALS } from '../types';
+// Note 和 HighlightColor 类型已在 storage.ts 内部定义
 
 // Storage Keys
 const FAVORITE_WORDS_KEY = 'linguaread_favorites';
@@ -1063,7 +1064,7 @@ export const addReadLevel = (level: string): void => {
   try {
     const levels = getReadLevelsSet();
     levels.add(level);
-    localStorage.setItem(READ_ARTICLES_LEVELS_KEY, JSON.stringify([...levels]));
+    localStorage.setItem(READ_ARTICLES_LEVELS_KEY, JSON.stringify(Array.from(levels)));
   } catch (error) {
     console.error('Error adding read level:', error);
   }

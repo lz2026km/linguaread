@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { FavoriteWord, FavoriteArticle, Bookmark, QuizHistory, Level } from '../types';
+import { Note, HighlightColor } from '../utils/storage';
 import {
   getFavoriteWords,
   addFavoriteWord,
@@ -14,9 +15,16 @@ import {
   hasBookmark,
   getQuizHistory,
   addQuizHistory,
+  getNotes,
+  addNote,
+  deleteNote as removeNote,
 } from '../utils/storage';
 
 interface AppContextType {
+  // 深色模式
+  darkMode: boolean;
+  toggleDarkMode: () => void;
+
   // 单词收藏
   favorites: FavoriteWord[];
   selectedLevel: Level;
@@ -45,6 +53,12 @@ interface AppContextType {
   addToQuizHistory: (history: QuizHistory) => void;
   refreshQuizHistory: () => void;
 
+  // 笔记/标注
+  notes: Note[];
+  addToNotes: (note: Note) => void;
+  removeFromNotes: (noteId: string) => void;
+  refreshNotes: () => void;
+
   // 网络状态
   isOnline: boolean;
   offlineMode: boolean;
@@ -59,8 +73,36 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [favoriteArticles, setFavoriteArticles] = useState<FavoriteArticle[]>([]);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [quizHistory, setQuizHistory] = useState<QuizHistory[]>([]);
+  const [notes, setNotes] = useState<Note[]>([]);
   const [isOnline, setIsOnline] = useState(navigator.onLine);
   const [offlineMode, setOfflineMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const saved = localStorage.getItem('darkMode');
+    return saved ? JSON.parse(saved) : false;
+  });
+
+  // 深色模式切换
+  const toggleDarkMode = () => {
+    setDarkMode(prev => {
+      const newVal = !prev;
+      localStorage.setItem('darkMode', JSON.stringify(newVal));
+      if (newVal) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      return newVal;
+    });
+  };
+
+  // 初始化时应用深色模式
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, []);
 
   // 初始化加载所有数据
   useEffect(() => {
@@ -68,6 +110,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     refreshFavoriteArticles();
     refreshBookmarks();
     refreshQuizHistory();
+    refreshNotes();
   }, []);
 
   // 监听网络状态变化
@@ -157,9 +200,28 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     refreshQuizHistory();
   };
 
+  // 笔记相关
+  const refreshNotes = () => {
+    setNotes(getNotes());
+  };
+
+  const addToNotes = (note: Note) => {
+    addNote(note);
+    refreshNotes();
+  };
+
+  const removeFromNotes = (noteId: string) => {
+    removeNote(noteId);
+    refreshNotes();
+  };
+
   return (
     <AppContext.Provider
       value={{
+        // 深色模式
+        darkMode,
+        toggleDarkMode,
+
         // 单词收藏
         favorites,
         selectedLevel,
@@ -187,6 +249,12 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         quizHistory,
         addToQuizHistory,
         refreshQuizHistory,
+
+        // 笔记
+        notes,
+        addToNotes,
+        removeFromNotes,
+        refreshNotes,
 
         // 网络状态
         isOnline,

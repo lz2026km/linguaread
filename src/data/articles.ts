@@ -1,13 +1,8 @@
 import { Article } from '../types';
 import { longArticles, getLongArticleById, getLongArticlesByLevel } from './longArticles';
 
-// 合并短篇文章和长篇文章
-export const articles: Article[] = [
-  ...longArticles,
-  // 原有的短篇文章
-  // ==========================================
-  // 小学 (Elementary Level) - 30篇
-  // ==========================================
+// 短篇文章列表（不包含longArticles，避免重复）
+export const shortArticles: Article[] = [
   {
     id: 'e1',
     title: 'The Little Star',
@@ -3245,6 +3240,9 @@ I am lucky to have them.`,
   },
 ];
 
+// 合并长篇文章和短篇文章
+export const articles: Article[] = [...longArticles, ...shortArticles];
+
 // 根据等级获取文章（包含长文和短文）
 export const getArticlesByLevel = (level: string): Article[] => {
   // 如果是all，返回所有文章
@@ -3252,9 +3250,9 @@ export const getArticlesByLevel = (level: string): Article[] => {
 
   // 获取该级别的长篇文章
   const longByLevel = getLongArticlesByLevel(level as Article['level']);
-  // 获取该级别的短篇文章（排除已经通过spread添加的）
-  const shortByLevel = articles.filter(article =>
-    article.level === level && !article.id.startsWith('long-')
+  // 获取该级别的短篇文章
+  const shortByLevel = shortArticles.filter(article =>
+    article.level === level
   );
   // 合并并返回
   return [...longByLevel, ...shortByLevel];
@@ -3267,7 +3265,7 @@ export const getArticleById = (id: string): Article | undefined => {
   if (longArticle) return longArticle;
 
   // 再检查短篇文章
-  return articles.find(article => article.id === id);
+  return shortArticles.find(article => article.id === id);
 };
 
 // 根据分类获取文章

@@ -25,6 +25,53 @@
     @apply bg-gray-50 text-gray-800;
   }
 
+  /* 深色模式 */
+  .dark body,
+  body.dark {
+    @apply bg-gray-900 text-gray-100;
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+  }
+  .dark body,
+  .dark .bg-white {
+    @apply bg-gray-800 text-gray-100;
+  }
+  .dark .bg-gray-50 {
+    @apply bg-gray-900 text-gray-100;
+  }
+  .dark .bg-gray-100 {
+    @apply bg-gray-700 text-gray-100;
+  }
+  .dark .text-gray-800 {
+    @apply text-gray-100;
+  }
+  .dark .text-gray-600 {
+    @apply text-gray-300;
+  }
+  .dark .text-gray-500 {
+    @apply text-gray-400;
+  }
+  .dark .border-gray-100 {
+    @apply border-gray-700;
+  }
+  .dark .border-gray-200 {
+    @apply border-gray-600;
+  }
+  .dark .shadow-sm {
+    @apply shadow-gray-800;
+  }
+  .dark header {
+    @apply bg-gray-800/95 border-gray-700;
+  }
+  .dark nav {
+    @apply bg-gray-800 border-gray-700;
+  }
+  .dark .card {
+    @apply bg-gray-800;
+  }
+
   /* 英文衬线体 */
   .font-serif {
     font-family: 'Merriweather', 'Georgia', serif;

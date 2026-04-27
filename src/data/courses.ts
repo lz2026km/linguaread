@@ -1224,6 +1224,298 @@ Finally, never be afraid of making mistakes. Mistakes are the best teachers. The
 最后，永远不要害怕犯错。错误是最好的老师。它们告诉我们需要改进什么。`,
     wordCount: 120,
   },
+  // 八年级上册 Grade 8 Semester 1
+  {
+    id: 'jun-j8s1-u1',
+    title: 'What\'s the matter?',
+    titleZh: "怎么了？",
+    contentEn: `What's the matter with you? Are you feeling well? I have a headache and fever. You should see a doctor and take some rest.
+
+Health is the most valuable wealth we have. Without good health, nothing else matters much. Taking care of your body means eating right, sleeping enough, and exercising regularly.
+
+When we are sick, our bodies send signals. A fever means our immune system is fighting infection. A headache might mean we need rest or water.`,
+    contentZh: '',
+    wordCount: 118,
+  },
+  {
+    id: 'jun-j8s1-u2',
+    title: 'I\'ll help to clean up the city parks.',
+    titleZh: "我将帮忙打扫城市公园",
+    contentEn: `Volunteering makes our community a better place. Many people volunteer their time to help clean up parks, plant trees, and teach children.
+
+Why do people volunteer? Some do it to give back to their community. Others do it to meet new people and make friends. Many find that volunteering gives them a sense of purpose and happiness.
+
+Last weekend, our class went to the city park to help clean up. We picked up litter, planted flowers, and painted the benches.`,
+    contentZh: '',
+    wordCount: 120,
+  },
+  {
+    id: 'jun-j8s1-u3',
+    title: 'Could you please clean your room?',
+    titleZh: "请你打扫一下房间好吗？",
+    contentEn: `Could you please clean your room? It's really messy. Yes, Mom. I'll do it right away.
+
+Keeping our living spaces clean and organized is an important life skill. A clean room helps us think clearly and reduces stress. It also shows respect for the people we live with.
+
+Making your bed, folding clothes, and putting things back where they belong are simple habits that make a big difference.`,
+    contentZh: '',
+    wordCount: 110,
+  },
+  {
+    id: 'jun-j8s1-u4',
+    title: 'Why don\'t you talk to your parents?',
+    titleZh: "你为什么不和父母谈谈？",
+    contentEn: `Communication is the bridge between people. When we have problems or worries, talking to our parents can help us find solutions.
+
+Many teenagers feel shy about discussing their feelings with their parents. However, parents usually want to help and understand. They were once young too and faced similar challenges.
+
+Effective communication means listening as well as speaking. Try to explain how you feel clearly.`,
+    contentZh: '',
+    wordCount: 108,
+  },
+  {
+    id: 'jun-j8s1-u5',
+    title: 'What were you doing when the rainstorm came?',
+    titleZh: "暴风雨来的时候你在做什么？",
+    contentEn: `Last Tuesday, a big rainstorm came suddenly. What were you doing when it happened? I was walking home from school.
+
+Unexpected events can catch us off guard. The key is to stay calm and think clearly. When the rainstorm came, some people ran for shelter while others waited patiently.
+
+Natural weather events like rainstorms remind us that we cannot control everything in nature.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j8s1-u6',
+    title: 'An old man tried to move the mountains.',
+    titleZh: "愚公移山",
+    contentEn: `The story of Yu Gong, the old man who tried to move the mountains, teaches us about determination and hard work.
+
+Yu Gong was an old man who lived near two huge mountains. Every day, he and his family had to walk a long way around the mountains. One day, he decided to dig the mountains away.
+
+Everyone thought he was foolish, but Yu Gong said, I may be old, but I will keep digging until the mountains are moved.`,
+    contentZh: '',
+    wordCount: 115,
+  },
+  // 八年级下册 Grade 8 Semester 2
+  {
+    id: 'jun-j8s2-u1',
+    title: 'What\'s the highest mountain in the world?',
+    titleZh: "世界上最高的山是什么？",
+    contentEn: `What's the highest mountain in the world? Mount Qomolangma, also known as Mount Everest, is the highest mountain on Earth.
+
+The natural world is full of amazing facts. Mount Qomolangma stands at 8,848 meters above sea level. It is located in the Himalayan Mountains between Nepal and China.
+
+Climbing Mount Qomolangma is extremely dangerous. Many climbers have died trying to reach its summit.`,
+    contentZh: '',
+    wordCount: 112,
+  },
+  {
+    id: 'jun-j8s2-u2',
+    title: 'How do you get to school?',
+    titleZh: "你是怎样上学的？",
+    contentEn: `How do you get to school every day? I usually take the bus, but sometimes my dad drives me.
+
+Transportation choices depend on where we live. In big cities, many people use subways, buses, or bikes. In small towns, walking or taking a bus is more common.
+
+Whatever way we choose, getting to school safely is the most important thing.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j8s2-u3',
+    title: 'Could you please tell me where the restrooms are?',
+    titleZh: "请问洗手间在哪里？",
+    contentEn: `Excuse me, could you please tell me where the restrooms are? Of course, they are on the second floor, next to the elevator.
+
+Learning to ask for help politely is an important social skill. Using phrases like Could you please and Excuse me shows respect.
+
+When traveling in foreign countries, being able to ask for directions politely can help you navigate new places.`,
+    contentZh: '',
+    wordCount: 108,
+  },
+  {
+    id: 'jun-j8s2-u4',
+    title: 'I used to be afraid of the dark.',
+    titleZh: "我曾经害怕黑暗",
+    contentEn: `I used to be afraid of the dark when I was a child. Now I'm not afraid anymore. What changed?
+
+People change and grow over time. Things that once scared us may no longer bother us as we get older and gain more confidence.
+
+Understanding our past fears can help us understand ourselves better.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j8s2-u5',
+    title: 'What were you doing when the accident happened?',
+    titleZh: "事故发生时你在做什么？",
+    contentEn: `An accident happened near our school yesterday. Were you there? Yes, I saw everything.
+
+Being a witness to an accident can be scary and confusing. The most important thing is to stay calm and call for help immediately.
+
+Many accidents can be prevented if we are careful and follow safety rules.`,
+    contentZh: '',
+    wordCount: 95,
+  },
+  {
+    id: 'jun-j8s2-u6',
+    title: 'Life is full of the unexpected.',
+    titleZh: "生活充满了意想不到的事",
+    contentEn: `Life is full of the unexpected. Sometimes wonderful things happen, and sometimes difficult things occur. The important thing is how we respond.
+
+When unexpected events happen, we have a choice. We can feel sorry for ourselves, or we can try to make the best of the situation.
+
+Remember, even the darkest night will end and the sun will rise again.`,
+    contentZh: '',
+    wordCount: 110,
+  },
+  // 九年级上册 Grade 9 Semester 1
+  {
+    id: 'jun-j9s1-u1',
+    title: 'How can we become good learners?',
+    titleZh: "我们怎样才能成为好的学习者？",
+    contentEn: `How can we become good learners? Good learners have some things in common. They practice regularly and never give up easily.
+
+Learning is not just about being smart. It is about having the right attitude and using good methods. The more you learn, the easier it becomes.
+
+Effective learners take notes, review their work, and ask questions when they don't understand.`,
+    contentZh: '',
+    wordCount: 108,
+  },
+  {
+    id: 'jun-j9s1-u2',
+    title: 'I think that mooncakes are delicious!',
+    titleZh: "我觉得月饼很好吃！",
+    contentEn: `The Mid-Autumn Festival is one of the most important traditional festivals in China. It is celebrated on the 15th day of the 8th lunar month.
+
+During the festival, families gather together to admire the full moon and eat mooncakes. The round shape of the moon and the mooncakes symbolize family reunion and completeness.
+
+Many poems and stories are connected with this festival.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j9s1-u3',
+    title: 'Could you please tell me your name?',
+    titleZh: "请问你叫什么名字？",
+    contentEn: `When we meet new people, we usually exchange names. Could you please tell me your name? My name is Li Ming. Nice to meet you.
+
+Making friends is an important part of life. A good friend is someone who accepts you as you are and supports you through difficult times.
+
+There are many ways to meet new people: at school, through hobbies, or in your neighborhood.`,
+    contentZh: '',
+    wordCount: 110,
+  },
+  {
+    id: 'jun-j9s1-u4',
+    title: 'I used to be afraid of the dark.',
+    titleZh: "我曾经害怕黑暗",
+    contentEn: `Many people are afraid of something when they are young. What were you afraid of? I used to be afraid of the dark and of speaking in front of people.
+
+Fear is a natural emotion. The key is not to let fear control our lives. Overcoming fear takes time and courage.
+
+Most of the things we fear never actually happen. By facing our fears step by step, we can become braver.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j9s1-u5',
+    title: 'What are the shirts made of?',
+    titleZh: "这些衬衫是什么做的？",
+    contentEn: `What are your favorite clothes made of? Many clothes are made of cotton, which comes from a plant. Other clothes are made of silk, wool, or synthetic materials.
+
+Understanding what things are made of helps us make better choices. Natural materials like cotton are comfortable but can be expensive.
+
+The clothes we wear tell something about our personality and culture.`,
+    contentZh: '',
+    wordCount: 112,
+  },
+  {
+    id: 'jun-j9s1-u6',
+    title: 'When was it invented?',
+    titleZh: "它是什么时候发明的？",
+    contentEn: `When was the telephone invented? The telephone was invented by Alexander Graham Bell in 1876. It changed the way people communicate forever.
+
+Inventions shape our world. Many things we use every day were invented by people who wanted to solve problems and make life better.
+
+Learning about inventions and inventors inspires us to be creative and curious.`,
+    contentZh: '',
+    wordCount: 112,
+  },
+  // 九年级下册 Grade 9 Semester 2
+  {
+    id: 'jun-j9s2-u1',
+    title: 'The winning team lost.',
+    titleZh: "获胜的队伍输了",
+    contentEn: `The winning team lost? That doesn't make sense. Actually, the score was tied, so they had to share the prize.
+
+Life is full of surprises. Sometimes things don't go as we expect. The important thing is to learn from every experience and keep trying.
+
+Success and failure are both part of life. Winners are not those who never lose, but those who never give up.`,
+    contentZh: '',
+    wordCount: 102,
+  },
+  {
+    id: 'jun-j9s2-u2',
+    title: 'I believe that the world is what you think it is.',
+    titleZh: "我相信世界是你认为的样子",
+    contentEn: `I believe that the world is what you think it is. If you think positively, your world will be full of hope and possibility.
+
+Our thoughts shape our reality. People who think positively tend to be happier and healthier.
+
+Training your mind to think positively is a skill that can be developed with practice.`,
+    contentZh: '',
+    wordCount: 108,
+  },
+  {
+    id: 'jun-j9s2-u3',
+    title: 'Rainy days make me sad.',
+    titleZh: "雨天让我悲伤",
+    contentEn: `Rainy days make me sad. But sunny days make me happy. How about you? Different weather affects people differently.
+
+Our emotions can be influenced by external factors like weather, music, or the company we keep.
+
+On rainy days, we can read a good book, listen to music, or spend time with family.`,
+    contentZh: '',
+    wordCount: 110,
+  },
+  {
+    id: 'jun-j9s2-u4',
+    title: 'I\'ve been to a theme park.',
+    titleZh: "我去了主题公园",
+    contentEn: `Have you ever been to a theme park? Yes, I went to Happy Valley last summer. It was amazing!
+
+Theme parks offer exciting experiences for people of all ages. From thrilling roller coasters to magical shows, there is something for everyone.
+
+Visiting theme parks is a great way to have fun with family and friends.`,
+    contentZh: '',
+    wordCount: 108,
+  },
+  {
+    id: 'jun-j9s2-u5',
+    title: 'You\'re supposed to shake hands.',
+    titleZh: "你应该握手",
+    contentEn: `In China, you're supposed to shake hands when you meet someone. But in Japan, people usually bow instead.
+
+Different cultures have different customs. Understanding and respecting these differences is important in our connected world.
+
+When visiting a new place, it is always good to learn about local customs first.`,
+    contentZh: '',
+    wordCount: 105,
+  },
+  {
+    id: 'jun-j9s2-u6',
+    title: 'Life on Mars?',
+    titleZh: "火星上的生活？",
+    contentEn: `Do you think there is life on Mars? Scientists have been searching for signs of life on the red planet for many years.
+
+Space exploration has always captured human imagination. The possibility of life on other planets raises exciting questions about our universe.
+
+Exploring space helps us understand our own planet Earth better.`,
+    contentZh: '',
+    wordCount: 112,
+  },
 ];
 
 // ============================================================

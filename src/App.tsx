@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
+import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticleReaderPage from './pages/ArticleReaderPage';
@@ -30,33 +31,35 @@ function App() {
   return (
     <Router>
       <AppProvider>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/articles" element={<ArticlesListPage />} />
-          <Route path="/articles/:id" element={<ArticleReaderPage />} />
-          <Route path="/grammar" element={<GrammarPage />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/new-words" element={<NewWordsPage />} />
-          <Route path="/vocabulary" element={<VocabularyPage />} />
-          <Route path="/settings" element={<SettingsPage />} />
-          <Route path="/courses" element={<CoursesListPage />} />
-          <Route path="/courses/:courseId" element={<CourseDetailPage />} />
-          <Route path="/courses/:courseId/units/:unitId" element={<CourseReaderPage />} />
-          <Route path="/guestbook" element={<GuestBookPage />} />
-          <Route path="/books" element={<BooksPage />} />
-          <Route path="/word-game" element={<WordGamePage />} />
-          <Route path="/learning-methods" element={<LearningMethodsPage />} />
-          <Route path="/ai-assistant" element={<AIAssistantPage />} />
-          <Route path="/video-learning" element={<VideoLearningPage />} />
-          <Route path="/exam-papers" element={<ExamPapersPage />} />
-          <Route path="/leaderboard" element={<LeaderboardPage />} />
-          <Route path="/stats" element={<StatsPage />} />
-          <Route path="/achievements" element={<AchievementPage />} />
-          <Route path="/wrong-answers" element={<WrongBookPage />} />
-          <Route path="/review" element={<ReviewPage />} />
-          <Route path="/download" element={<DownloadPage />} />
-          <Route path="/report" element={<ReportPage />} />
-        </Routes>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/articles" element={<ArticlesListPage />} />
+            <Route path="/articles/:id" element={<ArticleReaderPage />} />
+            <Route path="/grammar" element={<GrammarPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/new-words" element={<NewWordsPage />} />
+            <Route path="/vocabulary" element={<VocabularyPage />} />
+            <Route path="/settings" element={<SettingsPage />} />
+            <Route path="/courses" element={<CoursesListPage />} />
+            <Route path="/courses/:courseId" element={<CourseDetailPage />} />
+            <Route path="/courses/:courseId/units/:unitId" element={<CourseReaderPage />} />
+            <Route path="/guestbook" element={<GuestBookPage />} />
+            <Route path="/books" element={<BooksPage />} />
+            <Route path="/word-game" element={<WordGamePage />} />
+            <Route path="/learning-methods" element={<LearningMethodsPage />} />
+            <Route path="/ai-assistant" element={<AIAssistantPage />} />
+            <Route path="/video-learning" element={<VideoLearningPage />} />
+            <Route path="/exam-papers" element={<ExamPapersPage />} />
+            <Route path="/leaderboard" element={<LeaderboardPage />} />
+            <Route path="/stats" element={<StatsPage />} />
+            <Route path="/achievements" element={<AchievementPage />} />
+            <Route path="/wrong-answers" element={<WrongBookPage />} />
+            <Route path="/review" element={<ReviewPage />} />
+            <Route path="/download" element={<DownloadPage />} />
+            <Route path="/report" element={<ReportPage />} />
+          </Routes>
+        </Layout>
       </AppProvider>
     </Router>
   );
