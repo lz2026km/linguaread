@@ -7,6 +7,19 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '6.0',
+    date: '2026-04-27',
+    changes: [
+      '新增桌面端可折叠侧边栏，16个功能入口，适配深色模式',
+      '重构首页为响应式卡片网格，小中大屏自适应',
+      '新增全局搜索页面 SearchPage，支持课程/语法/文章/试卷搜索',
+      '笔记/标注功能集成到 ArticleReaderPage，阅读时可直接记笔记',
+      '考试系统大幅扩充：新增9套完整试卷225道题（初中/高中/大学）',
+      '长篇文章从模板占位符升级为15篇真实长篇英文文章（含翻译）',
+      'Tailwind CSS 响应式布局优化',
+    ],
+  },
+  {
     version: '5.7',
     date: '2026-04-26',
     changes: [
@@ -352,7 +365,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>5.7</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.0</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>
