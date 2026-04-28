@@ -27,6 +27,8 @@ import ReviewPage from './pages/ReviewPage';
 import DownloadPage from './pages/DownloadPage';
 import ReportPage from './pages/ReportPage';
 import SearchPage from './pages/SearchPage';
+import IdiomsPage from './pages/IdiomsPage';
+import DailyQuotePage from './pages/DailyQuotePage';
 
 function App() {
   return (
@@ -38,8 +40,10 @@ function App() {
             <Route path="/articles" element={<ArticlesListPage />} />
             <Route path="/articles/:id" element={<ArticleReaderPage />} />
             <Route path="/grammar" element={<GrammarPage />} />
-            <Route path="/search" element={<SearchPage />} />
+            <Route path="/idioms" element={<IdiomsPage />} />
+            <Route path="/daily-quote" element={<DailyQuotePage />} />
             <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/search" element={<SearchPage />} />
             <Route path="/new-words" element={<NewWordsPage />} />
             <Route path="/vocabulary" element={<VocabularyPage />} />
             <Route path="/settings" element={<SettingsPage />} />

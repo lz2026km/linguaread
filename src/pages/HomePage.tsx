@@ -9,6 +9,8 @@ import { LEVELS, Level } from '../types';
 import { articles } from '../data/articles';
 import { courses } from '../data/courses';
 import { exams, getExamLevels } from '../data/exams';
+import { dailyQuotes } from '../data/dailyQuotes';
+import { idioms } from '../data/idioms';
 import { getCountryOfTheDay, Country } from '../data/countries';
 import { useApp } from '../context/AppContext';
 import { getReadingTime, formatReadingTime, getCourseOverallProgress, checkIn, isCheckedIn, getMonthlyCheckInCount, getYearlyCheckInCount, getCheckInDatesByMonth } from '../utils/storage';
@@ -81,6 +83,31 @@ const HomePage: React.FC = () => {
           </h1>
           <p className={`${textSecondaryClass} text-sm sm:text-base`}>选择您的学习级别，开始双语阅读之旅</p>
         </div>
+
+        {/* 每日谚语 Banner */}
+        {(() => {
+          const today = new Date().getDate();
+          const quoteIdx = today % dailyQuotes.length;
+          const quote = dailyQuotes[quoteIdx];
+          const idiomIdx = today % idioms.length;
+          const idiom = idioms[idiomIdx];
+          return (
+            <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border mb-4`}>
+              <div className="flex items-center gap-2 mb-2">
+                <Sparkles className={`w-4 h-4 ${darkMode ? 'text-yellow-400' : 'text-yellow-500'}`} />
+                <span className={`text-xs font-medium ${textSecondaryClass}`}>每日谚语</span>
+              </div>
+              <p className={`${textPrimaryClass} text-sm italic mb-1`}>"{quote.text}"</p>
+              <p className={`${textSecondaryClass} text-xs text-right`}>— {quote.author}</p>
+              <div className={`border-t ${darkMode ? 'border-gray-700' : 'border-gray-100'} mt-2 pt-2`}>
+                <p className={`${textPrimaryClass} text-xs mb-1`}>
+                  💡 <span className="font-medium">习语：</span>{idiom.phrase}
+                </p>
+                <p className={`${textSecondaryClass} text-xs`}>{idiom.meaning}</p>
+              </div>
+            </div>
+          );
+        })()}
 
         {/* 响应式卡片网格 - 移动端1列/平板2列/桌面3列 */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

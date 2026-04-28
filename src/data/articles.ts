@@ -3238,6 +3238,4416 @@ I am lucky to have them.`,
     difficulty: 5,
     createdAt: '2024-05-10',
   },
+  {
+    id: 'e600',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Lisa',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-04-21',
+  },
+  {
+    id: 'e601',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Anonymous',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-03-05',
+  },
+  {
+    id: 'e602',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Lisa',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-04-09',
+  },
+  {
+    id: 'e603',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Anonymous',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-04-18',
+  },
+  {
+    id: 'e604',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Emma',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-01-23',
+  },
+  {
+    id: 'e605',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'John',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-02-27',
+  },
+  {
+    id: 'e606',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Lisa',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-10-18',
+  },
+  {
+    id: 'e607',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'John',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-09-03',
+  },
+  {
+    id: 'e608',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Michael',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-10-13',
+  },
+  {
+    id: 'e609',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Chris',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-05-17',
+  },
+  {
+    id: 'e610',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Anonymous',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-12-21',
+  },
+  {
+    id: 'e611',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Michael',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-11-13',
+  },
+  {
+    id: 'e612',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'economy',
+    author: 'David',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-12-14',
+  },
+  {
+    id: 'e613',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'economy',
+    author: 'David',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-09-13',
+  },
+  {
+    id: 'e614',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Emma',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-01-09',
+  },
+  {
+    id: 'e615',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Anna',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-03-26',
+  },
+  {
+    id: 'e616',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Lisa',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-08-18',
+  },
+  {
+    id: 'e617',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Tom',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-04-20',
+  },
+  {
+    id: 'e618',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Lisa',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-04-08',
+  },
+  {
+    id: 'e619',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'environment',
+    author: 'Sarah',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-12-04',
+  },
+  {
+    id: 'e620',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康饮食习惯',
+    contentEn: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    contentZh: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    level: 'junior',
+    category: 'environment',
+    author: 'Anonymous',
+    wordCount: 43,
+    difficulty: 2,
+    createdAt: '2024-08-16',
+  },
+  {
+    id: 'e621',
+    title: 'The Value of Friendship',
+    titleZh: '友谊的价值',
+    contentEn: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    contentZh: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    level: 'junior',
+    category: 'society',
+    author: 'Anonymous',
+    wordCount: 46,
+    difficulty: 2,
+    createdAt: '2024-11-06',
+  },
+  {
+    id: 'e622',
+    title: 'The Philosophy of Happiness',
+    titleZh: '幸福的哲学',
+    contentEn: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    contentZh: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    level: 'senior',
+    category: 'literature',
+    author: 'Chris',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-08-13',
+  },
+  {
+    id: 'e623',
+    title: 'The Evolution of Modern Art',
+    titleZh: '现代艺术的演变',
+    contentEn: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    contentZh: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    level: 'senior',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-12-02',
+  },
+  {
+    id: 'e624',
+    title: 'The Science of Climate Change',
+    titleZh: '气候变化科学',
+    contentEn: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    contentZh: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    level: 'senior',
+    category: 'culture',
+    author: 'Anonymous',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-07-13',
+  },
+  {
+    id: 'e625',
+    title: 'The Psychology of Decision Making',
+    titleZh: '决策心理学',
+    contentEn: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    contentZh: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    level: 'senior',
+    category: 'environment',
+    author: 'David',
+    wordCount: 50,
+    difficulty: 2,
+    createdAt: '2024-03-24',
+  },
+  {
+    id: 'e626',
+    title: 'The History of Space Exploration',
+    titleZh: '太空探索的历史',
+    contentEn: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    contentZh: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    level: 'senior',
+    category: 'education',
+    author: 'Chris',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-01-05',
+  },
+  {
+    id: 'e627',
+    title: 'The Economics of Sustainable Development',
+    titleZh: '可持续发展的经济学',
+    contentEn: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    contentZh: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    level: 'senior',
+    category: 'education',
+    author: 'John',
+    wordCount: 45,
+    difficulty: 2,
+    createdAt: '2024-04-03',
+  },
+  {
+    id: 'e628',
+    title: 'The Impact of Globalization on Culture',
+    titleZh: '全球化对文化的影响',
+    contentEn: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    contentZh: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    level: 'senior',
+    category: 'news',
+    author: 'Anonymous',
+    wordCount: 47,
+    difficulty: 2,
+    createdAt: '2024-01-01',
+  },
+  {
+    id: 'e629',
+    title: 'Understanding Artificial Intelligence',
+    titleZh: '理解人工智能',
+    contentEn: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    contentZh: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    level: 'senior',
+    category: 'education',
+    author: 'Emma',
+    wordCount: 53,
+    difficulty: 2,
+    createdAt: '2024-09-10',
+  },
+  {
+    id: 'e630',
+    title: 'The Future of Renewable Energy',
+    titleZh: '可再生能源的未来',
+    contentEn: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    contentZh: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    level: 'university',
+    category: 'literature',
+    author: 'Michael',
+    wordCount: 53,
+    difficulty: 3,
+    createdAt: '2024-10-11',
+  },
+  {
+    id: 'e631',
+    title: 'Advances in Biotechnology',
+    titleZh: '生物技术的进展',
+    contentEn: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    contentZh: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Anna',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-05-12',
+  },
+  {
+    id: 'e632',
+    title: 'The Sociology of Social Media',
+    titleZh: '社交媒体的社会学',
+    contentEn: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    contentZh: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    level: 'university',
+    category: 'news',
+    author: 'Michael',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-11-13',
+  },
+  {
+    id: 'e633',
+    title: 'The Geopolitics of Artificial Intelligence',
+    titleZh: '人工智能的地缘政治学',
+    contentEn: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    contentZh: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    level: 'university',
+    category: 'essay',
+    author: 'Emma',
+    wordCount: 48,
+    difficulty: 3,
+    createdAt: '2024-06-03',
+  },
+  {
+    id: 'e634',
+    title: 'Quantum Computing: Principles and Prospects',
+    titleZh: '量子计算：原理与前景',
+    contentEn: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    contentZh: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    level: 'university',
+    category: 'literature',
+    author: 'Emma',
+    wordCount: 47,
+    difficulty: 3,
+    createdAt: '2024-11-02',
+  },
+  {
+    id: 'e635',
+    title: 'The Neuroscience of Consciousness',
+    titleZh: '意识的神经科学',
+    contentEn: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    contentZh: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 42,
+    difficulty: 3,
+    createdAt: '2024-06-16',
+  },
+  {
+    id: 'e636',
+    title: 'Global Economic Inequality',
+    titleZh: '全球经济不平等',
+    contentEn: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    contentZh: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    level: 'university',
+    category: 'essay',
+    author: 'Anonymous',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-09-25',
+  },
+  {
+    id: 'e637',
+    title: 'The Philosophy of Mind',
+    titleZh: '心智哲学',
+    contentEn: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    contentZh: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    level: 'university',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-04-16',
+  },
+  {
+    id: 'e638',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-08-27',
+  },
+  {
+    id: 'e639',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Sarah',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-05-16',
+  },
+  {
+    id: 'e640',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-11-03',
+  },
+  {
+    id: 'e641',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Sarah',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-11-05',
+  },
+  {
+    id: 'e642',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'John',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-01-13',
+  },
+  {
+    id: 'e643',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'John',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-06-12',
+  },
+  {
+    id: 'e644',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Lisa',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-10-28',
+  },
+  {
+    id: 'e645',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Tom',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-07-17',
+  },
+  {
+    id: 'e646',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'society',
+    author: 'John',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-03-17',
+  },
+  {
+    id: 'e647',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Lisa',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-03-21',
+  },
+  {
+    id: 'e648',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-03-19',
+  },
+  {
+    id: 'e649',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Tom',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-04-26',
+  },
+  {
+    id: 'e650',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Anonymous',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-03-19',
+  },
+  {
+    id: 'e651',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Sarah',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-06-16',
+  },
+  {
+    id: 'e652',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'education',
+    author: 'Anonymous',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-03-15',
+  },
+  {
+    id: 'e653',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Sarah',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-04-27',
+  },
+  {
+    id: 'e654',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Anna',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-06-16',
+  },
+  {
+    id: 'e655',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Michael',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-01-21',
+  },
+  {
+    id: 'e656',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Lisa',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-01-03',
+  },
+  {
+    id: 'e657',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Chris',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-05-23',
+  },
+  {
+    id: 'e658',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康饮食习惯',
+    contentEn: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    contentZh: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Chris',
+    wordCount: 43,
+    difficulty: 2,
+    createdAt: '2024-06-04',
+  },
+  {
+    id: 'e659',
+    title: 'The Value of Friendship',
+    titleZh: '友谊的价值',
+    contentEn: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    contentZh: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    level: 'junior',
+    category: 'news',
+    author: 'John',
+    wordCount: 46,
+    difficulty: 2,
+    createdAt: '2024-03-13',
+  },
+  {
+    id: 'e660',
+    title: 'The Philosophy of Happiness',
+    titleZh: '幸福的哲学',
+    contentEn: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    contentZh: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    level: 'senior',
+    category: 'science',
+    author: 'Anonymous',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-04-25',
+  },
+  {
+    id: 'e661',
+    title: 'The Evolution of Modern Art',
+    titleZh: '现代艺术的演变',
+    contentEn: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    contentZh: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    level: 'senior',
+    category: 'education',
+    author: 'Michael',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-12-06',
+  },
+  {
+    id: 'e662',
+    title: 'The Science of Climate Change',
+    titleZh: '气候变化科学',
+    contentEn: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    contentZh: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    level: 'senior',
+    category: 'society',
+    author: 'Chris',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-11-12',
+  },
+  {
+    id: 'e663',
+    title: 'The Psychology of Decision Making',
+    titleZh: '决策心理学',
+    contentEn: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    contentZh: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    level: 'senior',
+    category: 'literature',
+    author: 'Anna',
+    wordCount: 50,
+    difficulty: 2,
+    createdAt: '2024-09-25',
+  },
+  {
+    id: 'e664',
+    title: 'The History of Space Exploration',
+    titleZh: '太空探索的历史',
+    contentEn: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    contentZh: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    level: 'senior',
+    category: 'news',
+    author: 'Chris',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-07-07',
+  },
+  {
+    id: 'e665',
+    title: 'The Economics of Sustainable Development',
+    titleZh: '可持续发展的经济学',
+    contentEn: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    contentZh: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    level: 'senior',
+    category: 'environment',
+    author: 'David',
+    wordCount: 45,
+    difficulty: 2,
+    createdAt: '2024-08-10',
+  },
+  {
+    id: 'e666',
+    title: 'The Impact of Globalization on Culture',
+    titleZh: '全球化对文化的影响',
+    contentEn: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    contentZh: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    level: 'senior',
+    category: 'economy',
+    author: 'Anna',
+    wordCount: 47,
+    difficulty: 2,
+    createdAt: '2024-06-15',
+  },
+  {
+    id: 'e667',
+    title: 'Understanding Artificial Intelligence',
+    titleZh: '理解人工智能',
+    contentEn: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    contentZh: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    level: 'senior',
+    category: 'economy',
+    author: 'Tom',
+    wordCount: 53,
+    difficulty: 2,
+    createdAt: '2024-04-06',
+  },
+  {
+    id: 'e668',
+    title: 'The Future of Renewable Energy',
+    titleZh: '可再生能源的未来',
+    contentEn: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    contentZh: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    level: 'university',
+    category: 'news',
+    author: 'Michael',
+    wordCount: 53,
+    difficulty: 3,
+    createdAt: '2024-12-26',
+  },
+  {
+    id: 'e669',
+    title: 'Advances in Biotechnology',
+    titleZh: '生物技术的进展',
+    contentEn: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    contentZh: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    level: 'university',
+    category: 'literature',
+    author: 'Lisa',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-03-20',
+  },
+  {
+    id: 'e670',
+    title: 'The Sociology of Social Media',
+    titleZh: '社交媒体的社会学',
+    contentEn: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    contentZh: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-04-21',
+  },
+  {
+    id: 'e671',
+    title: 'The Geopolitics of Artificial Intelligence',
+    titleZh: '人工智能的地缘政治学',
+    contentEn: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    contentZh: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    level: 'university',
+    category: 'essay',
+    author: 'Chris',
+    wordCount: 48,
+    difficulty: 3,
+    createdAt: '2024-02-20',
+  },
+  {
+    id: 'e672',
+    title: 'Quantum Computing: Principles and Prospects',
+    titleZh: '量子计算：原理与前景',
+    contentEn: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    contentZh: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    level: 'university',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 47,
+    difficulty: 3,
+    createdAt: '2024-02-18',
+  },
+  {
+    id: 'e673',
+    title: 'The Neuroscience of Consciousness',
+    titleZh: '意识的神经科学',
+    contentEn: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    contentZh: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Lisa',
+    wordCount: 42,
+    difficulty: 3,
+    createdAt: '2024-04-21',
+  },
+  {
+    id: 'e674',
+    title: 'Global Economic Inequality',
+    titleZh: '全球经济不平等',
+    contentEn: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    contentZh: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    level: 'university',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-02-22',
+  },
+  {
+    id: 'e675',
+    title: 'The Philosophy of Mind',
+    titleZh: '心智哲学',
+    contentEn: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    contentZh: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-10-01',
+  },
+  {
+    id: 'e676',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'David',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-08-11',
+  },
+  {
+    id: 'e677',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Lisa',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-02-02',
+  },
+  {
+    id: 'e678',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Sarah',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-10-13',
+  },
+  {
+    id: 'e679',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'David',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-10-19',
+  },
+  {
+    id: 'e680',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'technology',
+    author: 'Emma',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-10-27',
+  },
+  {
+    id: 'e681',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Michael',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-06-17',
+  },
+  {
+    id: 'e682',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-08-05',
+  },
+  {
+    id: 'e683',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'news',
+    author: 'Tom',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-07-12',
+  },
+  {
+    id: 'e684',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Emma',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-06-07',
+  },
+  {
+    id: 'e685',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Chris',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-10-22',
+  },
+  {
+    id: 'e686',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'news',
+    author: 'Michael',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-09-12',
+  },
+  {
+    id: 'e687',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Tom',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-03-12',
+  },
+  {
+    id: 'e688',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'society',
+    author: 'Chris',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-06-10',
+  },
+  {
+    id: 'e689',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'news',
+    author: 'David',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-05-23',
+  },
+  {
+    id: 'e690',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'society',
+    author: 'Michael',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-10-15',
+  },
+  {
+    id: 'e691',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Anna',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-04-19',
+  },
+  {
+    id: 'e692',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'David',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-05-26',
+  },
+  {
+    id: 'e693',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Anna',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-05-21',
+  },
+  {
+    id: 'e694',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'news',
+    author: 'David',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-07-14',
+  },
+  {
+    id: 'e695',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'news',
+    author: 'Anna',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-06-19',
+  },
+  {
+    id: 'e696',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康饮食习惯',
+    contentEn: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    contentZh: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Anonymous',
+    wordCount: 43,
+    difficulty: 2,
+    createdAt: '2024-10-05',
+  },
+  {
+    id: 'e697',
+    title: 'The Value of Friendship',
+    titleZh: '友谊的价值',
+    contentEn: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    contentZh: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    level: 'junior',
+    category: 'society',
+    author: 'John',
+    wordCount: 46,
+    difficulty: 2,
+    createdAt: '2024-03-26',
+  },
+  {
+    id: 'e698',
+    title: 'The Philosophy of Happiness',
+    titleZh: '幸福的哲学',
+    contentEn: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    contentZh: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    level: 'senior',
+    category: 'society',
+    author: 'Emma',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-09-15',
+  },
+  {
+    id: 'e699',
+    title: 'The Evolution of Modern Art',
+    titleZh: '现代艺术的演变',
+    contentEn: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    contentZh: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    level: 'senior',
+    category: 'science',
+    author: 'Anna',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-04-17',
+  },
+  {
+    id: 'e700',
+    title: 'The Science of Climate Change',
+    titleZh: '气候变化科学',
+    contentEn: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    contentZh: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    level: 'senior',
+    category: 'news',
+    author: 'Tom',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-12-02',
+  },
+  {
+    id: 'e701',
+    title: 'The Psychology of Decision Making',
+    titleZh: '决策心理学',
+    contentEn: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    contentZh: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Anonymous',
+    wordCount: 50,
+    difficulty: 2,
+    createdAt: '2024-12-10',
+  },
+  {
+    id: 'e702',
+    title: 'The History of Space Exploration',
+    titleZh: '太空探索的历史',
+    contentEn: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    contentZh: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    level: 'senior',
+    category: 'literature',
+    author: 'Lisa',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-11-04',
+  },
+  {
+    id: 'e703',
+    title: 'The Economics of Sustainable Development',
+    titleZh: '可持续发展的经济学',
+    contentEn: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    contentZh: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Anna',
+    wordCount: 45,
+    difficulty: 2,
+    createdAt: '2024-03-20',
+  },
+  {
+    id: 'e704',
+    title: 'The Impact of Globalization on Culture',
+    titleZh: '全球化对文化的影响',
+    contentEn: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    contentZh: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    level: 'senior',
+    category: 'news',
+    author: 'Anna',
+    wordCount: 47,
+    difficulty: 2,
+    createdAt: '2024-02-05',
+  },
+  {
+    id: 'e705',
+    title: 'Understanding Artificial Intelligence',
+    titleZh: '理解人工智能',
+    contentEn: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    contentZh: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    level: 'senior',
+    category: 'technology',
+    author: 'Emma',
+    wordCount: 53,
+    difficulty: 2,
+    createdAt: '2024-03-28',
+  },
+  {
+    id: 'e706',
+    title: 'The Future of Renewable Energy',
+    titleZh: '可再生能源的未来',
+    contentEn: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    contentZh: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    level: 'university',
+    category: 'education',
+    author: 'Michael',
+    wordCount: 53,
+    difficulty: 3,
+    createdAt: '2024-10-16',
+  },
+  {
+    id: 'e707',
+    title: 'Advances in Biotechnology',
+    titleZh: '生物技术的进展',
+    contentEn: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    contentZh: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    level: 'university',
+    category: 'education',
+    author: 'Tom',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-02-23',
+  },
+  {
+    id: 'e708',
+    title: 'The Sociology of Social Media',
+    titleZh: '社交媒体的社会学',
+    contentEn: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    contentZh: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    level: 'university',
+    category: 'society',
+    author: 'Sarah',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-07-21',
+  },
+  {
+    id: 'e709',
+    title: 'The Geopolitics of Artificial Intelligence',
+    titleZh: '人工智能的地缘政治学',
+    contentEn: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    contentZh: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    level: 'university',
+    category: 'essay',
+    author: 'Anonymous',
+    wordCount: 48,
+    difficulty: 3,
+    createdAt: '2024-09-06',
+  },
+  {
+    id: 'e710',
+    title: 'Quantum Computing: Principles and Prospects',
+    titleZh: '量子计算：原理与前景',
+    contentEn: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    contentZh: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    level: 'university',
+    category: 'culture',
+    author: 'Anonymous',
+    wordCount: 47,
+    difficulty: 3,
+    createdAt: '2024-10-25',
+  },
+  {
+    id: 'e711',
+    title: 'The Neuroscience of Consciousness',
+    titleZh: '意识的神经科学',
+    contentEn: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    contentZh: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    level: 'university',
+    category: 'society',
+    author: 'Michael',
+    wordCount: 42,
+    difficulty: 3,
+    createdAt: '2024-07-11',
+  },
+  {
+    id: 'e712',
+    title: 'Global Economic Inequality',
+    titleZh: '全球经济不平等',
+    contentEn: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    contentZh: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    level: 'university',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-07-10',
+  },
+  {
+    id: 'e713',
+    title: 'The Philosophy of Mind',
+    titleZh: '心智哲学',
+    contentEn: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    contentZh: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    level: 'university',
+    category: 'technology',
+    author: 'John',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-01-15',
+  },
+  {
+    id: 'e714',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Emma',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-11-05',
+  },
+  {
+    id: 'e715',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'society',
+    author: 'Tom',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-03-11',
+  },
+  {
+    id: 'e716',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Lisa',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-07-09',
+  },
+  {
+    id: 'e717',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Chris',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-04-19',
+  },
+  {
+    id: 'e718',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Anna',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-09-02',
+  },
+  {
+    id: 'e719',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Lisa',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-12-26',
+  },
+  {
+    id: 'e720',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'society',
+    author: 'Tom',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-03-08',
+  },
+  {
+    id: 'e721',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Anonymous',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-12-07',
+  },
+  {
+    id: 'e722',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Chris',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-06-10',
+  },
+  {
+    id: 'e723',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Anonymous',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-12-20',
+  },
+  {
+    id: 'e724',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'David',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-10-23',
+  },
+  {
+    id: 'e725',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'news',
+    author: 'Emma',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-03-10',
+  },
+  {
+    id: 'e726',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'technology',
+    author: 'Sarah',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-02-16',
+  },
+  {
+    id: 'e727',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Chris',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-11-03',
+  },
+  {
+    id: 'e728',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'John',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-10-18',
+  },
+  {
+    id: 'e729',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Lisa',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-05-20',
+  },
+  {
+    id: 'e730',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'education',
+    author: 'Tom',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-05-04',
+  },
+  {
+    id: 'e731',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Lisa',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-08-05',
+  },
+  {
+    id: 'e732',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'environment',
+    author: 'Anonymous',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-10-11',
+  },
+  {
+    id: 'e733',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'technology',
+    author: 'Emma',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-11-04',
+  },
+  {
+    id: 'e734',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康饮食习惯',
+    contentEn: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    contentZh: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Chris',
+    wordCount: 43,
+    difficulty: 2,
+    createdAt: '2024-10-27',
+  },
+  {
+    id: 'e735',
+    title: 'The Value of Friendship',
+    titleZh: '友谊的价值',
+    contentEn: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    contentZh: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'John',
+    wordCount: 46,
+    difficulty: 2,
+    createdAt: '2024-06-25',
+  },
+  {
+    id: 'e736',
+    title: 'The Philosophy of Happiness',
+    titleZh: '幸福的哲学',
+    contentEn: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    contentZh: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Tom',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-09-27',
+  },
+  {
+    id: 'e737',
+    title: 'The Evolution of Modern Art',
+    titleZh: '现代艺术的演变',
+    contentEn: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    contentZh: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    level: 'senior',
+    category: 'society',
+    author: 'Sarah',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-07-19',
+  },
+  {
+    id: 'e738',
+    title: 'The Science of Climate Change',
+    titleZh: '气候变化科学',
+    contentEn: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    contentZh: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Michael',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-04-25',
+  },
+  {
+    id: 'e739',
+    title: 'The Psychology of Decision Making',
+    titleZh: '决策心理学',
+    contentEn: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    contentZh: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    level: 'senior',
+    category: 'education',
+    author: 'David',
+    wordCount: 50,
+    difficulty: 2,
+    createdAt: '2024-06-09',
+  },
+  {
+    id: 'e740',
+    title: 'The History of Space Exploration',
+    titleZh: '太空探索的历史',
+    contentEn: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    contentZh: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    level: 'senior',
+    category: 'technology',
+    author: 'Michael',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-07-05',
+  },
+  {
+    id: 'e741',
+    title: 'The Economics of Sustainable Development',
+    titleZh: '可持续发展的经济学',
+    contentEn: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    contentZh: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    level: 'senior',
+    category: 'science',
+    author: 'Chris',
+    wordCount: 45,
+    difficulty: 2,
+    createdAt: '2024-03-02',
+  },
+  {
+    id: 'e742',
+    title: 'The Impact of Globalization on Culture',
+    titleZh: '全球化对文化的影响',
+    contentEn: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    contentZh: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    level: 'senior',
+    category: 'essay',
+    author: 'Tom',
+    wordCount: 47,
+    difficulty: 2,
+    createdAt: '2024-01-16',
+  },
+  {
+    id: 'e743',
+    title: 'Understanding Artificial Intelligence',
+    titleZh: '理解人工智能',
+    contentEn: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    contentZh: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    level: 'senior',
+    category: 'culture',
+    author: 'Tom',
+    wordCount: 53,
+    difficulty: 2,
+    createdAt: '2024-05-06',
+  },
+  {
+    id: 'e744',
+    title: 'The Future of Renewable Energy',
+    titleZh: '可再生能源的未来',
+    contentEn: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    contentZh: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    level: 'university',
+    category: 'news',
+    author: 'Lisa',
+    wordCount: 53,
+    difficulty: 3,
+    createdAt: '2024-02-13',
+  },
+  {
+    id: 'e745',
+    title: 'Advances in Biotechnology',
+    titleZh: '生物技术的进展',
+    contentEn: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    contentZh: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    level: 'university',
+    category: 'education',
+    author: 'John',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-07-22',
+  },
+  {
+    id: 'e746',
+    title: 'The Sociology of Social Media',
+    titleZh: '社交媒体的社会学',
+    contentEn: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    contentZh: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    level: 'university',
+    category: 'technology',
+    author: 'Anonymous',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-11-09',
+  },
+  {
+    id: 'e747',
+    title: 'The Geopolitics of Artificial Intelligence',
+    titleZh: '人工智能的地缘政治学',
+    contentEn: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    contentZh: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    level: 'university',
+    category: 'environment',
+    author: 'Anna',
+    wordCount: 48,
+    difficulty: 3,
+    createdAt: '2024-08-09',
+  },
+  {
+    id: 'e748',
+    title: 'Quantum Computing: Principles and Prospects',
+    titleZh: '量子计算：原理与前景',
+    contentEn: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    contentZh: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    level: 'university',
+    category: 'society',
+    author: 'John',
+    wordCount: 47,
+    difficulty: 3,
+    createdAt: '2024-01-10',
+  },
+  {
+    id: 'e749',
+    title: 'The Neuroscience of Consciousness',
+    titleZh: '意识的神经科学',
+    contentEn: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    contentZh: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    level: 'university',
+    category: 'economy',
+    author: 'John',
+    wordCount: 42,
+    difficulty: 3,
+    createdAt: '2024-12-13',
+  },
+  {
+    id: 'e750',
+    title: 'Global Economic Inequality',
+    titleZh: '全球经济不平等',
+    contentEn: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    contentZh: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    level: 'university',
+    category: 'economy',
+    author: 'David',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-02-09',
+  },
+  {
+    id: 'e751',
+    title: 'The Philosophy of Mind',
+    titleZh: '心智哲学',
+    contentEn: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    contentZh: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    level: 'university',
+    category: 'literature',
+    author: 'Emma',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-11-02',
+  },
+  {
+    id: 'e752',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'technology',
+    author: 'Michael',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-04-19',
+  },
+  {
+    id: 'e753',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-07-03',
+  },
+  {
+    id: 'e754',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Anonymous',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-08-15',
+  },
+  {
+    id: 'e755',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'news',
+    author: 'Anna',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-07-03',
+  },
+  {
+    id: 'e756',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Emma',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-08-19',
+  },
+  {
+    id: 'e757',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'Michael',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-10-14',
+  },
+  {
+    id: 'e758',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Sarah',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-08-03',
+  },
+  {
+    id: 'e759',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'news',
+    author: 'John',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-09-12',
+  },
+  {
+    id: 'e760',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Emma',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-07-10',
+  },
+  {
+    id: 'e761',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Lisa',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-09-19',
+  },
+  {
+    id: 'e762',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Chris',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-06-03',
+  },
+  {
+    id: 'e763',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Anna',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-11-26',
+  },
+  {
+    id: 'e764',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'Anonymous',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-05-13',
+  },
+  {
+    id: 'e765',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'education',
+    author: 'Lisa',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-11-12',
+  },
+  {
+    id: 'e766',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'literature',
+    author: 'John',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-09-15',
+  },
+  {
+    id: 'e767',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-10-08',
+  },
+  {
+    id: 'e768',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'education',
+    author: 'Michael',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-08-25',
+  },
+  {
+    id: 'e769',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-11-10',
+  },
+  {
+    id: 'e770',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'Emma',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-09-28',
+  },
+  {
+    id: 'e771',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'society',
+    author: 'Anonymous',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-09-07',
+  },
+  {
+    id: 'e772',
+    title: 'Healthy Eating Habits',
+    titleZh: '健康饮食习惯',
+    contentEn: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    contentZh: `Eating a balanced diet is important for our health.
+We should include fruits and vegetables in every meal.
+Drinking plenty of water helps our body function properly.
+Avoiding too much sugar and junk food is advisable.
+Good eating habits contribute to overall well-being.`,
+    level: 'junior',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 43,
+    difficulty: 2,
+    createdAt: '2024-11-28',
+  },
+  {
+    id: 'e773',
+    title: 'The Value of Friendship',
+    titleZh: '友谊的价值',
+    contentEn: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    contentZh: `True friendship is one of lifes greatest treasures.
+Friends support us through difficult times and celebrate our successes.
+Being a good friend requires trust, honesty, and mutual respect.
+Friendships take time and effort to develop and maintain.
+Having close friends improves our mental health and happiness.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Chris',
+    wordCount: 46,
+    difficulty: 2,
+    createdAt: '2024-05-19',
+  },
+  {
+    id: 'e774',
+    title: 'The Philosophy of Happiness',
+    titleZh: '幸福的哲学',
+    contentEn: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    contentZh: `Happiness has been a central topic in philosophical discourse for millennia.
+Ancient Greek philosophers like Aristotle argued that happiness is the highest good.
+Modern positive psychology suggests that happiness can be cultivated through intentional practices.
+The pursuit of happiness remains a fundamental human right recognized globally.
+Understanding what truly constitutes lasting happiness requires deep self-reflection.`,
+    level: 'senior',
+    category: 'culture',
+    author: 'Emma',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-09-13',
+  },
+  {
+    id: 'e775',
+    title: 'The Evolution of Modern Art',
+    titleZh: '现代艺术的演变',
+    contentEn: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    contentZh: `Modern art emerged in the late nineteenth century as artists sought new forms of expression.
+Movements like Impressionism, Cubism, and Surrealism challenged traditional artistic conventions.
+Artists began experimenting with abstraction, symbolism, and the unconscious mind.
+This radical departure from realism fundamentally changed the art world.
+Contemporary art continues to push boundaries in the digital age.`,
+    level: 'senior',
+    category: 'culture',
+    author: 'Michael',
+    wordCount: 55,
+    difficulty: 2,
+    createdAt: '2024-01-20',
+  },
+  {
+    id: 'e776',
+    title: 'The Science of Climate Change',
+    titleZh: '气候变化科学',
+    contentEn: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    contentZh: `Climate change represents one of the most pressing challenges facing humanity.
+Scientific consensus confirms that human activities are the primary driver of global warming.
+Rising temperatures lead to melting ice caps, rising sea levels, and extreme weather events.
+International cooperation is essential to mitigate the worst effects.
+Individual actions combined with systemic change can still alter the trajectory.`,
+    level: 'senior',
+    category: 'economy',
+    author: 'John',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-06-12',
+  },
+  {
+    id: 'e777',
+    title: 'The Psychology of Decision Making',
+    titleZh: '决策心理学',
+    contentEn: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    contentZh: `Human decision-making is influenced by numerous cognitive biases.
+Heuristics and mental shortcuts often lead to predictable errors in judgment.
+Understanding these patterns can help us make more rational choices.
+Emotional factors also play a crucial role in our decisions.
+Research in behavioral economics has revolutionized our understanding of human behavior.`,
+    level: 'senior',
+    category: 'economy',
+    author: 'Chris',
+    wordCount: 50,
+    difficulty: 2,
+    createdAt: '2024-11-26',
+  },
+  {
+    id: 'e778',
+    title: 'The History of Space Exploration',
+    titleZh: '太空探索的历史',
+    contentEn: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    contentZh: `Space exploration began in earnest with the Space Race of the 1950s and 60s.
+The Apollo missions landed the first humans on the Moon in 1969.
+Since then, robotic missions have explored all the planets in our solar system.
+The International Space Station represents a model for international scientific cooperation.
+Plans for Mars colonization are currently under development.`,
+    level: 'senior',
+    category: 'education',
+    author: 'Anna',
+    wordCount: 58,
+    difficulty: 2,
+    createdAt: '2024-05-07',
+  },
+  {
+    id: 'e779',
+    title: 'The Economics of Sustainable Development',
+    titleZh: '可持续发展的经济学',
+    contentEn: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    contentZh: `Sustainable development seeks to balance economic growth with environmental protection.
+Green technologies are creating new industries and employment opportunities.
+Carbon pricing and other market mechanisms can internalize environmental costs.
+The transition to a sustainable economy requires significant investment.
+Long-term thinking must supersede short-term profit maximization.`,
+    level: 'senior',
+    category: 'society',
+    author: 'Anonymous',
+    wordCount: 45,
+    difficulty: 2,
+    createdAt: '2024-05-20',
+  },
+  {
+    id: 'e780',
+    title: 'The Impact of Globalization on Culture',
+    titleZh: '全球化对文化的影响',
+    contentEn: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    contentZh: `Globalization has transformed cultural exchange across the world.
+Traditional cultures face challenges from dominant global media.
+At the same time, globalization enables greater cross-cultural understanding.
+Hybrid cultural forms emerge from the blending of local and global influences.
+Preserving cultural diversity while embracing connectivity remains a delicate balance.`,
+    level: 'senior',
+    category: 'literature',
+    author: 'Anonymous',
+    wordCount: 47,
+    difficulty: 2,
+    createdAt: '2024-12-15',
+  },
+  {
+    id: 'e781',
+    title: 'Understanding Artificial Intelligence',
+    titleZh: '理解人工智能',
+    contentEn: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    contentZh: `Artificial intelligence refers to machines that can perform tasks requiring human intelligence.
+Machine learning enables systems to improve through experience without explicit programming.
+AI applications range from voice assistants to autonomous vehicles.
+Ethical concerns include privacy, bias, and the potential for misuse.
+The future of AI will profoundly shape society and the economy.`,
+    level: 'senior',
+    category: 'culture',
+    author: 'Tom',
+    wordCount: 53,
+    difficulty: 2,
+    createdAt: '2024-12-23',
+  },
+  {
+    id: 'e782',
+    title: 'The Future of Renewable Energy',
+    titleZh: '可再生能源的未来',
+    contentEn: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    contentZh: `Renewable energy sources are becoming increasingly vital in the global energy transition.
+Solar and wind power have experienced dramatic cost reductions over the past decade.
+Energy storage technologies are addressing the intermittency challenges of renewables.
+Grid modernization is essential to accommodate distributed generation.
+Policy frameworks must accelerate this transition while ensuring energy security.`,
+    level: 'university',
+    category: 'news',
+    author: 'Anna',
+    wordCount: 53,
+    difficulty: 3,
+    createdAt: '2024-05-23',
+  },
+  {
+    id: 'e783',
+    title: 'Advances in Biotechnology',
+    titleZh: '生物技术的进展',
+    contentEn: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    contentZh: `Biotechnology is revolutionizing healthcare through personalized medicine.
+Gene editing technologies like CRISPR offer unprecedented therapeutic potential.
+Synthetic biology is enabling the design of novel organisms for industrial applications.
+These advances raise important ethical questions about human enhancement.
+Regulatory frameworks must balance innovation with precaution.`,
+    level: 'university',
+    category: 'environment',
+    author: 'David',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-01-07',
+  },
+  {
+    id: 'e784',
+    title: 'The Sociology of Social Media',
+    titleZh: '社交媒体的社会学',
+    contentEn: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    contentZh: `Social media platforms have fundamentally altered human communication patterns.
+These platforms create both opportunities for connection and risks of isolation.
+Algorithm-driven content curation can reinforce echo chambers.
+Digital literacy is becoming essential in modern society.
+Research continues to explore the long-term psychological and social effects.`,
+    level: 'university',
+    category: 'culture',
+    author: 'Tom',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-09-19',
+  },
+  {
+    id: 'e785',
+    title: 'The Geopolitics of Artificial Intelligence',
+    titleZh: '人工智能的地缘政治学',
+    contentEn: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    contentZh: `AI is becoming a key driver of economic and military power.
+Nations are racing to establish leadership in AI research and development.
+Concerns about technological sovereignty are reshaping industrial policy.
+International norms for AI governance are still evolving.
+Cooperation and competition in AI will define the twenty-first century.`,
+    level: 'university',
+    category: 'news',
+    author: 'Chris',
+    wordCount: 48,
+    difficulty: 3,
+    createdAt: '2024-05-09',
+  },
+  {
+    id: 'e786',
+    title: 'Quantum Computing: Principles and Prospects',
+    titleZh: '量子计算：原理与前景',
+    contentEn: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    contentZh: `Quantum computing harnesses quantum mechanical phenomena for computation.
+Quantum bits can exist in superposition, enabling exponential speedups for certain problems.
+Current quantum computers remain limited in scale and error correction.
+Applications include cryptography, drug discovery, and optimization problems.
+Quantum supremacy demonstrations mark significant milestones in the field.`,
+    level: 'university',
+    category: 'economy',
+    author: 'Chris',
+    wordCount: 47,
+    difficulty: 3,
+    createdAt: '2024-06-20',
+  },
+  {
+    id: 'e787',
+    title: 'The Neuroscience of Consciousness',
+    titleZh: '意识的神经科学',
+    contentEn: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    contentZh: `Consciousness remains one of the greatest mysteries in science.
+Neuroscientists study the neural correlates of conscious experience.
+Different theories propose various mechanisms for generating consciousness.
+Understanding consciousness has implications for philosophy and AI.
+Research continues to advance our understanding of this phenomenon.`,
+    level: 'university',
+    category: 'environment',
+    author: 'Emma',
+    wordCount: 42,
+    difficulty: 3,
+    createdAt: '2024-01-03',
+  },
+  {
+    id: 'e788',
+    title: 'Global Economic Inequality',
+    titleZh: '全球经济不平等',
+    contentEn: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    contentZh: `Economic inequality has widened in many countries over recent decades.
+Factors include technological change, globalization, and policy choices.
+Inequality has implications for social mobility and political stability.
+Redistributive policies can help address growing disparities.
+International cooperation on tax and trade issues affects global inequality.`,
+    level: 'university',
+    category: 'culture',
+    author: 'Emma',
+    wordCount: 44,
+    difficulty: 3,
+    createdAt: '2024-12-03',
+  },
+  {
+    id: 'e789',
+    title: 'The Philosophy of Mind',
+    titleZh: '心智哲学',
+    contentEn: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    contentZh: `The mind-body problem has puzzled philosophers for centuries.
+Physicalism holds that mental states are physical states of the brain.
+Dualism proposes that mind and body are fundamentally different substances.
+Functionalism examines mental states by their functional roles.
+Advances in neuroscience continue to inform philosophical debates.`,
+    level: 'university',
+    category: 'technology',
+    author: 'Emma',
+    wordCount: 45,
+    difficulty: 3,
+    createdAt: '2024-06-24',
+  },
+  {
+    id: 'e790',
+    title: 'My Family',
+    titleZh: '我的家人',
+    contentEn: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    contentZh: `I have a happy family.
+My mom cooks delicious food.
+My dad tells me stories.
+We play games together.
+I love my family very much.`,
+    level: 'elementary',
+    category: 'technology',
+    author: 'Michael',
+    wordCount: 25,
+    difficulty: 1,
+    createdAt: '2024-10-25',
+  },
+  {
+    id: 'e791',
+    title: 'The Friendly Cat',
+    titleZh: '友好的猫咪',
+    contentEn: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    contentZh: `I saw a cat in the garden.
+The cat is soft and warm.
+It likes to chase butterflies.
+I give it some milk.
+The cat is my friend now.`,
+    level: 'elementary',
+    category: 'technology',
+    author: 'David',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-11-20',
+  },
+  {
+    id: 'e792',
+    title: 'A Day at School',
+    titleZh: '学校的一天',
+    contentEn: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    contentZh: `I go to school every day.
+My teacher is very kind.
+I learn to read and write.
+I play with my friends at lunch.
+School is fun!`,
+    level: 'elementary',
+    category: 'news',
+    author: 'Lisa',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-11-09',
+  },
+  {
+    id: 'e793',
+    title: 'The Big Tree',
+    titleZh: '大树',
+    contentEn: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    contentZh: `There is a big tree near my house.
+Birds live in the tree.
+I like to sit under it.
+The leaves are green and pretty.
+I love that tree.`,
+    level: 'elementary',
+    category: 'culture',
+    author: 'Tom',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-07-28',
+  },
+  {
+    id: 'e794',
+    title: 'My Favorite Fruit',
+    titleZh: '我最喜欢的水果',
+    contentEn: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    contentZh: `Apples are my favorite fruit.
+They are red and sweet.
+I eat one every day.
+Apples are good for health.
+I also like bananas.`,
+    level: 'elementary',
+    category: 'science',
+    author: 'David',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-11-20',
+  },
+  {
+    id: 'e795',
+    title: 'A Sunny Day',
+    titleZh: '阳光明媚的一天',
+    contentEn: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    contentZh: `The sun is shining bright.
+It is a warm and beautiful day.
+I go outside to play.
+The flowers smell so nice.
+I love sunny days.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Sarah',
+    wordCount: 26,
+    difficulty: 1,
+    createdAt: '2024-05-25',
+  },
+  {
+    id: 'e796',
+    title: 'My Best Friend',
+    titleZh: '我最好的朋友',
+    contentEn: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    contentZh: `My best friend is Lily.
+We play together every day.
+She has long hair.
+We share our toys.
+I am happy with my friend.`,
+    level: 'elementary',
+    category: 'education',
+    author: 'Tom',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-07-21',
+  },
+  {
+    id: 'e797',
+    title: 'The Little Rabbit',
+    titleZh: '小兔子',
+    contentEn: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    contentZh: `I have a little rabbit.
+It has long ears and a fluffy tail.
+It hops around the garden.
+I feed it carrots.
+My rabbit is very cute.`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Chris',
+    wordCount: 27,
+    difficulty: 1,
+    createdAt: '2024-03-15',
+  },
+  {
+    id: 'e798',
+    title: 'Learning to Ride a Bike',
+    titleZh: '学骑自行车',
+    contentEn: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    contentZh: `I am learning to ride a bike.
+It is not easy at first.
+Dad holds the seat for me.
+I practice every afternoon.
+Now I can ride by myself!`,
+    level: 'elementary',
+    category: 'literature',
+    author: 'Emma',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-09-05',
+  },
+  {
+    id: 'e799',
+    title: 'The Colorful Butterfly',
+    titleZh: '彩色的蝴蝶',
+    contentEn: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    contentZh: `I saw a butterfly in the park.
+Its wings are blue and yellow.
+It flies from flower to flower.
+I watch it for a long time.
+Butterflies are so beautiful.`,
+    level: 'elementary',
+    category: 'essay',
+    author: 'Sarah',
+    wordCount: 30,
+    difficulty: 1,
+    createdAt: '2024-05-06',
+  },
+  {
+    id: 'e800',
+    title: 'The Birthday Party',
+    titleZh: '生日派对',
+    contentEn: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    contentZh: `Today is my birthday.
+My friends came to celebrate.
+We had cake and ice cream.
+I received many gifts.
+It was a wonderful day!`,
+    level: 'elementary',
+    category: 'environment',
+    author: 'Sarah',
+    wordCount: 24,
+    difficulty: 1,
+    createdAt: '2024-02-08',
+  },
+  {
+    id: 'e801',
+    title: 'The Rainy Day',
+    titleZh: '下雨天',
+    contentEn: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    contentZh: `It rained all day today.
+I stayed inside the house.
+I read books and watched TV.
+The sound of rain is soothing.
+I hope the sun comes out tomorrow.`,
+    level: 'elementary',
+    category: 'economy',
+    author: 'Lisa',
+    wordCount: 29,
+    difficulty: 1,
+    createdAt: '2024-05-10',
+  },
+  {
+    id: 'e802',
+    title: 'The Importance of Reading',
+    titleZh: '阅读的重要性',
+    contentEn: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    contentZh: `Reading is one of the most valuable skills we can develop.
+It opens doors to new worlds and ideas.
+Through books, we can travel to distant places without leaving our homes.
+Reading improves our vocabulary and writing abilities.
+It is also a great way to relax and reduce stress.`,
+    level: 'junior',
+    category: 'education',
+    author: 'Chris',
+    wordCount: 49,
+    difficulty: 2,
+    createdAt: '2024-06-06',
+  },
+  {
+    id: 'e803',
+    title: 'My Hobbies and Interests',
+    titleZh: '我的爱好与兴趣',
+    contentEn: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    contentZh: `I have several hobbies that I enjoy in my free time.
+One of my favorites is collecting stamps from different countries.
+Another hobby I have is learning to play the guitar.
+These activities help me relax after a busy school day.
+I believe having hobbies is important for a balanced life.`,
+    level: 'junior',
+    category: 'news',
+    author: 'Chris',
+    wordCount: 51,
+    difficulty: 2,
+    createdAt: '2024-06-09',
+  },
+  {
+    id: 'e804',
+    title: 'Protecting Our Environment',
+    titleZh: '保护我们的环境',
+    contentEn: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    contentZh: `Our environment is facing many challenges today.
+Pollution is one of the biggest threats to our planet.
+We can help by reducing waste and recycling.
+Planting more trees would also make a significant difference.
+Every small action counts when it comes to protecting Earth.`,
+    level: 'junior',
+    category: 'culture',
+    author: 'John',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-10-03',
+  },
+  {
+    id: 'e805',
+    title: 'The Benefits of Exercise',
+    titleZh: '运动的好处',
+    contentEn: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    contentZh: `Regular exercise is essential for maintaining good health.
+It helps strengthen our muscles and bones.
+Exercise also improves our mental well-being.
+Even a thirty-minute walk can make a difference.
+Making physical activity a habit leads to a longer, healthier life.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Tom',
+    wordCount: 40,
+    difficulty: 2,
+    createdAt: '2024-01-04',
+  },
+  {
+    id: 'e806',
+    title: 'My Favorite Season',
+    titleZh: '我最喜欢的季节',
+    contentEn: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    contentZh: `Among the four seasons, autumn is my favorite.
+The weather becomes cooler and more comfortable.
+The leaves change into beautiful colors of orange and red.
+It is also the season of harvest and Thanksgiving.
+I enjoy taking walks in the park during this time.`,
+    level: 'junior',
+    category: 'news',
+    author: 'Anonymous',
+    wordCount: 44,
+    difficulty: 2,
+    createdAt: '2024-08-06',
+  },
+  {
+    id: 'e807',
+    title: 'Learning a New Language',
+    titleZh: '学习一门新语言',
+    contentEn: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    contentZh: `Learning a new language can be challenging but rewarding.
+It opens up opportunities for communication with people from different backgrounds.
+Speaking multiple languages can also boost career prospects.
+The best way to learn is through consistent practice and immersion.
+I am currently studying Spanish and finding it fascinating.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'Anonymous',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-07-07',
+  },
+  {
+    id: 'e808',
+    title: 'The Role of Technology in Education',
+    titleZh: '科技在教育中的作用',
+    contentEn: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    contentZh: `Technology has transformed the way we learn.
+Online resources make education accessible to more people.
+Students can now learn at their own pace using educational apps.
+However, excessive screen time can be harmful.
+Balancing technology use with traditional learning is important.`,
+    level: 'junior',
+    category: 'science',
+    author: 'Anna',
+    wordCount: 41,
+    difficulty: 2,
+    createdAt: '2024-12-23',
+  },
+  {
+    id: 'e809',
+    title: 'My Dream Career',
+    titleZh: '我的梦想职业',
+    contentEn: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    contentZh: `When I grow up, I want to become a veterinarian.
+I have always loved animals and wanted to help them.
+This career would allow me to combine my passion with my work.
+I am preparing by taking science courses.
+I hope to open my own animal clinic someday.`,
+    level: 'junior',
+    category: 'essay',
+    author: 'David',
+    wordCount: 48,
+    difficulty: 2,
+    createdAt: '2024-10-18',
+  },
 ];
 
 // 合并长篇文章和短篇文章

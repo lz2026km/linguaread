@@ -1813,6 +1813,271 @@ But most importantly, we must never lose sight of what makes us human. In a worl
 但最重要的是，我们绝不能忽视使我们成为人类的东西。在一个快速变化的世界中，我们的价值观、同理心和人性才是真正重要的。最好的未来是技术为人类繁荣服务的未来。`,
     wordCount: 150,
   },
+  // ===== 高中扩展单元 (Extended Senior High Units) =====
+  {
+    id: 'sen-s1-u5',
+    title: 'Information and Media',
+    titleZh: '信息与媒体',
+    contentEn: `In the digital age, information is everywhere. We are constantly surrounded by news, advertisements, social media posts and countless other messages competing for our attention.
+
+The internet has revolutionized how we access and share information. With a few clicks, we can learn about events happening on the other side of the world or share our own stories with a global audience.
+
+However, this abundance of information comes with challenges. Not all information is accurate or trustworthy. Misinformation and fake news can spread rapidly, especially through social media. Developing critical media literacy is essential for navigating this complex landscape.
+
+We must learn to evaluate sources, cross-check facts and think critically about the information we encounter. As informed citizens, we have the responsibility to seek truth and avoid spreading false information.
+
+The media shapes our perception of reality. By understanding how media works, we can become more discerning consumers and responsible participants in public discourse.`,
+    contentZh: `在数字时代，信息无处不在。我们不断被新闻、广告、社交媒体帖子和无数其他信息所包围，这些信息争夺着我们的注意力。
+
+互联网彻底改变了我们获取和分享信息的方式。只需点击几下，我们就可以了解世界另一端发生的事件，或者与全球观众分享我们自己的故事。
+
+然而，信息的丰富也带来了挑战。并非所有信息都是准确或可信的。错误信息和假新闻可以迅速传播，特别是在社交媒体上。培养批判性媒体素养对于应对这一复杂环境至关重要。
+
+我们必须学会评估来源、核实事实，并对我们遇到的信息进行批判性思考。作为知情的公民，我们有责任寻求真相，避免传播虚假信息。
+
+媒体塑造我们对现实的感知。通过了解媒体如何运作，我们可以成为更有辨别力的消费者和公共讨论中负责任的参与者。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s1-u6',
+    title: 'Law and Rights',
+    titleZh: '法律与权利',
+    contentEn: `Law is the foundation of a just society. It establishes rules that govern behavior, protect individual rights and maintain order. Understanding law is essential for responsible citizenship.
+
+Every citizen has fundamental rights protected by law. These include the right to life, liberty and property. Freedom of speech, religion and assembly are also protected. These rights define us as free people.
+
+However, rights come with responsibilities. We must respect the rights of others while exercising our own. The law applies equally to all people, regardless of their status or position.
+
+When laws are unjust, it is the responsibility of citizens to work toward change through peaceful and democratic means. The rule of law ensures that power is not abused and that justice is accessible to all.
+
+Studying law helps us understand our legal system and our place within it. It empowers us to defend our rights and fulfill our obligations as citizens.`,
+    contentZh: `法律是正义社会的基础。它建立了管理行为的规则，保护个人权利，维护秩序。了解法律对于负责任的公民身份至关重要。
+
+每个公民都有受法律保护的基本权利。这些权利包括生命权、自由权和财产权。言论、宗教和集会自由也受到保护。这些权利定义了我们的自由人身份。
+
+然而，权利伴随着责任。在行使我们自身权利的同时，我们必须尊重他人的权利。法律平等地适用于所有人，无论其地位或职位如何。
+
+当法律不公正时，公民有责任通过和平民主的方式推动变革。法治确保权力不被滥用，正义人人可得。
+
+学习法律帮助我们了解我们的法律制度和我们其中的位置。它使我们能够维护我们的权利，履行作为公民的义务。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s2-u5',
+    title: 'Innovation and Entrepreneurship',
+    titleZh: '创新与创业',
+    contentEn: `Innovation is the engine of progress. Throughout history, innovative thinkers have transformed society with new ideas, technologies and solutions to problems.
+
+Innovation requires creativity, curiosity and courage to challenge conventional wisdom. It involves looking at familiar problems from new angles and finding unexpected solutions.
+
+Entrepreneurship brings innovation to market. Entrepreneurs identify needs and create products or services to meet them. They take risks in pursuit of their visions, accepting that failure is often part of the journey.
+
+China has become a global leader in innovation and entrepreneurship. From e-commerce to renewable energy, Chinese companies are developing solutions that impact the world.
+
+For students, developing an innovative mindset means being open to new ideas, willing to experiment and persistent in the face of setbacks. These qualities will serve you well regardless of the career path you choose.
+
+The future belongs to those who can imagine it differently and have the courage to pursue their visions despite obstacles.`,
+    contentZh: `创新是进步的引擎。纵观历史，创新思想家以新的想法、技术和问题解决方案改变了社会。
+
+创新需要创造力、好奇心和挑战传统观念的勇气。它涉及从新的角度看待熟悉的问题，找到意想不到的解决方案。
+
+创业将创新推向市场。企业家识别需求并创造满足需求的产品或服务。他们为追求愿景而承担风险，接受失败往往是旅程的一部分。
+
+中国已成为全球创新和创业的领导者。从电子商务到可再生能源，中国公司正在开发影响世界的解决方案。
+
+对于学生来说，培养创新思维意味着对新想法持开放态度，愿意尝试，面对挫折坚持不懈。无论你选择什么职业道路，这些品质都会让你受益匪浅。
+
+未来属于那些能够以不同方式想象未来的人，属于那些有勇气克服障碍追求愿景的人。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s2-u6',
+    title: 'Ethics in Business',
+    titleZh: '商业伦理',
+    contentEn: `Business ethics examines moral principles and ethical problems that arise in commercial settings. It asks how we can pursue profit while maintaining integrity and social responsibility.
+
+The foundation of business ethics is honesty and transparency. Companies should be truthful in their advertising, fair in their dealings with suppliers and respectful of consumer privacy.
+
+Corporate social responsibility extends beyond legal requirements. Businesses have obligations to their employees, communities and the environment. Companies that ignore these responsibilities may gain short-term profits but will ultimately suffer reputational damage.
+
+Whistleblowers who expose unethical practices play an important role in maintaining corporate accountability. However, they often face significant personal risks and deserve protection.
+
+Ethical leadership starts at the top. When executives model ethical behavior, it cascades throughout the organization. Creating an ethical culture requires clear values, proper incentives and mechanisms for reporting concerns.
+
+As future business leaders or consumers, understanding ethics prepares us to make decisions that balance profit with principle.`,
+    contentZh: `商业伦理研究商业环境中出现的道德原则和伦理问题。它问的是我们如何在保持诚信和社会责任的同时追求利润。
+
+商业伦理的基础是诚实和透明。公司应在广告中实事求是，在与供应商交易中公平，尊重消费者隐私。
+
+企业社会责任超出法律要求。企业对员工、社区和环境负有责任。忽视这些责任的公司可能获得短期利润，但最终会遭受声誉损害。
+
+举报不道德行为的举报人在维持企业问责制方面发挥重要作用。然而，他们往往面临重大个人风险，值得保护。
+
+道德领导力从高层开始。当高管以身作则践行道德行为时，它会渗透到整个组织。创建道德文化需要明确的价值观、适当的激励措施和报告问题的机制。
+
+作为未来的商业领袖或消费者，理解伦理使我们能够做出平衡利润与原则的决策。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s3-u5',
+    title: 'Cognitive Science',
+    titleZh: '认知科学',
+    contentEn: `Cognitive science is the interdisciplinary study of the mind and its processes. It draws on psychology, neuroscience, linguistics, philosophy and artificial intelligence to understand how we think, learn and remember.
+
+Our brains process vast amounts of information every second. Sensory input is filtered, organized and interpreted to create our experience of the world. Understanding these processes helps us become more effective learners and thinkers.
+
+Memory is not a single mechanism but involves multiple systems. Working memory holds information temporarily for processing. Long-term memory stores our knowledge and experiences. The hippocampus plays a crucial role in transferring information between these systems.
+
+Learning strategies informed by cognitive science are more effective than traditional approaches. Spaced repetition, active recall and elaborative interrogation all leverage how our brains naturally process information.
+
+As technology advances, the boundary between human cognition and artificial intelligence becomes increasingly blurred. Understanding cognition helps us prepare for a future where these distinctions may change fundamentally.`,
+    contentZh: `认知科学是对心灵及其过程的跨学科研究。它结合心理学、神经科学、语言学、哲学和人工智能来理解我们如何思考、学习和记忆。
+
+我们的大脑每秒处理大量信息。感觉输入被过滤、组织和解释，以创造我们对世界的体验。理解这些过程帮助我们成为更有效的学习者和思考者。
+
+记忆不是单一机制，而是涉及多个系统。工作记忆临时保存信息进行处理。长期记忆存储我们的知识和经验。海马体在将这些信息在不同系统间传递方面起着关键作用。
+
+基于认知科学的学习策略比传统方法更有效。间隔重复、主动回忆和详细询问都利用了我们大脑自然处理信息的方式。
+
+随着技术进步，人类认知与人工智能之间的界限变得越来越模糊。理解认知帮助我们为一个可能在根本层面发生改变的未来做准备。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s3-u6',
+    title: 'History and Memory',
+    titleZh: '历史与记忆',
+    contentEn: `History is more than a collection of facts and dates. It is the story of human experience across time and space, shaping our identities and informing our choices.
+
+How we remember history matters as much as the historical events themselves. Collective memory is constructed through education, monuments, holidays and family narratives. These collective memories form the basis of national and cultural identity.
+
+The study of history develops critical thinking skills. We must evaluate sources, consider multiple perspectives and recognize bias. No historical account is completely objective; all are shaped by the viewpoints and purposes of their creators.
+
+Historical amnesia can lead to repeating past mistakes. By remembering and learning from history, we gain wisdom for navigating present challenges and future uncertainties.
+
+The relationship between history and memory is complex. Official histories often reflect the perspectives of the powerful. Alternative histories give voice to marginalized groups whose experiences might otherwise be forgotten.
+
+Studying history is an act of remembrance that connects us to those who came before and informs those who will come after.`,
+    contentZh: `历史不仅仅是事实和日期的集合。它是人类在时间和空间中的经验故事，塑造我们的身份，影响我们的选择。
+
+我们如何记忆历史与历史事件本身同样重要。集体记忆通过教育、纪念碑、节日和家庭叙述来构建。这些集体记忆形成了国家和文化认同的基础。
+
+历史研究培养批判性思维技能。我们必须评估来源，考虑多种观点，识别偏见。没有历史记载是完全客观的；所有记载都受到其创造者的观点和目的的影响。
+
+历史遗忘可能导致重复过去的错误。通过记忆和学习历史，我们获得智慧来应对当前的挑战和未来的不确定性。
+
+历史与记忆之间的关系是复杂的。官方历史往往反映权贵的观点。替代历史为边缘化群体发声，否则他们的经历可能被遗忘。
+
+学习历史是一种记忆行为，将我们与前人联系起来，为后人提供信息。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s4-u1',
+    title: 'Urbanization and Society',
+    titleZh: '城市化与社会',
+    contentEn: `Urbanization is one of the most significant demographic shifts in human history. More than half of the world's population now lives in cities, a trend that continues to accelerate.
+
+Cities are centers of innovation, culture and economic activity. They offer diverse opportunities for education, employment and personal growth. However, rapid urbanization also creates challenges.
+
+Housing affordability, traffic congestion, environmental pollution and social inequality are pressing issues in many cities. The concentration of wealth and opportunity in urban areas can leave rural communities behind.
+
+Sustainable urban development seeks to balance economic growth with environmental protection and social equity. Green buildings, public transportation and accessible public spaces are essential components of livable cities.
+
+The future of humanity is urban. How we design, build and govern our cities will determine the quality of life for billions of people and the health of our planet.`,
+    contentZh: `城市化是人类历史上最重要的人口转变之一。现在世界上有一半以上的人口生活在城市，这一趋势继续加速。
+
+城市是创新、文化和经济活动的中心。它们为教育、就业和个人成长提供多样化机会。然而，快速城市化也带来了挑战。
+
+住房负担能力、交通拥堵、环境污染和社会不平等是许多城市面临的紧迫问题。财富和机会集中在城市地区可能使农村社区落后。
+
+可持续城市发展寻求在经济增长、环境保护和社会公平之间取得平衡。绿色建筑、公共交通和无障碍公共空间是宜居城市的基本组成部分。
+
+人类的未来是城市化的。我们如何设计、建造和管理我们的城市将决定数十亿人的生活质量和地球的健康。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s4-u2',
+    title: 'Psychology of Relationships',
+    titleZh: '人际关系心理学',
+    contentEn: `Human beings are social creatures. From birth to death, our relationships with others shape who we are and significantly influence our well-being.
+
+Attachment theory reveals how early relationships with caregivers form templates for future relationships. Secure attachment in childhood promotes healthy relationships in adulthood.
+
+Effective communication is the foundation of strong relationships. Active listening, expressing emotions appropriately and resolving conflicts constructively are essential skills.
+
+Trust is the cornerstone of intimate relationships. Building trust requires consistency, reliability and integrity over time. Breaking trust is easy; rebuilding it is extraordinarily difficult.
+
+Relationships require ongoing investment. Like gardens, they need regular care and attention to flourish. Neglected relationships wither and may eventually fail.
+
+Understanding relationship dynamics helps us build stronger connections with family, friends and romantic partners. These connections, in turn, support our mental health and happiness throughout life.`,
+    contentZh: `人类是社会性动物。从出生到死亡，我们与他人的关系塑造了我们是谁，并显著影响我们的幸福感。
+
+依恋理论揭示了早期与照顾者的关系如何形成未来关系的模板。童年时期的安全依恋促进了成年期的健康关系。
+
+有效沟通是牢固关系的基础。积极倾听、适当表达情感和建设性地解决冲突是必不可少的技能。
+
+信任是亲密关系的基石。建立信任需要时间上的一致性、可靠性和正直。破坏信任容易；重建信任却异常困难。
+
+关系需要持续投入。就像花园一样，它们需要定期的照顾和关注才能茁壮成长。被忽视的关系会枯萎，最终可能失败。
+
+理解关系动态帮助我们与家人、朋友和恋人建立更紧密的联系。这些联系反过来又在一生中支持我们的心理健康和幸福。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s4-u3',
+    title: 'Art and Identity',
+    titleZh: '艺术与认同',
+    contentEn: `Art is a powerful expression of human identity and cultural heritage. Through art, individuals and communities communicate their values, beliefs and experiences across generations.
+
+Visual arts, music, literature, dance and theater all offer unique windows into different cultures and perspectives. They allow us to experience lives different from our own and develop empathy.
+
+Personal identity is expressed through aesthetic choices. The art we create and consume reflects who we are and who we aspire to be. Art-making can be a form of self-discovery and personal growth.
+
+Art also serves social and political functions. Throughout history, artists have challenged norms, protested injustice and imagined new possibilities. Their works become catalysts for social change.
+
+In a globalized world, questions of cultural appropriation and authenticity become complex. We must navigate between appreciating diverse traditions and respecting their origins.
+
+Engaging with art expands our understanding of what it means to be human. It nourishes our spirits and connects us to something greater than ourselves.`,
+    contentZh: `艺术是人类身份和文化遗产的有力表达。通过艺术，个人和社区跨越世代交流他们的价值观、信仰和经历。
+
+视觉艺术、音乐、文学、舞蹈和戏剧都提供了独特窗口，让我们了解不同的文化和观点。它们让我们体验不同于自己的生活，培养同理心。
+
+个人身份通过审美选择来表达。我们创作和消费的艺术反映了我们是谁和我们渴望成为谁。艺术创作可以是一种自我发现和个人成长的形式。
+
+艺术也具有社会和政治功能。纵观历史，艺术家挑战规范、抗议不公正、想象新的可能性。他们的作品成为社会变革的催化剂。
+
+在全球化世界中，文化挪用和真实性的问题变得复杂。我们必须在欣赏不同传统和尊重其起源之间找到平衡。
+
+接触艺术扩展了我们对人性的理解。它滋养我们的精神，将我们与比自己更伟大的事物联系起来。`,
+    wordCount: 150,
+  },
+  {
+    id: 'sen-s4-u4',
+    title: 'Technology and Privacy',
+    titleZh: '科技与隐私',
+    contentEn: `In the digital age, privacy has become both more important and more vulnerable. Our personal information is collected, analyzed and used in ways that would have been unimaginable just decades ago.
+
+Every click, search and transaction generates data that can be tracked and analyzed. Social media platforms, apps and websites collect extensive information about users' behaviors, preferences and social networks.
+
+This data has tremendous value for businesses targeting advertising and for governments conducting surveillance. However, the collection and use of personal data raise serious ethical concerns.
+
+Issues of consent, data security and algorithmic bias are increasingly important. Who owns our data? How should it be protected? What transparency should individuals have about how their data is used?
+
+Privacy is fundamental to human dignity and autonomy. Without privacy, we cannot fully exercise other rights. It protects our ability to think independently, form opinions and develop our identities.
+
+As digital citizens, we must advocate for strong privacy protections while navigating the conveniences that modern technology offers. Finding this balance is one of the defining challenges of our time.`,
+    contentZh: `在数字时代，隐私变得更加重要，也更加脆弱。我们的个人信息以几十年前难以想象的方式被收集、分析和使用。
+
+每一次点击、搜索和交易都会产生可被追踪和分析的数据。社交媒体平台、应用程序和网站收集关于用户行为、偏好和社交网络的广泛信息。
+
+这些数据对企业定向广告和政府开展监控具有巨大价值。然而，个人数据的收集和使用引发了严重的伦理问题。
+
+同意、数据安全和算法偏见问题越来越重要。谁拥有我们的数据？它应该如何被保护？个人应该对他们的数据如何使用有多大透明度？
+
+隐私对于人类尊严和自主至关重要。没有隐私，我们就不能充分行使其他权利。它保护我们独立思考、形成观点和发展自己身份的能力。
+
+作为数字公民，我们必须倡导强有力的隐私保护，同时利用现代技术提供的便利。找到这种平衡是我们这个时代的标志性挑战之一。`,
+    wordCount: 150,
+  },
 ];
 
 // ============================================================
@@ -2107,6 +2372,291 @@ Achieving sustainable development requires transformation in how we produce and 
 环境保护对于保护维持我们的星球至关重要。气候变化、生物多样性丧失和污染不仅威胁我们的生活质量，而且威胁人类文明的生存。
 
 实现可持续发展需要在我们的生产和消费方式进行转变。它需要转向清洁能源，采用循环经济原则，重新思考我们与自然的关系。可持续发展目标为这一转型提供了路线图。`,
+    wordCount: 180,
+  },
+  // ===== 大学英语扩展单元 (Extended University Units) =====
+  {
+    id: 'uni-u3-u1',
+    title: 'Neuroscience and Consciousness',
+    titleZh: '神经科学与意识',
+    contentEn: `Consciousness remains one of the greatest mysteries in science and philosophy. Despite centuries of investigation, we still do not fully understand how subjective experience arises from physical processes in the brain.
+
+Neuroscience has made remarkable progress in mapping brain structures and functions. We can observe which brain regions are active during different mental processes through techniques like fMRI and PET scans. However, correlating brain activity with conscious experience remains challenging.
+
+The hard problem of consciousness, as philosopher David Chalmers termed it, asks why and how physical processes give rise to subjective phenomenal experience. Why does seeing red feel a certain way? Why is there something it is like to be us?
+
+Various theories attempt to explain consciousness. Global workspace theory suggests that consciousness arises when information becomes widely available across brain networks. Integrated information theory proposes that consciousness corresponds to integrated information in a system.
+
+As AI systems become more sophisticated, questions about machine consciousness arise. Could sufficiently complex computational systems develop something like subjective experience? This question has profound ethical implications.
+
+Understanding consciousness is not merely an academic exercise. It touches on fundamental questions about personal identity, free will and the nature of reality itself.`,
+    contentZh: `意识仍然是科学和哲学中最大的谜团之一。尽管经过数个世纪的探索，我们仍然不完全理解主观体验如何从大脑的物理过程中产生。
+
+神经科学在绘制大脑结构和功能图方面取得了显著进展。我们可以通过 fMRI 和 PET 扫描等技术观察不同心理过程期间哪些大脑区域活跃。然而，将大脑活动与意识体验相关联仍然具有挑战性。
+
+哲学家大卫·查尔默斯称之为"意识的难题"，问的是为什么以及如何产生物理过程导致主观现象体验。为什么看红色会有特定的感觉？为什么成为我们会有某种感觉？
+
+各种理论试图解释意识。全局工作空间理论表明，当信息在大脑网络中广泛可获得时就会产生意识。整合信息理论认为，意识对应于系统中的整合信息。
+
+随着人工智能系统变得越来越复杂，关于机器意识的问题出现了。足够复杂的计算系统是否可能发展出类似主观体验的东西？这个问题具有深刻的伦理含义。
+
+理解意识不仅仅是学术活动。它涉及关于个人身份、自由意志和现实本质的基本问题。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u3-u2',
+    title: 'Climate Change Policy',
+    titleZh: '气候变化政策',
+    contentEn: `Climate change represents an existential threat to human civilization and ecosystems worldwide. Addressing it requires unprecedented global cooperation and transformative policy changes.
+
+The Paris Agreement, adopted in 2015, marked a historic milestone. Nearly all nations committed to limiting global warming to well below 2 degrees Celsius and pursuing efforts to limit warming to 1.5 degrees. However, current national commitments are insufficient to achieve these goals.
+
+Climate policy operates across multiple domains. Carbon pricing mechanisms like carbon taxes and emissions trading systems create economic incentives for reducing emissions. Regulations on industry, transportation and buildings establish direct requirements.
+
+International climate negotiations reveal tensions between developed and developing nations. Developed countries, having contributed most to historical emissions, bear moral responsibility to lead mitigation efforts. Developing countries seek space for sustainable development.
+
+Adaptation policies help communities cope with climate impacts already underway. These include infrastructure improvements, disaster preparedness and agricultural adjustments. Vulnerable populations require special protection.
+
+The transition to a low-carbon economy will reshape industries, create new jobs and require massive investment. Managing this transition equitably is both a policy challenge and a moral imperative.`,
+    contentZh: `气候变化对全球人类文明和生态系统构成生存威胁。应对它需要前所未有的全球合作和变革性政策变化。
+
+2015 年通过的《巴黎协定》是一个历史性里程碑。几乎所有国家都承诺将全球变暖控制在远低于 2 摄氏度的水平，并努力将升温限制在 1.5 度以内。然而，当前的国家承诺不足以实现这些目标。
+
+气候政策在多个领域运作。碳定价机制如碳税和排放交易系统为减少排放创造了经济激励。对工业、交通和建筑物的监管建立了直接要求。
+
+国际气候谈判揭示了发达和发展中国家之间的紧张关系。发达国家对历史排放贡献最大，在道义上有责任领导缓解努力。发展中国家寻求可持续发展空间。
+
+适应政策帮助社区应对已经开始的气候影响。这些包括基础设施改进、灾害备灾和农业调整。弱势群体需要特别保护。
+
+向低碳经济转型将重塑行业、创造新就业机会并需要大量投资。公平地管理这一转型既是政策挑战，也是道德要求。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u3-u3',
+    title: 'Bioethics',
+    titleZh: '生物伦理学',
+    contentEn: `Bioethics examines moral issues arising from biological and medical advances. As technology gives us unprecedented power over life itself, ethical frameworks become essential for guiding responsible innovation.
+
+Gene editing technologies like CRISPR offer hope for treating genetic diseases. However, the possibility of editing human embryos raises profound questions about enhancement, consent and the integrity of the human genome.
+
+Organ transplantation saves millions of lives but creates ethical dilemmas around allocation. Who should receive a scarce organ? How should priority be determined? What role should age, lifestyle or social worth play?
+
+Human enhancement technologies blur the line between therapy and enhancement. Should we use technology to improve human capabilities beyond normal functioning? What are the implications for equality and human dignity?
+
+Animal research remains necessary for medical progress but conflicts with animal welfare concerns. Finding ethical balance requires careful consideration of alternatives, refined methods and the minimization of suffering.
+
+Bioethics also grapples with end-of-life issues, including physician-assisted dying, palliative care and the definition of death itself. These questions become more complex as medical technology can sustain biological functions indefinitely.`,
+    contentZh: `生物伦理学研究来自生物和医学进步的伦理问题。随着技术赋予我们对生命本身前所未有的权力，伦理框架对于指导负责任的创新变得至关重要。
+
+像 CRISPR 这样的基因编辑技术为治疗遗传疾病带来了希望。然而，编辑人类胚胎的可能性引发了关于增强、知情同意和人类基因组完整性的深刻问题。
+
+器官移植挽救了数百万人的生命，但造成了关于分配的伦理困境。谁应该接受稀缺的器官？优先权应该如何决定？年龄、生活方式或社会价值应该扮演什么角色？
+
+人体增强技术模糊了治疗和增强之间的界限。我们应该使用技术将人类能力提高到正常功能以上吗？这对平等和人类尊严有什么影响？
+
+动物研究对医学进步仍然必要，但与动物福利关切相冲突。找到伦理平衡需要仔细考虑替代方案、改进方法和尽量减少痛苦。
+
+生物伦理学还努力应对临终问题，包括医师协助自杀、安宁疗护和死亡本身的定义。随着医疗技术可以无限期地维持生物功能，这些问题变得更加复杂。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u3-u4',
+    title: 'International Relations',
+    titleZh: '国际关系',
+    contentEn: `International relations shape the global landscape in which nations interact, cooperate and compete. Understanding IR theory and practice is essential for navigating our interconnected world.
+
+Realism, one of the oldest IR theories, emphasizes state sovereignty, power politics and the anarchic nature of the international system. States must rely on self-help and military strength for security.
+
+Liberalism focuses on international institutions, economic interdependence and international law as means of fostering cooperation. Institutions like the United Nations provide forums for dialogue and collective action.
+
+Constructivism examines how ideas and norms shape international politics. What states believe about identity, legitimacy and appropriate behavior influences their actions in profound ways.
+
+Emerging powers like China and India are reshaping the international order. The rules-based international system faces challenges from nationalism, great power competition and regional conflicts.
+
+Global challenges like climate change, pandemics and economic instability require international cooperation. Yet achieving cooperation remains difficult given divergent national interests.
+
+For citizens of an interconnected world, understanding international relations is not merely academic. It informs our choices as voters, consumers and participants in global civil society.`,
+    contentZh: `国际关系塑造了国家互动、合作和竞争的国际格局。理解国际关系理论和实践对于在我们互联的世界中前行至关重要。
+
+现实主义是最古老的国际关系理论之一，强调国家主权、权力政治和国际体系的无政府性质。国家必须依靠自助和军事力量来获取安全。
+
+自由主义关注国际机构、经济相互依存和国际法作为促进合作的手段。像联合国这样的机构为对话和集体行动提供了论坛。
+
+建构主义研究思想和规范如何塑造国际政治。各国对身份、合法性和适当行为的看法以深刻的方式影响其行动。
+
+中国和印度等新兴大国正在重塑国际秩序。以规则为基础的国际体系面临民族主义、大国竞争和地区冲突的挑战。
+
+气候变化、流行病和经济不稳定等全球挑战需要国际合作。然而，鉴于不同的国家利益，实现合作仍然困难。
+
+对于互联世界的公民来说，理解国际关系不仅仅是学术问题。它影响着我们作为选民、消费者和全球公民参与者的选择。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u3-u5',
+    title: 'Data Science and Society',
+    titleZh: '数据科学与社会',
+    contentEn: `Data science has emerged as a transformative discipline, extracting insights from vast quantities of information to inform decision-making across fields from business to healthcare to governance.
+
+The proliferation of data raises profound questions about privacy, surveillance and the nature of knowledge itself. When algorithms can predict our behavior, what does it mean to be an autonomous individual?
+
+Machine learning, a cornerstone of modern data science, enables computers to learn from data without explicit programming. This has led to remarkable achievements in image recognition, natural language processing and strategic games.
+
+However, machine learning systems can perpetuate and amplify existing biases. When trained on historical data that reflects societal inequities, algorithms may produce discriminatory outcomes in hiring, lending and criminal justice.
+
+The concept of algorithmic accountability has gained prominence. Who is responsible when an algorithm makes a mistake that harms someone? How do we ensure fairness and transparency in automated decision-making?
+
+Data literacy has become essential for informed citizenship. Understanding data collection, analysis and presentation helps individuals evaluate claims and participate in data-driven democratic discourse.`,
+    contentZh: `数据科学已成为一门变革性学科，从海量信息中提取洞察，为从商业到医疗再到治理等各个领域的决策提供信息。
+
+数据的泛滥引发了关于隐私、监控和知识本身性质的深刻问题。当算法可以预测我们的行为时，作为自主个体意味着什么？
+
+机器学习是现代数据科学的基石，使计算机能够从数据中学习而无需明确编程。这导致了图像识别、自然语言处理和战略游戏领域的显著成就。
+
+然而，机器学习系统可以延续和放大现有偏见。当在反映社会不平等的历史数据上进行训练时，算法可能在招聘、贷款和刑事司法方面产生歧视性结果。
+
+算法问责的概念已获得突出关注。当算法犯下伤害某人的错误时，谁应该负责？我们如何确保自动化决策中的公平性和透明度？
+
+数据素养已成为知情公民的必备条件。理解数据收集、分析和展示帮助个人评估主张并参与数据驱动的民主讨论。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u3-u6',
+    title: 'Philosophy of Mind',
+    titleZh: '心灵哲学',
+    contentEn: `Philosophy of mind investigates the nature of mental phenomena and their relationship to the physical world. It addresses questions that lie at the heart of our understanding of ourselves.
+
+The mind-body problem is the central issue. How can physical processes in the brain give rise to subjective conscious experience? This puzzle has puzzled philosophers for centuries and remains unresolved.
+
+Materialism or physicalism holds that the mind is identical to or reducible to the brain. If this view is correct, mental states are simply brain states. However, it struggles to explain how subjective experience fits into a purely physical world.
+
+Dualism proposes that mind and body are fundamentally different substances. René Descartes famously argued that the mind is a non-physical thinking thing distinct from the body. Critics point out that dualism faces difficulties explaining causal interaction between mind and body.
+
+Alternative views like functionalism suggest that mental states are defined by their functional roles rather than their physical implementation. This allows that mental states could in principle be realized by non-biological systems.
+
+As our understanding of the brain advances and AI systems become more sophisticated, philosophy of mind becomes increasingly relevant. Questions about machine consciousness and the limits of artificial intelligence demand philosophical analysis.`,
+    contentZh: `心灵哲学研究精神现象的本质及其与物理世界的关系。它解决了我们理解自身核心的问题。
+
+身心问题是核心问题。大脑中的物理过程如何产生主观意识体验？这个谜题困扰了哲学家几个世纪，至今仍未解决。
+
+唯物主义或物理主义认为心灵与大脑相同或可还原为大脑。如果这个观点正确，精神状态就是大脑状态。然而，它难以解释主观体验如何适应纯物理世界。
+
+二元论提出心灵和身体是根本不同的物质。勒内·笛卡尔著名地论证心灵是一种不同于身体、非物理的思维实体。批评者指出二元论在解释心灵与身体之间的因果相互作用方面面临困难。
+
+像功能主义这样的替代观点表明，精神状态是由其功能角色定义的，而不是由其物理实现定义的。这允许精神状态原则上可以由非生物系统实现。
+
+随着我们对大脑的理解进步和人工智能系统变得更加复杂，心灵哲学变得越来越相关。关于机器意识极限和人工智能限制的问题需要哲学分析。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u4-u1',
+    title: 'Urban Planning and Design',
+    titleZh: '城市规划与设计',
+    contentEn: `Urban planning shapes the physical and social environments in which billions of people live, work and play. It involves the design, regulation and management of urban spaces.
+
+Good urban planning considers multiple factors: transportation, housing, economic development, environmental sustainability and quality of life. Integrated approaches that balance these elements create livable, vibrant cities.
+
+The history of urban planning reveals both successes and failures. Garden cities, skyscrapers and transit-oriented development have all influenced how cities grow and function. Failed experiments like poorly designed housing projects offer lessons about what to avoid.
+
+Modern urban design increasingly emphasizes sustainability. Green infrastructure, walkability and carbon-neutral development are essential for cities to address climate change and improve resident well-being.
+
+Public participation in planning processes ensures that urban development serves community needs. When residents are involved in shaping their neighborhoods, outcomes tend to be more equitable and effective.
+
+The future of cities depends on innovative planning approaches that can accommodate population growth while preserving environmental quality and social cohesion.`,
+    contentZh: `城市规划塑造了数十亿人生活、工作和娱乐的物质和社会环境。它涉及城市空间的设计、规制和管理。
+
+良好的城市规划考虑多种因素：交通、住房、经济发展、环境保护可持续性和生活质量。平衡这些要素的综合方法创造了宜居、充满活力的城市。
+
+城市规划的历史揭示了成功和失败。花园城市、摩天大楼和交通导向开发都影响了城市的增长和运作方式。像设计不当的住房项目这样的失败实验提供了关于避免什么的教训。
+
+现代城市设计越来越强调可持续性。绿色基础设施、步行性和碳中和开发对于城市应对气候变化和改善居民福祉至关重要。
+
+公众参与规划过程确保城市发展服务于社区需求。当居民参与塑造他们的社区时，结果往往更公平、更有效。
+
+城市的未来取决于创新的规划方法，这些方法可以容纳人口增长，同时保护环境质量和社会凝聚力。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u4-u2',
+    title: 'Comparative Literature',
+    titleZh: '比较文学',
+    contentEn: `Comparative literature transcends national and linguistic boundaries to study literature across cultures. It seeks to understand how literary works interact, influence and reflect the societies that produce them.
+
+By comparing themes, motifs and narrative structures across traditions, scholars discover both universal human concerns and culturally specific expressions. Love, death, identity and justice appear everywhere, yet manifest differently.
+
+Translation plays a crucial role in comparative literature. It enables access to works that would otherwise remain inaccessible, but it also raises questions about fidelity, interpretation and cultural transfer.
+
+World literature, as a field, examines how literary works circulate globally and are transformed by new contexts. Goethe's concept of Weltliteratur envisioned a cosmopolitan exchange of literary ideas.
+
+Comparative approaches reveal how colonialism, globalization and cultural exchange have shaped literary traditions. Non-Western literatures challenge Eurocentric perspectives and expand our understanding of what literature can be.
+
+In an era of globalization, comparative literacy fosters cross-cultural understanding. Reading across boundaries helps us appreciate difference while recognizing our shared humanity.`,
+    contentZh: `比较文学超越国家和语言界限，研究跨文化的文学。它试图理解文学作品如何相互作用、影响和反映产生它们的社会。
+
+通过比较不同传统的 themes、motifs 和叙事结构，学者发现了普遍的人类关切和文化特定表达。爱情、死亡、身份和正义无处不在，但又以不同方式表现。
+
+翻译在比较文学中起着至关重要的作用。它使原本无法接触的作品得以访问，但也引发了关于忠实、解释和文化转移的问题。
+
+世界文学作为一个领域，研究文学作品如何在全球范围内循环并在新的语境中转变。歌德的世界文学概念设想了一种文学思想的全球性交流。
+
+比较方法揭示了殖民主义、全球化和文化交流如何塑造文学传统。非西方文学挑战欧洲中心主义视角，扩展了我们对文学可能是什么的理解。
+
+在全球化时代，比较素养促进跨文化理解。跨越边界的阅读帮助我们欣赏差异，同时认识到我们共同的人性。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u4-u3',
+    title: 'Cybersecurity',
+    titleZh: '网络安全',
+    contentEn: `Cybersecurity has become a critical concern in our interconnected digital world. Threats range from individual identity theft to attacks on critical infrastructure that can affect millions.
+
+Cyberattacks take many forms. Malware, ransomware, phishing and denial-of-service attacks are among the tools used by cybercriminals and state actors. The motivations include financial gain, political objectives and strategic advantage.
+
+The security of digital systems depends on multiple factors: strong encryption, secure protocols, regular updates and user awareness. However, the complexity of modern systems creates vulnerabilities that attackers can exploit.
+
+State-sponsored cyber operations have become a major dimension of international conflict. Cyber espionage, infrastructure attacks and information warfare raise novel questions about sovereignty, deterrence and international law.
+
+Individual users bear responsibility for their own cybersecurity through practices like using strong passwords, enabling two-factor authentication and being cautious of suspicious messages.
+
+As more of daily life moves online, cybersecurity becomes inseparable from personal safety and national security. Building a secure digital future requires technological innovation, policy frameworks and educated users.`,
+    contentZh: `网络安全在我们互联的数字世界已成为关键关切。威胁范围从个人身份盗窃到可能影响数百万人的关键基础设施攻击。
+
+网络攻击采取多种形式。恶意软件、勒索软件、网络钓鱼和拒绝服务攻击是网络犯罪分子和国家行为者使用的工具。动机包括经济利益、政治目标和战略优势。
+
+数字系统的安全取决于多个因素：强大的加密、安全协议、定期更新和用户意识。然而，现代系统的复杂性创造了攻击者可以利用的漏洞。
+
+国家支持的网络行动已成为国际冲突的主要方面。网络间谍活动、基础设施攻击和信息战引发了关于主权、威慑和国际法的新问题。
+
+个人用户通过使用强密码、启用双因素身份验证和对可疑消息保持警惕等做法对自己的网络安全负责。
+
+随着日常生活越来越多地转移到网上，网络安全变得与个人安全和国家安全密不可分。建设安全的数字未来需要技术创新、政策框架和教育良好的用户。`,
+    wordCount: 180,
+  },
+  {
+    id: 'uni-u4-u4',
+    title: 'Social Psychology',
+    titleZh: '社会心理学',
+    contentEn: `Social psychology examines how individuals think, feel and behave in social contexts. It explores the powerful influences that social environments have on human psychology.
+
+Attitude formation and change are central topics. Persuasion research reveals how messages, sources and channels interact to influence what we believe and do. Understanding these processes helps us become more critical consumers of information.
+
+Group dynamics reveal how the presence of others affects individual behavior. Social facilitation improves performance on simple tasks but can impair complex ones. Deindividuation can lead people to act in ways they would not alone.
+
+Conformity, compliance and obedience demonstrate the power of social influence. Asch's line experiments and Milgram's obedience studies revealed disturbing capacities for social pressure to override personal ethics.
+
+Prejudice and discrimination remain persistent social problems. Social psychological research on stereotypes, implicit bias and intergroup relations informs interventions aimed at promoting equality.
+
+Social psychology provides insights relevant to addressing pressing social issues, from climate change to health behaviors to political polarization. Its findings remind us that we are profoundly social beings shaped by the contexts in which we live.`,
+    contentZh: `社会心理学研究个人在社会环境中的思考、感受和行为。它探索社会环境对人类心理的强大影响。
+
+态度的形成和改变是核心主题。说服研究揭示了信息、来源和渠道如何相互作用来影响我们的信仰和行为。理解这些过程帮助我们成为更具批判性的信息消费者。
+
+群体动力学揭示了他人的存在如何影响个人行为。社会促进改善了简单任务的绩效，但可能损害复杂任务的表现。去个体化可能导致人们以他们独自一人时不会采取的方式行动。
+
+从众、顺从和服从展示了社会影响的强大力量。阿希的线条实验和米尔格拉姆的服从研究揭示了社会压力压倒个人伦理的令人不安的能力。
+
+偏见和歧视仍然是持久的社会问题。社会心理学对刻板印象、隐性偏见和群体间关系的研究为旨在促进平等的干预措施提供了信息。
+
+社会心理学提供了与解决紧迫社会问题相关的见解，从气候变化到健康行为再到政治极化。其发现提醒我们，我们是深受我们所生活的环境塑造的深刻社会存在。`,
     wordCount: 180,
   },
 ];
