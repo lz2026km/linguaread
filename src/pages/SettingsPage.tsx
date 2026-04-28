@@ -7,6 +7,18 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '6.5.0',
+    date: '2026-04-28',
+    changes: [
+      'articles 扩充至 400 篇，longArticles 50 篇',
+      'grammar 扩充至 724 条，quiz 400 题',
+      '新增 idioms 200 条、dailyQuotes 100 条',
+      '新增每日谚语首页 Banner',
+      '新增 /idioms 和 /daily-quote 页面',
+      'courses 扩充至 132 单元，exams 大幅扩充',
+    ],
+  },
+  {
     version: '6.0.3',
     date: '2026-04-27',
     changes: [
@@ -390,7 +402,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.0.3</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.5.0</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>
@@ -438,30 +450,16 @@ const SettingsPage: React.FC = () => {
             <div className="overflow-y-auto max-h-[calc(80vh-60px)] p-4">
               <div className="space-y-4">
                 {versionHistory.map((item, index) => (
-                  <div key={item.version} className="relative">
-                    {/* 连接线 */}
-                    {index < versionHistory.length - 1 && (
-                      <div className="absolute left-3 top-8 bottom-[-16px] w-0.5 bg-gray-200" />
-                    )}
-                    <div className="flex gap-3">
-                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center">
-                        <span className="text-xs font-medium text-indigo-600">{index + 1}</span>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="font-semibold text-gray-800">v{item.version}</span>
-                          <span className="text-xs text-gray-400">{item.date}</span>
-                        </div>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          {item.changes.map((change, i) => (
-                            <li key={i} className="flex items-start gap-1">
-                              <span className="text-indigo-400 mt-1">•</span>
-                              <span>{change}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                  <div key={index} className={`p-4 rounded-xl border ${nightMode ? 'bg-gray-700 border-gray-600' : 'bg-gray-50 border-gray-200'}`}>
+                    <div className="flex justify-between items-center mb-2">
+                      <h4 className={`font-semibold ${nightMode ? 'text-white' : 'text-gray-800'}`}>v{item.version}</h4>
+                      <span className={`text-xs ${nightMode ? 'text-gray-400' : 'text-gray-500'}`}>{item.date}</span>
                     </div>
+                    <ul className={`text-sm space-y-1 ${nightMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                      {item.changes.map((change, cIndex) => (
+                        <li key={cIndex}>• {change}</li>
+                      ))}
+                    </ul>
                   </div>
                 ))}
               </div>
