@@ -13,6 +13,19 @@ export interface Article {
   createdAt: string;
 }
 
+// 词汇注释模型
+export interface VocabularyItem {
+  word: string;
+  phonetic: string;
+  meaning: string;
+  example?: string;
+}
+
+export interface VocabularyAnnotation {
+  articleId: string;
+  vocabularies: VocabularyItem[];
+}
+
 // 词典API返回的数据模型
 export interface WordDefinition {
   word: string;

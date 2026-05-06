@@ -285,6 +285,72 @@ const HomePage: React.FC = () => {
               </Link>
             </div>
 
+            {/* 今日学习 - 学习路径引导 */}
+            <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border`}>
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center space-x-2">
+                  <GraduationCap className={`w-4 h-4 ${darkMode ? 'text-indigo-400' : 'text-indigo-600'}`} />
+                  <h2 className={`text-sm font-semibold ${textPrimaryClass}`}>今日学习</h2>
+                </div>
+                <span className={`text-xs ${darkMode ? 'text-indigo-400' : 'text-indigo-600'}`}>学习路径</span>
+              </div>
+              {/* 学习路径步骤 */}
+              <div className="space-y-2">
+                {[
+                  { step: 1, label: '每日阅读', desc: '完成1篇双语文章', icon: BookOpen, path: '/articles', done: false },
+                  { step: 2, label: '词汇巩固', desc: '复习5个生词', icon: Lightbulb, path: '/vocabulary', done: false },
+                  { step: 3, label: '视频学习', desc: '观看1个英语视频', icon: Video, path: '/video-learning', done: false },
+                  { step: 4, label: '效果检验', desc: '完成课后练习', icon: ClipboardList, path: '/courses', done: false },
+                ].map((item, idx) => (
+                  <Link
+                    key={item.step}
+                    to={item.path}
+                    className={`flex items-center gap-3 p-2.5 rounded-xl transition-colors ${
+                      darkMode ? 'bg-gray-700/60 hover:bg-gray-700' : 'bg-gray-50 hover:bg-indigo-50'
+                    }`}
+                  >
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
+                      darkMode ? 'bg-indigo-900 text-indigo-400' : 'bg-indigo-100 text-indigo-600'
+                    }`}>
+                      <item.icon className="w-4 h-4" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className={`text-xs font-medium ${darkMode ? 'text-indigo-400' : 'text-indigo-600'}`}>
+                          第{item.step}步
+                        </span>
+                        <span className={`text-sm font-medium ${textPrimaryClass}`}>{item.label}</span>
+                      </div>
+                      <p className={`text-xs ${textSecondaryClass} truncate`}>{item.desc}</p>
+                    </div>
+                    <ArrowRight className={`w-4 h-4 flex-shrink-0 ${textSecondaryClass}`} />
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* 考前冲刺快捷入口 */}
+            <Link
+              to="/exam-papers"
+              className={`${darkMode ? 'bg-gradient-to-r from-red-900 to-orange-900 hover:from-red-800 hover:to-orange-800' : 'bg-gradient-to-r from-red-500 to-orange-500 hover:shadow-xl'} rounded-xl p-4 text-white hover:shadow-lg transition-all block`}
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
+                    <GraduationCap className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-base font-bold">考前冲刺</h3>
+                    <p className="text-white/70 text-xs">快速进入考试准备模式</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs bg-white/20 px-2 py-1 rounded-full">立即开始</span>
+                  <ArrowRight className="w-5 h-5" />
+                </div>
+              </div>
+            </Link>
+
             {/* 考试试卷集入口 */}
             <div className={`${cardBgClass} rounded-xl p-4 shadow-sm border`}>
               <div className="flex items-center space-x-2 mb-3">

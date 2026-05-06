@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import BottomNav from '../components/BottomNav';
 import { useApp } from '../context/AppContext';
 import { getQuizHistory, getReadingTime, formatReadingTime, getCheckInRecords } from '../utils/storage';
+import { LineChart, Line, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 type ReportType = 'weekly' | 'monthly';
 
@@ -22,10 +23,48 @@ interface ReportData {
   };
 }
 
+// 模拟7天学习数据
+const generateWeeklyData = () => {
+  const days = ['周一', '周二', '周三', '周四', '周五', '周六', '周日'];
+  return days.map((day, index) => ({
+    day,
+    阅读时长: Math.floor(Math.random() * 60) + 20,
+    词汇学习: Math.floor(Math.random() * 20) + 5,
+    语法练习: Math.floor(Math.random() * 15) + 3,
+    测试: Math.floor(Math.random() * 10) + 2,
+  }));
+};
+
+// 模拟词汇掌握数据
+const generateVocabularyData = () => [
+  { subject: '小学词汇', score: Math.floor(Math.random() * 20) + 80, fullMark: 100 },
+  { subject: '初中词汇', score: Math.floor(Math.random() * 25) + 70, fullMark: 100 },
+  { subject: '高中词汇', score: Math.floor(Math.random() * 30) + 60, fullMark: 100 },
+  { subject: '大学四级', score: Math.floor(Math.random() * 25) + 55, fullMark: 100 },
+  { subject: '大学六级', score: Math.floor(Math.random() * 20) + 45, fullMark: 100 },
+];
+
+// 模拟模块学习时长数据
+const generateModuleData = () => {
+  const total = 100;
+  const reading = Math.floor(Math.random() * 20) + 35;
+  const vocabulary = Math.floor(Math.random() * 15) + 20;
+  const grammar = Math.floor(Math.random() * 10) + 15;
+  const quiz = Math.floor(Math.random() * 10) + 15;
+  const other = total - reading - vocabulary - grammar - quiz;
+  return [
+    { name: '阅读', value: reading, color: '#6366f1' },
+    { name: '词汇', value: vocabulary, color: '#8b5cf6' },
+    { name: '语法', value: grammar, color: '#ec4899' },
+    { name: '测试', value: quiz, color: '#f59e0b' },
+    { name: '其他', value: other, color: '#10b981' },
+  ];
+};
+
 const ReportPage: React.FC = () => {
   const [reportType, setReportType] = useState<ReportType>('weekly');
   const [copied, setCopied] = useState(false);
-  const { quizHistory } = useApp();
+  const { quizHistory, darkMode } = useApp();
   const [reportData, setReportData] = useState<ReportData>({
     period: '',
     totalReadingTime: 0,
@@ -40,6 +79,11 @@ const ReportPage: React.FC = () => {
       correctRate: 0,
     },
   });
+
+  // 图表数据
+  const [weeklyData] = useState(generateWeeklyData);
+  const [vocabularyData] = useState(generateVocabularyData);
+  const [moduleData] = useState(generateModuleData);
 
   useEffect(() => {
     // 生成报告数据
@@ -153,10 +197,10 @@ const ReportPage: React.FC = () => {
     change?: number;
     changeType?: 'up' | 'down' | 'neutral';
   }) => (
-    <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+    <div className={`rounded-xl p-4 shadow-sm border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
       <div className="flex items-start justify-between">
-        <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center">
-          <Icon className="w-5 h-5 text-indigo-600" />
+        <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${darkMode ? 'bg-indigo-900/50' : 'bg-indigo-100'}`}>
+          <Icon className={`w-5 h-5 ${darkMode ? 'text-indigo-400' : 'text-indigo-600'}`} />
         </div>
         {change !== undefined && changeType && (
           <div className={`flex items-center gap-0.5 text-xs ${
@@ -169,36 +213,53 @@ const ReportPage: React.FC = () => {
           </div>
         )}
       </div>
-      <p className="text-2xl font-bold text-gray-800 mt-3">
+      <p className={`text-2xl font-bold mt-3 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
         {value}
-        {unit && <span className="text-sm text-gray-400 ml-1">{unit}</span>}
+        {unit && <span className={`text-sm ml-1 ${darkMode ? 'text-gray-400' : 'text-gray-400'}`}>{unit}</span>}
       </p>
-      <p className="text-sm text-gray-500">{label}</p>
+      <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{label}</p>
     </div>
   );
 
+  // 自定义Tooltip样式
+  const CustomTooltip = ({ active, payload, label }: any) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className={`p-3 rounded-lg shadow-lg border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'}`}>
+          <p className={`font-medium mb-1 ${darkMode ? 'text-white' : 'text-gray-800'}`}>{label}</p>
+          {payload.map((entry: any, index: number) => (
+            <p key={index} className="text-sm" style={{ color: entry.color }}>
+              {entry.name}: {entry.value}分钟
+            </p>
+          ))}
+        </div>
+      );
+    }
+    return null;
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-50/50 to-white">
+    <div className={`min-h-screen ${darkMode ? 'bg-gray-900' : 'bg-gradient-to-b from-indigo-50/50 to-white'}`}>
       <Header showBack title="学习报告" />
 
       <main className="pt-20 pb-24 px-3 sm:px-4 max-w-3xl mx-auto">
         {/* 标题 */}
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-2 mb-2">
-            <FileText className="w-6 h-6 text-indigo-500" />
-            <h1 className="text-2xl font-bold text-gray-800">学习报告</h1>
+            <FileText className={`w-6 h-6 ${darkMode ? 'text-indigo-400' : 'text-indigo-500'}`} />
+            <h1 className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>学习报告</h1>
           </div>
-          <p className="text-gray-500 text-sm">回顾学习历程，展望进步空间</p>
+          <p className={`${darkMode ? 'text-gray-400' : 'text-gray-500'} text-sm`}>回顾学习历程，展望进步空间</p>
         </div>
 
         {/* 报告类型切换 */}
-        <div className="flex bg-white rounded-xl p-1 shadow-sm border border-gray-100 mb-6">
+        <div className={`flex rounded-xl p-1 shadow-sm border mb-6 ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
           <button
             onClick={() => setReportType('weekly')}
             className={`flex-1 py-2.5 rounded-lg text-sm font-medium transition-all flex items-center justify-center gap-1.5 ${
               reportType === 'weekly'
-                ? 'bg-indigo-100 text-indigo-600'
-                : 'text-gray-500'
+                ? darkMode ? 'bg-indigo-600 text-white' : 'bg-indigo-100 text-indigo-600'
+                : darkMode ? 'text-gray-400' : 'text-gray-500'
             }`}
           >
             <Calendar className="w-4 h-4" />
@@ -208,8 +269,8 @@ const ReportPage: React.FC = () => {
             onClick={() => setReportType('monthly')}
             className={`flex-1 py-2.5 rounded-lg text-sm font-medium transition-all flex items-center justify-center gap-1.5 ${
               reportType === 'monthly'
-                ? 'bg-indigo-100 text-indigo-600'
-                : 'text-gray-500'
+                ? darkMode ? 'bg-indigo-600 text-white' : 'bg-indigo-100 text-indigo-600'
+                : darkMode ? 'text-gray-400' : 'text-gray-500'
             }`}
           >
             <Calendar className="w-4 h-4" />
@@ -218,8 +279,8 @@ const ReportPage: React.FC = () => {
         </div>
 
         {/* 周期显示 */}
-        <div className="bg-indigo-50 rounded-xl p-3 mb-6 text-center">
-          <p className="text-indigo-600 font-medium">{reportData.period}</p>
+        <div className={`rounded-xl p-3 mb-6 text-center ${darkMode ? 'bg-indigo-900/30' : 'bg-indigo-50'}`}>
+          <p className={`font-medium ${darkMode ? 'text-indigo-300' : 'text-indigo-600'}`}>{reportData.period}</p>
         </div>
 
         {/* 统计数据卡片 */}
@@ -255,34 +316,133 @@ const ReportPage: React.FC = () => {
           />
         </div>
 
+        {/* 周学习曲线 */}
+        <div className={`rounded-2xl p-4 shadow-sm border mb-6 ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
+          <h3 className={`font-semibold mb-4 flex items-center gap-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+            📈 周学习曲线
+          </h3>
+          <ResponsiveContainer width="100%" height={200}>
+            <LineChart data={weeklyData}>
+              <XAxis 
+                dataKey="day" 
+                tick={{ fill: darkMode ? '#9ca3af' : '#6b7280', fontSize: 12 }}
+                axisLine={{ stroke: darkMode ? '#4b5563' : '#e5e7eb' }}
+                tickLine={false}
+              />
+              <YAxis 
+                tick={{ fill: darkMode ? '#9ca3af' : '#6b7280', fontSize: 12 }}
+                axisLine={{ stroke: darkMode ? '#4b5563' : '#e5e7eb' }}
+                tickLine={false}
+              />
+              <Tooltip content={<CustomTooltip />} />
+              <Legend 
+                wrapperStyle={{ fontSize: 12 }}
+                formatter={(value) => <span style={{ color: darkMode ? '#d1d5db' : '#374151' }}>{value}</span>}
+              />
+              <Line type="monotone" dataKey="阅读时长" stroke="#6366f1" strokeWidth={2} dot={{ fill: '#6366f1', r: 3 }} />
+              <Line type="monotone" dataKey="词汇学习" stroke="#8b5cf6" strokeWidth={2} dot={{ fill: '#8b5cf6', r: 3 }} />
+              <Line type="monotone" dataKey="语法练习" stroke="#ec4899" strokeWidth={2} dot={{ fill: '#ec4899', r: 3 }} />
+              <Line type="monotone" dataKey="测试" stroke="#f59e0b" strokeWidth={2} dot={{ fill: '#f59e0b', r: 3 }} />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+
+        {/* 词汇掌握雷达图和模块学习饼图 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+          {/* 词汇掌握雷达图 */}
+          <div className={`rounded-2xl p-4 shadow-sm border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
+            <h3 className={`font-semibold mb-4 flex items-center gap-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+              🎯 词汇掌握
+            </h3>
+            <ResponsiveContainer width="100%" height={200}>
+              <RadarChart data={vocabularyData}>
+                <PolarGrid stroke={darkMode ? '#4b5563' : '#e5e7eb'} />
+                <PolarAngleAxis 
+                  dataKey="subject" 
+                  tick={{ fill: darkMode ? '#9ca3af' : '#6b7280', fontSize: 11 }}
+                />
+                <PolarRadiusAxis 
+                  angle={30} 
+                  domain={[0, 100]} 
+                  tick={{ fill: darkMode ? '#9ca3af' : '#6b7280', fontSize: 10 }}
+                />
+                <Radar 
+                  name="掌握度" 
+                  dataKey="score" 
+                  stroke="#6366f1" 
+                  fill="#6366f1" 
+                  fillOpacity={0.4} 
+                />
+              </RadarChart>
+            </ResponsiveContainer>
+          </div>
+
+          {/* 各模块学习时长饼图 */}
+          <div className={`rounded-2xl p-4 shadow-sm border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
+            <h3 className={`font-semibold mb-4 flex items-center gap-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+              📊 学习时长分布
+            </h3>
+            <ResponsiveContainer width="100%" height={200}>
+              <PieChart>
+                <Pie
+                  data={moduleData}
+                  cx="50%"
+                  cy="50%"
+                  innerRadius={50}
+                  outerRadius={75}
+                  paddingAngle={2}
+                  dataKey="value"
+                >
+                  {moduleData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.color} />
+                  ))}
+                </Pie>
+                <Tooltip 
+                  formatter={(value: any) => [`${value}%`, '占比']}
+                  contentStyle={{
+                    backgroundColor: darkMode ? '#1f2937' : '#ffffff',
+                    border: darkMode ? '1px solid #374151' : '1px solid #e5e7eb',
+                    borderRadius: '8px',
+                    color: darkMode ? '#d1d5db' : '#374151'
+                  }}
+                />
+                <Legend 
+                  wrapperStyle={{ fontSize: 12 }}
+                  formatter={(value) => <span style={{ color: darkMode ? '#d1d5db' : '#374151' }}>{value}</span>}
+                />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
         {/* 其他数据 */}
         <div className="grid grid-cols-2 gap-3 mb-6">
-          <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+          <div className={`rounded-xl p-4 shadow-sm border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-2xl">📝</span>
-              <p className="text-sm text-gray-500">新学单词</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>新学单词</p>
             </div>
-            <p className="text-2xl font-bold text-gray-800">{reportData.newWords}</p>
-            <p className="text-xs text-gray-400">个</p>
+            <p className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>{reportData.newWords}</p>
+            <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>个</p>
           </div>
-          <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
+          <div className={`rounded-xl p-4 shadow-sm border ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-2xl">✅</span>
-              <p className="text-sm text-gray-500">打卡天数</p>
+              <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>打卡天数</p>
             </div>
-            <p className="text-2xl font-bold text-gray-800">{reportData.checkInDays}</p>
-            <p className="text-xs text-gray-400">天</p>
+            <p className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>{reportData.checkInDays}</p>
+            <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>天</p>
           </div>
         </div>
 
         {/* 本周对比 */}
-        <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 mb-6">
-          <h3 className="font-semibold text-gray-800 mb-4 flex items-center gap-2">
+        <div className={`rounded-2xl p-4 shadow-sm border mb-6 ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-100'}`}>
+          <h3 className={`font-semibold mb-4 flex items-center gap-2 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
             📊 较上期对比
           </h3>
           <div className="space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-gray-600">阅读时长变化</span>
+              <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>阅读时长变化</span>
               <div className={`flex items-center gap-1 font-medium ${
                 reportData.comparedToLast.readingTime >= 0 ? 'text-green-500' : 'text-red-500'
               }`}>
@@ -296,7 +456,7 @@ const ReportPage: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-gray-600">阅读篇数变化</span>
+              <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>阅读篇数变化</span>
               <div className={`flex items-center gap-1 font-medium ${
                 reportData.comparedToLast.articlesRead >= 0 ? 'text-green-500' : 'text-red-500'
               }`}>
@@ -310,7 +470,7 @@ const ReportPage: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-gray-600">正确率变化</span>
+              <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>正确率变化</span>
               <div className={`flex items-center gap-1 font-medium ${
                 reportData.comparedToLast.correctRate >= 0 ? 'text-green-500' : 'text-red-500'
               }`}>
@@ -331,8 +491,8 @@ const ReportPage: React.FC = () => {
           onClick={handleCopy}
           className={`w-full py-3 rounded-xl font-medium flex items-center justify-center gap-2 transition-all ${
             copied
-              ? 'bg-green-100 text-green-600'
-              : 'bg-indigo-600 text-white hover:bg-indigo-700'
+              ? darkMode ? 'bg-green-900/50 text-green-400' : 'bg-green-100 text-green-600'
+              : darkMode ? 'bg-indigo-600 text-white hover:bg-indigo-700' : 'bg-indigo-600 text-white hover:bg-indigo-700'
           }`}
         >
           {copied ? (

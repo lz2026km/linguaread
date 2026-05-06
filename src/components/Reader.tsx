@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Volume2, Eye, EyeOff, Type, AlignLeft, StickyNote, X, Edit2, Trash2, Plus, Highlighter, MessageSquare, Palette } from 'lucide-react';
-import { Article } from '../types';
+import { Article, VocabularyItem } from '../types';
 import { useSpeechSynthesis } from '../hooks/useSpeechSynthesis';
 import { getNotesByArticle, addNote, updateNote, deleteNote, Note, HighlightColor, HighlightType } from '../utils/storage';
+import { getVocabularyByArticleId } from '../data/vocabularyAnnotations';
 
 // 可选的英文字体
 const fontFamilies = [
@@ -62,6 +63,14 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
   const [showBgMenu, setShowBgMenu] = useState(false);
   const { speak, isSpeaking, stop } = useSpeechSynthesis();
 
+  // 词汇注释相关状态
+  const [vocabCard, setVocabCard] = useState<{
+    show: boolean;
+    word: string;
+    vocab: VocabularyItem | null;
+    position: { x: number; y: number };
+  }>({ show: false, word: '', vocab: null, position: { x: 0, y: 0 } });
+
   // 笔记相关状态
   const [notes, setNotes] = useState<Note[]>([]);
   const [showNotesPanel, setShowNotesPanel] = useState(false);
@@ -79,6 +88,10 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
 
   const contentRef = useRef<HTMLDivElement>(null);
   const bgMenuRef = useRef<HTMLDivElement>(null);
+  const vocabCardRef = useRef<HTMLDivElement>(null);
+
+  // 词汇注释数据
+  const vocabularyData = getVocabularyByArticleId(article.id);
 
   // 加载笔记
   useEffect(() => {
@@ -121,6 +134,22 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
       };
     }
   }, [showBgMenu]);
+
+  // 点击外部关闭词汇卡片
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (vocabCardRef.current && !vocabCardRef.current.contains(event.target as Node)) {
+        setVocabCard(prev => ({ ...prev, show: false }));
+      }
+    };
+
+    if (vocabCard.show) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [vocabCard.show]);
 
   // 获取当前背景主题
   const currentBgTheme = backgroundThemes.find(t => t.id === backgroundTheme) || backgroundThemes[0];
@@ -260,7 +289,25 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
           return (
             <span
               key={index}
-              onClick={() => {
+              onClick={(e) => {
+                // 检查是否是词汇表中的词汇
+                if (vocabularyData) {
+                  const lowerWord = word.toLowerCase();
+                  const matchedVocab = vocabularyData.vocabularies.find(v => 
+                    v.word.toLowerCase() === lowerWord || 
+                    v.word.toLowerCase().split(' ').includes(lowerWord)
+                  );
+                  if (matchedVocab) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    setVocabCard({
+                      show: true,
+                      word: word,
+                      vocab: matchedVocab,
+                      position: { x: rect.left + rect.width / 2, y: rect.bottom + 8 }
+                    });
+                    return;
+                  }
+                }
                 // 找到该单词所在的完整句子
                 const sentences = text.split(/[.!?]+/);
                 let sentence = '';
@@ -275,10 +322,42 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
                 }
                 onWordClick(word, sentence);
               }}
+              onMouseEnter={(e) => {
+                // 检查是否是词汇表中的词汇
+                if (vocabularyData) {
+                  const lowerWord = word.toLowerCase();
+                  const matchedVocab = vocabularyData.vocabularies.find(v => 
+                    v.word.toLowerCase() === lowerWord || 
+                    v.word.toLowerCase().split(' ').includes(lowerWord)
+                  );
+                  if (matchedVocab) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    setVocabCard({
+                      show: true,
+                      word: word,
+                      vocab: matchedVocab,
+                      position: { x: rect.left + rect.width / 2, y: rect.bottom + 8 }
+                    });
+                  }
+                }
+              }}
+              onMouseLeave={() => {
+                // 延迟隐藏以便鼠标移动到卡片上
+                setTimeout(() => {
+                  setVocabCard(prev => ({ ...prev, show: false }));
+                }, 200);
+              }}
               className={`cursor-pointer px-0.5 rounded transition-colors inline active:bg-amber-300 touch-manipulation ${
-                nightMode
-                  ? 'hover:bg-gray-700 hover:text-yellow-300'
-                  : 'hover:bg-amber-200 hover:text-indigo-800'
+                vocabularyData?.vocabularies.some(v => 
+                  v.word.toLowerCase() === word.toLowerCase() || 
+                  v.word.toLowerCase().split(' ').includes(word.toLowerCase())
+                )
+                  ? nightMode
+                    ? 'bg-indigo-900/50 text-yellow-300 border-b-2 border-indigo-400'
+                    : 'bg-indigo-100 text-indigo-700 border-b-2 border-indigo-400 font-semibold'
+                  : nightMode
+                    ? 'hover:bg-gray-700 hover:text-yellow-300'
+                    : 'hover:bg-amber-200 hover:text-indigo-800'
               }`}
               style={{ color: nightMode ? '#e5e7eb' : undefined }}
             >
@@ -936,6 +1015,41 @@ const Reader: React.FC<ReaderProps> = ({ article, onWordClick }) => {
                   保存
                 </button>
               </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* 词汇注释悬浮卡片 */}
+      {vocabCard.show && vocabCard.vocab && (
+        <div
+          ref={vocabCardRef}
+          className="fixed z-50 bg-white rounded-xl shadow-xl border border-gray-200 p-4 max-w-xs"
+          style={{
+            left: vocabCard.position.x,
+            top: vocabCard.position.y,
+            transform: 'translateX(-50%)',
+          }}
+          onMouseEnter={() => setVocabCard(prev => ({ ...prev, show: true }))}
+          onMouseLeave={() => setVocabCard(prev => ({ ...prev, show: false }))}
+        >
+          <div className="flex items-start justify-between mb-2">
+            <div>
+              <h4 className="text-lg font-bold text-indigo-700">{vocabCard.vocab.word}</h4>
+              <p className="text-sm text-gray-500">{vocabCard.vocab.phonetic}</p>
+            </div>
+            <button
+              onClick={() => setVocabCard(prev => ({ ...prev, show: false }))}
+              className="p-1 rounded-full hover:bg-gray-100 text-gray-400"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+          <p className="text-sm text-gray-700 mb-2">{vocabCard.vocab.meaning}</p>
+          {vocabCard.vocab.example && (
+            <div className={`text-xs p-2 rounded-lg ${nightMode ? 'bg-gray-700 text-gray-300' : 'bg-indigo-50 text-indigo-700'}`}>
+              <span className="text-gray-400">例句：</span>
+              {vocabCard.vocab.example}
             </div>
           )}
         </div>
