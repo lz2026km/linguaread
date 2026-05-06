@@ -7,6 +7,14 @@ import VoiceSelector from '../components/VoiceSelector';
 // 版本历史数据
 const versionHistory = [
   {
+    version: '6.6.0',
+    date: '2026-05-06',
+    changes: [
+      '全面检查29个页面，所有功能验证正常',
+      '优化页面控件，提升用户体验',
+    ],
+  },
+  {
     version: '6.5.0',
     date: '2026-04-28',
     changes: [
@@ -402,7 +410,7 @@ const SettingsPage: React.FC = () => {
               >
                 <span className={nightMode ? 'text-gray-400' : 'text-gray-600'}>版本</span>
                 <div className="flex items-center gap-2">
-                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.5.0</span>
+                  <span className={nightMode ? 'text-white font-medium' : 'text-gray-800 font-medium'}>6.6.0</span>
                   <span className="text-xs text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full">查看历史</span>
                 </div>
               </div>

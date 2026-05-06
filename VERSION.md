@@ -1,4 +1,6 @@
-# Version 6.5.0
+# Version 6.6.0
+
+## 2026-05-06 更新
 
 Release Date: 2026-04-28
 
