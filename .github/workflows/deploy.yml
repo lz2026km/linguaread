@@ -31,7 +31,7 @@ jobs:
           cache: 'pnpm'
           
       - name: Install
-        run: pnpm install --ignore-scripts --no-parallel
+        run: pnpm install --ignore-scripts -j 1
         
       - name: Build (skip TS)
         run: pnpm exec vite build
